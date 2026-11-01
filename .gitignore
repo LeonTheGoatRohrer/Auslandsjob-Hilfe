@@ -1,0 +1,7 @@
+daten/roh/*
+!daten/**/.gitkeep
+daten/aufbereitet/*.tmp
+.env
+__pycache__/
+.pytest_cache/
+node_modules/

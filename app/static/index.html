@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Auslandsjob-Hilfe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="kopf">
+    <a class="marke" href="#uebersicht">
+      <span class="marke-flagge" aria-hidden="true"></span>
+      <span>Auslandsjob-Hilfe</span>
+    </a>
+    <nav class="tabs" aria-label="Ansichten">
+      <a href="#uebersicht" data-view="uebersicht">Übersicht</a>
+      <a href="#favoriten" data-view="favoriten">Gemerkt <span class="zahl" id="zahl-favoriten">0</span></a>
+      <a href="#quellen" data-view="quellen">Quellen</a>
+    </nav>
+    <div class="fortschritt" id="fortschritt"></div>
+  </header>
+
+  <main id="inhalt"></main>
+
+  <div class="durchgehen" id="durchgehen" hidden></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

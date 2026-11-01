@@ -1,0 +1,169 @@
+# Aus docs/recherche/visa.md übernommen – dort stehen Quellen und Erklärungen.
+# docs/recherche/visa.md – Filterregeln, Stand 2026-10-28
+# Person: AT-Staatsbürger, 20 Jahre bei Aufenthalt 2027, Dauer 42–91 Tage
+version: 1
+stand: 2026-10-28
+person: { staatsbuergerschaft: AT, alter_2027: 20 }
+
+regeln:
+  - land: JP
+    visumfrei_tage: 90
+    working_holiday: { verfuegbar: true, nutzbar_mal: 2, kosten_eur: 0, geldnachweis: "ausreichend, unbeziffert", kontingent: 200, antrag_frueheste_tage_vor_einreise: 90 }
+    bezahlt: nur_mit_working_holiday
+    gegen_unterkunft: nur_mit_working_holiday   # Kurzaufenthalt: Grauzone, nicht empfehlen
+    volunteering: unsicher
+    sicherheit: teilweise
+  - land: AU
+    visumfrei_tage: 90   # eVisitor 651, gratis
+    working_holiday: { verfuegbar: true, nutzbar_mal: 1, kosten_eur: 510, kosten_lokal: "AUD 840", geldnachweis: "AUD 5000", bearbeitung_tage: 90 }
+    bezahlt: nur_mit_working_holiday
+    gegen_unterkunft: nur_mit_working_holiday   # Ausnahme: Non-Profit-Volunteering
+    volunteering: nur_gemeinnuetzig
+    sicherheit: offiziell_belegt
+  - land: NZ
+    visumfrei_tage: 90
+    working_holiday: { verfuegbar: true, nutzbar_mal: 1, verbraucht_durch: erteilung, kosten_eur: 390, kosten_lokal: "NZD 770", geldnachweis: "NZD 2250", kontingent: 100, max_monate: 6 }
+    bezahlt: nur_mit_working_holiday
+    gegen_unterkunft: nur_mit_working_holiday   # INZ: WWOOFing = Arbeit
+    volunteering: nur_gemeinnuetzig             # nur ohne jede Gegenleistung
+    sicherheit: offiziell_belegt
+  - land: CA
+    visumfrei_tage: 180  # eTA, UNSICHER
+    working_holiday: { verfuegbar: true, nutzbar_mal: 1, kosten_eur: 230, kosten_lokal: "CAD ~370", geldnachweis: "CAD 2500", kontingent: 160, lotterie: true }
+    bezahlt: nur_mit_working_holiday
+    gegen_unterkunft: nur_mit_working_holiday
+    volunteering: nur_gemeinnuetzig
+    sicherheit: teilweise
+  - land: KR
+    visumfrei_tage: 90   # UNSICHER
+    working_holiday: { verfuegbar: true, nutzbar_mal: 1, geldnachweis: "KRW 3000000", max_stunden_woche: 25 }
+    bezahlt: nur_mit_working_holiday
+    gegen_unterkunft: nur_mit_working_holiday
+    volunteering: unsicher
+    sicherheit: teilweise
+  - land: TW
+    visumfrei_tage: 90   # UNSICHER
+    working_holiday: { verfuegbar: true, nutzbar_mal: 1, kosten_eur: 90, kosten_lokal: "USD 100" }
+    bezahlt: nur_mit_working_holiday
+    gegen_unterkunft: nur_mit_working_holiday
+    volunteering: unsicher
+    sicherheit: teilweise
+  - land: HK
+    working_holiday: { verfuegbar: true, nutzbar_mal: 1, geldnachweis: "HKD 20000", kontingent: 100 }
+    bezahlt: nur_mit_working_holiday
+    gegen_unterkunft: nur_mit_working_holiday
+    volunteering: unsicher
+    sicherheit: teilweise
+  - land: AR
+    visumfrei_tage: 90   # UNSICHER
+    working_holiday: { verfuegbar: true, nutzbar_mal: 1, kosten_eur: 135, kosten_lokal: "USD 150", geldnachweis: "USD 2500", kontingent: 200 }
+    bezahlt: nur_mit_working_holiday
+    gegen_unterkunft: nur_mit_working_holiday
+    volunteering: unsicher
+    sicherheit: offiziell_belegt
+  - land: CL
+    visumfrei_tage: 90   # UNSICHER
+    working_holiday: { verfuegbar: true, nutzbar_mal: 1 }
+    bezahlt: nur_mit_working_holiday
+    gegen_unterkunft: nur_mit_working_holiday
+    volunteering: unsicher
+    sicherheit: teilweise
+  - land: US
+    visumfrei_tage: 90   # ESTA
+    working_holiday: { verfuegbar: false, hinweis: "AT-US-WHP = J-1 Intern/Trainee, setzt duale Ausbildung voraus" }
+    bezahlt: nur_mit_visum          # J-1 Camp Counselor, max. 4 Monate, Sponsor nötig
+    gegen_unterkunft: verboten
+    volunteering: unsicher
+    programmgebuehr_hinweis: "Agentur meist > 500 EUR"
+    sicherheit: teilweise
+  - land: CN
+    visumfrei_tage: 30   # befristet bis 2026-12-31, für 2027 UNSICHER
+    bezahlt: verboten
+    gegen_unterkunft: verboten
+    volunteering: verboten
+    sicherheit: teilweise
+  - land: TH
+    visumfrei_tage: 30
+    bezahlt: verboten
+    gegen_unterkunft: verboten
+    volunteering: nur_mit_visum     # Non-Immigrant + Work Permit
+    sicherheit: unsicher
+  - land: ID
+    visumfrei_tage: 60   # VoA 30 + 30 Verlängerung
+    bezahlt: verboten
+    gegen_unterkunft: verboten
+    volunteering: nur_mit_visum     # Sozialvisum C6, 60 Tage, IDR 2 Mio., Garantiegeber
+    sicherheit: offiziell_belegt
+  - land: PH
+    visumfrei_tage: 30   # verlängerbar auf 59
+    bezahlt: verboten
+    gegen_unterkunft: verboten
+    volunteering: nur_mit_visum     # Special Work Permit
+    sicherheit: unsicher
+  - land: VN
+    visumfrei_tage: 0    # e-Visum bis 90 Tage
+    bezahlt: verboten
+    gegen_unterkunft: verboten
+    volunteering: verboten
+    sicherheit: teilweise
+  - land: MY
+    visumfrei_tage: 90
+    bezahlt: verboten
+    gegen_unterkunft: verboten
+    volunteering: unsicher
+    sicherheit: unsicher
+  - land: NP
+    visumfrei_tage: 0    # Visum bei Ankunft bis 90 Tage
+    bezahlt: verboten
+    gegen_unterkunft: verboten
+    volunteering: nur_mit_visum     # Non-Tourist-Visum mit Sponsor
+    sicherheit: unsicher
+  - land: FJ
+    visumfrei_tage: 120
+    bezahlt: verboten
+    gegen_unterkunft: unsicher
+    volunteering: unsicher
+    sicherheit: unsicher
+  - { land: WS, visumfrei_tage: 90, bezahlt: verboten, gegen_unterkunft: unsicher, volunteering: unsicher, sicherheit: unsicher }
+  - { land: TO, visumfrei_tage: 90, bezahlt: verboten, gegen_unterkunft: unsicher, volunteering: unsicher, sicherheit: unsicher }
+  - { land: VU, visumfrei_tage: 90, bezahlt: verboten, gegen_unterkunft: unsicher, volunteering: unsicher, sicherheit: unsicher }
+  - { land: SB, visumfrei_tage: 90, bezahlt: verboten, gegen_unterkunft: unsicher, volunteering: unsicher, sicherheit: unsicher }
+  - { land: CK, visumfrei_tage: 31, bezahlt: verboten, gegen_unterkunft: unsicher, volunteering: unsicher, sicherheit: unsicher }
+  - { land: ZA, bezahlt: verboten, gegen_unterkunft: verboten, volunteering: nur_mit_visum, sicherheit: offiziell_belegt }
+  - { land: NA, bezahlt: verboten, gegen_unterkunft: verboten, volunteering: nur_mit_visum, sicherheit: teilweise }
+  - { land: KE, bezahlt: nur_mit_visum, gegen_unterkunft: nur_mit_visum, volunteering: nur_mit_visum, sicherheit: teilweise }   # Special Pass
+  - { land: TZ, bezahlt: verboten, gegen_unterkunft: nur_mit_visum, volunteering: nur_mit_visum, sicherheit: offiziell_belegt }  # Class C, vor Einreise
+  - { land: MG, bezahlt: verboten, gegen_unterkunft: nur_mit_visum, volunteering: nur_mit_visum, sicherheit: teilweise }
+  - { land: EC, bezahlt: verboten, gegen_unterkunft: nur_mit_visum, volunteering: nur_mit_visum, sicherheit: teilweise }
+  - { land: EC-W, name: Galapagos, bezahlt: verboten, gegen_unterkunft: nur_mit_visum, volunteering: nur_mit_visum, hinweis: "transeunte-Zertifikat CGREG + Volunteer-Visum", sicherheit: offiziell_belegt }
+  - { land: BR, visumfrei_tage: 90, bezahlt: verboten, gegen_unterkunft: nur_mit_visum, volunteering: nur_mit_visum, sicherheit: teilweise }
+  - { land: PE, visumfrei_tage: 183, bezahlt: verboten, gegen_unterkunft: unsicher, volunteering: unsicher, sicherheit: unsicher }
+  - { land: CR, bezahlt: verboten, gegen_unterkunft: unsicher, volunteering: unsicher, sicherheit: unsicher }
+  - { land: MX, bezahlt: verboten, gegen_unterkunft: unsicher, volunteering: unsicher, sicherheit: unsicher }
+  - { land: CO, bezahlt: verboten, gegen_unterkunft: unsicher, volunteering: unsicher, sicherheit: unsicher }
+  - { land: BO, bezahlt: verboten, gegen_unterkunft: unsicher, volunteering: unsicher, sicherheit: unsicher }
+  - { land: GB, visumfrei_tage: 180, bezahlt: verboten, gegen_unterkunft: verboten, volunteering: nur_gemeinnuetzig, max_volunteer_tage: 30, sicherheit: offiziell_belegt }
+  # EU/EWR/CH inkl. Überseedepartements und Sondergebiete: Freizügigkeit
+  - { land: EU_EWR_CH, bezahlt: erlaubt, gegen_unterkunft: erlaubt, volunteering: erlaubt, sicherheit: offiziell_belegt }
+  - { land: [ES-CN, PT-20, PT-30, AX, GP, MQ, RE, GF, YT], bezahlt: erlaubt, gegen_unterkunft: erlaubt, volunteering: erlaubt, sicherheit: teilweise }
+  - { land: SJ, name: Svalbard, bezahlt: erlaubt, gegen_unterkunft: erlaubt, volunteering: erlaubt, sicherheit: offiziell_belegt }
+  - { land: FO, visumfrei_tage: 90, bezahlt: nur_mit_permit, gegen_unterkunft: nur_mit_permit, volunteering: unsicher, sicherheit: offiziell_belegt }
+  - { land: GL, bezahlt: nur_mit_permit, gegen_unterkunft: nur_mit_permit, volunteering: unsicher, sicherheit: offiziell_belegt }
+  - { land: PF, bezahlt: nur_mit_permit, gegen_unterkunft: nur_mit_permit, volunteering: unsicher, sicherheit: offiziell_belegt }
+  - { land: NC, bezahlt: nur_mit_permit, gegen_unterkunft: nur_mit_permit, volunteering: unsicher, sicherheit: offiziell_belegt }
+  - { land: [WF, PM], bezahlt: unsicher, gegen_unterkunft: unsicher, volunteering: unsicher, sicherheit: unsicher }
+  - { land: AW, bezahlt: nur_mit_permit, gegen_unterkunft: nur_mit_permit, volunteering: unsicher, sicherheit: offiziell_belegt }
+  - { land: [CW, BQ], bezahlt: nur_mit_permit, gegen_unterkunft: nur_mit_permit, volunteering: unsicher, sicherheit: unsicher }
+
+schiffscrew:
+  - { gebiet: EU_Schengen, regel: erlaubt, sicherheit: teilweise }
+  - { gebiet: hohe_see, regel: flaggenstaat, hinweis: "Hafen-/Küstenstaatregeln bei Landgang und Liegezeit", sicherheit: unsicher }
+  - { gebiet: AU, regel: nur_mit_working_holiday, hinweis: "Maritime Crew Visa 988 nicht für Yachten/Forschungs-/Fischereischiffe", sicherheit: offiziell_belegt }
+  - { gebiet: NZ, regel: nur_mit_visum, hinweis: "Privatyacht: NZeTA/Visum; Arbeit in der AWZ braucht Visum", sicherheit: offiziell_belegt }
+  - { gebiet: US, regel: nur_mit_visum, hinweis: "Privatyacht-Crew: B-1, nicht ESTA", sicherheit: offiziell_belegt }
+
+filter_logik:
+  # Angebot (land, verguetung) → Feld: lohn → bezahlt, kost_logis → gegen_unterkunft, unbezahlt → volunteering
+  ausschliessen_wenn: [verboten]
+  markieren_wenn: [unsicher, nur_mit_visum, nur_mit_permit]
+  hinweis_working_holiday: "Status nur_mit_working_holiday → Karte zeigt 'verbraucht WH-Visum (nutzbar_mal)'"

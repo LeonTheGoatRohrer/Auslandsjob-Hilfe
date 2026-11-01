@@ -1,0 +1,101 @@
+# Maschinenlesbare Kurzfassung von docs/01-kriterien.md.
+# Grundlage für Filter (harte Kriterien) und Bewertung (weiche Kriterien).
+# Gewichte sind ein erster Vorschlag und werden später durch deine Bewertungen nachjustiert.
+
+zeitraum:
+  frühester_start: 2027-04-20
+  spätester_start: 2027-06-15
+  dauer_wochen: { ideal: [6, 8], möglich: [6, 12], max: 13 }
+
+harte_ausschlüsse:            # Angebot fliegt raus, egal wie gut der Rest ist
+  - Dauer passt nicht in 6–13 Wochen und ist nicht verhandelbar
+  - Programmgebühr über max_programmgebühr_eur
+  - Visum/Arbeitserlaubnis für EU-Bürger nicht realistisch erreichbar
+
+max_programmgebühr_eur: 500   # bestätigt; jede Gebühr > 0 muss in der App auffällig markiert sein
+
+person:
+  staatsbürgerschaft: Österreich (EU)
+  alter: 19                    # bald 20 – 2027 also 20; Working-Holiday-Visa (meist 18–30) grundsätzlich offen
+  sprachen: [Deutsch, Englisch] # Betrieb ohne Englisch = starke Abwertung
+  nachweise: [Erste-Hilfe-Kurs]
+  gesundheit: keine Einschränkungen
+
+kernkriterien:                 # Bewertung je 0–10, gewichtet
+  außergewöhnlichkeit: { gewicht: 3, frage: "Wie weit weg vom normalen Alltag?" }
+  authentizität:       { gewicht: 3, frage: "Echte Arbeit, die auch ohne Volunteers existieren würde?" }
+  menschen:            { gewicht: 2, frage: "Wie eng arbeite und lebe ich mit Einheimischen?" }
+  lernen:              { gewicht: 2, frage: "Lerne ich ein echtes Handwerk / eine neue Fähigkeit?" }
+  praktische_arbeit:   { gewicht: 2, frage: "Hände- oder Feldarbeit statt Büro?" }
+  sinn:                { gewicht: 2, frage: "Entsteht durch meine Mitarbeit etwas Greifbares?" }
+  ort:                 { gewicht: 1, frage: "Außergewöhnliche Region / Landschaft?" }
+  abenteuer:           { gewicht: 2, frage: "Mit 50 noch erzählenswert?" }
+  eigener_beitrag:     { gewicht: 1, frage: "Kann ich Technik (ca. 30 %) sinnvoll einbringen?" }
+  finanzierung:        { gewicht: 1, frage: "Lohn / Unterkunft / Verpflegung?" }
+  realisierbarkeit:    { gewicht: 2, frage: "Für 1–3 Monate tatsächlich machbar?" }
+
+finanzierung_rangfolge:        # bester Fall zuerst
+  - lohn_unterkunft_verpflegung
+  - lohn_günstige_unterkunft
+  - taschengeld_unterkunft_essen
+  - unterkunft_essen_gegen_arbeit
+  - unbezahlt                  # nur bei wirklich einmaliger Erfahrung
+  - zahlt_programmgebühr       # stark abwerten
+
+# Jedes Angebot hat genau eine Hauptkategorie und beliebig viele Tags (= Unterpunkte anderer Kategorien).
+kategorien:
+  bezahlte_jobs:
+    name: "💰 Bezahlte Jobs"
+    unterpunkte: [farm_station_outback, werkstatt_mechanik, bau_handwerkshelfer,
+                  kinderbetreuung_camps, fischerei_aquakultur, saisonjobs_besonders]
+  extrem_mission:
+    name: "⚡ Extrem & Mission"
+    unterpunkte: [kampagnenschiffe, seenotrettung, expeditionen, polar_inselstationen,
+                  hochsee_segeln_überführungen, fischereibeobachter_patrouillen]
+  handwerk:
+    name: "🔨 Handwerk lernen"
+    unterpunkte: [holz, bootsbau_werften, metall, keramik_glas, instrumentenbau,
+                  restaurierung, regionale_handwerke]
+  natur_forschung:
+    name: "🌿 Natur & Forschung"
+    unterpunkte: [meeresschutz, wildlife_feldassistenz, forschungsstationen,
+                  wiederaufforstung_invasive_arten, umweltmonitoring]
+  meer_schiffe:
+    name: "🌊 Meer & Schiffe"
+    unterpunkte: [forschungsschiffe, traditionssegler_tall_ships, yacht_crew, marine_reparatur]
+  kultur_gemeinschaft:
+    name: "🏯 Kultur & Gemeinschaft"
+    unterpunkte: [dorf_familie, traditionelle_landwirtschaft, tempel_kloster, indigene_abgelegene_gemeinden]
+  technik_einbringen:
+    name: "🔧 Technik einbringen"
+    unterpunkte: [infrastruktur_solar_wasser, digitalisierung_kleinbetriebe, makerspaces_fablabs,
+                  datenlogger_sensorik]
+
+sparten: [ausschreibung, lead]  # Leads = Betriebe ohne Ausschreibung, gleiche Kategorien
+
+querfilter:                    # unabhängig von der Kategorie
+  bezahlung: [lohn, taschengeld, unterkunft_gegen_arbeit, unbezahlt, kostet_geld, unklar]  # kostet_geld rot markieren
+  unterkunft: [beim_betrieb, crew_haus, schiff, selbst_organisieren, unklar]
+  englisch_im_betrieb: [ja, teilweise, nein]
+  visum: [machbar, working_holiday_nötig, mit_auflagen, unklar, verboten]  # Regeln: config/visa.yaml
+  region: frei
+  dauer_wochen: frei
+
+regionen_bevorzugt: [Japan, Taiwan, Südkorea, China, Südostasien, Australien, Neuseeland,
+                     Pazifik, Skandinavien, Europäische Inseln/Überseegebiete, Afrika,
+                     Nepal/Himalaya, Mittelamerika, Südamerika, Europa]
+regionen_offen: weltweit
+
+abwerten:                      # nicht ausgeschlossen, braucht aber einen besonderen Zusatzaspekt
+  - corporate_internship
+  - reine_büro_oder_softwarearbeit
+  - hotel_oder_gastro
+  - party_work_and_travel
+  - volunteer_bubble
+  - teures_voluntourism
+
+fähigkeiten_tauschwert: [Python, Java, Web, APIs, Datenbanken, KI/ML, Datenanalyse,
+                         Automatisierung, ESP32, Arduino, Raspberry Pi, Sensorik,
+                         Elektronik, Prototyping, 3D-Druck, Mechanik-Grundlagen]
+
+# TODO: Führerschein, Budget für Anreise.
