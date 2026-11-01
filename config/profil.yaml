@@ -99,3 +99,6 @@ fähigkeiten_tauschwert: [Python, Java, Web, APIs, Datenbanken, KI/ML, Datenanal
                          Elektronik, Prototyping, 3D-Druck, Mechanik-Grundlagen]
 
 # TODO: Führerschein, Budget für Anreise.
+
+benachrichtigung:              # n8n meldet nur Treffer ab dieser Passung (0–100), die nicht ausgeschlossen sind
+  passung_min: 60

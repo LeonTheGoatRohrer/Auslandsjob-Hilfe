@@ -1,0 +1,53 @@
+# Aufbereiten: KI-Bewertungen (llm_cache.json, von n8n geschrieben) + Regeln → gesammelt.json, treffer.json
+# → Commit → n8n-Webhook "benachrichtigen". Wird von n8n nach der Bewertung per workflow_dispatch gestartet.
+name: Aufbereiten
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: pipeline
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  aufbereiten:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Aufbereiten
+        env:
+          PYTHONIOENCODING: utf-8
+        run: python -m pipeline.aufbereiten
+
+      - name: Ergebnis committen
+        id: commit
+        run: |
+          git config user.name "auslandsjob-pipeline"
+          git config user.email "pipeline@users.noreply.github.com"
+          git add daten/aufbereitet
+          if git diff --cached --quiet; then echo "nichts zu committen"; else
+            git commit -m "Aufbereitung ${{ github.run_id }}"
+            git pull --rebase
+            git push
+          fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: n8n benachrichtigen
+        if: ${{ env.WEBHOOK != '' }}
+        env:
+          WEBHOOK: ${{ secrets.N8N_WEBHOOK_BENACHRICHTIGEN }}
+          SECRET: ${{ secrets.N8N_WEBHOOK_SECRET }}
+        run: |
+          anzahl=$(python -c "import json;d=json.load(open('daten/aufbereitet/treffer.json'));print(len(d['treffer']))")
+          curl -sS -f -X POST "$WEBHOOK" -H "Content-Type: application/json" -H "X-Auftrag-Secret: $SECRET" \
+            -d "{\"lauf_id\":\"${{ github.run_id }}\",\"commit\":\"${{ steps.commit.outputs.sha }}\",\"treffer\":$anzahl}"

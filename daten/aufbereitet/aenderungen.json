@@ -1,5 +1,5 @@
 {
- "datum": "2026-11-01T14:38:23+00:00",
+ "datum": "2026-11-01T14:46:42+00:00",
  "neu": [
   "backpacker:114728",
   "backpacker:124296",
@@ -1141,8 +1141,8 @@
   "jobtech:31600981",
   "jobtech:31278589",
   "jobtech:31642273",
-  "jobtech:31267450",
-  "jobtech:31586829",
+  "jobtech:31550954",
+  "jobtech:31668145",
   "jobtech:31650365",
   "jobtech:31642299",
   "jobtech:31644340",
@@ -1154,36 +1154,35 @@
   "jobtech:31066677",
   "jobtech:31642827",
   "jobtech:31570047",
-  "jobtech:31452813",
-  "jobtech:31452714",
   "jobtech:31627954",
   "jobtech:31150455",
   "jobtech:31544466",
   "jobtech:31544468",
   "jobtech:31544464",
   "jobtech:31614517",
+  "jobtech:31665771",
   "jobtech:31636318",
   "jobtech:31598355",
   "jobtech:31413800",
   "jobtech:31544448",
-  "jobtech:31544446",
   "jobtech:31544444",
+  "jobtech:31544446",
   "jobtech:31544462",
   "jobtech:31544442",
   "jobtech:31544440",
-  "jobtech:31583926",
+  "jobtech:31661412",
   "jobtech:31525476",
   "jobtech:31623939",
   "jobtech:31601204",
   "jobtech:31567119",
   "jobtech:31566265",
   "jobtech:31131875",
-  "jobtech:30986994",
+  "jobtech:31657063",
   "jobtech:31611098",
   "jobtech:31513589",
+  "jobtech:31662164",
   "jobtech:31642747",
   "jobtech:31636333",
-  "jobtech:31479655",
   "jobtech:31116993",
   "jobtech:31587301",
   "jobtech:31651441",
@@ -1202,14 +1201,13 @@
   "jobtech:31613924",
   "jobtech:31613248",
   "jobtech:31611107",
-  "jobtech:31573879",
   "jobtech:31563464",
   "jobtech:31549008",
-  "jobtech:31547374",
-  "jobtech:31535330",
   "jobtech:31400624",
   "jobtech:31627558",
   "jobtech:31590225",
+  "jobtech:31573879",
+  "jobtech:31660517",
   "jobtech:31617676",
   "jobtech:31588122",
   "jobtech:31560732",
@@ -1223,34 +1221,24 @@
   "jobtech:31613586",
   "jobtech:31613252",
   "jobtech:31585356",
-  "jobtech:31581786",
   "jobtech:31581495",
   "jobtech:31527818",
   "jobtech:31475891",
   "jobtech:31463979",
   "jobtech:31614662",
   "jobtech:31590602",
-  "jobtech:31554953",
-  "jobtech:31554977",
-  "jobtech:31549247",
-  "jobtech:31549121",
-  "jobtech:31548965",
-  "jobtech:31544142",
-  "jobtech:31544119",
   "jobtech:31313630",
   "jobtech:31644026",
   "jobtech:31614822",
-  "jobtech:31564574",
   "jobtech:31648940",
   "jobtech:31576699",
-  "jobtech:31503815",
+  "jobtech:31667693",
   "jobtech:31638497",
-  "jobtech:31626478",
+  "jobtech:31661192",
   "jobtech:31551202",
   "jobtech:31463939",
-  "jobtech:31629729",
+  "jobtech:31657971",
   "jobtech:31447072",
-  "jobtech:31581912",
   "jobtech:31387640",
   "jobtech:31387662",
   "jobtech:31396461",
@@ -1258,7 +1246,7 @@
   "jobtech:31387797",
   "jobtech:31589368",
   "jobtech:31487728",
-  "jobtech:31539569",
+  "jobtech:31661265",
   "jobtech:31648214",
   "jobtech:31447736",
   "jobtech:31490389",
@@ -1272,15 +1260,11 @@
   "jobtech:31365930",
   "jobtech:31632008",
   "jobtech:31598146",
-  "jobtech:31541485",
   "jobtech:31340914",
   "jobtech:31648017",
-  "jobtech:31526907",
   "jobtech:31479778",
   "jobtech:31506503",
   "jobtech:31457471",
-  "jobtech:31455442",
-  "jobtech:31599580",
   "jobtech:31655090",
   "jobtech:31466346",
   "jobtech:31435611",
@@ -1289,19 +1273,19 @@
   "jobtech:31434672",
   "jobtech:31434967",
   "jobtech:31436277",
-  "jobtech:31151300",
   "jobtech:31573805",
   "jobtech:31466463",
   "jobtech:31610541",
   "jobtech:31486476",
   "jobtech:31387768",
   "jobtech:31654503",
+  "jobtech:31666138",
   "jobtech:31541194",
   "jobtech:31344375",
   "jobtech:31344055",
   "jobtech:31554242",
   "jobtech:31652509",
-  "jobtech:31565737",
+  "jobtech:31668232",
   "jobtech:31573089",
   "jobtech:31560789",
   "jobtech:31559372",
@@ -1310,15 +1294,12 @@
   "jobtech:31360030",
   "jobtech:31588932",
   "jobtech:31585117",
-  "jobtech:31527805",
-  "jobtech:31403199",
   "jobtech:31513557",
   "jobtech:31383152",
-  "jobtech:31298409",
   "jobtech:31559847",
   "jobtech:31556167",
   "jobtech:31426632",
-  "jobtech:31510693",
+  "jobtech:31657794",
   "jobtech:31626182",
   "jobtech:31465888",
   "jobtech:31465777",
@@ -1330,35 +1311,26 @@
   "jobtech:31622569",
   "jobtech:31622571",
   "jobtech:31469409",
-  "jobtech:31389182",
   "jobtech:31644122",
-  "jobtech:31536936",
   "jobtech:31651541",
   "jobtech:31629142",
   "jobtech:31595066",
   "jobtech:31466072",
-  "jobtech:31293997",
-  "jobtech:31293969",
   "jobtech:31560612",
-  "jobtech:31536702",
   "jobtech:31445710",
   "jobtech:31607554",
   "jobtech:31487640",
   "jobtech:31487615",
   "jobtech:31456222",
   "jobtech:31453018",
-  "jobtech:31293915",
-  "jobtech:31522644",
-  "jobtech:31461148",
-  "jobtech:31151268",
   "jobtech:31066749",
   "jobtech:31651004",
   "jobtech:31557374",
   "jobtech:31550224",
-  "jobtech:31550203",
   "jobtech:31544213",
   "jobtech:31373984",
   "jobtech:31340864",
+  "jobtech:31663836",
   "jobtech:31655565",
   "jobtech:31629020",
   "jobtech:31604291",
@@ -1373,29 +1345,27 @@
   "jobtech:31340860",
   "jobtech:31268785",
   "jobtech:31571257",
+  "jobtech:31668994",
+  "jobtech:31663830",
   "jobtech:31646608",
   "jobtech:31588141",
-  "jobtech:31531881",
-  "jobtech:31531348",
   "jobtech:31442551",
   "jobtech:31399585",
   "jobtech:31373955",
   "jobtech:31582044",
+  "jobtech:31669022",
   "jobtech:31627766",
   "jobtech:31627605",
   "jobtech:31620001",
   "jobtech:31582261",
   "jobtech:31566810",
-  "jobtech:31539572",
-  "jobtech:31537547",
-  "jobtech:31532944",
   "jobtech:31518393",
   "jobtech:31492475",
   "jobtech:31487534",
   "jobtech:31373937",
   "jobtech:31353587",
   "jobtech:31221644",
-  "jobtech:31641979",
+  "jobtech:31663142",
   "jobtech:31639560",
   "jobtech:31639437",
   "jobtech:31638846",
@@ -1403,26 +1373,21 @@
   "jobtech:31628567",
   "jobtech:31628493",
   "jobtech:31596632",
-  "jobtech:31594181",
   "jobtech:31567497",
   "jobtech:31556063",
-  "jobtech:31531469",
   "jobtech:31494137",
-  "jobtech:31510226",
   "jobtech:31354437",
   "jobtech:31353753",
   "jobtech:31624370",
   "jobtech:31609656",
   "jobtech:31602772",
   "jobtech:31595436",
-  "jobtech:31576273",
   "jobtech:31366602",
   "jobtech:31354112",
   "jobtech:31304580",
   "jobtech:31129401",
   "jobtech:31630174",
   "jobtech:31629101",
-  "jobtech:31588133",
   "jobtech:31575885",
   "jobtech:31568823",
   "jobtech:31568819",
@@ -1432,15 +1397,14 @@
   "jobtech:31304459",
   "jobtech:31635009",
   "jobtech:31589016",
-  "jobtech:31588087",
   "jobtech:31570543",
-  "jobtech:31531587",
   "jobtech:31355580",
+  "jobtech:31667144",
+  "jobtech:31661084",
   "jobtech:31638943",
   "jobtech:31601864",
   "jobtech:31555729",
   "jobtech:31549839",
-  "jobtech:31467002",
   "jobtech:31419639",
   "jobtech:31060512",
   "jobtech:31654862",
@@ -1448,18 +1412,14 @@
   "jobtech:31628324",
   "jobtech:31604652",
   "jobtech:31590436",
-  "jobtech:31588149",
   "jobtech:31552031",
   "jobtech:31547887",
   "jobtech:31521309",
-  "jobtech:31497554",
-  "jobtech:31486557",
   "jobtech:31643362",
   "jobtech:31627193",
   "jobtech:31613714",
   "jobtech:31604839",
   "jobtech:31603851",
-  "jobtech:31599878",
   "jobtech:31598072",
   "jobtech:31581328",
   "jobtech:31571653",
@@ -1470,21 +1430,18 @@
   "jobtech:31618145",
   "jobtech:31613917",
   "jobtech:31589483",
-  "jobtech:31572901",
-  "jobtech:31569895",
   "jobtech:31529125",
   "jobtech:31528957",
-  "jobtech:31653756",
   "jobtech:31637199",
   "jobtech:31611571",
   "jobtech:31604915",
   "jobtech:31602252",
   "jobtech:31340918",
+  "jobtech:31653756",
   "jobtech:31611316",
   "jobtech:31490036",
   "jobtech:31490021",
   "jobtech:31596047",
-  "jobtech:31546722",
   "jobtech:31612456",
   "jobtech:31612464",
   "jobtech:31643027",
@@ -1494,10 +1451,7 @@
   "jobtech:31427314",
   "jobtech:31607755",
   "jobtech:31653384",
-  "jobtech:31487251",
   "jobtech:31420623",
-  "jobtech:31393404",
-  "jobtech:31438172",
   "jobtech:31630244",
   "jobtech:31629684",
   "jobtech:31538990",
@@ -1508,16 +1462,13 @@
   "jobtech:31578973",
   "jobtech:31579008",
   "jobtech:31626422",
-  "jobtech:31433950",
   "jobtech:31598154",
   "jobtech:31613632",
-  "jobtech:31617639",
   "jobtech:31563701",
   "jobtech:31563687",
   "jobtech:31563588",
   "jobtech:31563470",
   "jobtech:31563478",
-  "jobtech:31523439",
   "jobtech:31635433",
   "jobtech:31635158",
   "jobtech:31639711",
@@ -1525,40 +1476,34 @@
   "jobtech:31636764",
   "jobtech:31593998",
   "jobtech:31635518",
-  "jobtech:31568527",
   "jobtech:31568153",
-  "jobtech:31559250",
-  "jobtech:31487022",
   "jobtech:31594005",
   "jobtech:31618550",
   "jobtech:31598066",
   "jobtech:31593986",
   "jobtech:31422111",
-  "jobtech:31611708",
   "jobtech:31553810",
+  "jobtech:31664161",
   "jobtech:31648183",
   "jobtech:31648150",
   "jobtech:31639787",
-  "jobtech:31631863",
   "jobtech:31624234",
   "jobtech:31568697",
   "jobtech:31563522",
+  "jobtech:31666073",
   "jobtech:31651904",
   "jobtech:31648162",
   "jobtech:31616581",
   "jobtech:31652163",
-  "jobtech:31639637",
   "jobtech:31629964",
   "jobtech:31619971",
   "jobtech:31595564",
   "jobtech:31653648",
   "jobtech:31651866",
+  "jobtech:31639637",
   "jobtech:31611264",
-  "jobtech:31608252",
   "jobtech:31595896",
   "jobtech:31587497",
-  "jobtech:31576013",
-  "jobtech:31574660",
   "jobtech:31653895",
   "jobtech:31653545",
   "jobtech:31646736",
@@ -1567,7 +1512,8 @@
   "jobtech:31602566",
   "jobtech:31595422",
   "jobtech:31586292",
-  "jobtech:31575089",
+  "jobtech:31665933",
+  "jobtech:31659247",
   "jobtech:31646760",
   "jobtech:31635831",
   "jobtech:31635793",
@@ -1582,12 +1528,10 @@
   "jobtech:31587734",
   "jobtech:31578838",
   "jobtech:31554022",
-  "jobtech:31534314",
   "jobtech:31531234",
   "jobtech:31531103",
   "jobtech:31522976",
-  "jobtech:31499151",
-  "jobtech:31479742",
+  "jobtech:31665247",
   "jobtech:31651915",
   "jobtech:31647249",
   "jobtech:31602243",
@@ -1596,6 +1540,9 @@
   "jobtech:31560390",
   "jobtech:31506669",
   "jobtech:31198327",
+  "jobtech:31668075",
+  "jobtech:31665538",
+  "jobtech:31664528",
   "jobtech:31636678",
   "jobtech:31636521",
   "jobtech:31618889",
@@ -1606,21 +1553,18 @@
   "jobtech:31609989",
   "jobtech:31607463",
   "jobtech:31601998",
-  "jobtech:31592401",
   "jobtech:31496494",
+  "jobtech:31658449",
   "jobtech:31645573",
   "jobtech:31639403",
   "jobtech:31627738",
   "jobtech:31577101",
   "jobtech:31539520",
-  "jobtech:31532358",
-  "jobtech:31532326",
   "jobtech:31514375",
   "jobtech:31466292",
-  "jobtech:31354716",
-  "jobtech:31470500",
   "jobtech:31617979",
   "jobtech:31632711",
+  "jobtech:31664234",
   "jobtech:31596504",
   "jobtech:31634323",
   "jobtech:31634321",
@@ -1630,6 +1574,23 @@
   "jobtech:31608759",
   "jobtech:31591204",
   "jobtech:31468911",
+  "jobtech:31668519",
+  "jobtech:31667931",
+  "jobtech:31666200",
+  "jobtech:31665418",
+  "jobtech:31665289",
+  "jobtech:31665207",
+  "jobtech:31664771",
+  "jobtech:31664759",
+  "jobtech:31662722",
+  "jobtech:31662464",
+  "jobtech:31662345",
+  "jobtech:31660961",
+  "jobtech:31660681",
+  "jobtech:31660329",
+  "jobtech:31660028",
+  "jobtech:31659298",
+  "jobtech:31656235",
   "jobtech:31655024",
   "jobtech:31655007",
   "jobtech:31654546",
@@ -1648,11 +1609,8 @@
   "jobtech:31634065",
   "jobtech:31634055",
   "jobtech:31633409",
-  "jobtech:31632576",
   "jobtech:31632289",
   "jobtech:31630522",
-  "jobtech:31630120",
-  "jobtech:31630048",
   "jobtech:31630032",
   "jobtech:31626975",
   "jobtech:31626244",
@@ -1666,11 +1624,9 @@
   "jobtech:31612679",
   "jobtech:31612133",
   "jobtech:31607712",
-  "jobtech:31607372",
   "jobtech:31607207",
   "jobtech:31603012",
   "jobtech:31600014",
-  "jobtech:31599077",
   "jobtech:31597742",
   "jobtech:31597686",
   "jobtech:31597684",
@@ -1686,37 +1642,31 @@
   "jobtech:31579293",
   "jobtech:31578069",
   "jobtech:31571465",
-  "jobtech:31570753",
   "jobtech:31570738",
   "jobtech:31570110",
   "jobtech:31567030",
   "jobtech:31564352",
   "jobtech:31563299",
   "jobtech:31558777",
-  "jobtech:31557606",
   "jobtech:31556134",
   "jobtech:31555672",
   "jobtech:31548666",
   "jobtech:31546774",
   "jobtech:31546502",
   "jobtech:31545616",
-  "jobtech:31543785",
-  "jobtech:31541254",
-  "jobtech:31536694",
   "jobtech:31537030",
-  "jobtech:31531740",
   "jobtech:31529113",
   "jobtech:31523392",
-  "jobtech:31503149",
-  "jobtech:31486408",
-  "jobtech:31476257",
   "jobtech:31391809",
   "jobtech:31248189",
+  "jobtech:31657376",
   "jobtech:31572377",
+  "jobtech:31666685",
   "jobtech:31625856",
   "jobtech:31585464",
   "jobtech:31550052",
   "jobtech:31561104",
+  "jobtech:31660390",
   "jobtech:31623635",
   "jobtech:31600665",
   "jobtech:31586217",
@@ -1733,60 +1683,49 @@
   "jobtech:31459911",
   "jobtech:31560814",
   "jobtech:31649018",
-  "jobtech:31530418",
   "jobtech:31446711",
-  "jobtech:31574022",
+  "jobtech:31656873",
   "jobtech:31629642",
   "jobtech:31580679",
   "jobtech:31572342",
-  "jobtech:31576745",
   "jobtech:31553308",
-  "jobtech:30931642",
   "jobtech:31615307",
-  "jobtech:31004784",
-  "jobtech:31490043",
   "jobtech:31633635",
   "jobtech:31633601",
   "jobtech:31471382",
   "jobtech:31468681",
-  "jobtech:31566506",
   "jobtech:31608839",
   "jobtech:31460200",
+  "jobtech:31566506",
   "jobtech:31643838",
-  "jobtech:31519484",
   "jobtech:31558344",
   "jobtech:31617957",
-  "jobtech:31612554",
-  "jobtech:31612520",
   "jobtech:31598838",
   "jobtech:31268791",
-  "jobtech:31543232",
+  "jobtech:31662441",
   "jobtech:31644525",
   "jobtech:31636091",
-  "jobtech:31592739",
-  "jobtech:31559822",
   "jobtech:31574470",
   "jobtech:31593728",
   "jobtech:31625187",
-  "jobtech:31288383",
   "jobtech:31650199",
+  "jobtech:31666885",
   "jobtech:31655164",
   "jobtech:31648270",
-  "jobtech:31613369",
   "jobtech:31605468",
   "jobtech:31602361",
   "jobtech:31602344",
   "jobtech:31583723",
   "jobtech:31541350",
   "jobtech:31257067",
+  "jobtech:31668964",
   "jobtech:31640277",
   "jobtech:31599927",
   "jobtech:31314527",
+  "jobtech:31656875",
   "jobtech:31654383",
   "jobtech:31590163",
   "jobtech:31584965",
-  "jobtech:31553517",
-  "jobtech:31553384",
   "jobtech:31650780",
   "jobtech:31645270",
   "jobtech:31626416",
@@ -1794,22 +1733,22 @@
   "jobtech:31606371",
   "jobtech:31594308",
   "jobtech:31577652",
-  "jobtech:31564932",
+  "jobtech:31659523",
   "jobtech:31645986",
   "jobtech:31622579",
-  "jobtech:31569257",
   "jobtech:31557141",
-  "jobtech:31525610",
   "jobtech:31510346",
+  "jobtech:31663666",
+  "jobtech:31659255",
   "jobtech:31611022",
-  "jobtech:31596513",
-  "jobtech:31538661",
-  "jobtech:31535832",
   "jobtech:31639900",
-  "jobtech:31598878",
   "jobtech:31646978",
   "jobtech:31610943",
   "jobtech:31600768",
+  "jobtech:31663863",
+  "jobtech:31663806",
+  "jobtech:31657103",
+  "jobtech:31656705",
   "jobtech:31632826",
   "jobtech:31626798",
   "jobtech:31605911",
@@ -1825,21 +1764,19 @@
   "jobtech:31602596",
   "jobtech:31619246",
   "jobtech:31616010",
-  "jobtech:31595753",
   "jobtech:31573073",
-  "jobtech:31559538",
+  "jobtech:31668398",
   "jobtech:31654904",
   "jobtech:31654577",
   "jobtech:31630748",
   "jobtech:31629423",
-  "jobtech:31601256",
   "jobtech:31582103",
   "jobtech:31607224",
-  "jobtech:31590228",
+  "jobtech:31666879",
+  "jobtech:31664397",
   "jobtech:31639524",
   "jobtech:31639181",
   "jobtech:31633774",
-  "jobtech:31602989",
   "jobtech:31559803",
   "jobtech:31549963",
   "jobtech:31535387",
@@ -1851,16 +1788,11 @@
   "jobtech:31574911",
   "jobtech:31592722",
   "jobtech:31592720",
-  "jobtech:31360595",
-  "jobtech:31526969",
   "jobtech:31655410",
   "jobtech:31618649",
   "jobtech:31615133",
-  "jobtech:31298277",
   "jobtech:31621689",
   "jobtech:31614700",
-  "jobtech:31577192",
-  "jobtech:31523447",
   "jobtech:31598646",
   "jobtech:31595216",
   "jobtech:31595210",
@@ -1870,22 +1802,11 @@
   "jobtech:31570454",
   "jobtech:31617938",
   "jobtech:31587230",
-  "jobtech:31540945",
-  "jobtech:31532986",
   "jobtech:31641706",
   "jobtech:31636036",
   "jobtech:31596115",
-  "jobtech:31563535",
-  "jobtech:31599637",
-  "jobtech:31599627",
-  "jobtech:31599118",
   "jobtech:31593208",
-  "jobtech:31592963",
-  "jobtech:31568966",
   "jobtech:31475791",
-  "jobtech:31599595",
-  "jobtech:31563549",
-  "jobtech:31428482",
   "jobtech:31634885",
   "jobtech:31615517",
   "jobtech:31655227",
@@ -1894,6 +1815,7 @@
   "jobtech:31578570",
   "jobtech:31531712",
   "jobtech:31239264",
+  "jobtech:31662416",
   "jobtech:31605258",
   "jobtech:31588847",
   "jobtech:31578025",
@@ -1912,6 +1834,7 @@
   "jobtech:31513410",
   "jobtech:31580670",
   "jobtech:31022075",
+  "jobtech:31659601",
   "jobtech:31630122",
   "jobtech:31618268",
   "jobtech:31612672",
@@ -1935,6 +1858,8 @@
   "jobtech:31458293",
   "jobtech:31451381",
   "jobtech:31361378",
+  "jobtech:31668885",
+  "jobtech:31666887",
   "jobtech:31617621",
   "jobtech:31590705",
   "jobtech:31588428",
@@ -1942,6 +1867,7 @@
   "jobtech:31447905",
   "jobtech:31277979",
   "jobtech:31068506",
+  "jobtech:31659728",
   "jobtech:31638316",
   "jobtech:31635630",
   "jobtech:31632845",
@@ -1951,20 +1877,14 @@
   "jobtech:31629772",
   "jobtech:31618812",
   "jobtech:31613831",
-  "jobtech:31605842",
   "jobtech:31605647",
   "jobtech:31596842",
-  "jobtech:31596649",
   "jobtech:31584534",
-  "jobtech:31564046",
   "jobtech:31550873",
-  "jobtech:31541216",
   "jobtech:31522227",
   "jobtech:31515640",
-  "jobtech:31503445",
   "jobtech:31484159",
   "jobtech:31610924",
-  "jobtech:31564526",
   "jobtech:31647785",
   "jobtech:31635152",
   "jobtech:31634877",
@@ -1972,7 +1892,6 @@
   "jobtech:31607847",
   "jobtech:31521185",
   "jobtech:31551743",
-  "jobtech:31503569",
   "jobtech:31630431",
   "jobtech:31646830",
   "jobtech:31595834",
@@ -1983,6 +1902,158 @@
   "jobtech:31634848",
   "jobtech:31623797",
   "jobtech:31623790",
+  "jobtech:31267450",
+  "jobtech:31586829",
+  "jobtech:31452813",
+  "jobtech:31452714",
+  "jobtech:31583926",
+  "jobtech:30986994",
+  "jobtech:31479655",
+  "jobtech:31547374",
+  "jobtech:31535330",
+  "jobtech:31581786",
+  "jobtech:31554953",
+  "jobtech:31554977",
+  "jobtech:31549247",
+  "jobtech:31549121",
+  "jobtech:31548965",
+  "jobtech:31544142",
+  "jobtech:31544119",
+  "jobtech:31564574",
+  "jobtech:31503815",
+  "jobtech:31626478",
+  "jobtech:31629729",
+  "jobtech:31581912",
+  "jobtech:31539569",
+  "jobtech:31541485",
+  "jobtech:31526907",
+  "jobtech:31455442",
+  "jobtech:31599580",
+  "jobtech:31151300",
+  "jobtech:31565737",
+  "jobtech:31527805",
+  "jobtech:31403199",
+  "jobtech:31298409",
+  "jobtech:31510693",
+  "jobtech:31389182",
+  "jobtech:31536936",
+  "jobtech:31293997",
+  "jobtech:31293969",
+  "jobtech:31536702",
+  "jobtech:31293915",
+  "jobtech:31522644",
+  "jobtech:31461148",
+  "jobtech:31151268",
+  "jobtech:31550203",
+  "jobtech:31531881",
+  "jobtech:31531348",
+  "jobtech:31539572",
+  "jobtech:31537547",
+  "jobtech:31532944",
+  "jobtech:31641979",
+  "jobtech:31594181",
+  "jobtech:31531469",
+  "jobtech:31510226",
+  "jobtech:31576273",
+  "jobtech:31588133",
+  "jobtech:31588087",
+  "jobtech:31531587",
+  "jobtech:31467002",
+  "jobtech:31588149",
+  "jobtech:31497554",
+  "jobtech:31486557",
+  "jobtech:31599878",
+  "jobtech:31572901",
+  "jobtech:31569895",
+  "jobtech:31546722",
+  "jobtech:31487251",
+  "jobtech:31393404",
+  "jobtech:31438172",
+  "jobtech:31433950",
+  "jobtech:31617639",
+  "jobtech:31523439",
+  "jobtech:31568527",
+  "jobtech:31559250",
+  "jobtech:31487022",
+  "jobtech:31611708",
+  "jobtech:31631863",
+  "jobtech:31608252",
+  "jobtech:31576013",
+  "jobtech:31574660",
+  "jobtech:31575089",
+  "jobtech:31534314",
+  "jobtech:31499151",
+  "jobtech:31479742",
+  "jobtech:31592401",
+  "jobtech:31532358",
+  "jobtech:31532326",
+  "jobtech:31354716",
+  "jobtech:31470500",
+  "jobtech:31632576",
+  "jobtech:31630120",
+  "jobtech:31630048",
+  "jobtech:31607372",
+  "jobtech:31599077",
+  "jobtech:31570753",
+  "jobtech:31557606",
+  "jobtech:31543785",
+  "jobtech:31541254",
+  "jobtech:31536694",
+  "jobtech:31531740",
+  "jobtech:31503149",
+  "jobtech:31486408",
+  "jobtech:31476257",
+  "jobtech:31530418",
+  "jobtech:31574022",
+  "jobtech:31576745",
+  "jobtech:30931642",
+  "jobtech:31004784",
+  "jobtech:31490043",
+  "jobtech:31519484",
+  "jobtech:31612554",
+  "jobtech:31612520",
+  "jobtech:31543232",
+  "jobtech:31592739",
+  "jobtech:31559822",
+  "jobtech:31288383",
+  "jobtech:31613369",
+  "jobtech:31553517",
+  "jobtech:31553384",
+  "jobtech:31564932",
+  "jobtech:31569257",
+  "jobtech:31525610",
+  "jobtech:31596513",
+  "jobtech:31538661",
+  "jobtech:31535832",
+  "jobtech:31598878",
+  "jobtech:31595753",
+  "jobtech:31559538",
+  "jobtech:31601256",
+  "jobtech:31590228",
+  "jobtech:31602989",
+  "jobtech:31360595",
+  "jobtech:31526969",
+  "jobtech:31298277",
+  "jobtech:31577192",
+  "jobtech:31523447",
+  "jobtech:31540945",
+  "jobtech:31532986",
+  "jobtech:31563535",
+  "jobtech:31599637",
+  "jobtech:31599627",
+  "jobtech:31599118",
+  "jobtech:31592963",
+  "jobtech:31568966",
+  "jobtech:31599595",
+  "jobtech:31563549",
+  "jobtech:31428482",
+  "jobtech:31605842",
+  "jobtech:31596649",
+  "jobtech:31564046",
+  "jobtech:31541216",
+  "jobtech:31503445",
+  "jobtech:31564526",
+  "jobtech:31503569",
   "jobtech:31601038",
   "nav:68020a6a-3686-4a6a-9033-763357e6bdb4",
   "nav:5088c833-cae8-4fbf-b0f2-d42c1dc06b9b",
@@ -2645,7 +2716,620 @@
   "tamu:114833"
  ],
  "geaendert": [],
- "geschlossen": [],
+ "geschlossen": [
+  {
+   "key": "jobtech:31267450",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31586829",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31452813",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31452714",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31583926",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:30986994",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31479655",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31547374",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31535330",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31581786",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31554953",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31554977",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31549247",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31549121",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31548965",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31544142",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31544119",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31564574",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31503815",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31626478",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31629729",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31581912",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31539569",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31541485",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31526907",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31455442",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31599580",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31151300",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31565737",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31527805",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31403199",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31298409",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31510693",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31389182",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31536936",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31293997",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31293969",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31536702",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31293915",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31522644",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31461148",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31151268",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31550203",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31531881",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31531348",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31539572",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31537547",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31532944",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31641979",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31594181",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31531469",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31510226",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31576273",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31588133",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31588087",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31531587",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31467002",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31588149",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31497554",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31486557",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31599878",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31572901",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31569895",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31546722",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31487251",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31393404",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31438172",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31433950",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31617639",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31523439",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31568527",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31559250",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31487022",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31611708",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31631863",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31608252",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31576013",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31574660",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31575089",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31534314",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31499151",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31479742",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31592401",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31532358",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31532326",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31354716",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31470500",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31632576",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31630120",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31630048",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31607372",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31599077",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31570753",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31557606",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31543785",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31541254",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31536694",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31531740",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31503149",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31486408",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31476257",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31530418",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31574022",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31576745",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:30931642",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31004784",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31490043",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31519484",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31612554",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31612520",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31543232",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31592739",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31559822",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31288383",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31613369",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31553517",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31553384",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31564932",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31569257",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31525610",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31596513",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31538661",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31535832",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31598878",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31595753",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31559538",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31601256",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31590228",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31602989",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31360595",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31526969",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31298277",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31577192",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31523447",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31540945",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31532986",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31563535",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31599637",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31599627",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31599118",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31592963",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31568966",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31599595",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31563549",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31428482",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31605842",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31596649",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31564046",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31541216",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31503445",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31564526",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31503569",
+   "grund": "nicht mehr abrufbar"
+  },
+  {
+   "key": "jobtech:31601038",
+   "grund": "nicht mehr abrufbar"
+  }
+ ],
  "abruf_fehler": [],
  "zaehlung": {
   "backpacker": {
@@ -2663,20 +3347,21 @@
    "kandidaten": 347
   },
   "jobtech": {
-   "offen": 850,
-   "neu": 850,
+   "offen": 768,
+   "neu": 921,
    "geaendert": 0,
-   "geschlossen": 0,
+   "geschlossen": 153,
    "abruf_fehler": 0,
-   "roh": 850,
-   "abgerufen": "2026-10-28T13:22:35",
+   "roh": 921,
+   "abgerufen": "2026-11-01T14:43:43+00:00",
    "ausgeschlossen": {
-    "Beruf passt nicht": 482,
-    "Anzeige nicht auf Englisch": 66,
-    "Dauer": 271,
-    "Lokalsprache Pflicht": 20
+    "Beruf passt nicht": 426,
+    "Anzeige nicht auf Englisch": 57,
+    "Dauer": 257,
+    "Lokalsprache Pflicht": 16,
+    "Geschlossen": 153
    },
-   "kandidaten": 11
+   "kandidaten": 12
   },
   "nav": {
    "offen": 572,

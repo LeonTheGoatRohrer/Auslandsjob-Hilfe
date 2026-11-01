@@ -1,0 +1,87 @@
+# Sammeln ohne KI: Sammler → normalisieren → Zustand → Vorfilter → Commit → n8n-Webhook "bewerten".
+# Wird von n8n (Workflow "Dirigent") per workflow_dispatch gestartet; manuell über den Actions-Tab.
+name: Sammeln
+
+on:
+  workflow_dispatch:
+    inputs:
+      quellen:
+        description: "Sammler, durch Leerzeichen getrennt (leer = alle echten Quellen)"
+        default: ""
+      demo:
+        description: "Demo-Quelle aus tests/fixtures/demo_quelle.json mitnehmen"
+        type: boolean
+        default: false
+
+concurrency:
+  group: pipeline
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  sammeln:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      # Rohdaten und Seiten-Cache überleben zwischen den Läufen im Actions-Cache (nicht im Repo).
+      - uses: actions/cache@v4
+        with:
+          path: daten/roh
+          key: roh-${{ github.run_id }}
+          restore-keys: roh-
+
+      - name: Sammler ausführen
+        env:
+          PYTHONIOENCODING: utf-8
+          DEMO_QUELLE: ${{ inputs.demo && '1' || '' }}
+        run: |
+          quellen="${{ inputs.quellen }}"
+          for q in ${quellen:-nav jobtech backpacker tamu}; do
+            echo "::group::$q"
+            python -m sammler.$q 2>&1 | tee -a daten/roh/$q.log || echo "::warning::Sammler $q fehlgeschlagen – alter Stand bleibt"
+            echo "::endgroup::"
+          done
+          python -m sammler.demo
+
+      - name: Verarbeiten (normalisieren, Zustand, Vorfilter)
+        env:
+          PYTHONIOENCODING: utf-8
+        run: python -m pipeline.verarbeiten
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: rohdaten-${{ github.run_id }}
+          path: daten/roh
+          retention-days: 90
+
+      - name: Ergebnis committen
+        id: commit
+        run: |
+          git config user.name "auslandsjob-pipeline"
+          git config user.email "pipeline@users.noreply.github.com"
+          git add daten/aufbereitet
+          if git diff --cached --quiet; then echo "nichts zu committen"; else
+            git commit -m "Sammellauf ${{ github.run_id }}"
+            git pull --rebase
+            git push
+          fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: n8n benachrichtigen (Bewertung starten)
+        if: ${{ env.WEBHOOK != '' }}
+        env:
+          WEBHOOK: ${{ secrets.N8N_WEBHOOK_BEWERTEN }}
+          SECRET: ${{ secrets.N8N_WEBHOOK_SECRET }}
+        run: |
+          zaehlung=$(python -c "import json;print(json.dumps(json.load(open('daten/aufbereitet/aenderungen.json'))['zaehlung']))")
+          curl -sS -f -X POST "$WEBHOOK" -H "Content-Type: application/json" -H "X-Auftrag-Secret: $SECRET" \
+            -d "{\"lauf_id\":\"${{ github.run_id }}\",\"commit\":\"${{ steps.commit.outputs.sha }}\",\"zaehlung\":$zaehlung}"

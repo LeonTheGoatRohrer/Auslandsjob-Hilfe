@@ -1,0 +1,30 @@
+[
+ {
+  "quelle_id": "werft-1",
+  "url": "https://example.org/demo/werft-1",
+  "titel": "Summer helper at a wooden boat yard",
+  "organisation": "Fjordbåt Trebåtbyggeri (Demo)",
+  "ort": "Risør",
+  "region": "Agder",
+  "land": "Norwegen",
+  "land_code": "NO",
+  "beschreibung": "Small wooden boat yard with four employees looks for a hands-on helper from May to July 2027 for 8 weeks. You will work with the boat builders on restoring two classic wooden boats: planking, caulking, painting and fitting out. We provide a room in the crew house next to the yard. English is fine, everyone speaks it. No experience needed, but you must like physical work outdoors. Pay: NOK 190 per hour.",
+  "veroeffentlicht": "2026-11-01",
+  "frist": "2027-02-28",
+  "extra": {"anstellung": "Sesong", "start": "2027-05-03"}
+ },
+ {
+  "quelle_id": "station-2",
+  "url": "https://example.org/demo/station-2",
+  "titel": "Field assistant, seabird monitoring",
+  "organisation": "Nordøy Field Station (Demo)",
+  "ort": "Røst",
+  "region": "Nordland",
+  "land": "Norwegen",
+  "land_code": "NO",
+  "beschreibung": "Remote island field station needs an assistant for the seabird breeding season, 6 to 10 weeks between mid-May and end of July 2027. Tasks: nest counts, ringing support, maintaining data loggers and solar power on the station. Accommodation on the island in the station house, food provided. Unpaid, travel to Bodø is reimbursed. English working language.",
+  "veroeffentlicht": "2026-11-01",
+  "frist": "",
+  "extra": {"anstellung": "Frivillig"}
+ }
+]
