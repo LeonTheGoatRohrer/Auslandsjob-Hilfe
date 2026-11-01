@@ -194,6 +194,7 @@ main { padding: 0 clamp(16px, 4vw, 40px) 80px; max-width: 1440px; margin: 0 auto
 }
 .tag-gut { background: color-mix(in srgb, var(--k-natur_forschung) 18%, transparent); }
 .tag-schlecht { background: color-mix(in srgb, var(--herz) 15%, transparent); }
+.tag-neu { background: color-mix(in srgb, var(--see) 22%, transparent); font-weight: 700; }
 
 /* Warnband: Kosten sind sofort sichtbar */
 .warnband {
@@ -302,6 +303,10 @@ main { padding: 0 clamp(16px, 4vw, 40px) 80px; max-width: 1440px; margin: 0 auto
 .fakten dt { font-size: 13px; color: var(--tinte-2); }
 .fakten dd { margin: 2px 0 0; font-weight: 700; }
 .fakten small { display: block; font-weight: 400; color: var(--tinte-2); font-size: 13.5px; }
+.fakten q.beleg, .abschnitt q.beleg { display: block; margin-top: 6px; font: italic 400 13px/1.4 var(--schrift); color: var(--tinte-2); quotes: "\201E" "\201C"; }
+.fakten small.offen, .abschnitt small.offen { display: block; margin-top: 6px; color: var(--herz); font-weight: 600; }
+.zustand ul { margin: 6px 0 0; padding-left: 18px; }
+.zustand.geschlossen { border-style: solid; border-color: var(--herz); color: var(--herz); }
 
 .abschnitte { display: grid; gap: 22px; margin-top: 30px; }
 .abschnitt h3 { margin: 0 0 6px; font: 600 18px var(--schrift-titel); }

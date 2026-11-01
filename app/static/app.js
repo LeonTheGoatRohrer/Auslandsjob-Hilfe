@@ -9,7 +9,8 @@ const UNTERKUNFT = {
   beim_betrieb: "Beim Betrieb", crew_haus: "Crew-Haus", schiff: "An Bord",
   selbst_organisieren: "Selbst organisieren", unklar: "Unklar",
 };
-const ENGLISCH = { ja: "Englisch ja", teilweise: "Englisch teilweise", nein: "Kein Englisch" };
+const ENGLISCH = { ja: "Englisch ja", teilweise: "Englisch teilweise", nein: "Kein Englisch", nicht_angegeben: "Sprache nicht angegeben" };
+const VERPFLEGUNG = { ja: "inkl. Verpflegung", true: "inkl. Verpflegung", nein: "ohne Verpflegung", false: "" };
 const VISUM = {
   machbar: "Visum machbar", "working_holiday_nötig": "Working Holiday nötig", mit_auflagen: "Visum mit Auflagen",
   unklar: "Visum unklar", verboten: "Visum: nicht erlaubt",
@@ -35,7 +36,7 @@ const S = {
 
 function standardFilter() {
   return { kategorie: null, sparte: [], status: [], bezahlung: [], unterkunft: [], englisch: [], visum: [],
-           land: "", nurUnbewertet: false, ausgeschlossene: false, sort: "passung" };
+           land: "", nurUnbewertet: false, ausgeschlossene: false, geschlossene: false, sort: "passung" };
 }
 function ladeFilter() {
   try { return { ...standardFilter(), ...JSON.parse(localStorage.getItem("filter") || "{}") }; }
@@ -56,6 +57,11 @@ const katEmoji = (key) => (S.kategorien[key]?.name || "").split(" ")[0];
 const farbe = (key) => `var(--k-${key}, var(--tinte))`;
 const kostetGeld = (a) => a.bezahlung === "kostet_geld" || (a.gebuehr_eur ?? 0) > 0;
 const bilderVon = (a) => (a.bilder || []).filter((b) => !S.kaputt.has(b.url));
+const tageSeit = (iso) => (Date.now() - new Date(iso)) / 864e5;
+const istGeschlossen = (a) => a.zustand?.status === "geschlossen";
+const istNeu = (a) => !!a.zustand && tageSeit(a.zustand.erstmals_gesehen) <= 7;
+const istGeaendert = (a) => (a.zustand?.aenderungen || []).some((x) => tageSeit(x.datum) <= 14);
+const datumKurz = (iso) => iso ? new Date(iso).toLocaleDateString("de-AT", { day: "numeric", month: "short", year: "numeric" }) : "";
 
 function dauerText(a) {
   if (!a.dauer_wochen) return "Unbekannt";
@@ -102,7 +108,7 @@ function gefiltert({ ohneKategorie = false } = {}) {
   const f = S.filter;
   const passt = (liste, wert) => liste.length === 0 || liste.includes(wert);
   const ergebnis = S.angebote.filter((a) =>
-    (f.ausgeschlossene || a.ausschluss.length === 0) &&
+    (f.ausgeschlossene || a.ausschluss.length === 0) && (f.geschlossene || !istGeschlossen(a)) &&
     (ohneKategorie || !f.kategorie || a.kategorie === f.kategorie || (a.tags || []).includes(f.kategorie)) &&
     passt(f.sparte, a.sparte) && passt(f.status, a.status) && passt(f.bezahlung, a.bezahlung) && passt(f.unterkunft, a.unterkunft) &&
     passt(f.englisch, a.englisch) && passt(f.visum, a.visum) &&
@@ -144,7 +150,7 @@ function render() {
 
 function renderUebersicht() {
   const liste = gefiltert();
-  const basis = S.angebote.filter((a) => a.ausschluss.length === 0);
+  const basis = S.angebote.filter((a) => a.ausschluss.length === 0 && (S.filter.geschlossene || !istGeschlossen(a)));
   const ausgeschlossen = S.angebote.length - basis.length;
   const zaehle = (k) => basis.filter((a) => a.kategorie === k || (a.tags || []).includes(k)).length;
 
@@ -216,6 +222,7 @@ function renderFilter(ausgeschlossen) {
     <fieldset><legend>Anzeigen</legend>
       <label class="schalter"><input type="checkbox" data-aktion="nurUnbewertet" ${S.filter.nurUnbewertet ? "checked" : ""}> Nur noch nicht bewertete</label>
       <label class="schalter"><input type="checkbox" data-aktion="ausgeschlossene" ${S.filter.ausgeschlossene ? "checked" : ""}> Ausgeschlossene zeigen (${ausgeschlossen})</label>
+      <label class="schalter"><input type="checkbox" data-aktion="geschlossene" ${S.filter.geschlossene ? "checked" : ""}> Geschlossene zeigen (${S.angebote.filter(istGeschlossen).length})</label>
     </fieldset>
     <button class="filter-reset" data-aktion="reset">Alle Filter zurücksetzen</button>
   </aside>`;
@@ -250,7 +257,8 @@ function renderKarte(a) {
         <span class="tag ${["lohn", "taschengeld"].includes(a.bezahlung) ? "tag-gut" : a.bezahlung === "kostet_geld" ? "tag-schlecht" : ""}">${esc(BEZAHLUNG[a.bezahlung] || a.bezahlung)}</span>
         <span class="tag">${esc(dauerText(a))}</span>
         ${a.sparte === "lead" ? `<span class="tag">Lead</span>` : ""}
-        ${a.status === "automatisch" ? `<span class="tag">Gesammelt</span>` : ""}
+        ${istGeschlossen(a) ? `<span class="tag tag-schlecht">Geschlossen</span>` : istNeu(a) ? `<span class="tag tag-neu">Neu</span>` : ""}
+        ${istGeaendert(a) && !istGeschlossen(a) ? `<span class="tag tag-neu">Geändert</span>` : ""}
         ${a.englisch === "nein" ? `<span class="tag tag-schlecht">Kein Englisch</span>` : ""}
         ${a.visum === "working_holiday_nötig" ? `<span class="tag">Working Holiday</span>` : ""}
       </div>
@@ -295,7 +303,8 @@ function renderQuellen() {
               <div><dt>Gesammelt</dt><dd>${z.roh}</dd></div>
               <div><dt>Nach Vorfilter</dt><dd>${z.kandidaten}</dd></div>
               <div><dt>Relevant (Claude)</dt><dd>${relevant}</dd></div>
-              <div><dt>Abgerufen</dt><dd>${esc(z.abgerufen.replace("T", " "))}</dd></div>
+              <div><dt>Abgerufen</dt><dd>${esc(z.abgerufen.replace("T", " ").slice(0, 16))}</dd></div>
+              ${z.offen != null ? `<div><dt>Letzter Lauf</dt><dd>${z.offen} offen · ${z.neu} neu · ${z.geaendert} geändert · ${z.geschlossen} geschlossen${z.abruf_fehler ? ` · ${z.abruf_fehler} Abruffehler` : ""}</dd></div>` : ""}
               <div><dt>Aussortiert</dt><dd>${esc(Object.entries(z.ausgeschlossen).map(([g, n]) => `${g}: ${n}`).join(", ") || "–")}</dd></div>
             </dl></div>`;
         }).join("")}
@@ -376,8 +385,17 @@ function renderDurchgehen() {
   const gesamt = dg.modus === "zufall" ? null : dg.liste.length;
   const maps = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${a.ort}, ${a.land}`)}`;
 
-  const fakt = (titel, wert, zusatz = "") => `<div><dt>${titel}</dt><dd>${esc(wert)}${zusatz ? `<small>${esc(zusatz)}</small>` : ""}</dd></div>`;
-  const abschnitt = (titel, text, klasse = "") => text ? `<div class="abschnitt ${klasse}"><h3>${titel}</h3><p>${esc(text)}</p></div>` : "";
+  const beleg = (feld) => !a.zitate ? "" : a.zitate[feld] ? `<q class="beleg" title="Wörtlich aus der Anzeige">${esc(a.zitate[feld])}</q>`
+    : `<small class="offen">nicht angegeben – vor Anfrage prüfen</small>`;
+  const fakt = (titel, wert, zusatz = "", felder = []) => `<div><dt>${titel}</dt><dd>${esc(wert)}${zusatz ? `<small>${esc(zusatz)}</small>` : ""}${felder.map(beleg).join("")}</dd></div>`;
+  const abschnitt = (titel, text, klasse = "", extra = "") => text ? `<div class="abschnitt ${klasse}"><h3>${titel}</h3><p>${esc(text)}</p>${extra}</div>` : "";
+  const z = a.zustand;
+  const zustandText = !z ? "" : `<div class="vorlaeufig zustand ${istGeschlossen(a) ? "geschlossen" : ""}">
+      ${istGeschlossen(a) ? `<b>Geschlossen</b>${z.geschlossen_grund ? ` (${esc(z.geschlossen_grund)})` : ""}. ` : istNeu(a) ? `<b>Neu</b> seit ${datumKurz(z.erstmals_gesehen)}. ` : ""}
+      Erstmals gesehen ${datumKurz(z.erstmals_gesehen)}, zuletzt geprüft ${datumKurz(z.zuletzt_gesehen)}${a.abgerufen ? `, Anzeige abgerufen ${datumKurz(a.abgerufen)}` : ""}.
+      ${(z.aenderungen || []).length ? `<ul>${z.aenderungen.map((x) => `<li>${datumKurz(x.datum)}: ${esc(x.feld)} „${esc(x.alt || "–")}“ → „${esc(x.neu || "–")}“</li>`).join("")}</ul>` : ""}
+      ${(a.auch_bei || []).length ? `<div>Auch bei: ${a.auch_bei.map((u) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(new URL(u).hostname)}</a>`).join(", ")}</div>` : ""}
+    </div>`;
 
   const kriterien = Object.entries(S.kernkriterien).map(([k, info]) => {
     const w = a.kriterien?.[k];
@@ -418,13 +436,14 @@ function renderDurchgehen() {
         ${kostetGeld(a) ? `<div class="warnband statisch" style="margin-top:18px">⚠ ${esc(gebuehrText(a))}. ${esc(a.bezahlung_text || "")}</div>` : ""}
         ${a.ausschluss.length ? `<div class="vorlaeufig" style="border-color:var(--herz);color:var(--herz)">Durch deine harten Kriterien ausgeschlossen: ${esc(a.ausschluss.join(", "))}</div>` : ""}
         ${a.status === "vorläufig" ? `<div class="vorlaeufig">Angaben vorläufig: aus der ersten Recherche, noch nicht beim Anbieter bestätigt. Vor einer Anfrage auf der Website prüfen.</div>` : ""}
-        ${a.status === "automatisch" ? `<div class="vorlaeufig">Automatisch gesammelt aus ${esc(a.quelle)}${a.veroeffentlicht ? `, veröffentlicht ${esc(a.veroeffentlicht)}` : ""}${a.frist ? `, Bewerbungsfrist ${esc(a.frist)}` : ""}. Originaltitel: „${esc(a.originaltitel)}“. Zusammenfassung und Bewertung stammen von Claude – die Originalanzeige ist maßgeblich.</div>` : ""}
+        ${a.status === "automatisch" ? `<div class="vorlaeufig">Automatisch gesammelt aus ${esc(a.quelle)}${a.veroeffentlicht ? `, veröffentlicht ${esc(a.veroeffentlicht)}` : ""}${a.frist ? `, Bewerbungsfrist ${esc(a.frist)}` : ""}. Originaltitel: „${esc(a.originaltitel)}“. Zusammenfassung und Bewertung stammen von Claude – die Originalanzeige ist maßgeblich; belegte Angaben stehen als Zitat unter dem jeweiligen Fakt.</div>` : ""}
+        ${zustandText}
 
         <dl class="fakten">
-          ${fakt("Dauer", dauerText(a), a.dauer_text)}
-          ${fakt("Bezahlung", BEZAHLUNG[a.bezahlung] || a.bezahlung, a.bezahlung_text)}
-          ${fakt("Unterkunft", UNTERKUNFT[a.unterkunft] || a.unterkunft, a.verpflegung ? "inkl. Verpflegung" : "")}
-          ${fakt("Sprache", ENGLISCH[a.englisch] || a.englisch)}
+          ${fakt("Dauer", dauerText(a), a.dauer_text, ["dauer"])}
+          ${fakt("Bezahlung", BEZAHLUNG[a.bezahlung] || a.bezahlung, a.bezahlung_text, ["bezahlung", "gebuehr"])}
+          ${fakt("Unterkunft", UNTERKUNFT[a.unterkunft] || a.unterkunft, VERPFLEGUNG[a.verpflegung] ?? "", ["unterkunft", "verpflegung"])}
+          ${fakt("Sprache", ENGLISCH[a.englisch] || a.englisch, "", ["englisch"])}
           ${fakt("Visum", VISUM[a.visum] || a.visum, [a.visum_regel_text, a.visum_text].filter(Boolean).join(" "))}
           ${fakt("Art", SPARTE[a.sparte] || a.sparte)}
         </dl>
@@ -433,7 +452,7 @@ function renderDurchgehen() {
           ${abschnitt("Was du dort machst", a.beschreibung)}
           ${abschnitt("Was du lernst", a.lernen)}
           ${abschnitt("Wo deine Technik hilft", a.beitrag)}
-          ${abschnitt("Voraussetzungen", a.voraussetzungen)}
+          ${abschnitt("Voraussetzungen", a.voraussetzungen, "", beleg("voraussetzungen"))}
           ${abschnitt("Haken", a.haken, "haken")}
           ${a.website_beschreibung ? `<div class="abschnitt"><h3>Von der Website</h3><p class="zitat">${esc(a.website_beschreibung)}</p></div>` : ""}
           ${abschnitt("Über den Ort", a.ort_info)}
@@ -541,7 +560,7 @@ document.addEventListener("change", (e) => {
   const t = e.target;
   const aktion = t.dataset.aktion;
   if (aktion === "land" || aktion === "sort") S.filter[aktion] = t.value;
-  else if (aktion === "nurUnbewertet" || aktion === "ausgeschlossene") S.filter[aktion] = t.checked;
+  else if (aktion === "nurUnbewertet" || aktion === "ausgeschlossene" || aktion === "geschlossene") S.filter[aktion] = t.checked;
   else return;
   speichereFilter();
   render();

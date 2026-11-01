@@ -28,7 +28,7 @@ def bewertung(key, passung_hoch=True, **felder):
 
 def schreibe(aus, kandidaten, cache, zustand, bewertungen=None):
     (aus / "kandidaten.json").write_text(json.dumps({"kandidaten": kandidaten}), encoding="utf-8")
-    (aus / "llm_cache").mkdir()
+    (aus / "llm_cache").mkdir(exist_ok=True)
     (aus / "llm_cache" / "demo.json").write_text(json.dumps(cache), encoding="utf-8")
     (aus / "zustand.json").write_text(json.dumps(zustand), encoding="utf-8")
     (aus / "bewertungen.json").write_text(json.dumps(bewertungen or {}), encoding="utf-8")
@@ -63,5 +63,16 @@ def test_alte_cache_eintraege_und_geschlossene_gemerkte(tmp_path):
              {"demo:1": zustand("demo:1"), "demo:9": zustand("demo:9", status="geschlossen")},
              {"demo-9": {"liked": True}})
     gesammelt, ausgabe = aufbereiten(tmp_path, wiki=lambda t: {"bilder": []})
-    assert gesammelt[0]["verpflegung"] == "ja" and len(gesammelt[0]["nicht_angegeben"]) == 7
+    assert gesammelt[0]["verpflegung"] == "ja" and gesammelt[0]["zitate"] is None and gesammelt[0]["nicht_angegeben"] == []
     assert ausgabe["geschlossen_gemerkt"] == [{"id": "demo-9", "key": "demo:9", "status": "geschlossen", "grund": None}]
+
+
+def test_geschlossene_bleiben_sichtbar(tmp_path):
+    schreibe(tmp_path, [kandidat("demo:1")], {"demo:1": bewertung("demo:1")}, {"demo:1": zustand("demo:1")})
+    aufbereiten(tmp_path, wiki=lambda t: {"bilder": []})
+    schreibe(tmp_path, [], {"demo:1": bewertung("demo:1")},
+             {"demo:1": {**zustand("demo:1", status="geschlossen"), "geschlossen_grund": "nicht mehr gelistet"}})
+    gesammelt, ausgabe = aufbereiten(tmp_path, wiki=lambda t: {"bilder": []})
+    assert [g["id"] for g in gesammelt] == ["demo-1"]
+    assert gesammelt[0]["zustand"]["status"] == "geschlossen" and gesammelt[0]["zustand"]["geschlossen_grund"] == "nicht mehr gelistet"
+    assert ausgabe["treffer"] == []

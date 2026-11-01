@@ -1,5 +1,5 @@
 {
- "datum": "2026-11-01T14:46:50+00:00",
+ "datum": "2026-11-01T14:55:25+00:00",
  "passung_min": 60,
  "treffer": [
   {
@@ -14,15 +14,7 @@
    "bezahlung": "lohn",
    "dauer_text": "Start sofort, Dauer nicht genannt, zählt für die 88 Tage.",
    "haken": "Start sofort; ob ein Platz im April–Juni frei ist, muss erfragt werden.",
-   "nicht_angegeben": [
-    "dauer",
-    "bezahlung",
-    "gebuehr",
-    "unterkunft",
-    "verpflegung",
-    "englisch",
-    "voraussetzungen"
-   ],
+   "nicht_angegeben": [],
    "inhalts_hash": "a64f896c95fadf56",
    "geaendert_felder": []
   },
@@ -38,15 +30,7 @@
    "bezahlung": "unterkunft_gegen_arbeit",
    "dauer_text": "Feldsaison Februar bis Mitte/Ende Juni 2027, Ende flexibel.",
    "haken": "Start Anfang Februar, also vor dem gewünschten Zeitraum, Felderfahrung (mindestens 1 Jahr) erwünscht, Flug selbst zu tragen.",
-   "nicht_angegeben": [
-    "dauer",
-    "bezahlung",
-    "gebuehr",
-    "unterkunft",
-    "verpflegung",
-    "englisch",
-    "voraussetzungen"
-   ],
+   "nicht_angegeben": [],
    "inhalts_hash": "5af277c3d65b0d2d",
    "geaendert_felder": []
   },
@@ -62,15 +46,7 @@
    "bezahlung": "unklar",
    "dauer_text": "Kurz- und Langzeitplätze, Aufenthalte bis nach März 2027.",
    "haken": "Kostenfrage unklar, Brutzeit liegt wohl eher vor dem gewünschten Zeitraum.",
-   "nicht_angegeben": [
-    "dauer",
-    "bezahlung",
-    "gebuehr",
-    "unterkunft",
-    "verpflegung",
-    "englisch",
-    "voraussetzungen"
-   ],
+   "nicht_angegeben": [],
    "inhalts_hash": "dded4b9c4660c563",
    "geaendert_felder": []
   },
@@ -86,15 +62,7 @@
    "bezahlung": "unklar",
    "dauer_text": "Kurz- und Langzeitplätze, Aufenthalte bis nach September 2027.",
    "haken": "Kostenfrage unklar, Brutzeit liegt wohl eher vor dem gewünschten Zeitraum.",
-   "nicht_angegeben": [
-    "dauer",
-    "bezahlung",
-    "gebuehr",
-    "unterkunft",
-    "verpflegung",
-    "englisch",
-    "voraussetzungen"
-   ],
+   "nicht_angegeben": [],
    "inhalts_hash": "a7e14095ba3cb454",
    "geaendert_felder": []
   },
@@ -110,15 +78,7 @@
    "bezahlung": "unterkunft_gegen_arbeit",
    "dauer_text": "3–4 Monate, sofortiger Start.",
    "haken": "Schafserfahrung ist laut Anzeige essenziell, 3–4 Monate sind an der Obergrenze, eigenes Auto zur Anreise nötig.",
-   "nicht_angegeben": [
-    "dauer",
-    "bezahlung",
-    "gebuehr",
-    "unterkunft",
-    "verpflegung",
-    "englisch",
-    "voraussetzungen"
-   ],
+   "nicht_angegeben": [],
    "inhalts_hash": "93f0448ae896417a",
    "geaendert_felder": []
   },
@@ -134,15 +94,7 @@
    "bezahlung": "lohn",
    "dauer_text": "Mindestens 2 Monate, Dauer verhandelbar.",
    "haken": "Nur eine Stelle, Arbeit ist eher Gartenpflege als Viehhaltung, eigene Anreise bis Quilpie oder Thargomindah.",
-   "nicht_angegeben": [
-    "dauer",
-    "bezahlung",
-    "gebuehr",
-    "unterkunft",
-    "verpflegung",
-    "englisch",
-    "voraussetzungen"
-   ],
+   "nicht_angegeben": [],
    "inhalts_hash": "b91c1123caa1f8eb",
    "geaendert_felder": []
   },
@@ -158,15 +110,7 @@
    "bezahlung": "lohn",
    "dauer_text": "Dauer nicht genannt, WHV-Bewerber willkommen.",
    "haken": "Erfahrung mit Schafen, Rindern oder Maschinen erwartet, eigenes Fahrzeug nötig, Kontaktangabe unvollständig.",
-   "nicht_angegeben": [
-    "dauer",
-    "bezahlung",
-    "gebuehr",
-    "unterkunft",
-    "verpflegung",
-    "englisch",
-    "voraussetzungen"
-   ],
+   "nicht_angegeben": [],
    "inhalts_hash": "41ffcf35fd63e4fd",
    "geaendert_felder": []
   },
@@ -182,15 +126,7 @@
    "bezahlung": "unklar",
    "dauer_text": "Anfang Dezember bis März, Verlängerung möglich.",
    "haken": "Zeitraum Dez-März passt nicht zu Apr-Jun, Lohn und Unterkunft ungeklärt, Regenzeit.",
-   "nicht_angegeben": [
-    "dauer",
-    "bezahlung",
-    "gebuehr",
-    "unterkunft",
-    "verpflegung",
-    "englisch",
-    "voraussetzungen"
-   ],
+   "nicht_angegeben": [],
    "inhalts_hash": "e8487fd7dcf2b381",
    "geaendert_felder": []
   },
@@ -206,15 +142,7 @@
    "bezahlung": "lohn",
    "dauer_text": "Weizenernte ab Oktober, Dauer im Anzeigentext nicht klar.",
    "haken": "Erntefenster Okt-Dez, Anzeige widersprüchlich (Start 2025/2026), eigenes Fahrzeug nötig.",
-   "nicht_angegeben": [
-    "dauer",
-    "bezahlung",
-    "gebuehr",
-    "unterkunft",
-    "verpflegung",
-    "englisch",
-    "voraussetzungen"
-   ],
+   "nicht_angegeben": [],
    "inhalts_hash": "05d9d7f4ac9864ca",
    "geaendert_felder": []
   },
@@ -230,15 +158,7 @@
    "bezahlung": "unklar",
    "dauer_text": "Keine Dauer genannt.",
    "haken": "Reiterfahrung mit Rindern wird verlangt, Dauer und Lohn unklar.",
-   "nicht_angegeben": [
-    "dauer",
-    "bezahlung",
-    "gebuehr",
-    "unterkunft",
-    "verpflegung",
-    "englisch",
-    "voraussetzungen"
-   ],
+   "nicht_angegeben": [],
    "inhalts_hash": "15ddab128f423324",
    "geaendert_felder": []
   },
@@ -254,15 +174,7 @@
    "bezahlung": "lohn",
    "dauer_text": "Beginn sofort oder nach Absprache, Dauer offen.",
    "haken": "Verlangt Kuherfahrung, Unterkunft unklar, Start wohl vor April.",
-   "nicht_angegeben": [
-    "dauer",
-    "bezahlung",
-    "gebuehr",
-    "unterkunft",
-    "verpflegung",
-    "englisch",
-    "voraussetzungen"
-   ],
+   "nicht_angegeben": [],
    "inhalts_hash": "05e494d5e5c2ffc5",
    "geaendert_felder": []
   },
@@ -278,15 +190,7 @@
    "bezahlung": "lohn",
    "dauer_text": "Befristete Baustelle, Dauer nicht genannt.",
    "haken": "Vorerfahrung wird verlangt, Dauer und Zeitraum unklar.",
-   "nicht_angegeben": [
-    "dauer",
-    "bezahlung",
-    "gebuehr",
-    "unterkunft",
-    "verpflegung",
-    "englisch",
-    "voraussetzungen"
-   ],
+   "nicht_angegeben": [],
    "inhalts_hash": "64aa70de16cfeaa3",
    "geaendert_felder": []
   },
@@ -302,15 +206,7 @@
    "bezahlung": "lohn",
    "dauer_text": "Dauer offen, Dauerstelle möglich, 88-Tage-Anrechnung.",
    "haken": "Keine Stundenangabe, kleine Gebühr für Strom und Gas bei der Unterkunft, Lage am Stadtrand von Geelong.",
-   "nicht_angegeben": [
-    "dauer",
-    "bezahlung",
-    "gebuehr",
-    "unterkunft",
-    "verpflegung",
-    "englisch",
-    "voraussetzungen"
-   ],
+   "nicht_angegeben": [],
    "inhalts_hash": "2879e3eb5a9bcce3",
    "geaendert_felder": []
   },
@@ -326,15 +222,7 @@
    "bezahlung": "unterkunft_gegen_arbeit",
    "dauer_text": "Dauer flexibel, nur Freiwilligenstelle.",
    "haken": "Unbezahlt, kleine Privatfarm, wenig Infos zur Dauer, keine formale Absicherung.",
-   "nicht_angegeben": [
-    "dauer",
-    "bezahlung",
-    "gebuehr",
-    "unterkunft",
-    "verpflegung",
-    "englisch",
-    "voraussetzungen"
-   ],
+   "nicht_angegeben": [],
    "inhalts_hash": "72128d198b33d16b",
    "geaendert_felder": []
   },
@@ -350,15 +238,7 @@
    "bezahlung": "lohn",
    "dauer_text": "Oktober und November, vielleicht Dezember 2026.",
    "haken": "Zeitraum nur Okt-Dez, Sydney ist teuer, wenig Informationen, kurze Auftragslage.",
-   "nicht_angegeben": [
-    "dauer",
-    "bezahlung",
-    "gebuehr",
-    "unterkunft",
-    "verpflegung",
-    "englisch",
-    "voraussetzungen"
-   ],
+   "nicht_angegeben": [],
    "inhalts_hash": "c00bc5ba4e06f1da",
    "geaendert_felder": []
   },
@@ -374,15 +254,7 @@
    "bezahlung": "lohn",
    "dauer_text": "Vollzeit oder Casual mit Aussicht auf Weiterbeschaeftigung, Dauer offen.",
    "haken": "Unterkunft und Lohn nicht genannt, Betrieb noch im Aufbau, Saison unklar.",
-   "nicht_angegeben": [
-    "dauer",
-    "bezahlung",
-    "gebuehr",
-    "unterkunft",
-    "verpflegung",
-    "englisch",
-    "voraussetzungen"
-   ],
+   "nicht_angegeben": [],
    "inhalts_hash": "889f281631f79414",
    "geaendert_felder": []
   },
@@ -398,15 +270,7 @@
    "bezahlung": "lohn",
    "dauer_text": "Vollzeit von Mai bis September, 3 bis 6 Monate.",
    "haken": "Sehr körperlich, Akkord, Saison geht bis September und ist länger als die 13 Wochen.",
-   "nicht_angegeben": [
-    "dauer",
-    "bezahlung",
-    "gebuehr",
-    "unterkunft",
-    "verpflegung",
-    "englisch",
-    "voraussetzungen"
-   ],
+   "nicht_angegeben": [],
    "inhalts_hash": "0ea092e6e9fb5dec",
    "geaendert_felder": []
   },
@@ -422,15 +286,7 @@
    "bezahlung": "lohn",
    "dauer_text": "Arbeitsblock von 2 bis 3 Monaten, danach evtl. Weiterbeschaeftigung, sofortiger Start.",
    "haken": "Unterkunft selbst zu organisieren, Perth ist teuer, Stelle ist eine Casual-Anstellung ohne Garantie.",
-   "nicht_angegeben": [
-    "dauer",
-    "bezahlung",
-    "gebuehr",
-    "unterkunft",
-    "verpflegung",
-    "englisch",
-    "voraussetzungen"
-   ],
+   "nicht_angegeben": [],
    "inhalts_hash": "67e4545ac6b1ab21",
    "geaendert_felder": []
   },
@@ -446,15 +302,7 @@
    "bezahlung": "unklar",
    "dauer_text": "3 bis 6 Monate ab September 2026.",
    "haken": "Länger als 12 Wochen angedacht, Lohn unklar, Angebot für 2026.",
-   "nicht_angegeben": [
-    "dauer",
-    "bezahlung",
-    "gebuehr",
-    "unterkunft",
-    "verpflegung",
-    "englisch",
-    "voraussetzungen"
-   ],
+   "nicht_angegeben": [],
    "inhalts_hash": "210066889cd42669",
    "geaendert_felder": []
   },
@@ -470,15 +318,7 @@
    "bezahlung": "lohn",
    "dauer_text": "Flexible Dauer, Arbeit nach Bedarf, 88-Tage-Visum moeglich.",
    "haken": "Kinderbetreuung ist Teil der Stelle, eigenes Fahrzeug Pflicht, Mischung aus Nanny- und Imkerarbeit.",
-   "nicht_angegeben": [
-    "dauer",
-    "bezahlung",
-    "gebuehr",
-    "unterkunft",
-    "verpflegung",
-    "englisch",
-    "voraussetzungen"
-   ],
+   "nicht_angegeben": [],
    "inhalts_hash": "3e49f8e9931b55df",
    "geaendert_felder": []
   },
@@ -494,15 +334,7 @@
    "bezahlung": "lohn",
    "dauer_text": "Projektbezogen, Dauer offen.",
    "haken": "Abgelegene Baustelle, Projektdauer und Lohn unklar, Angebot aus 2026.",
-   "nicht_angegeben": [
-    "dauer",
-    "bezahlung",
-    "gebuehr",
-    "unterkunft",
-    "verpflegung",
-    "englisch",
-    "voraussetzungen"
-   ],
+   "nicht_angegeben": [],
    "inhalts_hash": "0328efc4edd3395d",
    "geaendert_felder": []
   },
@@ -518,15 +350,7 @@
    "bezahlung": "lohn",
    "dauer_text": "Mindestens 3 Monate mit Verlängerungsoption; Start Oktober/November 2026.",
    "haken": "Mindestens 3 Monate und Start im Herbst 2026; Erfahrung vorausgesetzt.",
-   "nicht_angegeben": [
-    "dauer",
-    "bezahlung",
-    "gebuehr",
-    "unterkunft",
-    "verpflegung",
-    "englisch",
-    "voraussetzungen"
-   ],
+   "nicht_angegeben": [],
    "inhalts_hash": "7ede4c26e651c1af",
    "geaendert_felder": []
   },
@@ -542,15 +366,7 @@
    "bezahlung": "lohn",
    "dauer_text": "Erntesaison 12. Oktober bis 31. Dezember 2026, Verlängerung möglich.",
    "haken": "Zeitraum Okt-Dez passt nicht zu Apr-Jun, Handschaltung und Führerschein C nötig, Heuschnupfen-Staub.",
-   "nicht_angegeben": [
-    "dauer",
-    "bezahlung",
-    "gebuehr",
-    "unterkunft",
-    "verpflegung",
-    "englisch",
-    "voraussetzungen"
-   ],
+   "nicht_angegeben": [],
    "inhalts_hash": "39bd500a53b82199",
    "geaendert_felder": []
   },
@@ -566,15 +382,7 @@
    "bezahlung": "lohn",
    "dauer_text": "Für ein paar Monate, Beginn nach Absprache.",
    "haken": "Nur eine Stelle, abgelegen, Unterkunft nicht genannt; Angebot aus 2026.",
-   "nicht_angegeben": [
-    "dauer",
-    "bezahlung",
-    "gebuehr",
-    "unterkunft",
-    "verpflegung",
-    "englisch",
-    "voraussetzungen"
-   ],
+   "nicht_angegeben": [],
    "inhalts_hash": "84bba0135b44e6ea",
    "geaendert_felder": []
   },
@@ -590,15 +398,7 @@
    "bezahlung": "lohn",
    "dauer_text": "Zeitlich offen, Sponsoring für passende Personen möglich.",
    "haken": "Zwei Schichten am Tag, Erfahrung wird bevorzugt, Auto und Führerschein nötig.",
-   "nicht_angegeben": [
-    "dauer",
-    "bezahlung",
-    "gebuehr",
-    "unterkunft",
-    "verpflegung",
-    "englisch",
-    "voraussetzungen"
-   ],
+   "nicht_angegeben": [],
    "inhalts_hash": "fb8bd25070a0a21c",
    "geaendert_felder": []
   },
@@ -614,15 +414,7 @@
    "bezahlung": "lohn",
    "dauer_text": "Saison 3–6 Monate im Sommer 2026/27, Spitze mit über 50 Stunden pro Woche.",
    "haken": "Mindestens 3 Monate und Saisonende vermutlich vor dem Wunschzeitraum April–Juni; Unterkunft und eigenes Auto nötig.",
-   "nicht_angegeben": [
-    "dauer",
-    "bezahlung",
-    "gebuehr",
-    "unterkunft",
-    "verpflegung",
-    "englisch",
-    "voraussetzungen"
-   ],
+   "nicht_angegeben": [],
    "inhalts_hash": "b06a36a1a226c29d",
    "geaendert_felder": []
   },
@@ -638,15 +430,7 @@
    "bezahlung": "lohn",
    "dauer_text": "Als langfristige Stelle ausgeschrieben, Kurzeinsatz müsste geklärt werden.",
    "haken": "Als lange Festanstellung gedacht, Unterkunft und Lohn nicht genannt, 6-12 Wochen müssten verhandelt werden.",
-   "nicht_angegeben": [
-    "dauer",
-    "bezahlung",
-    "gebuehr",
-    "unterkunft",
-    "verpflegung",
-    "englisch",
-    "voraussetzungen"
-   ],
+   "nicht_angegeben": [],
    "inhalts_hash": "e9a83dd6bfa7434b",
    "geaendert_felder": []
   },
@@ -662,15 +446,7 @@
    "bezahlung": "lohn",
    "dauer_text": "3 bis 6 Monate ab Anfang November.",
    "haken": "Start November und 3 bis 6 Monate, eigenes Auto nötig, 20 km von der Stadt.",
-   "nicht_angegeben": [
-    "dauer",
-    "bezahlung",
-    "gebuehr",
-    "unterkunft",
-    "verpflegung",
-    "englisch",
-    "voraussetzungen"
-   ],
+   "nicht_angegeben": [],
    "inhalts_hash": "21552dd13e60a02d",
    "geaendert_felder": []
   },
@@ -686,15 +462,7 @@
    "bezahlung": "lohn",
    "dauer_text": "Start sofort, Dauer nicht genannt.",
    "haken": "Frühe Schichten, Lohn offen und Start sofort; Zeitraum muss geklärt werden.",
-   "nicht_angegeben": [
-    "dauer",
-    "bezahlung",
-    "gebuehr",
-    "unterkunft",
-    "verpflegung",
-    "englisch",
-    "voraussetzungen"
-   ],
+   "nicht_angegeben": [],
    "inhalts_hash": "0c1e5eebe5036be4",
    "geaendert_felder": []
   },
@@ -710,15 +478,7 @@
    "bezahlung": "lohn",
    "dauer_text": "Offene Stelle für Backpacker, Dauer nicht festgelegt.",
    "haken": "Unterkunft selbst organisieren, Toowoomba ist kleinstädtisch, kein Abenteuer-Setting.",
-   "nicht_angegeben": [
-    "dauer",
-    "bezahlung",
-    "gebuehr",
-    "unterkunft",
-    "verpflegung",
-    "englisch",
-    "voraussetzungen"
-   ],
+   "nicht_angegeben": [],
    "inhalts_hash": "3d4f73ab76fa32ee",
    "geaendert_felder": []
   },
@@ -734,15 +494,7 @@
    "bezahlung": "unklar",
    "dauer_text": "Keine Dauer genannt, Stelle wirkt wie eine laengere Anstellung.",
    "haken": "Gesucht wird ein Paar, Dauer und Lohn sind unklar und ein Auto waere hilfreich.",
-   "nicht_angegeben": [
-    "dauer",
-    "bezahlung",
-    "gebuehr",
-    "unterkunft",
-    "verpflegung",
-    "englisch",
-    "voraussetzungen"
-   ],
+   "nicht_angegeben": [],
    "inhalts_hash": "c7631089b1936258",
    "geaendert_felder": []
   },
@@ -758,15 +510,7 @@
    "bezahlung": "unklar",
    "dauer_text": "Befristete Stelle, Dauer nicht genannt.",
    "haken": "Unterkunft und Lohn unklar, Dauer offen.",
-   "nicht_angegeben": [
-    "dauer",
-    "bezahlung",
-    "gebuehr",
-    "unterkunft",
-    "verpflegung",
-    "englisch",
-    "voraussetzungen"
-   ],
+   "nicht_angegeben": [],
    "inhalts_hash": "5d943fd8fa59c7b1",
    "geaendert_felder": []
   }

@@ -37,13 +37,21 @@ def lies_cache(aus_ordner):
     return cache
 
 
+def zustand_kurz(z):
+    return {"erstmals_gesehen": z["erstmals_gesehen"], "zuletzt_gesehen": z["zuletzt_gesehen"], "status": z["status"],
+            "geschlossen_grund": z.get("geschlossen_grund"), "aenderungen": z.get("aenderungen", [])[-5:]}
+
+
 def zusammenfuehren(a, b, z):
     """Kandidat + KI-Bewertung + Zustand → Angebot im Format der App."""
     angebot = {k: v for k, v in b.items() if k not in ("id", "relevant", "inhalts_hash", "profil_hash")}
     if isinstance(angebot.get("verpflegung"), bool):  # alte Cache-Einträge ohne Zitate
         angebot["verpflegung"] = "ja" if angebot["verpflegung"] else "nein"
-    angebot["zitate"] = {f: (b.get("zitate") or {}).get(f) for f in ZITATFELDER}
-    angebot["nicht_angegeben"] = [f for f in ZITATFELDER if not angebot["zitate"][f]]
+    if "zitate" in b:  # neue Bewertungen tragen Belege; alte ohne Zitate zeigen keine Hinweise
+        angebot["zitate"] = {f: (b["zitate"] or {}).get(f) for f in ZITATFELDER}
+        angebot["nicht_angegeben"] = [f for f in ZITATFELDER if not angebot["zitate"][f]]
+    else:
+        angebot["zitate"], angebot["nicht_angegeben"] = None, []
     angebot.update({
         "id": a["key"].replace(":", "-", 1), "key": a["key"], "organisation": a["organisation"] or "Unbekannt",
         "sparte": "ausschreibung", "land": a["land"], "land_code": a["land_code"],
@@ -51,8 +59,7 @@ def zusammenfuehren(a, b, z):
         "status": "automatisch", "quelle": QUELLNAMEN.get(a["quelle"], a["quelle"]),
         "veroeffentlicht": a["veroeffentlicht"], "frist": a["frist"], "originaltitel": a["titel"],
         "abgerufen": a.get("abgerufen"), "inhalts_hash": a["inhalts_hash"],
-        "zustand": {"erstmals_gesehen": z["erstmals_gesehen"], "zuletzt_gesehen": z["zuletzt_gesehen"],
-                    "status": z["status"], "aenderungen": z.get("aenderungen", [])[-5:]},
+        "zustand": zustand_kurz(z),
     })
     return angebot
 
@@ -82,6 +89,12 @@ def aufbereiten(aus_ordner=AUS, profil=None, wiki=wiki_infos):
             except Exception:
                 pass  # ohne Ortsbild weiter
         gesammelt.append(angebot)
+    # Geschlossene Angebote sind keine Kandidaten mehr, bleiben aber mit ihrem letzten Stand sichtbar.
+    ids = {g["id"] for g in gesammelt}
+    for gid, alt in vorher.items():
+        z = zustand.get(alt.get("key"))
+        if gid not in ids and z and z["status"] == "geschlossen":
+            gesammelt.append({**alt, "zustand": zustand_kurz(z)})
     bewerte(gesammelt, profil)
 
     schwelle = profil.get("benachrichtigung", {}).get("passung_min", 60)
@@ -90,7 +103,7 @@ def aufbereiten(aus_ordner=AUS, profil=None, wiki=wiki_infos):
                 "bezahlung": g.get("bezahlung"), "dauer_text": g.get("dauer_text"), "haken": g.get("haken"),
                 "nicht_angegeben": g["nicht_angegeben"], "inhalts_hash": g["inhalts_hash"],
                 "geaendert_felder": sorted({ae["feld"] for ae in g["zustand"]["aenderungen"]})}
-               for g in gesammelt if g["passung"] >= schwelle and not g["ausschluss"]]
+               for g in gesammelt if g["passung"] >= schwelle and not g["ausschluss"] and g["zustand"]["status"] == "offen"]
     geschlossen_gemerkt = [{"id": gid, "key": key, "status": z["status"], "grund": z.get("geschlossen_grund")}
                            for key, z in zustand.items() if z["status"] == "geschlossen"
                            for gid in [key.replace(":", "-", 1)] if bewertungen.get(gid, {}).get("liked")]

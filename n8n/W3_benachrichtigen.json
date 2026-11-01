@@ -1,0 +1,349 @@
+{
+  "name": "Auslandsjob W3 Benachrichtigen",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "auslandsjob-benachrichtigen",
+        "authentication": "headerAuth",
+        "responseMode": "onReceived",
+        "options": {}
+      },
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        200
+      ],
+      "credentials": {
+        "httpHeaderAuth": {
+          "name": "Auftrag-Secret (X-Auftrag-Secret)"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "a0",
+              "name": "owner",
+              "value": "LeonTheGoatRohrer",
+              "type": "string"
+            },
+            {
+              "id": "a1",
+              "name": "repo",
+              "value": "Auslandsjob-Hilfe",
+              "type": "string"
+            },
+            {
+              "id": "a2",
+              "name": "branch",
+              "value": "main",
+              "type": "string"
+            },
+            {
+              "id": "a3",
+              "name": "telegram_chat_id",
+              "value": "DEINE_TELEGRAM_CHAT_ID",
+              "type": "string"
+            },
+            {
+              "id": "a4",
+              "name": "max_treffer",
+              "value": 10,
+              "type": "number"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "name": "Konfiguration",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        220,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "=https://api.github.com/repos/{{ $('Konfiguration').first().json.owner }}/{{ $('Konfiguration').first().json.repo }}/contents/daten/aufbereitet/treffer.json?ref={{ $('Konfiguration').first().json.branch }}",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Accept",
+              "value": "application/vnd.github.raw+json"
+            },
+            {
+              "name": "X-GitHub-Api-Version",
+              "value": "2022-11-28"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 60000,
+          "response": {
+            "response": {
+              "responseFormat": "json"
+            }
+          }
+        }
+      },
+      "name": "Treffer lesen",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        440,
+        200
+      ],
+      "credentials": {
+        "httpHeaderAuth": {
+          "name": "GitHub PAT (Authorization)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 10000
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "=https://api.github.com/repos/{{ $('Konfiguration').first().json.owner }}/{{ $('Konfiguration').first().json.repo }}/contents/daten/aufbereitet/benachrichtigt.json?ref={{ $('Konfiguration').first().json.branch }}",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Accept",
+              "value": "application/vnd.github+json"
+            },
+            {
+              "name": "X-GitHub-Api-Version",
+              "value": "2022-11-28"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 60000
+        }
+      },
+      "name": "Gemeldete lesen",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        660,
+        200
+      ],
+      "credentials": {
+        "httpHeaderAuth": {
+          "name": "GitHub PAT (Authorization)"
+        }
+      },
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Nur melden, was noch nicht gemeldet wurde: neue Treffer, geänderte Treffer (anderer Inhalts-Hash), geschlossene Gemerkte.\nconst cfg = $('Konfiguration').first().json;\nconst treffer = $('Treffer lesen').first().json;\nconst alt = $input.first().json;\nconst gemeldet = alt.error || !alt.content ? {} : JSON.parse(Buffer.from(alt.content, 'base64').toString('utf8'));\nconst jetzt = new Date().toISOString();\nconst neu = [], geaendert = [], geschlossen = [];\nfor (const t of treffer.treffer) {\n  const g = gemeldet[t.id];\n  if (!g) neu.push(t); else if (g.inhalts_hash !== t.inhalts_hash) geaendert.push(t);\n  gemeldet[t.id] = { inhalts_hash: t.inhalts_hash, gemeldet_am: g && g.inhalts_hash === t.inhalts_hash ? g.gemeldet_am : jetzt };\n}\nfor (const s of treffer.geschlossen_gemerkt) {\n  const g = gemeldet[s.id] || {};\n  if (!g.geschlossen_gemeldet) { geschlossen.push(s); gemeldet[s.id] = { ...g, geschlossen_gemeldet: jetzt }; }\n}\nconst zeile = t => '• ' + t.titel + ' – ' + t.organisation + ' (' + (t.ort ? t.ort + ', ' : '') + t.land + '), Passung ' + t.passung +\n  (t.bezahlung ? ', ' + t.bezahlung.replace(/_/g, ' ') : '') + (t.dauer_text ? ', ' + t.dauer_text : '') +\n  (t.nicht_angegeben.length ? '\\n   nicht angegeben: ' + t.nicht_angegeben.join(', ') : '') +\n  (t.haken ? '\\n   Haken: ' + t.haken : '') + '\\n   ' + t.url;\nconst max = Number(cfg.max_treffer);\nconst teile = [];\nif (neu.length) teile.push('🆕 ' + neu.length + ' neue Treffer ab Passung ' + treffer.passung_min + ':\\n' + neu.slice(0, max).map(zeile).join('\\n') + (neu.length > max ? '\\n… und ' + (neu.length - max) + ' weitere in der App' : ''));\nif (geaendert.length) teile.push('✏️ ' + geaendert.length + ' geänderte Treffer:\\n' + geaendert.slice(0, max).map(t => zeile(t) + (t.geaendert_felder.length ? '\\n   geändert: ' + t.geaendert_felder.join(', ') : '')).join('\\n'));\nif (geschlossen.length) teile.push('🔒 Gemerkte Angebote geschlossen:\\n' + geschlossen.map(s => '• ' + s.id + (s.grund ? ' (' + s.grund + ')' : '')).join('\\n'));\nconst text = teile.join('\\n\\n');\nreturn [{ json: { senden: teile.length > 0, text, anzahl: neu.length + geaendert.length + geschlossen.length,\n  sha: alt.sha || null, content_b64: Buffer.from(JSON.stringify(gemeldet, null, 1)).toString('base64') } }];",
+        "mode": "runOnceForAllItems"
+      },
+      "name": "Auswählen und Text bauen",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        880,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose"
+          },
+          "conditions": [
+            {
+              "id": "c1",
+              "leftValue": "={{ $json.senden }}",
+              "rightValue": "",
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "name": "Etwas zu melden?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        1100,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $('Konfiguration').first().json.telegram_chat_id }}",
+        "text": "={{ $json.text }}",
+        "additionalFields": {
+          "appendAttribution": false,
+          "disable_web_page_preview": true
+        }
+      },
+      "name": "Telegram senden",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        1340,
+        100
+      ],
+      "credentials": {
+        "telegramApi": {
+          "name": "Telegram Bot"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 10000
+    },
+    {
+      "parameters": {
+        "method": "PUT",
+        "url": "=https://api.github.com/repos/{{ $('Konfiguration').first().json.owner }}/{{ $('Konfiguration').first().json.repo }}/contents/daten/aufbereitet/benachrichtigt.json",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Accept",
+              "value": "application/vnd.github+json"
+            },
+            {
+              "name": "X-GitHub-Api-Version",
+              "value": "2022-11-28"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 60000
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ message: 'Benachrichtigt: ' + $('Auswählen und Text bauen').first().json.anzahl + ' Treffer', content: $('Auswählen und Text bauen').first().json.content_b64, branch: $('Konfiguration').first().json.branch, ...($('Auswählen und Text bauen').first().json.sha ? { sha: $('Auswählen und Text bauen').first().json.sha } : {}) }) }}"
+      },
+      "name": "Gemeldete schreiben",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1580,
+        100
+      ],
+      "credentials": {
+        "httpHeaderAuth": {
+          "name": "GitHub PAT (Authorization)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 10000
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Konfiguration",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Konfiguration": {
+      "main": [
+        [
+          {
+            "node": "Treffer lesen",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Treffer lesen": {
+      "main": [
+        [
+          {
+            "node": "Gemeldete lesen",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Gemeldete lesen": {
+      "main": [
+        [
+          {
+            "node": "Auswählen und Text bauen",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Auswählen und Text bauen": {
+      "main": [
+        [
+          {
+            "node": "Etwas zu melden?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Etwas zu melden?": {
+      "main": [
+        [
+          {
+            "node": "Telegram senden",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        []
+      ]
+    },
+    "Telegram senden": {
+      "main": [
+        [
+          {
+            "node": "Gemeldete schreiben",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Europe/Vienna"
+  }
+}

@@ -37,24 +37,8 @@
    "realisierbarkeit": 7
   },
   "warum": "Echte Outback-Station mit Lohn, Kost und Logis in völliger Abgeschiedenheit und genau der gesuchten Handarbeit.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-123961",
   "key": "backpacker:123961",
   "organisation": "Hudson",
@@ -76,6 +60,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -132,24 +117,8 @@
    "realisierbarkeit": 4
   },
   "warum": "Echte Forschung im australischen Outback ohne Gebühr, nur das Datum und die geforderte Felderfahrung sind Hürden.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "tamu-119379",
   "key": "tamu:119379",
   "organisation": "Monash University",
@@ -171,6 +140,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [],
@@ -221,24 +191,8 @@
    "realisierbarkeit": 6
   },
   "warum": "Echte Langzeitforschung mitten im Amazonas, mit Seilklettern und Lagerleben, nur die Kosten und die Saison sind offen.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "tamu-116895",
   "key": "tamu:116895",
   "organisation": "The Macaw Society",
@@ -260,6 +214,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -315,24 +270,8 @@
    "realisierbarkeit": 6
   },
   "warum": "Echte Langzeitforschung mitten im Amazonas, mit Seilklettern und Lagerleben, nur die Kosten und die Saison sind offen.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "tamu-98847",
   "key": "tamu:98847",
   "organisation": "The Macaw Society",
@@ -354,6 +293,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -408,24 +348,8 @@
    "realisierbarkeit": 3
   },
   "warum": "Echtes Outback-Stationsleben mit Technikbezug, aber die Schafserfahrung ist eine Hürde.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-124162",
   "key": "backpacker:124162",
   "organisation": "Arubiddy Sheep Station",
@@ -447,6 +371,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -503,24 +428,8 @@
    "realisierbarkeit": 8
   },
   "warum": "Zwei Monate auf einer sehr abgelegenen Kidman-Station mit Kost, Logis und Lohn passt hervorragend zum gesuchten Outback-Erlebnis.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-123023",
   "key": "backpacker:123023",
   "organisation": "S.Kidman & Co Pty Ltd",
@@ -542,6 +451,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -597,24 +507,8 @@
    "realisierbarkeit": 6
   },
   "warum": "Echte Farmarbeit auf einer abgelegenen Insel mit Unterkunft und Lohn.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-123618",
   "key": "backpacker:123618",
   "organisation": "Growth Farms",
@@ -636,6 +530,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -692,24 +587,8 @@
    "realisierbarkeit": 5
   },
   "warum": "Echte Outback-Rinderstation mit Mustering und Bauprojekten, genau die gesuchte Art Arbeit, nur Saison und Konditionen müssten geklärt werden.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-123439",
   "key": "backpacker:123439",
   "organisation": "Porcpine QLD",
@@ -731,6 +610,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -786,24 +666,8 @@
    "realisierbarkeit": 4
   },
   "warum": "Echte Outback-Farmarbeit mit Maschinen und Familienanschluss, nur der Erntezeitraum passt nicht.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-123637",
   "key": "backpacker:123637",
   "organisation": "Ironbark L&G",
@@ -825,6 +689,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -877,24 +742,8 @@
    "realisierbarkeit": 4
   },
   "warum": "Echte Outback-Stationsarbeit mit Pferden und Rindern, sehr passend, wenn die Reiterfahrung irgendwie reicht.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-123257",
   "key": "backpacker:123257",
   "organisation": "Gingie Pastoral company",
@@ -916,6 +765,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -969,24 +819,8 @@
    "realisierbarkeit": 3
   },
   "warum": "Abgelegene Sami-Region mit echter Hofarbeit, aber Erfahrung mit Kühen nötig.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "nav-00dad68a-39da-4f2e-9835-592569a6aa6c",
   "key": "nav:00dad68a-39da-4f2e-9835-592569a6aa6c",
   "organisation": "Tanya Elisabeth Grønvold",
@@ -1008,6 +842,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [],
@@ -1056,24 +891,8 @@
    "realisierbarkeit": 5
   },
   "warum": "Abgelegene Inselbaustelle mit Flug, Kost und Logis und gutem Lohn, sehr erzählenswert.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-122467",
   "key": "backpacker:122467",
   "organisation": "Somerset Building Pty Ltd",
@@ -1095,6 +914,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [],
@@ -1142,24 +962,8 @@
    "realisierbarkeit": 7
   },
   "warum": "Echte Aquakultur mit Bootsarbeit und Unterkunft auf dem Betrieb, sehr gutes Profil.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-124140",
   "key": "backpacker:124140",
   "organisation": "Advance Mussel Supply",
@@ -1181,6 +985,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -1237,24 +1042,8 @@
    "realisierbarkeit": 7
   },
   "warum": "Enger Kontakt zu einem Einheimischen und echtes Bauhandwerk gegen Kost und Logis.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-123727",
   "key": "backpacker:123727",
   "organisation": "christensen",
@@ -1276,6 +1065,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -1332,24 +1122,8 @@
    "realisierbarkeit": 5
   },
   "warum": "Solartechnik im Outback von Alice Springs, ideal für Technik-Beitrag, aber Dauer und Konditionen offen.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-124050",
   "key": "backpacker:124050",
   "organisation": "EcoEnergy Australia",
@@ -1371,6 +1145,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -1430,24 +1205,8 @@
    "realisierbarkeit": 6
   },
   "warum": "Echte Restaurierungsarbeit an einem historischen Schiff in kleinem Team, leider zeitlich befristet.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-117510",
   "key": "backpacker:117510",
   "organisation": "David Williams",
@@ -1469,6 +1228,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -1522,24 +1282,8 @@
    "realisierbarkeit": 6
   },
   "warum": "Landwirtschaft im Zentrum Australiens, wo man Bewaesserung und Technik wirklich einbringen kann.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-123179",
   "key": "backpacker:123179",
   "organisation": "BT Harvest Solution",
@@ -1561,6 +1305,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -1617,24 +1362,8 @@
    "realisierbarkeit": 7
   },
   "warum": "Echte, bezahlte Arbeit im Freien in Nordschweden mit Unterkunft, ohne Vorkenntnisse machbar und fürs Zeitfenster passend.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "jobtech-31642097",
   "key": "jobtech:31642097",
   "organisation": "Håxås Skogstjänst AB",
@@ -1656,6 +1385,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -1713,24 +1443,8 @@
    "realisierbarkeit": 5
   },
   "warum": "Seltene Kombination aus Lehmbau-Handwerk und Feldforschung im Nebelwald, wenn auch gegen Unterkunftskosten.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "tamu-118163",
   "key": "tamu:118163",
   "organisation": "Chirripó Oasis",
@@ -1752,6 +1466,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -1809,24 +1524,8 @@
    "realisierbarkeit": 8
   },
   "warum": "Echte Naturschutzarbeit bei einem indigenen Betrieb mit passender Dauer von 2 bis 3 Monaten.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-119569",
   "key": "backpacker:119569",
   "organisation": "Aboriginal Landcare (Ngala Boodja) Pty Ltd",
@@ -1848,6 +1547,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -1904,24 +1604,8 @@
    "realisierbarkeit": 5
   },
   "warum": "Kleiner Bio-Betrieb mit echter Arbeit, Lernpotenzial und Raum für Technik.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-106570",
   "key": "backpacker:106570",
   "organisation": "Penobscot Farm / Watervale Hotel",
@@ -1943,6 +1627,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -1997,24 +1682,8 @@
    "realisierbarkeit": 6
   },
   "warum": "Gut bezahlte Imkerei in einer besonderen Landschaft, bei der Sensorik wirklich nuetzlich sein koennte, wenn die Nanny-Anteile passen.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-122519",
   "key": "backpacker:122519",
   "organisation": "Coorong Apiaries",
@@ -2036,6 +1705,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -2089,24 +1759,8 @@
    "realisierbarkeit": 6
   },
   "warum": "Solar-Baustelle mit freier Unterkunft und Verpflegung, ideal für Technikhintergrund.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-122575",
   "key": "backpacker:122575",
   "organisation": "Solar X",
@@ -2128,6 +1782,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -2183,24 +1838,8 @@
    "realisierbarkeit": 3
   },
   "warum": "Authentische Großfarm mit Viehtrieb und Maschinen, aber Mindestdauer und Startdatum sind schwierig.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-120141",
   "key": "backpacker:120141",
   "organisation": "WEBSTER PASTORAL COMPANY",
@@ -2222,6 +1861,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -2278,24 +1918,8 @@
    "realisierbarkeit": 4
   },
   "warum": "Abwechslungsreiche Mitarbeit in einem echten Familienbetrieb mit Unterkunft und Essen, nur der Erntezeitraum weicht ab.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-123501",
   "key": "backpacker:123501",
   "organisation": "Precision Olive Harvesting",
@@ -2317,6 +1941,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -2372,24 +1997,8 @@
    "realisierbarkeit": 6
   },
   "warum": "Echte Farm im Outback-Umfeld, mit Tieren und Maschinen, Dauer passt gut.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-122870",
   "key": "backpacker:122870",
   "organisation": "Hillcrest Rand Farming",
@@ -2411,6 +2020,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -2466,24 +2076,8 @@
    "realisierbarkeit": 6
   },
   "warum": "Echte Farmarbeit im Familienbetrieb mit guter Bezahlung und günstiger Unterkunft.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-123737",
   "key": "backpacker:123737",
   "organisation": "Farm Profits",
@@ -2505,6 +2099,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -2561,24 +2156,8 @@
    "realisierbarkeit": 4
   },
   "warum": "Echte Großfarm-Arbeit mit Maschinen und Bewässerung, aber Dauer und Saison passen nur grob zum Zeitfenster.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-121189",
   "key": "backpacker:121189",
   "organisation": "Carrington Cotton Group (RMI Pty Ltd)",
@@ -2600,6 +2179,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -2653,24 +2233,8 @@
    "realisierbarkeit": 4
   },
   "warum": "Echte, tägliche Milchviehhaltung in der Landschaft der Snowy Mountains mit Technikbezug, aber Langzeit-Ausrichtung.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-123504",
   "key": "backpacker:123504",
   "organisation": "Neville Olivia Nugent Family Trust",
@@ -2692,6 +2256,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -2747,24 +2312,8 @@
    "realisierbarkeit": 4
   },
   "warum": "Großer Ackerbaubetrieb mit Maschinen und Bewässerung, gute Lernchance, Zeitraum müsste für 2027 passen.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-124209",
   "key": "backpacker:124209",
   "organisation": "Sigma Farming",
@@ -2786,6 +2335,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [],
@@ -2836,24 +2386,8 @@
    "realisierbarkeit": 2
   },
   "warum": "Echte Milchfarmarbeit in schöner Berglandschaft mit Auto und Haus, aber Dauer müsste verhandelt werden.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-86832",
   "key": "backpacker:86832",
   "organisation": "Nariel Ag",
@@ -2875,6 +2409,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -2929,24 +2464,8 @@
    "realisierbarkeit": 6
   },
   "warum": "Echter Milchbetrieb mit Wohnmöglichkeit und viel Handwerk, aber wenig Außergewöhnliches.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-123802",
   "key": "backpacker:123802",
   "organisation": "Mannagum Dairy Co",
@@ -2968,6 +2487,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -3024,24 +2544,8 @@
    "realisierbarkeit": 8
   },
   "warum": "Seltene Chance, ein hochwertiges Handwerk mit Technikbezug zu lernen, bezahlt und ohne Vorkenntnisse.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-123755",
   "key": "backpacker:123755",
   "organisation": "LSM Advanced Composites",
@@ -3063,6 +2567,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -3116,24 +2621,8 @@
    "realisierbarkeit": 5
   },
   "warum": "Echte Farm- und Handwerksarbeit mit Unterkunft, aber das Paar-Profil und die unklare Dauer machen es unsicher.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-123274",
   "key": "backpacker:123274",
   "organisation": "Stoneridge Pastoral Company",
@@ -3155,6 +2644,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "visum": "working_holiday_nötig",
@@ -3199,24 +2689,8 @@
    "realisierbarkeit": 6
   },
   "warum": "Echte Werkstattarbeit nahe Daintree-Regenwald, in der Technikwissen gut genutzt werden kann.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-122294",
   "key": "backpacker:122294",
   "organisation": "MCGROUP",
@@ -3238,6 +2712,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -3290,24 +2765,8 @@
    "realisierbarkeit": 5
   },
   "warum": "Technikaffine Großfarm-Arbeit mit Training und Unterkunft.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-123609",
   "key": "backpacker:123609",
   "organisation": "Growth Farms Australia",
@@ -3329,6 +2788,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -3384,24 +2844,8 @@
    "realisierbarkeit": 6
   },
   "warum": "Echte bezahlte Farmarbeit, aber ein recht gewöhnlicher Job ohne besonderes Abenteuer und mit Visum-Aufwand.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-121436",
   "key": "backpacker:121436",
   "organisation": "H & L & C Shera-Jones",
@@ -3423,6 +2867,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -3478,24 +2923,8 @@
    "realisierbarkeit": 4
   },
   "warum": "Echte Feldarbeit mit Lohn und Hofunterkunft, aber Erfahrung und Saisonlänge zu klären.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "nav-a462d59f-f3c0-4038-a138-13da52e62e49",
   "key": "nav:a462d59f-f3c0-4038-a138-13da52e62e49",
   "organisation": "Holsfjorden Produkter Da",
@@ -3517,6 +2946,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -3574,24 +3004,8 @@
    "realisierbarkeit": 3
   },
   "warum": "Echte Farmarbeit mit viel Maschinenkunde, aber zeitlich viel länger als das Wunschfenster.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-124280",
   "key": "backpacker:124280",
   "organisation": "Ackley Farms Seed Potatoes",
@@ -3613,6 +3027,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -3667,24 +3082,8 @@
    "realisierbarkeit": 5
   },
   "warum": "Echte Aquakulturarbeit mit Händen, aber Teilzeit und Auto-Pflicht schränken die Machbarkeit ein.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-124193",
   "key": "backpacker:124193",
   "organisation": "Trinity Bay Barramundi",
@@ -3706,6 +3105,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -3759,24 +3159,8 @@
    "realisierbarkeit": 7
   },
   "warum": "Gut bezahlte echte Anbauarbeit mit Erntestellen ab April 2027, passend im Zeitfenster.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-123818",
   "key": "backpacker:123818",
   "organisation": "Ecs botanics",
@@ -3798,6 +3182,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -3853,24 +3238,8 @@
    "realisierbarkeit": 4
   },
   "warum": "Echte Familienfarm-Arbeit mit Lohn und Unterkunft, aber Saison liegt vor dem Wunschzeitraum.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-123772",
   "key": "backpacker:123772",
   "organisation": "Heverle Pastoral Co",
@@ -3892,6 +3261,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [],
@@ -3942,24 +3312,8 @@
    "realisierbarkeit": 5
   },
   "warum": "Echte Outback-Tierarbeit mit freier Unterkunft, Auto und Erfahrung sind Hürden.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-122800",
   "key": "backpacker:122800",
   "organisation": "Bunnaloo Pastoral Company",
@@ -3981,6 +3335,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -4036,24 +3391,8 @@
    "realisierbarkeit": 6
   },
   "warum": "Echte, harte Farmarbeit mit Einarbeitung, Dauer evtl. verhandelbar auf 3 Monate.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-124226",
   "key": "backpacker:124226",
   "organisation": "Mundoolun Dairying",
@@ -4075,6 +3414,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -4125,24 +3465,8 @@
    "realisierbarkeit": 6
   },
   "warum": "Solide echte Farmarbeit mit Unterkunft vor Ort, aber wenig außergewöhnlich.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-124185",
   "key": "backpacker:124185",
   "organisation": "Lincoln Dare Family Trust",
@@ -4164,6 +3488,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "visum": "working_holiday_nötig",
@@ -4209,24 +3534,8 @@
    "realisierbarkeit": 5
   },
   "warum": "Echte Feld- und Umweltarbeit auf dem Land, bezahlt, aber mit Scheinen und Auswärtsdienst verbunden.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-103611",
   "key": "backpacker:103611",
   "organisation": "TMC Enviro",
@@ -4248,6 +3557,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -4300,24 +3610,8 @@
    "realisierbarkeit": 6
   },
   "warum": "Echte Farmarbeit in einem Familienbetrieb, aber wenig aussergewoehnlich.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-123157",
   "key": "backpacker:123157",
   "organisation": "J&E Gardner",
@@ -4339,6 +3633,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -4392,24 +3687,8 @@
    "realisierbarkeit": 6
   },
   "warum": "Echtes Handwerk mit Elektrik, bei dem die HTL-Kenntnisse helfen, wenn auch ohne Outback-Reiz.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-118077",
   "key": "backpacker:118077",
   "organisation": "Travellers Autobarn",
@@ -4431,6 +3710,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -4485,24 +3765,8 @@
    "realisierbarkeit": 4
   },
   "warum": "Vielseitige Wartungsarbeit in den Bergen mit Unterkunft, aber Saison und Resortcharakter sind Fragezeichen.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-123056",
   "key": "backpacker:123056",
   "organisation": "Corin Forest Mountain Resort",
@@ -4524,6 +3788,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [],
@@ -4571,24 +3836,8 @@
    "realisierbarkeit": 5
   },
   "warum": "Echter Kleinbetrieb mit reisender Crew auf Farmen, Unterkunft inklusive, praktische Maschinenarbeit.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-122923",
   "key": "backpacker:122923",
   "organisation": "Aussie Drain PL",
@@ -4610,6 +3859,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -4663,24 +3913,8 @@
    "realisierbarkeit": 6
   },
   "warum": "Echte, tarifvergütete Hofarbeit auf einer Permakulturfarm in Tasmanien, wenn Zeitraum und Unterkunft passen.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-122170",
   "key": "backpacker:122170",
   "organisation": "Tagari Publications",
@@ -4702,6 +3936,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -4755,24 +3990,8 @@
    "realisierbarkeit": 8
   },
   "warum": "Kost und Logis ohne Gebühr, Farmfähigkeiten und ein Aquaponik-System, an dem man Technik einbringen kann.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-123973",
   "key": "backpacker:123973",
   "organisation": "Huisman",
@@ -4794,6 +4013,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -4847,24 +4067,8 @@
    "realisierbarkeit": 5
   },
   "warum": "Echtes Boots-Handwerk in Tropennähe, Details müssen aber erst geklärt werden.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-123728",
   "key": "backpacker:123728",
   "organisation": "COLIN WHEATLEY FIBREGLASSING",
@@ -4886,6 +4090,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -4938,24 +4143,8 @@
    "realisierbarkeit": 5
   },
   "warum": "Vielseitige kleine Farm mit freier Unterkunft, aber Details muessten erfragt werden.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-123116",
   "key": "backpacker:123116",
   "organisation": "J Winslow",
@@ -4977,6 +4166,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -5030,24 +4220,8 @@
    "realisierbarkeit": 6
   },
   "warum": "Einmalige Lage auf der Sandinsel K'gari mit freier Kost und Logis und breitem Haustechnik-Einsatz.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-122238",
   "key": "backpacker:122238",
   "organisation": "Frazer Island Retreat",
@@ -5069,6 +4243,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -5121,24 +4296,8 @@
    "realisierbarkeit": 4
   },
   "warum": "Echte Farmarbeit mit Maschinen, aber zu knappe Angaben; nachfragen lohnt sich, falls die Saison passt.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-123923",
   "key": "backpacker:123923",
   "organisation": "Bam Group",
@@ -5160,6 +4319,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [],
@@ -5210,24 +4370,8 @@
    "realisierbarkeit": 4
   },
   "warum": "Echte Outback-Farmarbeit ohne Vorkenntnisse, aber Saison endet vor dem Wunschzeitraum.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-122304",
   "key": "backpacker:122304",
   "organisation": "JM COTTON & AG",
@@ -5249,6 +4393,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [],
@@ -5296,24 +4441,8 @@
    "realisierbarkeit": 6
   },
   "warum": "Bezahlte, ehrliche Farmarbeit mit Unterkunft, aber relativ gewöhnlich.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-122922",
   "key": "backpacker:122922",
   "organisation": "Moorland Organic Farm",
@@ -5335,6 +4464,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -5387,24 +4517,8 @@
    "realisierbarkeit": 5
   },
   "warum": "Echte praktische Farmarbeit mit Lohn und Unterkunft, aber Zeitraum und kurze Dauer müssen geklärt werden.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-122563",
   "key": "backpacker:122563",
   "organisation": "Glass Pastoral Farms",
@@ -5426,6 +4540,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -5478,24 +4593,8 @@
    "realisierbarkeit": 6
   },
   "warum": "Gut bezahlte echte Werkstattarbeit mit günstiger Unterkunft und Technikbezug, aber im Bergbaumilieu.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-122261",
   "key": "backpacker:122261",
   "organisation": "Southern Cross Group",
@@ -5517,6 +4616,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -5570,24 +4670,8 @@
    "realisierbarkeit": 7
   },
   "warum": "Praktische Tierarbeit mit Elchen in Südnorwegen im Sommer 2027, machbar und mit Natur-/Tierfokus.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "nav-162eb15b-bd48-4d45-976c-f7cc7503475c",
   "key": "nav:162eb15b-bd48-4d45-976c-f7cc7503475c",
   "organisation": "Viltgarden As",
@@ -5609,6 +4693,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [],
@@ -5656,24 +4741,8 @@
    "realisierbarkeit": 4
   },
   "warum": "Familiäres Leben und Arbeit auf einer kleinen Farm, passt in der Art, aber Konditionen sind unklar.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-124224",
   "key": "backpacker:124224",
   "organisation": "Hobby Horse Ranch",
@@ -5695,6 +4764,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -5747,24 +4817,8 @@
    "realisierbarkeit": 5
   },
   "warum": "Handfeste Instandhaltung ohne Pferdeprofi-Pflicht, brauchbar, aber Konditionen offen.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-124064",
   "key": "backpacker:124064",
   "organisation": "Turiya Farms",
@@ -5786,6 +4840,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [],
@@ -5836,24 +4891,8 @@
    "realisierbarkeit": 5
   },
   "warum": "Praktische Werkstattarbeit mit Lernpotenzial, aber unspektakuläre Lage und Sommersaison.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-124005",
   "key": "backpacker:124005",
   "organisation": "SDC",
@@ -5875,6 +4914,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -5931,24 +4971,8 @@
    "realisierbarkeit": 4
   },
   "warum": "Hoher Lohn und echtes Metallhandwerk für ca. 3 Monate, aber Erfahrung nötig.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-122597",
   "key": "backpacker:122597",
   "organisation": "Regional Workforce Management",
@@ -5970,6 +4994,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -6025,24 +5050,8 @@
    "realisierbarkeit": 6
   },
   "warum": "Passende Dauer und Technikbezug, aber unspektakulär und Details unklar.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-124156",
   "key": "backpacker:124156",
   "organisation": "Tamarix Poultry Farm",
@@ -6064,6 +5073,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -6119,24 +5129,8 @@
    "realisierbarkeit": 5
   },
   "warum": "Praktische Renaturierungsarbeit mit sichtbarem Ergebnis, nur wenig außergewöhnlich und logistisch eigenverantwortlich.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-123286",
   "key": "backpacker:123286",
   "organisation": "ARC Staff - Australian Recruitment Company",
@@ -6158,6 +5152,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -6213,24 +5208,8 @@
    "realisierbarkeit": 7
   },
   "warum": "Realisierbare Farmarbeit mit Tieren bis April 2027, aber stark touristisch geprägt.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-123364",
   "key": "backpacker:123364",
   "organisation": "Hosanna Farmstay",
@@ -6252,6 +5231,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -6305,24 +5285,8 @@
    "realisierbarkeit": 6
   },
   "warum": "Lernstelle mit direktem Technikbezug und guter Machbarkeit, aber ohne besonderen Abenteuercharakter.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-123280",
   "key": "backpacker:123280",
   "organisation": "Design Switchboards and Distribution",
@@ -6344,6 +5308,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
@@ -6400,24 +5365,8 @@
    "realisierbarkeit": 9
   },
   "warum": "Unkomplizierter Hofaufenthalt mit engem Familienkontakt, aber wenig Tiefe und kaum außergewöhnlich.",
-  "zitate": {
-   "dauer": null,
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": null
-  },
-  "nicht_angegeben": [
-   "dauer",
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung",
-   "englisch",
-   "voraussetzungen"
-  ],
+  "zitate": null,
+  "nicht_angegeben": [],
   "id": "backpacker-122544",
   "key": "backpacker:122544",
   "organisation": "Flanagan",
@@ -6439,6 +5388,7 @@
    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
    "status": "offen",
+   "geschlossen_grund": null,
    "aenderungen": []
   },
   "bilder": [
