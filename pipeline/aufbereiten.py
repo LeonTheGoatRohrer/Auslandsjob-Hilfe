@@ -1,4 +1,4 @@
-"""Führt Kandidaten, KI-Bewertungen (llm_cache.json aus n8n) und Zustand zusammen, wendet die Regeln an
+"""Führt Kandidaten, KI-Bewertungen (llm_cache/, von der Claude-Code-Routine geschrieben) und Zustand zusammen, wendet die Regeln an
 und schreibt die Daten für App und Benachrichtigung.
 
     python -m pipeline.aufbereiten
@@ -6,6 +6,7 @@ und schreibt die Daten für App und Benachrichtigung.
 Liest    daten/aufbereitet/kandidaten.json, llm_cache/<quelle>.json, zustand.json, bewertungen.json, config/profil.yaml
 Schreibt daten/aufbereitet/gesammelt.json   relevante Angebote im Format der App (mit Passung, Ausschluss, Zitaten)
          daten/aufbereitet/treffer.json     was n8n melden darf: Treffer über der Passungsschwelle + geschlossene Gemerkte
+         daten/aufbereitet/status.json      Kennzahlen für den n8n-Wächter (letzter Lauf, offene Bewertungen, Abruffehler)
 """
 
 import json
@@ -17,6 +18,7 @@ BASIS = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(BASIS))
 from pipeline.anreichern import wiki_infos  # noqa: E402
 from pipeline.ranking import bewerte, lade_profil  # noqa: E402
+from pipeline.routine import lies_cache, status as offen_zaehlen  # noqa: E402
 
 AUS = BASIS / "daten" / "aufbereitet"
 QUELLNAMEN = {"nav": "NAV / arbeidsplassen.no", "jobtech": "Platsbanken (JobTech)",
@@ -27,14 +29,6 @@ ZITATFELDER = ("dauer", "bezahlung", "gebuehr", "unterkunft", "verpflegung", "en
 
 def lies_json(pfad, standard):
     return json.loads(pfad.read_text(encoding="utf-8")) if pfad.exists() else standard
-
-
-def lies_cache(aus_ordner):
-    """KI-Bewertungen liegen je Quelle in llm_cache/<quelle>.json (n8n schreibt sie dorthin)."""
-    cache = {}
-    for pfad in sorted((aus_ordner / "llm_cache").glob("*.json")):
-        cache.update(lies_json(pfad, {}))
-    return cache
 
 
 def zustand_kurz(z):
@@ -112,13 +106,27 @@ def aufbereiten(aus_ordner=AUS, profil=None, wiki=wiki_infos):
 
     (aus_ordner / "gesammelt.json").write_text(json.dumps(gesammelt, ensure_ascii=False, indent=1), encoding="utf-8")
     (aus_ordner / "treffer.json").write_text(json.dumps(ausgabe, ensure_ascii=False, indent=1), encoding="utf-8")
+    (aus_ordner / "status.json").write_text(json.dumps(status(aus_ordner), ensure_ascii=False, indent=1), encoding="utf-8")
     return gesammelt, ausgabe
+
+
+def status(aus_ordner):
+    """Kennzahlen, an denen der n8n-Wächter erkennt, ob die Kette läuft."""
+    kandidaten = lies_json(aus_ordner / "kandidaten.json", {})
+    laeufe = lies_json(aus_ordner / "bewertungslaeufe.json", [])
+    zaehlung = lies_json(aus_ordner / "aenderungen.json", {}).get("zaehlung", {})
+    offen, gesamt = offen_zaehlen(aus_ordner)
+    return {"datum": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+            "letzter_sammellauf": kandidaten.get("datum"), "kandidaten": gesamt, "unbewertet": offen,
+            "letzte_bewertung": laeufe[-1]["datum"] if laeufe else None,
+            "letzte_bewertung_fehler": laeufe[-1]["fehler"] if laeufe else [],
+            "quellen": {q: {"abgerufen": z.get("abgerufen"), "abruf_fehler": z.get("abruf_fehler", 0), "offen": z.get("offen")}
+                        for q, z in zaehlung.items()}}
 
 
 def main():
     gesammelt, ausgabe = aufbereiten()
-    kandidaten, cache = lies_json(AUS / "kandidaten.json", {"kandidaten": []})["kandidaten"], lies_cache(AUS)
-    unbewertet = sum(1 for k in kandidaten if k["key"] not in cache)
+    unbewertet, _ = offen_zaehlen(AUS)
     print(f"{len(gesammelt)} relevante Angebote → daten/aufbereitet/gesammelt.json ({unbewertet} Kandidaten noch ohne KI-Bewertung)")
     print(f"{len(ausgabe['treffer'])} Treffer ab Passung {ausgabe['passung_min']}, "
           f"{len(ausgabe['geschlossen_gemerkt'])} gemerkte geschlossen → daten/aufbereitet/treffer.json")

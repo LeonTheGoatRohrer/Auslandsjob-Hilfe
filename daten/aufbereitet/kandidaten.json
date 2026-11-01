@@ -1,9 +1,9 @@
 {
- "datum": "2026-11-01T14:46:42+00:00",
+ "datum": "2026-11-01T21:33:08+00:00",
  "zaehlung": {
   "backpacker": {
    "offen": 1133,
-   "neu": 1133,
+   "neu": 0,
    "geaendert": 0,
    "geschlossen": 0,
    "abruf_fehler": 0,
@@ -17,9 +17,9 @@
   },
   "jobtech": {
    "offen": 768,
-   "neu": 921,
+   "neu": 0,
    "geaendert": 0,
-   "geschlossen": 153,
+   "geschlossen": 0,
    "abruf_fehler": 0,
    "roh": 921,
    "abgerufen": "2026-11-01T14:43:43+00:00",
@@ -33,24 +33,25 @@
    "kandidaten": 12
   },
   "nav": {
-   "offen": 572,
-   "neu": 572,
-   "geaendert": 0,
-   "geschlossen": 0,
+   "offen": 504,
+   "neu": 59,
+   "geaendert": 10,
+   "geschlossen": 127,
    "abruf_fehler": 0,
-   "roh": 572,
-   "abgerufen": "2026-10-28T14:19:32",
+   "roh": 631,
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "ausgeschlossen": {
-    "Anzeige nicht auf Englisch": 119,
-    "Dauer": 198,
-    "Lokalsprache Pflicht": 33,
-    "Beruf passt nicht": 164
+    "Anzeige nicht auf Englisch": 108,
+    "Dauer": 173,
+    "Geschlossen": 127,
+    "Lokalsprache Pflicht": 34,
+    "Beruf passt nicht": 140
    },
-   "kandidaten": 58
+   "kandidaten": 49
   },
   "tamu": {
    "offen": 87,
-   "neu": 87,
+   "neu": 0,
    "geaendert": 0,
    "geschlossen": 0,
    "abruf_fehler": 0,
@@ -86,7 +87,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -113,7 +114,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -140,7 +141,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -167,7 +168,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -194,7 +195,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -221,7 +222,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -248,7 +249,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -275,7 +276,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -302,7 +303,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -329,7 +330,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -356,7 +357,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -383,7 +384,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -410,7 +411,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -437,7 +438,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -464,7 +465,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -491,7 +492,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -518,7 +519,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -545,7 +546,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -572,7 +573,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -599,7 +600,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -626,7 +627,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -653,7 +654,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -680,7 +681,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -707,7 +708,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -734,7 +735,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -761,7 +762,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -788,7 +789,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -815,7 +816,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -842,7 +843,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -869,7 +870,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -896,7 +897,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -923,7 +924,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -950,7 +951,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -977,7 +978,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1004,7 +1005,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1031,7 +1032,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1058,7 +1059,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1085,7 +1086,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1112,7 +1113,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1139,7 +1140,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1166,7 +1167,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1193,7 +1194,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1220,7 +1221,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1247,7 +1248,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1274,7 +1275,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1301,7 +1302,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1328,7 +1329,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1355,7 +1356,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1382,7 +1383,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1409,7 +1410,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1436,7 +1437,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1463,7 +1464,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1490,7 +1491,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1517,7 +1518,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1544,7 +1545,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1571,7 +1572,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1598,7 +1599,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1625,7 +1626,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1652,7 +1653,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1679,7 +1680,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1706,7 +1707,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1733,7 +1734,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1760,7 +1761,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1787,7 +1788,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1814,7 +1815,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1841,7 +1842,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1868,7 +1869,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1895,7 +1896,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1922,7 +1923,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1949,7 +1950,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -1976,7 +1977,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2003,7 +2004,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2030,7 +2031,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2057,7 +2058,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2084,7 +2085,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2111,7 +2112,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2138,7 +2139,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2165,7 +2166,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2192,7 +2193,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2219,7 +2220,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2246,7 +2247,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2273,7 +2274,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2300,7 +2301,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2327,7 +2328,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2354,7 +2355,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2381,7 +2382,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2408,7 +2409,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2435,7 +2436,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2462,7 +2463,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2489,7 +2490,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2516,7 +2517,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2543,7 +2544,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2570,7 +2571,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2597,7 +2598,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2624,7 +2625,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2651,7 +2652,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2678,7 +2679,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2705,7 +2706,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2732,7 +2733,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2759,7 +2760,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2786,7 +2787,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2813,7 +2814,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2840,7 +2841,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2867,7 +2868,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2894,7 +2895,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2921,7 +2922,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2948,7 +2949,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -2975,7 +2976,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3002,7 +3003,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3029,7 +3030,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3056,7 +3057,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3083,7 +3084,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3110,7 +3111,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3137,7 +3138,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3164,7 +3165,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3191,7 +3192,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3218,7 +3219,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3245,7 +3246,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3272,7 +3273,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3299,7 +3300,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3326,7 +3327,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3353,7 +3354,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3380,7 +3381,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3407,7 +3408,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3434,7 +3435,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3461,7 +3462,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3488,7 +3489,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3515,7 +3516,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3542,7 +3543,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3569,7 +3570,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3596,7 +3597,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3623,7 +3624,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3650,7 +3651,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3677,7 +3678,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3704,7 +3705,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3731,7 +3732,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3758,7 +3759,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3785,7 +3786,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3812,7 +3813,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3839,7 +3840,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3866,7 +3867,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3893,7 +3894,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3920,7 +3921,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3947,7 +3948,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -3974,7 +3975,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4001,7 +4002,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4028,7 +4029,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4055,7 +4056,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4082,7 +4083,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4109,7 +4110,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4136,7 +4137,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4163,7 +4164,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4190,7 +4191,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4217,7 +4218,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4244,7 +4245,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4271,7 +4272,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4298,7 +4299,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4325,7 +4326,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4352,7 +4353,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4379,7 +4380,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4406,7 +4407,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4433,7 +4434,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4460,7 +4461,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4487,7 +4488,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4514,7 +4515,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4541,7 +4542,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4568,7 +4569,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4595,7 +4596,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4622,7 +4623,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4649,7 +4650,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4676,7 +4677,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4703,7 +4704,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4730,7 +4731,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4757,7 +4758,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4784,7 +4785,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4811,7 +4812,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4838,7 +4839,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4865,7 +4866,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4892,7 +4893,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4919,7 +4920,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4946,7 +4947,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -4973,7 +4974,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5000,7 +5001,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5027,7 +5028,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5054,7 +5055,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5081,7 +5082,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5108,7 +5109,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5135,7 +5136,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5162,7 +5163,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5189,7 +5190,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5216,7 +5217,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5243,7 +5244,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5270,7 +5271,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5297,7 +5298,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5324,7 +5325,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5351,7 +5352,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5378,7 +5379,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5405,7 +5406,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5432,7 +5433,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5459,7 +5460,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5486,7 +5487,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5513,7 +5514,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5540,7 +5541,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5567,7 +5568,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5594,7 +5595,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5621,7 +5622,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5648,7 +5649,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5675,7 +5676,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5702,7 +5703,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5729,7 +5730,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5756,7 +5757,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5783,7 +5784,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5810,7 +5811,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5837,7 +5838,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5864,7 +5865,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5891,7 +5892,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5918,7 +5919,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5945,7 +5946,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5972,7 +5973,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -5999,7 +6000,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6026,7 +6027,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6053,7 +6054,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6080,7 +6081,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6107,7 +6108,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6134,7 +6135,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6161,7 +6162,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6188,7 +6189,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6215,7 +6216,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6242,7 +6243,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6269,7 +6270,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6296,7 +6297,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6323,7 +6324,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6350,7 +6351,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6377,7 +6378,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6404,7 +6405,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6431,7 +6432,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6458,7 +6459,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6485,7 +6486,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6512,7 +6513,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6539,7 +6540,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6566,7 +6567,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6593,7 +6594,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6620,7 +6621,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6647,7 +6648,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6674,7 +6675,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6701,7 +6702,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6728,7 +6729,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6755,7 +6756,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6782,7 +6783,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6809,7 +6810,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6836,7 +6837,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6863,7 +6864,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6890,7 +6891,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6917,7 +6918,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6944,7 +6945,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6971,7 +6972,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -6998,7 +6999,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7025,7 +7026,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7052,7 +7053,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7079,7 +7080,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7106,7 +7107,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7133,7 +7134,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7160,7 +7161,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7187,7 +7188,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7214,7 +7215,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7241,7 +7242,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7268,7 +7269,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7295,7 +7296,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7322,7 +7323,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7349,7 +7350,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7376,7 +7377,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7403,7 +7404,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7430,7 +7431,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7457,7 +7458,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7484,7 +7485,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7511,7 +7512,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7538,7 +7539,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7565,7 +7566,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7592,7 +7593,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7619,7 +7620,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7646,7 +7647,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7673,7 +7674,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7700,7 +7701,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7727,7 +7728,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7754,7 +7755,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7781,7 +7782,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7808,7 +7809,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7835,7 +7836,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7862,7 +7863,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7889,7 +7890,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7916,7 +7917,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7943,7 +7944,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7970,7 +7971,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -7997,7 +7998,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8024,7 +8025,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8051,7 +8052,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8078,7 +8079,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8105,7 +8106,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8132,7 +8133,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8159,7 +8160,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8186,7 +8187,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8213,7 +8214,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8240,7 +8241,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8267,7 +8268,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8294,7 +8295,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8321,7 +8322,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8348,7 +8349,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8375,7 +8376,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8402,7 +8403,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8429,7 +8430,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8456,7 +8457,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8483,7 +8484,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8510,7 +8511,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8537,7 +8538,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8564,7 +8565,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8591,7 +8592,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8618,7 +8619,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8645,7 +8646,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8672,7 +8673,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8699,7 +8700,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8726,7 +8727,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8753,7 +8754,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8780,7 +8781,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8807,7 +8808,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8834,7 +8835,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8861,7 +8862,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8888,7 +8889,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8915,7 +8916,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8942,7 +8943,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8969,7 +8970,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -8996,7 +8997,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9023,7 +9024,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9050,7 +9051,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9077,7 +9078,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9104,7 +9105,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9131,7 +9132,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9158,7 +9159,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9185,7 +9186,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9212,7 +9213,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9239,7 +9240,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9266,7 +9267,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9293,7 +9294,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9320,7 +9321,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9347,7 +9348,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9374,7 +9375,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9401,7 +9402,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9428,7 +9429,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9459,7 +9460,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9490,7 +9491,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9521,7 +9522,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9552,7 +9553,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9583,7 +9584,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9614,7 +9615,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9645,7 +9646,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9676,7 +9677,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9707,7 +9708,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9738,7 +9739,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9769,7 +9770,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9800,7 +9801,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9827,13 +9828,14 @@
      "Transport og lager/Logistikk, lagerarbeid og innkjøp"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:68020a6a-3686-4a6a-9033-763357e6bdb4",
    "inhalts_hash": "8a4d2fc76c5ee705",
    "dublette_key": "bil i nord as|dekksesongen er her|bod",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9860,46 +9862,14 @@
      "Transport og lager/Sjøfart"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:4c04b770-a3fa-4b9b-ab72-54178408d4f3",
    "inhalts_hash": "f7271dfdc2ebefef",
    "dublette_key": "atrium people as|educated deck hand ordinary seaman lettmatros|straume",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
-    "status": "offen"
-   }
-  },
-  {
-   "quelle": "nav",
-   "quelle_id": "1ca3d38f-240f-49cc-87a6-4f1c2f857dcd",
-   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/1ca3d38f-240f-49cc-87a6-4f1c2f857dcd",
-   "titel": "Praktisk anlagt og klar for action? Bli produksjonsmedarbeider hos FiiZK",
-   "organisation": "Fiizk Industries AS",
-   "ort": "Frekhaug",
-   "region": "Vestland",
-   "land": "Norwegen",
-   "land_code": "NO",
-   "beschreibung": "Liker du at arbeidsdagen flyr av gårde, og trives best når du kan jobbe med hendene og praktiske oppgaver fremfor å sitte stille foran en skjerm? FiiZK Industries på Frekhaug vokser i rakettfart, og ser etter deg som vil være med på reisen.\n\nDu har guts og er ikke redd for å ta i et tak. Er du en nevenyttig person med erfaring fra industri eller produksjon? Vi søker deg som trives med fysisk arbeid, er nøyaktig og ønsker en trygg, langsiktig arbeidsplass. Vi lager tekniske tekstiler og store konstruksjoner til industrielt bruk. Dette er en arbeidsplass hvor vi investerer mye i opplæring av våre ansatte, og ser derfor etter deg som ønsker å bygge en karriere hos oss over tid. Her vil du være en viktig ressurs i å produsere tekstiler og duker til ulike kunder. Du vil jobbe 2-skift: 06:00-14:00 / 14:30-23:30 (mandag til torsdag (23:00).\n\n Du er \nNøyaktig, presis, strukturert og liker høyt tempo. Du er en lagspiller som opptatt av å få jobben gjort rett første gangen. Du håndterer fysisk arbeid godt da det er snakk om tunge duker og tekstiler, samt kan jobbe selvstendig så vel som i team. Du forstår norsk og engelsk, og er komfortabel med å forholde deg til ulike oppgaver i en produksjon som varierer fra dag til dag. Teknisk forståelse er en fordel.\n\n Kompetanse og erfaring \n Det er en stor fordel om du har fagbrev i et håndverksfag \n Det er ønskelig med erfaring fra produksjonsbedrift eller industri\n Kompetansebevis for truck (T1–T4) og traverskran (G4) er svært ønskelig\n Du må kunne arbeide i skiftordning\n\n Du får \n Grundig opplæring: Vi lærer deg alt du trenger for å bli ekspert på våre produkter\n Trygghet : Overordnet mål om fast ansettelse for de rette personene🤝\n Tempo : En hverdag der du merker at du har brukt kroppen og gjort en innsats\n\nVi gleder oss til å høre fra deg og intervjuer og ansetter fortløpende, så ikke nøl med å send søknad og cv!",
-   "veroeffentlicht": "2026-04-08",
-   "frist": "Asap",
-   "extra": {
-    "anstellung": "Engasjement",
-    "umfang": "Heltid",
-    "start": "",
-    "beruf": "Produksjonsmedarbeider",
-    "website": "www-fiizk.com",
-    "kategorien": [
-     "Industri og produksjon/Tekstil og presisjonsarbeid"
-    ]
-   },
-   "key": "nav:1ca3d38f-240f-49cc-87a6-4f1c2f857dcd",
-   "inhalts_hash": "a9806f4750121e64",
-   "dublette_key": "fiizk industries as|praktisk anlagt og klar for action bli produksjonsmedarbeider hos fiizk|frekhaug",
-   "status_quelle": "offen",
-   "zustand": {
-    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9926,13 +9896,14 @@
      "Salg og service/Renholdere og renovasjon"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:1263f30c-3d09-4225-98e8-24dcd09fda63",
    "inhalts_hash": "f43c57dff25b7e71",
    "dublette_key": "klepp kommune reinhald|vi treng ringevikarar for miljservicearbeidare reinhaldar|klepp stasjon",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9959,13 +9930,14 @@
      "Helse og sosial/Lege"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:aa47fe93-6ef6-47f3-a771-b9151a07922a",
    "inhalts_hash": "e251046a3b8718c9",
    "dublette_key": "legevakt klepp kommune|sommerjobb som legevaktoperatr pa klepp og time legevakt|kleppe",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -9992,13 +9964,14 @@
      "Håndverkere/Øvrige håndverksyrker"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:f9169cde-6b27-4371-a443-a5a8fbb238be",
    "inhalts_hash": "e2606b78fc01d449",
    "dublette_key": "stibyggjaren as|steinarbeidere til klassisk manuell grastein trrmuring for sesongen 2026|",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -10018,54 +9991,21 @@
    "extra": {
     "anstellung": "Sesong",
     "umfang": "Heltid",
-    "start": "31.10.2026",
+    "start": "09.11.2026",
     "beruf": "Dekkmontør",
     "website": "",
     "kategorien": [
      "Håndverkere/Mekaniker"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:ce88d509-d5e7-478d-8e73-46bc2a00a458",
-   "inhalts_hash": "94c4e151bfe5a2e4",
+   "inhalts_hash": "e662070cb3759e32",
    "dublette_key": "safe bemanning|vi sker dekkmontr|kokstad",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
-    "status": "offen"
-   }
-  },
-  {
-   "quelle": "nav",
-   "quelle_id": "00524d48-24eb-48a1-84e5-5ac3aafe050e",
-   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/00524d48-24eb-48a1-84e5-5ac3aafe050e",
-   "titel": "Vi søker etter flere produksjonsmedarbeidere",
-   "organisation": "Jobconnect",
-   "ort": "Drammen",
-   "region": "Buskerud",
-   "land": "Norwegen",
-   "land_code": "NO",
-   "beschreibung": "Vi søker etter flere produksjonsmedarbeidere\n\n I Jobconnect ser vi på våre kunder som partnere og våre kandidater som kolleger. Vi er erfarne rådgivere med bred erfaring innen flere fagområder. Hver dag jobber vi for en sømløs kunde- og kandidatreise.\n\nVi setter kvalitet, engasjement og oppfølging høyt i våre prosesser. Vi identifiserer og avdekker behov, men tør også å utfordre! Vi brenner for å matche rett kandidat mot rett stilling og bedrift.\n\nVi gleder oss til å bli bedre kjent med deg!\n\n Er du en som har stor arbeidskraft og liker å jobbe, samtidig som du er opptatt av kvalitet i det du gjør? \n Vi søker etter produksjonsmedarbeidere til et langvarig oppdrag med mulighet for fast ansettelse for en av våre kunder i Drammensregionen. Du vil inngå i et produksjonsteam sammen med andre operatører.\n\nHar du erfaring fra produksjonsarbeid vil det være en fordel, men det viktigste er at du er motivert for å lære, initiativrik og pliktoppfyllende.\nDet er også helt essensielt at du følger etablerte standarder innen HMS, arbeidsutførelse og 1.linjes vedlikehold.\n\nDet er en fordel at du har:\n Arbeidserfaring\n Evne til å kommunisere godt muntlig og skriftlig på norsk eller engelsk\n Truck T1 – T4 er en fordel\n\nVi tilbyr jobb i en bedrift med mye god fagkunnskap, og stolte tradisjoner. Engasjement i 100% stilling med hurtig oppstart. Konkurransedyktige betingelser og gode muligheter for personlig og faglig utvikling. \n\nVi vil behandle søknader fortløpende og konfidensielt. På grunn av økt arbeidsmengde er det ønskelig med snarlig oppstart.\n\nHar du spørsmål om stillingen er du velkommen til å kontakte rekrutteringsansvarlig Erland Borgen på telefon 906 49 997 eller erland@jobconnect.no.\n\nVi ser frem til å høre fra deg!",
-   "veroeffentlicht": "2026-03-27",
-   "frist": "Snarest",
-   "extra": {
-    "anstellung": "Engasjement",
-    "umfang": "Heltid",
-    "start": "",
-    "beruf": "Produksjonsmedarbeider",
-    "website": "http://www.jobconnect.no",
-    "kategorien": [
-     "Transport og lager/Truckfører",
-     "Transport og lager/Logistikk, lagerarbeid og innkjøp"
-    ]
-   },
-   "key": "nav:00524d48-24eb-48a1-84e5-5ac3aafe050e",
-   "inhalts_hash": "46073cc1169dac33",
-   "dublette_key": "jobconnect|vi sker etter flere produksjonsmedarbeidere|drammen",
-   "status_quelle": "offen",
-   "zustand": {
-    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -10092,47 +10032,14 @@
      "Reiseliv og mat/Reiseliv, hotell og overnatting"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:9be2b5c4-a71f-44bc-9237-2cc9c09d66c0",
    "inhalts_hash": "4bd1709dbfa04e5b",
    "dublette_key": "lofotr nringsdrift as|guide museum vert i sommersesong ved norsk fiskevrsmuseum pa a|srvagen",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
-    "status": "offen"
-   }
-  },
-  {
-   "quelle": "nav",
-   "quelle_id": "bf97d3c2-d7e4-4085-bf59-f863778ac3a1",
-   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/bf97d3c2-d7e4-4085-bf59-f863778ac3a1",
-   "titel": "Vil du jobbe med verdens beste maritime teknologi – direkte på kai og verft?",
-   "organisation": "Randstad AS",
-   "ort": "Ålesund",
-   "region": "Møre Og Romsdal",
-   "land": "Norwegen",
-   "land_code": "NO",
-   "beschreibung": "Vil du være hjernen bak trygg navigasjon og avansert hydroakustikk til sjøs?  \n Vår kunde i Ålesund ser etter engasjerte og dyktige feltingeniører som brenner for avansert maritim teknologi, varierte arbeidsdager og at utstyret på broa yter sitt absolutte beste når det gjelder som mest \n\n Som feltingeniør hos kunden vil du være vår fremste tekniske ekspert og representant ute på verft, kai og om bord på fartøy. Du vil jobbe med alt fra topp moderne navigasjons- og kommunikasjonssystemer (ECDIS, radar, GMDSS) til markedsledende hydroakustikk (ekkolodd og sonarer for fiskeri og forskning).\n Rollen kombinerer dyp teknisk feilsøking, nettverksoppsett og kalibrering med praktisk montering og tett kontakt med kapteiner, styrmenn og verftsarbeidere.\n\n Sentrale arbeidsoppgaver\n Igangkjøring & testing, konfigurering, integrasjon og kalibrering av deres egne systemer ved nybygg og ombygginger\n Service & feilsøking: Planlagte serviceoppdrag og akutt feilsøking på navigasjons-, kommunikasjons- og fiskerielektronikk\n Årlige inspeksjoner & sertifisering\n Gi teknisk støtte og veiledning til mannskap om bord slik at de får maksimalt utbytte av utstyret.\n Utarbeide servicerapporter og teknisk underlag etter fullført oppdrag.\n Du er\n Utdannet innenfor maritim elektronikk, automasjon, telekommunikasjon, data/nettverk eller tilsvarende \n Relevant erfaring fra maritim sektor, skipselektronikk eller feltservice er en stor fordel\n God forståelse for nettverk (IP-konfigurasjon, NMEA, seriemmunikasjon) og feilsøking i komplekse systemer\n Selvstendig, løsningsorientert og trives med ansvar ute i felt\n Gode kommunikasjonsevner på norsk og engelsk. Førerkort kl. B og trivsel med noe reiseaktivitet\n\n Du får\n Jobbe med verdensledende teknologi, anerkjente og slitesterke kvalitetsprodukter\n Bli en del av et kompetent, inkluderende og uformelt miljø i Ålesund\n En arbeidshverdag der ingen dager er like – fra oppsett på verksted til oppdrag på høyteknologiske skip\n Grundig produktopplæring og kontinuerlig sertifisering\n Konkurransedyktige lønns- og arbeidsvilkår med gode pensjons- og forsikringsordninger\n Noe for deg? Ikke nøl med å sende inn din cv og søknad!",
-   "veroeffentlicht": "2026-08-26",
-   "frist": "asap",
-   "extra": {
-    "anstellung": "Engasjement",
-    "umfang": "Heltid",
-    "start": "",
-    "beruf": "Feltngeniør",
-    "website": "www.randstad.no",
-    "kategorien": [
-     "Håndverkere/Elektriker/elektro",
-     "Industri og produksjon/Elektro/elektronikk"
-    ]
-   },
-   "key": "nav:bf97d3c2-d7e4-4085-bf59-f863778ac3a1",
-   "inhalts_hash": "896c89be2a979006",
-   "dublette_key": "randstad as|vil du jobbe med verdens beste maritime teknologi direkte pa kai og verft|alesund",
-   "status_quelle": "offen",
-   "zustand": {
-    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -10159,13 +10066,14 @@
      "Reiseliv og mat/Reiseliv, hotell og overnatting"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:8cb30522-db49-4f60-a72f-88a24deed72a",
    "inhalts_hash": "7b7e5036c74acffc",
    "dublette_key": "arctic fun as|bli guide hos arctic fun|troms",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -10192,13 +10100,14 @@
      "Bygg og anlegg/Andre ingeniører"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:5e3ea29f-1bbf-42f3-9a6b-dcfccce81f44",
    "inhalts_hash": "346a8adfa5b94569",
    "dublette_key": "forsvarets forskningsinstitutt|har du lyst pa en spennende og faglig relevant sommerjobb neste ar|kjeller",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -10225,79 +10134,14 @@
      "Natur og miljø/Veterinærer og dyrepleiere"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:162eb15b-bd48-4d45-976c-f7cc7503475c",
    "inhalts_hash": "a5157bb7d33c8570",
    "dublette_key": "viltgarden as|viltgarden as sker sommerhjelp og lrling|iveland",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
-    "status": "offen"
-   }
-  },
-  {
-   "quelle": "nav",
-   "quelle_id": "11c26b55-0f61-4fe3-b661-0abe0f1dc6fc",
-   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/11c26b55-0f61-4fe3-b661-0abe0f1dc6fc",
-   "titel": "Seasonal Assistant Greenkeeper",
-   "organisation": "Tyrifjord Golfklubb",
-   "ort": "Krokkleiva",
-   "region": "Buskerud",
-   "land": "Norwegen",
-   "land_code": "NO",
-   "beschreibung": "Tyrifjord Golfklubb søker to erfarne greenkeepere for sesongen 2027. Vi ser etter deg med relevant utdanning eller minimum tre års dokumentert erfaring fra vedlikehold av golfbane eller sports turf. Dette er en fagstilling for greenkeepere.\n\n Hva vi ser etter\n\n Vi ser etter en erfaren greenkeeper som er faglig interessert, pålitelig og opptatt av kvalitet i arbeidet. Du må kunne arbeide selvstendig, ta ansvar for egne oppgaver og samtidig være en positiv og samarbeidsvillig del av teamet.\n\n Tyrifjord Golfklubb har et internasjonalt arbeidsmiljø med medarbeidere fra ulike land og bakgrunner. Vi er opptatt av mangfold, inkludering og respekt, og ønsker medarbeidere som bidrar positivt til et godt arbeidsmiljø.\n\n Du er nøyaktig og fleksibel, ser hva som trenger å gjøres og tar initiativ når det er behov. God kommunikasjon på engelsk og gyldig førerkort er nødvendig. Relevant erfaring og kompetanse innen greenkeeping er avgjørende for stillingen.\n\n Arbeidsoppgaver\n\n Du vil arbeide som en del av vårt greenkeeperteam med daglig vedlikehold og presentasjon av golfbanen. Arbeidsoppgavene omfatter klipping og vedlikehold av greener, tees, fairways, semirough og rough, bunkervedlikehold, hullflytting og teemarkører, reparasjon av divots, gjødsling, dressing, lufting, såing og reparasjon av gressflater.\n\n Du vil også bidra med drift av vanningsanlegg og håndvanning, samt daglig kontroll og rengjøring av golfbanens spesialmaskiner. Vi forventer at du tar ansvar for egne oppgaver, arbeider nøyaktig og effektivt og bidrar aktivt til å opprettholde den høye standarden på banen gjennom hele sesongen.\n\n Vi tilbyr\n\n Vi tilbyr et profesjonelt og internasjonalt arbeidsmiljø på en av Norges ledende golfbaner. Du blir en del av et erfarent greenkeeperteam med gode muligheter for faglig utvikling og læring.\n\n Vi tilbyr konkurransedyktige arbeidsvilkår, arbeidstøy. Ansatte får tilgang til golfbanen og mulighet til å delta i klubbturneringer og sosiale aktiviteter.\n\n Personalbolig på golfbanen kan være tilgjengelig. Personalområdet har fullt utstyrt kjøkken, TV rom, garderobe, dusjer og vaskemuligheter.",
-   "veroeffentlicht": "2026-09-09",
-   "frist": "2026-10-30",
-   "extra": {
-    "anstellung": "Sesong",
-    "umfang": "Heltid",
-    "start": "2027-03-15",
-    "beruf": "Greenkeeper",
-    "website": "https://tyrifjord-golfklubb.no",
-    "kategorien": [
-     "Natur og miljø/Skogbruk, gartnerarbeid og hagebruk"
-    ]
-   },
-   "key": "nav:11c26b55-0f61-4fe3-b661-0abe0f1dc6fc",
-   "inhalts_hash": "888f63619b461801",
-   "dublette_key": "tyrifjord golfklubb|seasonal assistant greenkeeper|krokkleiva",
-   "status_quelle": "offen",
-   "zustand": {
-    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
-    "status": "offen"
-   }
-  },
-  {
-   "quelle": "nav",
-   "quelle_id": "cd5c235f-894f-42e3-8b44-138ed1cb26b3",
-   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/cd5c235f-894f-42e3-8b44-138ed1cb26b3",
-   "titel": "Forskalingssnekker / Jernbinder søkes ",
-   "organisation": "Adecco Solutions AS",
-   "ort": "Stavanger",
-   "region": "Rogaland",
-   "land": "Norwegen",
-   "land_code": "NO",
-   "beschreibung": "Forskalingssnekker / Jernbinder søkes \n Er du en erfaren forskalingssnekker eller jernbinder som ønsker stabile arbeidsforhold og spennende prosjekter? Da vil vi gjerne høre fra deg!\n Adecco Bygg og Anlegg Stavanger opplever stor etterspørsel etter dyktige fagarbeidere innen betongfaget. For de rette kandidatene kan vi tilby langsiktige oppdrag hos anerkjente kunder på flere spennende byggeprosjekter i Rogaland.\n Vi søker motiverte og selvstendige medarbeidere som har erfaring med forskaling, armering og betongarbeid, og som trives både med selvstendig arbeid og samarbeid i team.\n\n Arbeidsoppgaver \n Montering og bygging av forskaling til betongkonstruksjoner\n Armeringsarbeid og jernbinding\n Støping og etterarbeid av betong\n Oppsetting av både tradisjonell forskaling og systemforskaling\n Arbeid på små og store byggeprosjekter\n Kvalifikasjoner \n Minimum 3 års relevant erfaring som forskalingssnekker, jernbinder eller betongarbeider\n Fagbrev innen betong- eller tømrerfaget er en fordel, men lang erfaring kan kompensere for manglende formell utdanning\n Evne til å lese arbeidstegninger er ønskelig\n Gode kommunikasjonsevner på norsk eller engelsk\n Personlige egenskaper \n Selvstendig og ansvarsbevisst\n Tilpasningsdyktig og løsningsorientert\n God samarbeidsevne og positiv innstilling\n Vi tilbyr \n Konkurransedyktige lønnsbetingelser\n Langsiktige oppdrag med gode utviklingsmuligheter\n Fast ansettelse i Adecco\n Arbeidsklær og nødvendig verktøy\n Varierte arbeidsoppgaver hos solide og anerkjente kunder\n Obligatoriske kurs og kompetanseutvikling\n God oppfølging under oppdrag \n Vi vurderer søkere fortløpende, så vi oppfordrer deg til å sende inn søknad og CV så snart som mulig. Registrer deg via Adecco.no eller / og send CV til greta.kalasiunaite@adecco.no",
-   "veroeffentlicht": "2026-09-15",
-   "frist": "30.10.2026",
-   "extra": {
-    "anstellung": "Prosjekt",
-    "umfang": "Heltid",
-    "start": "",
-    "beruf": "Forskalingssnekker",
-    "website": "https://www.adecco.com/nb-no",
-    "kategorien": [
-     "Håndverkere/Betongfagarbeider"
-    ]
-   },
-   "key": "nav:cd5c235f-894f-42e3-8b44-138ed1cb26b3",
-   "inhalts_hash": "7796488f1b7e30af",
-   "dublette_key": "adecco solutions as|forskalingssnekker jernbinder skes|stavanger",
-   "status_quelle": "offen",
-   "zustand": {
-    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -10324,13 +10168,14 @@
      "IT/Utvikling"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:452aaf21-4da6-4f9e-9b63-83c2ba0a4c92",
    "inhalts_hash": "25da7fb858ca8911",
    "dublette_key": "politiets it enhet|sommerstudent utvikling|oslo",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -10357,13 +10202,14 @@
      "Natur og miljø/Naturvitenskapelige yrker"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:327d181d-655e-4a2a-a9b8-27dc05051c5c",
    "inhalts_hash": "9d41146c2abb9f7c",
    "dublette_key": "sweco norge|sommerstudent ingenirgeologi oslo|oslo",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -10390,181 +10236,14 @@
      "Reiseliv og mat/Reiseliv, hotell og overnatting"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:536e9ffd-4401-409e-8fae-e934960f3768",
    "inhalts_hash": "4d56d3a5dcb2ac8e",
    "dublette_key": "reine rorbuer|kayak guide summer in reine lofoten|reine",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
-    "status": "offen"
-   }
-  },
-  {
-   "quelle": "nav",
-   "quelle_id": "aa7c0d7e-aebb-4fc5-a5c7-53a7c9ce9575",
-   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/aa7c0d7e-aebb-4fc5-a5c7-53a7c9ce9575",
-   "titel": "Bilvaskmedarbeider/dekkmontør søkes",
-   "organisation": "Detailer Cliairmax As",
-   "ort": "Oslo",
-   "region": "Oslo",
-   "land": "Norwegen",
-   "land_code": "NO",
-   "beschreibung": "Bilpleier / Dekkmontør søkes -- Erfaring med bilpleie og dekkarbeid \n\n Sofienberg Bilvask & Bilpleie søker en erfaren og pålitelig bilpleiemedarbeider/dekkmontør.\n\n Vi ser etter deg som har erfaring med bilpleie, dekkarbeid og hjulutrustning, har førerkort klasse B, og som kan jobbe selvstendig og effektivt.\n\n Det er viktig at du har godkjent opplæring i arbeid med hjulutrustning i henhold til krav fra Statens vegvesen.\n\n Arbeidsoppgaver \n\n Innvendig og utvendig bilvask\n\n Rengjøring og klargjøring av biler\n\n Polering og lakkbehandling\n\n Montering og demontering av dekk og hjul\n\n Balansering av hjul\n\n Dekkskift\n\n Arbeid med hjulutrustning\n\n Holde arbeidsplassen ren og ryddig\n\n Bidra til høy kvalitet og gode kundeopplevelser\n\n Vi ser etter deg som \n\n Har erfaring med bilpleie og dekkarbeid\n\n Har førerkort klasse B\n\n Har godkjent opplæring i arbeid med hjulutrustning\n\n Jobber nøyaktig, effektivt og kvalitetsbevisst\n\n Trives med fysisk arbeid og høyt tempo\n\n Kan arbeide både selvstendig og sammen med andre\n\n Er pålitelig og punktlig\n\n Er serviceinnstilt og opptatt av fornøyde kunder\n\n Språk \n\n Du må kunne kommunisere på minst ett av følgende språk:\n\n Skandinavisk, engelsk, spansk eller fransk . \n\n Om oss \n\n Sofienberg Bilvask & Bilpleie tilbyr bilvask, bilpleie og dekktjenester i Oslo. Vi er opptatt av kvalitet, god service og at kundene våre skal være fornøyde.\n\n Arbeidssted: Oslo",
-   "veroeffentlicht": "2026-09-27",
-   "frist": "Snarest",
-   "extra": {
-    "anstellung": "Sesong",
-    "umfang": "Deltid",
-    "start": "2026-10-01",
-    "beruf": "Medarbeider i vasketunnel (bilvask)",
-    "website": "https://www.detailercliairmax.no/about.html",
-    "kategorien": [
-     "Håndverkere/Øvrige håndverksyrker",
-     "Salg og service/Renholdere og renovasjon"
-    ]
-   },
-   "key": "nav:aa7c0d7e-aebb-4fc5-a5c7-53a7c9ce9575",
-   "inhalts_hash": "3d9000cc900d3b21",
-   "dublette_key": "detailer cliairmax as|bilvaskmedarbeider dekkmontr skes|oslo",
-   "status_quelle": "offen",
-   "zustand": {
-    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
-    "status": "offen"
-   }
-  },
-  {
-   "quelle": "nav",
-   "quelle_id": "c0df5c39-91b4-4733-be49-ca17b27e0a67",
-   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/c0df5c39-91b4-4733-be49-ca17b27e0a67",
-   "titel": "Sesongjobb utendørs - fysisk arbeid i grøntområder",
-   "organisation": "Adecco Norge AS",
-   "ort": "Bærum",
-   "region": "Akershus",
-   "land": "Norwegen",
-   "land_code": "NO",
-   "beschreibung": "Liker du å jobbe fysisk ute – og vil ha en aktiv jobb for høstsesongen fra nå og ut året? \n Vi søker sesongarbeidere til utearbeid i parker, grøntområder og anlegg i Bærum, Oslo og omegn.\n Dette er for deg som trives med å bruke kroppen, være ute hele dagen og se konkret resultat av det du gjør.\n\n Arbeidsoppgaver \n Arbeidsdagen består av variert og praktisk utearbeid, blant annet:\n Steinlegging\n Betongarbeid\n Gressklipping og trimming\n Luking og enkelt plantearbeid\n Planting og vanning\n Stell og rydding av grøntområder\n Enkelt vedlikehold og forefallende oppgaver\n   Du trenger ikke å være faglært, men erfaring må man ha! \n Denne jobben passer deg som:\n âœ… Liker fysisk arbeid og å være ute i all slags vær\n âœ… Har jobbet som anleggsgartner, på gård, parkdrift, bygg/anlegg\n âœ… Stor fordel om du har gått natur og landbruk, idrettslinje, studert botanikk eller tilsvarende\n âœ… Er pålitelig, møter presis og tar ansvar\n âœ… Kan samarbeide – men også jobbe selvstendig\n âœ… Snakker godt engelsk\n\n Førerkort klasse B, manuell er et krav! Fordel med BE \n Praktisk informasjon\n    Arbeidstid: Mandag–fredag kl. 07:00–15:30\n    Periode: nå – ut desember, med mulighet for lenger\n    Lønn: ca. 249-275 kr/t (avhengig av erfaring)\n    Arbeidssted: Bærum og omegn\n\n Skriv kort i søknaden: \n Når du kan starte\n Hvor lenge du kan jobbe\n Send inn CV og en kort søknad – vi vurderer fortløpende.",
-   "veroeffentlicht": "2026-09-28",
-   "frist": "31.10.2026",
-   "extra": {
-    "anstellung": "Vikariat",
-    "umfang": "Heltid",
-    "start": "",
-    "beruf": "Gartner",
-    "website": "https://www.adecco.com/nb-no",
-    "kategorien": [
-     "Natur og miljø/Skogbruk, gartnerarbeid og hagebruk"
-    ]
-   },
-   "key": "nav:c0df5c39-91b4-4733-be49-ca17b27e0a67",
-   "inhalts_hash": "24d64cbb3bdd3c3b",
-   "dublette_key": "adecco norge as|sesongjobb utendrs fysisk arbeid i grntomrader|brum",
-   "status_quelle": "offen",
-   "zustand": {
-    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
-    "status": "offen"
-   }
-  },
-  {
-   "quelle": "nav",
-   "quelle_id": "46528af6-5a4b-4bbc-8691-e0a4cdf1dbca",
-   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/46528af6-5a4b-4bbc-8691-e0a4cdf1dbca",
-   "titel": "Betongarbeidere og tømrere søkes på Hamar",
-   "organisation": "Sonar AS avd. Innlandet",
-   "ort": "Hamar",
-   "region": "Innlandet",
-   "land": "Norwegen",
-   "land_code": "NO",
-   "beschreibung": "Innledning\n\n Sonar avd. Innlandet søker dyktige forskalingssnekker og tømrere til oppdrag i nærområdet rundt Hamar.\n\n Arbeidsoppgaver\n\n Diverse betongjobber (systemforskaling) og tømrerjobber.\n\n Vi prioriterer færre ansatte med høyere nivå på både oppfølging og oppdrag i stedet for så mange ansatte som mulig. Som ansatt oss skal du oppleve å være en del av et prioritert lag.\n\n Arbeidstid\n\n Mandag - torsdag: 07:00 - 15:30\n\n Fredag: 07:00 - 13:00 (eller 14:00)\n\n Ønskede kvalifikasjoner\n\n Du har fagbrev eller godt med erfaring innen betongfaget og/eller tømrerfaget.\n\n Du må kunne jobbe selvstendig med dine oppgaver, både alene og i lag. Du tar ansvar for dine oppgaver, løser utfordringer i samarbeid med øvrige ansatte, og har positive holdninger på byggeplassen.\n\n Du må ha førerkort og egen bil for å komme deg til byggeplass, og du snakker norsk eller bra engelsk.\nDu bor i nærområdet (vi har ikke boliger tilgjengelig).\n\n Personlige egenskaper\n\n  Positiv holdninger og ønske om å bidra til et bra resultat.\n\n Vi tilbyr\n\n  Lønn i henhold til lokalt lønnsnivå\n  Verktøygodtgjørelse i henhold til hvilket verktøy som brukes\n  Reise- og gangtid iht Fellesoverneskomsten.\n  Arbeidsklær, oppfølging, samt lønnsutbetaling to ganger i måneden.\n\n Avsluttende tekst\n\n Syns du dette høres som noe for deg? Ta kontakt for å høre hva vi kan tilby!",
-   "veroeffentlicht": "2026-09-30",
-   "frist": "31.10.2026",
-   "extra": {
-    "anstellung": "Vikariat",
-    "umfang": "Heltid",
-    "start": "02.11.2026",
-    "beruf": "Betongarbeider (forskaling og jernbinding)",
-    "website": "",
-    "kategorien": [
-     "Håndverkere/Betongfagarbeider",
-     "Håndverkere/Tømrer og snekker"
-    ]
-   },
-   "key": "nav:46528af6-5a4b-4bbc-8691-e0a4cdf1dbca",
-   "inhalts_hash": "60e5cc049edde26a",
-   "dublette_key": "sonar as avd innlandet|betongarbeidere og tmrere skes pa hamar|hamar",
-   "status_quelle": "offen",
-   "zustand": {
-    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
-    "status": "offen"
-   }
-  },
-  {
-   "quelle": "nav",
-   "quelle_id": "0f41bc33-d747-4c8c-a62d-7d5ab530173e",
-   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/0f41bc33-d747-4c8c-a62d-7d5ab530173e",
-   "titel": "PhD Candidate in Neuroscience: Brain Architecture and Sensory Processing in the Zebrafish Forebrain",
-   "organisation": "NTNU - Norwegian University of Science and Technology",
-   "ort": "Trondheim",
-   "region": "Trøndelag",
-   "land": "Norwegen",
-   "land_code": "NO",
-   "beschreibung": "This is NTNU\n NTNU is a broad-based university with a technical-scientific profile and a focus in professional education. The university is located in three cities with headquarters in Trondheim.\n At NTNU, 9,000 employees and 43,000 students work to create knowledge for a better world.\n You will find more information about working at NTNU and the application process here. \n\nVideo: https://www.youtube.com/watch?v=_KHQjc4ndas&t=41s About the position\n We are looking for a highly motivated PhD Candidate to join our research group and investigate the neural architecture underlying sensory processing in the zebrafish forebrain. This project will employ a powerful combination of cutting-edge imaging and computational approaches to reveal how the structural organization of brain circuits shapes sensory computation.\n Are you motivated to take a step towards a doctorate and open up exciting career opportunities? As a PhD Candidate with us, you will work to achieve your doctorate, and at the same time gain valuable experience that qualifies you for a further career in higher education and research, in and outside academia.\n Your immediate leader will be Professor Emre Yaksi. \n\n About the project\n The successful candidate will be part of the Yaksi lab at the Kavli Institute for Systems Neuroscience, NTNU, under the mentorship of Professor Emre Yaksi. \n This project aims to unravel how brain architecture shapes sensory processing in the zebrafish forebrain. Using zebrafish as a powerful vertebrate model organism — owing to their optical transparency, genetic tractability, and conserved vertebrate neural organization — the successful candidate will integrate multiple high-resolution imaging modalities to reconstruct neural circuits at unprecedented resolution and link structural organization to functional sensory responses.\n Specifically, the project will pursue the following interconnected aims:\n 3D Electron Microscopy Reconstructions: Reconstruct and analyze large-scale, high-resolution ultrastructural maps of zebrafish forebrain circuits using 3D volume electron microscopy. Synaptic connectivity, cell type identity, and subcellular organization will be extracted using state-of-the-art segmentation and reconstruction software packages.\n Calcium Imaging: Employ two-photon calcium imaging to record population-level neural activity in the zebrafish forebrain during defined sensory stimulation paradigms. Functional response properties will be mapped onto anatomically identified circuit elements.\n Confocal Microscopy and Histology: Use confocal microscopy, immunohistochemistry, fluorescence in situ hybridization, and tissue clearing approaches to characterize cell types, molecular markers, and projection patterns in the zebrafish forebrain.\n Anatomical Reconstructions: Perform single-neuron and population-level anatomical reconstructions to map connectivity patterns and delineate the structural organization of forebrain sensory circuits.\n Data Analysis and Computational Methods: Develop and apply computational pipelines for processing large-scale imaging datasets, integrating structural and functional data, and identifying organizational principles of sensory processing circuits.\n This project requires a truly multidisciplinary approach, combining experimental and computational methods to generate a mechanistic understanding of how brain structure gives rise to sensory function.\n\n Duties of the position\n Complete the doctoral education until obtaining a doctorate\n Carry out high-quality research within the framework described above\n Contribute to academic publications and popular science dissemination\n Participate actively in the research group: the Yaksi lab at the Kavli Institute\n Participate in international activities such as conferences and/or research stays at foreign institutions\n Contribute to undergraduate and master-level teaching\n Engage in career-promoting activities (seminars, journal clubs, lab meetings)\n Be prepared for changes",
-   "veroeffentlicht": "2026-10-01",
-   "frist": "2026-10-30T00:00:00",
-   "extra": {
-    "anstellung": "Vikariat",
-    "umfang": "Heltid",
-    "start": "",
-    "beruf": "PhD in Neuroscience - Brain Architecture and Sensory Processing in the Zebrafish Forebrain",
-    "website": "http://www.ntnu.no",
-    "kategorien": [
-     "Kontor og økonomi/Ledelse, administrasjon og rådgivning",
-     "Utdanning/Universitet og høyskole"
-    ]
-   },
-   "key": "nav:0f41bc33-d747-4c8c-a62d-7d5ab530173e",
-   "inhalts_hash": "f53e9259dcd3d62f",
-   "dublette_key": "ntnu norwegian university of science and technology|phd candidate in neuroscience brain architecture and sensory processing in the zebrafish forebrain|trondheim",
-   "status_quelle": "offen",
-   "zustand": {
-    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
-    "status": "offen"
-   }
-  },
-  {
-   "quelle": "nav",
-   "quelle_id": "ead238fa-6467-409a-86f7-9b7f19a5dd1b",
-   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/ead238fa-6467-409a-86f7-9b7f19a5dd1b",
-   "titel": "Heisvert søkes i Trysil og omegn – vintersesong, 30–80 %",
-   "organisation": "Fjellfix Trysil AS",
-   "ort": "Trysil",
-   "region": "Innlandet",
-   "land": "Norwegen",
-   "land_code": "NO",
-   "beschreibung": "Vil du jobbe ute og bidra til trygge, gode skidager? Fjellfix søker en serviceinnstilt heisvert til Trysil og omegn. Oppstart 19. desember 2026, arbeid gjennom hele vintersesongen 2026/2027 og 30–80 % stilling. Engelsk er nødvendig; norsk er en stor fordel.\n\n Hva vi ser etter\n\n Du er pålitelig, serviceinnstilt og oppmerksom, trives ute i vintervær og følger sikkerhetsrutiner.\n\n Du må ha gyldig rett til å kjøre snøscooter i Norge: førerkort klasse S eller annen dokumentert førerrett som gir samme rettighet. Førerrett til motorsykkel, personbil eller traktor ervervet før 1. juli 2006 kan gi slik rett. Utenlandske førerkort må være gyldige og anerkjent for snøscooterkjøring i Norge. Vi kontrollerer dokumentasjonen før oppstart.\n\n Du må kunne kommunisere tydelig på engelsk med gjester og kolleger og forstå sikkerhetsinstruksjoner. Norsk er en stor fordel.\n\n Erfaring fra skiheis, alpinanlegg, snøscooter eller annet praktisk servicearbeid er en fordel. Du må gjennomføre nødvendig opplæring i det aktuelle anlegget før selvstendig arbeid ved heisen. Førerkort for snøscooter erstatter ikke denne opplæringen.\n\n Søk med en kort søknad og CV, eller registrer en jobbsøkerprofil på https://www.fjellfix.no. Oppgi tilgjengelighet fra 19. desember, ønsket stillingsprosent, språk og hvilken førerrett du har for snøscooter. Dokumentasjon på førerrett avtales senere. Vi vurderer søknader fortløpende.\n\n Arbeidsoppgaver\n\n • Hjelpe gjester med trygg påstigning og gi vennlig veiledning.\n\n • Følge med på driften og utføre oppgaver etter anleggets sikkerhetsrutiner.\n\n • Utføre enkle daglige kontroller etter opplæring og melde fra om avvik.\n\n • Holde påstigningsområdet ryddig og bidra med snørydding ved behov.\n\n • Kjøre snøscooter når arbeidsoppgavene krever det, innenfor gyldig førerrett og lokale regler.\n\n Vi tilbyr\n\n • Sesongarbeid med oppstart 19. desember 2026 og arbeid gjennom hele vintersesongen 2026/2027.\n\n • Avtalt stillingsprosent på 30--80 %. Nærmere arbeidssted og sluttdato avklares i arbeidsavtalen.\n\n • Oppfølging fra Fjellfix gjennom oppdraget.\n\n • Lønn og øvrige arbeidsvilkår etter avtale og gjeldende regler.\n\n • Mulighet for hjelp med bolig etter nærmere avtale.\n\n Arbeidet følger anleggets åpningstider og omfatter dagarbeid på ukedager og i helger og ferier.",
-   "veroeffentlicht": "2026-10-02",
-   "frist": "2026-10-31",
-   "extra": {
-    "anstellung": "Sesong",
-    "umfang": "Deltid",
-    "start": "2026-12-19",
-    "beruf": "Heisvert (ski- og stolheiser)",
-    "website": "https://www.fjellfix.no",
-    "kategorien": [
-     "Bygg og anlegg/Maskin- og kranfører"
-    ]
-   },
-   "key": "nav:ead238fa-6467-409a-86f7-9b7f19a5dd1b",
-   "inhalts_hash": "c1ca69fce81cba10",
-   "dublette_key": "fjellfix trysil as|heisvert skes i trysil og omegn vintersesong 3080|trysil",
-   "status_quelle": "offen",
-   "zustand": {
-    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -10591,13 +10270,14 @@
      "Håndverkere/Betongfagarbeider"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:503eeffc-8e47-4145-87fc-c1d8337ff91b",
    "inhalts_hash": "aec2c8b695d38779",
    "dublette_key": "stolt as|forskalingsnekkere se her|oslo",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -10624,13 +10304,14 @@
      "Transport og lager/Tog-, sporvogn- og vegtrafikk"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:0bb4a702-2b82-4aeb-90c7-ca63e6ad4e3c",
    "inhalts_hash": "ecb9caa1e65cdee5",
    "dublette_key": "arctic aurora tours as|sjafr nordlys guide|troms",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -10657,13 +10338,14 @@
      "Håndverkere/Tømrer og snekker"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:51d8d81f-6c48-4080-9b0e-ca1f93911712",
    "inhalts_hash": "02d002547444eb76",
    "dublette_key": "adecco karrieresenter|construction carpenter leknes lofoten|oslo",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -10690,46 +10372,14 @@
      "Reiseliv og mat/Reiseliv, hotell og overnatting"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:709f6b2a-f567-4bd5-8b88-caea4754e31f",
    "inhalts_hash": "a44101d82bec7b25",
    "dublette_key": "tuvholmen as|guide hval safari fjord turer passasjerdrift i alta|alta",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
-    "status": "offen"
-   }
-  },
-  {
-   "quelle": "nav",
-   "quelle_id": "c1da5d74-33e6-48f9-9f3d-13319d515126",
-   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/c1da5d74-33e6-48f9-9f3d-13319d515126",
-   "titel": "Administrasjonsmedarbeider til spennende vikariat på Averøy!",
-   "organisation": "Adecco Norge AS",
-   "ort": "Averøy",
-   "region": "Møre Og Romsdal",
-   "land": "Norwegen",
-   "land_code": "NO",
-   "beschreibung": "Vil du ha en sentral rolle i en variert og spennende arbeidshverdag?  \n Ønsker du en variert administrativ rolle der du får en sentral funksjon i den daglige driften? På vegne av vår gode samarbeidspartner søker vi nå en strukturert og serviceinnstilt administrasjonsmedarbeider til et 12 måneders vikariat ved deres anlegg på Averøy med oppstart så snart som mulig.\n Dette er en spennende mulighet for deg som trives med å skape orden, koordinere oppgaver og være en viktig støtte for både ledere og ansatte. Rollen byr på stor variasjon i arbeidsoppgavene og gir verdifull erfaring fra en fremtidsrettet industri med fokus på bærekraft og det grønne skiftet.\n\n Dine arbeidsoppgaver \n Som administrasjonsmedarbeider vil du få en sentral rolle i den daglige driften og være et viktig bindeledd mellom ansatte, ledere og ulike støttefunksjoner. Arbeidsoppgavene vil blant annet omfatte:\n Administrativ støtte til ledelse og ansatte\n Oppfølging av lærlinger og læreplaner\n Koordinering og oppfølging av kurs, sertifikater og kompetanseutvikling\n Bistå ved onboarding og introduksjon av nye medarbeidere\n Bestilling og oppfølging av kontor-, kantine- og driftsmateriell\n Administrative støtteoppgaver knyttet til logistikk og drift\n Registrering og oppfølging i ulike digitale systemer\n Bidra til oppfølging av HMS- og forbedringsarbeid ved lokasjonen\n Generelle administrative oppgaver som sikrer effektiv drift\n Hvem ser vi etter? \n Vi ser etter deg som er strukturert, løsningsorientert og trives i en rolle med mange kontaktflater. Du liker å ha oversikt, tar initiativ og evner å håndtere flere oppgaver samtidig.\n Vi tror du har:\n Erfaring fra administrativt arbeid, gjerne innen kjemiprosess eller annen industri\n Liker varierte arbeidsoppgaver og er fleksibel \n Gode IT-kunnskaper og evne til raskt å sette deg inn i nye systemer\n Erfaring med ERP-systemer eller andre administrative verktøy\n Gode kommunikasjonsferdigheter på norsk og engelsk, både muntlig og skriftlig\n Evne til å arbeide selvstendig samtidig som du samarbeider godt med andre\n\n Relevant utdanning eller fagbrev innen administrasjon, kontorfag eller tilsvarende er en fordel, men erfaring og personlig egnethet vil bli vektlagt.\n Vi kan tilby \n Gode utviklingsmuligheter\n God opplæring\n Oppfølging av dedikert konsulent i Adecco\n Vi tilbyr vi normalt fast ansettelse. Dette sikrer også mulighet for pensjonsopptjening\n Tilgang til Adecco sitt fordelsprogram: https://www.adecco.no/medarbeider/fordelsprogrammet/listing/ \n\n Klar for en ny utfordring? \n Send inn din CV i dag. Vi gleder oss til å høre fra deg. Søknader blir behandlet fortløpende.\n\nFor spørsmål om stillingen ta kontakt med HR- og kundekonsulent Christina Alnes på e-post christina.alnes@adecco.no eller tlf. 908 40 039.\n\n Adecco \n Adecco formidler alle typer stillinger innen de fleste fagområder. Døren står på gløtt hos attraktive bedrifter, prøv deg i ulike bransjer og skaff deg bred erfaring! Nettverket du får tilgang til kan bli gull verdt en dag. Adecco er en del av Adecco Group, en av verdens ledende aktører innen bemanning og rekruttering.",
-   "veroeffentlicht": "2026-10-07",
-   "frist": "30.10.2026",
-   "extra": {
-    "anstellung": "Vikariat",
-    "umfang": "Heltid",
-    "start": "",
-    "beruf": "Administrasjonskoordinator ",
-    "website": "https://www.adecco.com/nb-no",
-    "kategorien": [
-     "Kontor og økonomi/Kontor, forvaltning og saksbehandling"
-    ]
-   },
-   "key": "nav:c1da5d74-33e6-48f9-9f3d-13319d515126",
-   "inhalts_hash": "9ad62fda80040b81",
-   "dublette_key": "adecco norge as|administrasjonsmedarbeider til spennende vikariat pa avery|avery",
-   "status_quelle": "offen",
-   "zustand": {
-    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -10756,13 +10406,14 @@
      "Reiseliv og mat/Reiseliv, hotell og overnatting"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:042cf4a6-203d-4c94-b9f0-53235031782b",
    "inhalts_hash": "f1c68da7fb25478f",
    "dublette_key": "serious fun as|vi sker rafting guide senior|dagali",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -10789,13 +10440,14 @@
      "Reiseliv og mat/Restaurant"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:ad501785-ebff-4daf-948f-6af0bf13e8a1",
    "inhalts_hash": "e36b22bd78d58d81",
    "dublette_key": "vollan gjestestue as|2 stillinger som frokostvert vertinne 60 sesong|nordkjosbotn",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -10822,13 +10474,14 @@
      "Industri og produksjon/Matproduksjon og næringsmiddelarbeid"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:af04e83a-e315-4e44-a119-f5da8d75e734",
    "inhalts_hash": "065b9f63c8494c03",
    "dublette_key": "eterni norge as avd pll trondheim|produksjonsmedarbeider ufaglrt trndelag|trondheim",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -10842,9 +10495,9 @@
    "region": "Møre Og Romsdal",
    "land": "Norwegen",
    "land_code": "NO",
-   "beschreibung": "Plantasjen Volda søker 50% vikariat til 25.10.2027\n\nVi ser etter deg som trives med varierte arbeidstider. Stillingen inngår i turnus, og det må påregnes arbeid på dagtid, kvelder og i helger.\n\n Ansvarsområder i rollen \n\n Gi faglige råd og finne praktiske løsninger til kundens prosjekter\n Følge opp stell av planter, vanning og klargjøring til kampanjer\n Sørge for at butikken fremstår ryddig, inspirerende og salgsklar\n Bidra aktivt til salg og mersalg gjennom gode dialoger og produktkunnskap\n Samarbeide tett med kolleger for å sikre kvalitet i alle ledd\n kassearbeid og kundebehandling\n Åpne- og stengeansvar på enkelte vakter \n\n For å lykkes i rollen \n\n Du har noe plantekunnskap\n Du har erfaring fra butikk, hagesenter eller serviceyrke\n Du har mulighet til å jobbe dag, kveld og helg.\n Du er nysgjerrig på både mennesker og planter\n Du prioriterer dine oppgaver klokt\n Du behersker norsk flytende og kommuniserer godt på engelsk\n\n Vi tilbyr \n\n Lønn etter tariffavtale og gode ansattfordeler\n Variert arbeidstid, inkludert kvelder og helger \n Et inkluderende arbeidsmiljø med dyktige kolleger\n\n Søk i dag, vi intervjuer fortløpende.\n\n Søknadsfrist 02/11-26",
-   "veroeffentlicht": "2026-10-14",
-   "frist": "2026-11-02T00:00:00",
+   "beschreibung": "Plantasjen Volda søker 50% vikariat til 25.10.2027\n\nVi ser etter deg som trives med varierte arbeidstider. Stillingen inngår i turnus, og det må påregnes arbeid på dagtid, kvelder og i helger.\n\n Ansvarsområder i rollen \n\n Gi faglige råd og finne praktiske løsninger til kundens prosjekter\n Følge opp stell av planter, vanning og klargjøring til kampanjer\n Sørge for at butikken fremstår ryddig, inspirerende og salgsklar\n Bidra aktivt til salg og mersalg gjennom gode dialoger og produktkunnskap\n Samarbeide tett med kolleger for å sikre kvalitet i alle ledd\n kassearbeid og kundebehandling\n Åpne- og stengeansvar på enkelte vakter \n\n For å lykkes i rollen \n\n Du har noe plantekunnskap\n Du har erfaring fra butikk, hagesenter eller serviceyrke\n Du har mulighet til å jobbe dag, kveld og helg.\n Du er nysgjerrig på både mennesker og planter\n Du prioriterer dine oppgaver klokt\n Du behersker norsk flytende og kommuniserer godt på engelsk\n\n Vi tilbyr \n\n Lønn etter tariffavtale og gode ansattfordeler\n Variert arbeidstid, inkludert kvelder og helger \n Et inkluderende arbeidsmiljø med dyktige kolleger\n\n Søk i dag, vi intervjuer fortløpende.\n\n Søknadsfrist 09/11-26",
+   "veroeffentlicht": "2026-10-29",
+   "frist": "2026-11-09T00:00:00",
    "extra": {
     "anstellung": "Vikariat",
     "umfang": "Deltid",
@@ -10855,46 +10508,14 @@
      "Salg og service/Salg, butikk- og varehandel"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:0d68974b-603a-41ee-8d22-fe91031f17cd",
-   "inhalts_hash": "832c248bef8c0b13",
+   "inhalts_hash": "ec607a4143442c36",
    "dublette_key": "plantasjen norge|plantasjen volda sker salgsmedarbeider i 50 vikariat|volda",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
-    "status": "offen"
-   }
-  },
-  {
-   "quelle": "nav",
-   "quelle_id": "c02ee58e-fabc-4107-ac75-b20a5f3c44d7",
-   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/c02ee58e-fabc-4107-ac75-b20a5f3c44d7",
-   "titel": "Vi søker nye medlemmer til teamet på Fulufjellet Alpinsenter (heisvert - deltid)",
-   "organisation": "Fulufjellet AS",
-   "ort": "Ljørdalen",
-   "region": "Innlandet",
-   "land": "Norwegen",
-   "land_code": "NO",
-   "beschreibung": "Vi søker nye medlemmer til teamet på Fulufjellet Alpinsenter\n\n Hva vi ser etter\n\n Vi ser etter: \n\n Like å være mye ute og glad i alpin, snowboard og ski og gi skianleggets gjester gode opplevelser.\n\n Ha en forståelse for tekniske ting.\n\n Betjene heisen under daglig drift.\n\n Utføre daglig vedlikehold.\n\n som er villig til å kommunisere på flere språk.\n\n som har ordenssans og jobber strukturert.\n\n som har datakunnskaper.\n\n som takler all slags værforhold.\n\n Søkere bør ha fylt 18 år (er du under 18 kan du søke).\n\n Førerkort på snøscooter.\n\n Heisbetjeningen inngår i alpinanleggets redningsberedskap og søkere må derfor være i god fysisk form og kunne arbeide i høyden.\n\n Erfaring fra betjening av heis er en fordel, men ingen forutsetning da nødvendig opplæring vil bli gitt.\n\n Utadvendt og selvstendig (som husker beskjeder og tar initiativ).\n\n Det legges stor vekt på søkerens evne til å yte god kundeservice.\n\n Yte det lille ekstra for å skape gode kundeopplevelser.\n\n Arbeidsoppgaver\n\n Har du lyst å jobbe på fjellet med mye frisk luft og varierte arbeidsoppgaver.\n\n Vi søker heisførere til å betjene våre heiser fra sesongstart i desember til april 2026.\n\n Du må være fylt 18 år, være i god fysisk form og gjerne ha litt teknisk bakgrunn/innsikt.\n\n Det er krav med sertifikat for snøscooter.\n\n Det må påregnes jobbing i helger og i ferier. Alpinanlegg har varierende åpningstider og dager gjennom sesongen. Samt at du takler all slags vær.\n\n Du må være serviceinnstilt og ha gode samarbeidsevner. Bakgrunn fra tilsvarende arbeid er en fordel, men ingen betingelse. Full opplæring vil bli gitt.\n\n Mulighet for en kombinert stilling for den rette og være guide for snøscooter-turer. Her er det en fordel med språkkunnskaper i engelsk.\n\n Vi tilbyr\n\n Det vi kan tilby er: \n\n Godt arbeidsmiljø\n\n Sosialt fellesskap\n\n Mulighet for å kombinere arbeid og skikjøring\n\n Fysisk arbeid\n\n En travel hverdag med varierte oppgaver",
-   "veroeffentlicht": "2026-10-14",
-   "frist": "2026-10-31",
-   "extra": {
-    "anstellung": "Sesong",
-    "umfang": "Deltid",
-    "start": "2026-12-18",
-    "beruf": "Heisfører (medarbeider alpinanlegg)",
-    "website": "https://www.fulufjellet.no",
-    "kategorien": [
-     "Bygg og anlegg/Maskin- og kranfører"
-    ]
-   },
-   "key": "nav:c02ee58e-fabc-4107-ac75-b20a5f3c44d7",
-   "inhalts_hash": "507cf66b388b72c9",
-   "dublette_key": "fulufjellet as|vi sker nye medlemmer til teamet pa fulufjellet alpinsenter heisvert deltid|ljrdalen",
-   "status_quelle": "offen",
-   "zustand": {
-    "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -10921,13 +10542,14 @@
      "Reiseliv og mat/Baker og konditor"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:e9bb8db4-6b13-4e99-b36a-508429bb3b61",
    "inhalts_hash": "e8e889d9a71fcf5e",
    "dublette_key": "engers lefsebakeri as|sesongarbeidere ekstrahjelper|gjvik",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -10954,13 +10576,14 @@
      "Helse og sosial/Farmasøytisk og apotekerarbeid"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:6dca010d-1a0f-489f-a032-5b0d6c8f162c",
    "inhalts_hash": "a0177ecb1b243ef3",
    "dublette_key": "direktoratet for medisinske produkter|enhet for riktig legemiddelbruk to deltidsmedarbeidere i engasjement|oslo",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -10987,13 +10610,14 @@
      "Kultur og kreative yrker/Underholdning, scene og teater"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:1ee4c815-466f-463d-b50b-97ac84df860e",
    "inhalts_hash": "f85a3a9926a27955",
    "dublette_key": "jobs by nordics ab|seasonal job 2027 hotel entertainer in greek islands and cyprus|",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -11021,13 +10645,14 @@
      "Utdanning/Universitet og høyskole"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:dbb1f2bb-b30f-4fbc-9c55-10e8f5256578",
    "inhalts_hash": "014e85cabd35cff0",
    "dublette_key": "uit norges arktiske universitet|stipendiat i farmakologi|troms",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -11054,13 +10679,14 @@
      "Utdanning/Universitet og høyskole"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:015fa7c9-36a1-41a7-9f4b-6c6815ebe927",
    "inhalts_hash": "69d381490cf075eb",
    "dublette_key": "uit norges arktiske universitet|stipendiat i farmakoepidemiologi|troms",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -11087,13 +10713,14 @@
      "IT/Drift, vedlikehold"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:9f44227b-4803-48a3-b692-c2746394040a",
    "inhalts_hash": "7db64a386995a054",
    "dublette_key": "level offshore as|seeking seniors for the 2027 season|haugesund",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -11120,13 +10747,14 @@
      "Reiseliv og mat/Reiseliv, hotell og overnatting"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:714a9ab3-a62d-43e6-a07d-ae5a93543c5b",
    "inhalts_hash": "4ec431d8bf066403",
    "dublette_key": "outdoor norway as|winter guide ski backcountry ski snowshoes|voss",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -11153,13 +10781,14 @@
      "Håndverkere/Tømrer og snekker"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:364e33ef-d2ae-4add-a1a9-cefa5ef845dc",
    "inhalts_hash": "1f932b1253aa6d36",
    "dublette_key": "anonym arbeidsgiver|tmrere skes haster|bergen",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -11186,13 +10815,14 @@
      "Utdanning/Universitet og høyskole"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:34ff6af5-8454-4b37-873c-187429cc3ed6",
    "inhalts_hash": "3af65712346adab1",
    "dublette_key": "hgskulen pa vestlandet|stipendiat knyttet til guide her prosjektet|haugesund",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -11219,13 +10849,14 @@
      "Reiseliv og mat/Reiseliv, hotell og overnatting"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:445cedff-d955-4323-9f46-d017bed69e8e",
    "inhalts_hash": "79fec718f0d3a871",
    "dublette_key": "swig as|outdoor guide cross country skiing snowshoeing|lillehammer",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -11253,13 +10884,14 @@
      "Håndverkere/Tømrer og snekker"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:547d4320-a328-4ca7-8a25-7691ab575950",
    "inhalts_hash": "d12a05286e8ae451",
    "dublette_key": "temp team avd trondheim|blikkenslager eller erfaren tmrer skes trondheim|tiller",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -11287,13 +10919,14 @@
      "Transport og lager/Logistikk, lagerarbeid og innkjøp"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:0a3ef71e-eec3-44cd-961f-08b6ea516f89",
    "inhalts_hash": "3c2ff67487404fb8",
    "dublette_key": "randstad as|sesongarbeidere skes pakking av kalkun for kalkunsesongen|hrland",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -11320,13 +10953,14 @@
      "Reiseliv og mat/Reiseliv, hotell og overnatting"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:4c4a7bd1-867a-42f1-bb8a-eabb020bdf00",
    "inhalts_hash": "cd358bfddb0e7d1b",
    "dublette_key": "saga adventures lofoten|kayak guide couple wanted summer 2025 in lofoten|reine",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -11353,13 +10987,14 @@
      "Håndverkere/Mekaniker"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:cb1a0bc5-550d-446d-8208-152a7c5f3f5f",
    "inhalts_hash": "dffe2bce6a60b1e5",
    "dublette_key": "bra folk as|dekkmontr bilpleie og lagerarbeid|rygge",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -11386,13 +11021,14 @@
      "Industri og produksjon/Matproduksjon og næringsmiddelarbeid"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:6ea0ecc5-9ae3-4863-b822-9044a87ead2c",
    "inhalts_hash": "5ef921edce096624",
    "dublette_key": "safe bemanning|production worker for the fish industry|lepsy",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -11419,13 +11055,14 @@
      "Håndverkere/Tømrer og snekker"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:92ad21e9-80ef-4ee9-ab38-ada7b5fd48e7",
    "inhalts_hash": "d2e8a5c57d339dc2",
    "dublette_key": "personellgruppen|tmrere carpenters fasade vinduer dorrer|laksevag",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -11452,13 +11089,14 @@
      "Transport og lager/Tog-, sporvogn- og vegtrafikk"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:82614bbf-2e0d-4b2a-8e27-44a73d274765",
    "inhalts_hash": "037ff0498a3749ac",
    "dublette_key": "tine sa|hva med en selvstendig arbeidshverdag ute pa veien i nordnorsk natur i moderne lastebiler|troms",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -11485,13 +11123,14 @@
      "Transport og lager/Logistikk, lagerarbeid og innkjøp"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:d2ee39c1-b34b-4a4b-9784-3f43252562f7",
    "inhalts_hash": "55f96e2cf4522cfe",
    "dublette_key": "widere ground handling|flyarbeidere sesongarbeid deltid|troms",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -11518,13 +11157,14 @@
      "Utdanning/Universitet og høyskole"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:0fd62eab-9c9a-4eab-879d-66caa149e2dc",
    "inhalts_hash": "9d83e77e3874b845",
    "dublette_key": "ntnu norwegian university of science and technology|ph d candidate in reinforcement learning for project scheduling problems|gjvik",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -11551,13 +11191,14 @@
      "Reiseliv og mat/Reiseliv, hotell og overnatting"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:514f61c3-8a60-4a5c-9e71-3a1d960dabdc",
    "inhalts_hash": "c5a4b7ff263022db",
    "dublette_key": "nordic gateway as|vestland voss tour guides season 2027|bergen",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -11584,13 +11225,14 @@
      "Reiseliv og mat/Reiseliv, hotell og overnatting"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:53c46cb0-fa71-43c5-a490-d2711da11062",
    "inhalts_hash": "a1c7852acfb061a1",
    "dublette_key": "nordic gateway as|bergen tour guides season 2027|bergen",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -11617,13 +11259,14 @@
      "Håndverkere/Tømrer og snekker"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:729287f5-30d7-4e73-855f-561fc8ad84db",
    "inhalts_hash": "77511e601d7e05f4",
    "dublette_key": "anonym arbeidsgiver|tmrer prosjekter i alesund og mre og romsdal|alesund",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -11650,13 +11293,14 @@
      "Utdanning/Universitet og høyskole"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:b6b1b835-1aaf-4349-97df-f49c98de5672",
    "inhalts_hash": "fe57e4d33d2bb519",
    "dublette_key": "universitetet i bergen|postdoktor i mekanismar for temperaturrobustheit hos fiskeembryo|bergen",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -11683,13 +11327,14 @@
      "Bygg og anlegg/Maskin- og kranfører"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:a462d59f-f3c0-4038-a138-13da52e62e49",
    "inhalts_hash": "3bf2584c4250973c",
    "dublette_key": "holsfjorden produkter da|tractor and farm machinery operator|sylling",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -11716,13 +11361,117 @@
      "Natur og miljø/Jordbruk og dyrehold"
     ]
    },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
    "key": "nav:00dad68a-39da-4f2e-9835-592569a6aa6c",
    "inhalts_hash": "05e494d5e5c2ffc5",
    "dublette_key": "tanya elisabeth grnvold|gardsarbeider avlser farmworker milker|karasjohka karasjok",
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
+    "status": "offen"
+   }
+  },
+  {
+   "quelle": "nav",
+   "quelle_id": "23eb8dfb-8976-4920-bf03-a8533cb94bb9",
+   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/23eb8dfb-8976-4920-bf03-a8533cb94bb9",
+   "titel": "Vi søker produksjonsmedarbeidere til veletablert bryggeri i Vestfold",
+   "organisation": "Randstad AS",
+   "ort": "Larvik",
+   "region": "Vestfold",
+   "land": "Norwegen",
+   "land_code": "NO",
+   "beschreibung": "Operatør i Tapperi \n\n Er du teknisk anlagt, liker fysisk arbeid og trives i et produksjonsmiljø? \nVi søker nå  dyktige og engasjerte operatører til vårt tapperi som ønsker å bidra til stabil og effektiv drift.\n Det er en fordel med fagbrev innen produksjonsteknikk/industriell matproduksjon, og at du er lærevillig og ønsker å utvikle din kompetanse sammen med oss. Du er opptatt av kvalitet og er lojal i forhold til prosedyrer innen kvalitet og hygiene.\n\n Arbeidsoppgaver\n Drift og overvåking av produksjon i Tapperi\n Styre og optimalisere produksjonsprosesser\n Feilsøking og håndtering av driftsforstyrrelser\n Vask, vedlikehold og klargjøring av maskiner og utstyr\n Bruk av ERP-system (Business Central) og produksjonsverktøy\n Utføre kvalitetskontroller iht. gjeldende krav til Trygg mat og hygiene\n Bidra til kontinuerlig forbedringsarbeid (OEE, effektivitet, kvalitet)\n Samarbeide tett med skiftleder, teknisk avdeling og øvrige operatører\n Kvalifikasjoner\n Fagbrev innen produksjonsteknikk og industriell matproduksjon eller tilsvarende er ønskelig\n Relevant erfaring kan kompensere for formell utdanning\n God teknisk innsikt og interesse for produksjonsutstyr er en forutsetning\n Erfaring fra industriell produksjon og skiftarbeid er en fordel\n Generelt god IT-forståelse, gjerne erfaring med ERP-systemer\n Gode norsk- og engelskkunnskaper\n Truckførerbevis (T1–T4) er en fordel\n Personlige egenskaper\n Strukturert og ansvarsbevisst\n Løsningsorientert og praktisk anlagt\n Gode samarbeidsevner og bidrar til et godt arbeidsmiljø\n Nøyaktig og kvalitetsbevisst\n Evne til å jobbe selvstendig og ta initiativ\n\n Ser det interessant ut ?  Ta gjerne også kontakt med Tom Christiansen hos Randstad påmobil +47 40021522 eller email :tom.christiansen@randstad.no",
+   "veroeffentlicht": "2026-09-30",
+   "frist": "13.11.2026",
+   "extra": {
+    "anstellung": "Engasjement",
+    "umfang": "Deltid",
+    "start": "",
+    "beruf": "Produksjonsmedarbeidere",
+    "website": "www.randstad.no",
+    "kategorien": [
+     "Industri og produksjon/Matproduksjon og næringsmiddelarbeid"
+    ]
+   },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
+   "key": "nav:23eb8dfb-8976-4920-bf03-a8533cb94bb9",
+   "inhalts_hash": "2f305ae47aa4a62e",
+   "dublette_key": "randstad as|vi sker produksjonsmedarbeidere til veletablert bryggeri i vestfold|larvik",
+   "status_quelle": "offen",
+   "zustand": {
+    "erstmals_gesehen": "2026-11-01T21:33:08+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
+    "status": "offen"
+   }
+  },
+  {
+   "quelle": "nav",
+   "quelle_id": "190bbd86-e836-4c3f-a386-e1ae881374ff",
+   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/190bbd86-e836-4c3f-a386-e1ae881374ff",
+   "titel": "Vi søker forskalingssnekkere/jernbindere / We are looking for Formwork Carpenters / Rebar Workers",
+   "organisation": "Personellgruppen AS",
+   "ort": "Blomsterdalen",
+   "region": "Vestland",
+   "land": "Norwegen",
+   "land_code": "NO",
+   "beschreibung": "Vi søker forskalings-/jernbindere til oppdrag i Bergen\n Vi søker dyktige forskalings-/jernbindere til oppdrag i Bergen, med umiddelbar oppstart\n Oppdraget er på Søreide/Landås.\n Interessert? Send din søknad eller ta kontakt med oss på per@personellgruppen.no \n\n Ønskede kvalifikasjoner:\n • Erfaring med forskaling og/eller jernbinding\n• Praktisk erfaring fra bygg og anlegg\n• Evne til å jobbe selvstendig og effektivt\n• Gode kommunikasjonsevner og forståelse av norsk, svensk eller engelsk\n• Fagbrev er en fordel, men relevant erfaring kan kompensere for manglende fagbrev\n• Erfaring fra arbeid i Norge er en fordel\n Vi tilbyr:\n • Et godt arbeidsmiljø med hyggelige kolleger\n• Langsiktig prosjekt med gode muligheter for forlengelse\n• Gode betingelser, forsikringer og pensjonsordning\n• Hjelp til å skaffe bolig ved behov\n\n Søk snarest – ansettelser skjer fortløpende.\n\n Personellgruppen ansetter kontinuerlig kandidater til flere typer stillinger og prosjekter over hele landet. Dersom du har erfaring fra bygg- og anleggsbransjen, oppfordrer vi deg til å ta kontakt.\n\n We are looking for Formwork Carpenters / Rebar Workers in Bergen\n We are looking for skilled formwork carpenters / rebar workers for an assignment in Bergen, with imediate start.\n The assignment is located in Søreide/Landås.\n Interested? Send your application or cantact us on per@personellgruppen.no\n Desired qualifications:\n • Experience with formwork and/or rebar work\n• Practical experience from construction and civil engineering\n• Ability to work independently and efficiently\n• Good communication skills and understanding of Norwegian, Swedish or English\n• Trade certificate is an advantage, but relevant experience can compensate for lack of formal certification\n• Experience working in Norway is an advantage\n We offer:\n • A good working environment with friendly colleagues\n• Long-term project with good possibilities for extension\n• Competitive conditions, insurance, and pension scheme\n• Assistance with accommodation if needed\n\n Apply as soon as possible – hiring takes place on an ongoing basis.\n\n Personellgruppen continuously recruits candidates for several types of positions and projects across Norway. If you have experience in construction and civil engineering projects, we encourage you to get in touch.",
+   "veroeffentlicht": "2026-10-28",
+   "frist": "Snarest / ASAP",
+   "extra": {
+    "anstellung": "Prosjekt",
+    "umfang": "Heltid",
+    "start": "",
+    "beruf": "Forskalingssnekkere/jernbindere / Formwork Carpenters/Rebar Workers",
+    "website": "http://personellgruppen.no/",
+    "kategorien": [
+     "Håndverkere/Betongfagarbeider"
+    ]
+   },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
+   "key": "nav:190bbd86-e836-4c3f-a386-e1ae881374ff",
+   "inhalts_hash": "78d78dde7dd4f08a",
+   "dublette_key": "personellgruppen as|vi sker forskalingssnekkere jernbindere we are looking for formwork carpenters rebar workers|blomsterdalen",
+   "status_quelle": "offen",
+   "zustand": {
+    "erstmals_gesehen": "2026-11-01T21:33:08+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
+    "status": "offen"
+   }
+  },
+  {
+   "quelle": "nav",
+   "quelle_id": "7bb4a472-7c69-47b8-8cd9-3adc3d48c554",
+   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/7bb4a472-7c69-47b8-8cd9-3adc3d48c554",
+   "titel": "Utdanningspraksis, Vår 2027 Sommerskolen Oslo ",
+   "organisation": "Seksjon for sommerskolen sesong, Oslo kommune, Utdanningsetaten",
+   "ort": "Oslo",
+   "region": "Oslo",
+   "land": "Norwegen",
+   "land_code": "NO",
+   "beschreibung": "Er du student og ønsker en spennende praksisplass hvor du kan utvikle deg innen offentlig administrasjon og prosjektledelse? \n Vi søker en engasjert og lærevillig student til praksisplass våren 2027.  Praksisperioden må gjennomføres som en del av studiet og legges innenfor perioden mars–juli 2027. Omfang og konkret periode avtales nærmere med studenten og studiestedet. Som praksisstudent hos oss vil du få mulighet til å delta i planlegging og gjennomføring av Sommerskolen i Oslo. Du vil få opplæring i fagområdet materiell og logistikk, hvor vi benytter teknologi for å effektivisere arbeidet. Du vil få innsikt i hvordan en offentlig virksomhet fungerer, samarbeide med leverandører, utarbeide evalueringer og delta i utviklingsarbeid. Veiledning vil bli gitt fortløpende, og du vil få støtte til å nå dine læringsmål.\n\n Om Sommerskolen Oslo: \nSommerskolen Oslo er et gratis tilbud til barn og unge i Oslo, og kjennetegnes ved et likeverdig tilbud over hele byen. Tilbudet støtter opp under skolens arbeid med faglig og sosial læring, utover det ordinære skoleåret. Vi har kurs tilpasset alle årstrinn, fra 1. – 10. trinn. Våre kurs foregår i sommerferien, hvor hvert kurs varer i en uke. På våre kurs står undring, utforsking og nysgjerrighet i fokus. Sammen utforsker elevene fremtidsrettede og relevante temaer, som tar utgangspunkt i hva de lærer på skolen. Gjennom morsomme og praktiske aktiviteter, ønsker vi å motivere til mer læring.\n Les mer om Sommerskolen Oslo  her. \n\n Dette er en ubetalt praksisplass som forutsetter at du er student, og har praksisperiode gjennom studiet i løpet av våren 2027. \n Søknader vurderes fortløpende, og aktuelle kandidater kan tilbys stilling før søknadsfristens utløp. \n I søknadsbrevet ditt ønsker vi at du forteller oss mer om din motivasjon til å søke praksisplass i Sommerskolen Oslo. \n\n Arbeidsoppgaver\n Bistå med praktiske administrative oppgaver\n Koordinering og oppfølging av større utstyrs-bestillinger\n Utarbeidelse av spørreundersøkelser ved bruk av Customer Voice\n Utarbeide lister, oversikter og rapporter ved å bruke M365 verktøy, som Excel m.m.\n Administrativt støtte til prosjektet Bydelsungdom\n Support av og fasilitering for Sommerskolens lederteam\n Delta på gjennomføring av lederopplæring\n Opplæring i økonomisystemet, og deltakelse på økonomimøter\n Svare ut innkomne henvendelser via postmottak og telefon\n Bistå med mengdeoppgaver, f.eks. opprettelse av brukertilganger og klargjøring av ledertelefoner\n Bistå med øvrige oppgaver i SO teamet\n Kvalifikasjoner\n Du er student og har en relevant praksisperiode som en del av studiet. Dette kan for eksempel være studier innen offentlig administrasjon, prosjektledelse, digitalisering, logistikk, organisasjon og ledelse, IKT/informatikk eller andre relevante fagområder\n Du arbeider selvstendig og strukturert, og evner å sette deg raskt inn i nye oppgaver\n Du har evne til å analysere og reflektere over komplekse problemstillinger\n Du behersker digitale enheter og har god systemforståelse\n Du har kjennskap til Microsoft 365-verktøy, og har grunnleggende ferdigheter i Excel.\n Du har god skriftlig og muntlig fremstillingsevne på norsk og engelsk. Kan du flere språk teller det positivt\n\n Personlige egenskaper\n Du er nysgjerrig på hvordan man tar i bruk teknologi på en effektiv måte\n Du er lærevillig og liker å utforske\n Du er initiativrik, løsningsorientert og engasjert\n Du har gode samarbeidsegenskaper\n Du er ansvarsbevisst og fleksibel\n Vi tilbyr\n Å være med på å planlegge et av landets største arrangementer for barn og unge\n Innsikt i offentlig forvaltning\n Opplæring i store logistikkoppgaver og koordineringer av et bredt fagfelt\n Kunnskap om hvordan teknologi kan tas i bruk på en effektiv måte\n En meningsfull og lærerik praksisplass i Norges største offentlige etat\n Et hyggelig og inkluderende arbeidsmiljø\n Kontaktinformasjon\nJeylani Abukar Rufa'i, Fagkonsulent, 96091920\n\nSilje Nilsen, Rektor, 99259193\n\n Arbeidssted\nGrensesvingen 6\n\n0663 Oslo\n\n Nøkkelinformas",
+   "veroeffentlicht": "2026-10-30",
+   "frist": "2026-12-04T00:00:00",
+   "extra": {
+    "anstellung": "Trainee",
+    "umfang": "Heltid",
+    "start": "",
+    "beruf": "Utdanningspraksis, Vår 2027 - Sommerskolen Oslo",
+    "website": "http://www.oslo.kommune.no",
+    "kategorien": [
+     "Kontor og økonomi/Kontor, forvaltning og saksbehandling",
+     "Salg og service/Personlig tjenesteyting"
+    ]
+   },
+   "abgerufen": "2026-11-01T15:24:47+00:00",
+   "key": "nav:7bb4a472-7c69-47b8-8cd9-3adc3d48c554",
+   "inhalts_hash": "159b46af5d43c8c2",
+   "dublette_key": "seksjon for sommerskolen sesong oslo kommune utdanningsetaten|utdanningspraksis var 2027 sommerskolen oslo|oslo",
+   "status_quelle": "offen",
+   "zustand": {
+    "erstmals_gesehen": "2026-11-01T21:33:08+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -11753,7 +11502,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -11784,7 +11533,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -11815,7 +11564,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -11846,7 +11595,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -11877,7 +11626,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -11908,7 +11657,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -11939,7 +11688,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -11970,7 +11719,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12001,7 +11750,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12032,7 +11781,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12063,7 +11812,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12094,7 +11843,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12125,7 +11874,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12156,7 +11905,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12187,7 +11936,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12218,7 +11967,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12249,7 +11998,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12280,7 +12029,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12311,7 +12060,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12342,7 +12091,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12373,7 +12122,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12404,7 +12153,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12435,7 +12184,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12466,7 +12215,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12497,7 +12246,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12528,7 +12277,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12559,7 +12308,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12590,7 +12339,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12621,7 +12370,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12652,7 +12401,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12683,7 +12432,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12714,7 +12463,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12745,7 +12494,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12776,7 +12525,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12807,7 +12556,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12838,7 +12587,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12869,7 +12618,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12900,7 +12649,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12931,7 +12680,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12962,7 +12711,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -12993,7 +12742,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -13024,7 +12773,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -13055,7 +12804,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -13086,7 +12835,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -13117,7 +12866,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -13148,7 +12897,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -13179,7 +12928,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -13210,7 +12959,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -13241,7 +12990,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -13272,7 +13021,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -13303,7 +13052,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -13334,7 +13083,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -13365,7 +13114,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -13396,7 +13145,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -13427,7 +13176,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -13458,7 +13207,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -13489,7 +13238,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -13520,7 +13269,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -13551,7 +13300,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -13582,7 +13331,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -13613,7 +13362,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -13644,7 +13393,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -13675,7 +13424,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -13706,7 +13455,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -13737,7 +13486,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -13768,7 +13517,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -13799,7 +13548,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -13830,7 +13579,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -13861,7 +13610,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   },
@@ -13892,7 +13641,7 @@
    "status_quelle": "offen",
    "zustand": {
     "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-    "zuletzt_gesehen": "2026-11-01T14:46:42+00:00",
+    "zuletzt_gesehen": "2026-11-01T21:33:08+00:00",
     "status": "offen"
    }
   }

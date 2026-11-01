@@ -72,8 +72,8 @@
       "parameters": {
         "method": "GET",
         "url": "=https://api.github.com/repos/{{ $('Konfiguration').first().json.owner }}/{{ $('Konfiguration').first().json.repo }}/contents/daten/aufbereitet/treffer.json?ref={{ $('Konfiguration').first().json.branch }}",
-        "authentication": "genericCredentialType",
-        "genericAuthType": "httpHeaderAuth",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "githubApi",
         "sendHeaders": true,
         "headerParameters": {
           "parameters": [
@@ -104,8 +104,8 @@
         200
       ],
       "credentials": {
-        "httpHeaderAuth": {
-          "name": "GitHub PAT (Authorization)"
+        "githubApi": {
+          "name": "GitHub Auslandsjob"
         }
       },
       "retryOnFail": true,
@@ -116,8 +116,8 @@
       "parameters": {
         "method": "GET",
         "url": "=https://api.github.com/repos/{{ $('Konfiguration').first().json.owner }}/{{ $('Konfiguration').first().json.repo }}/contents/daten/aufbereitet/benachrichtigt.json?ref={{ $('Konfiguration').first().json.branch }}",
-        "authentication": "genericCredentialType",
-        "genericAuthType": "httpHeaderAuth",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "githubApi",
         "sendHeaders": true,
         "headerParameters": {
           "parameters": [
@@ -143,8 +143,8 @@
         200
       ],
       "credentials": {
-        "httpHeaderAuth": {
-          "name": "GitHub PAT (Authorization)"
+        "githubApi": {
+          "name": "GitHub Auslandsjob"
         }
       },
       "onError": "continueRegularOutput"
@@ -223,8 +223,8 @@
       "parameters": {
         "method": "PUT",
         "url": "=https://api.github.com/repos/{{ $('Konfiguration').first().json.owner }}/{{ $('Konfiguration').first().json.repo }}/contents/daten/aufbereitet/benachrichtigt.json",
-        "authentication": "genericCredentialType",
-        "genericAuthType": "httpHeaderAuth",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "githubApi",
         "sendHeaders": true,
         "headerParameters": {
           "parameters": [
@@ -253,8 +253,8 @@
         100
       ],
       "credentials": {
-        "httpHeaderAuth": {
-          "name": "GitHub PAT (Authorization)"
+        "githubApi": {
+          "name": "GitHub Auslandsjob"
         }
       },
       "retryOnFail": true,

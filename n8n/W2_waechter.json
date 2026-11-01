@@ -1,0 +1,261 @@
+{
+  "name": "Auslandsjob W2 Wächter",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 9 * * *"
+            }
+          ]
+        }
+      },
+      "name": "Täglich 09:00",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "parameters": {},
+      "name": "Manuell prüfen",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "a0",
+              "name": "owner",
+              "value": "LeonTheGoatRohrer",
+              "type": "string"
+            },
+            {
+              "id": "a1",
+              "name": "repo",
+              "value": "Auslandsjob-Hilfe",
+              "type": "string"
+            },
+            {
+              "id": "a2",
+              "name": "branch",
+              "value": "main",
+              "type": "string"
+            },
+            {
+              "id": "a3",
+              "name": "telegram_chat_id",
+              "value": "DEINE_TELEGRAM_CHAT_ID",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "name": "Konfiguration",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        240,
+        100
+      ]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "=https://api.github.com/repos/{{ $('Konfiguration').first().json.owner }}/{{ $('Konfiguration').first().json.repo }}/contents/daten/aufbereitet/status.json?ref={{ $('Konfiguration').first().json.branch }}",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "githubApi",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Accept",
+              "value": "application/vnd.github.raw+json"
+            },
+            {
+              "name": "X-GitHub-Api-Version",
+              "value": "2022-11-28"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 30000,
+          "response": {
+            "response": {
+              "responseFormat": "json"
+            }
+          }
+        }
+      },
+      "name": "Status lesen",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        480,
+        100
+      ],
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 10000,
+      "credentials": {
+        "githubApi": {
+          "name": "GitHub Auslandsjob"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Prüft status.json (von pipeline/aufbereiten.py geschrieben) und sammelt Warnungen. Ohne Warnung keine Nachricht.\nconst s = $input.first().json;\nconst jetzt = Date.now();\nconst stunden = iso => iso ? (jetzt - Date.parse(iso)) / 36e5 : Infinity;\nconst warnungen = [];\nconst sammel = stunden(s.letzter_sammellauf);\nif (sammel > 30) warnungen.push('Letzter Sammellauf ' + (isFinite(sammel) ? 'vor ' + Math.round(sammel) + ' h' : 'unbekannt') +\n  '. W1 aktiv? Actions „Sammeln“ fehlgeschlagen oder nach 60 Tagen ohne Aktivität deaktiviert?');\nconst bewertung = stunden(s.letzte_bewertung);\nif (s.unbewertet > 0 && bewertung > 30) warnungen.push(s.unbewertet + ' Kandidaten warten auf eine KI-Bewertung, letzte Routine-Bewertung ' +\n  (isFinite(bewertung) ? 'vor ' + Math.round(bewertung) + ' h' : 'noch nie') + '. Routine prüfen: https://claude.ai/code/routines');\nif ((s.letzte_bewertung_fehler || []).length) warnungen.push('Letzte Bewertung mit Fehlern: ' + s.letzte_bewertung_fehler.slice(0, 3).join('; '));\nfor (const [quelle, z] of Object.entries(s.quellen || {})) {\n  const alter = stunden(z.abgerufen);\n  if (alter > 72) warnungen.push('Quelle ' + quelle + ' seit ' + Math.round(alter / 24) + ' Tagen nicht neu abgerufen – Sammler fällt aus?');\n  if (z.abruf_fehler > 0) warnungen.push('Quelle ' + quelle + ': ' + z.abruf_fehler + ' Abruffehler im letzten Lauf (zählen nicht als geschlossen)');\n}\nreturn [{ json: { warnen: warnungen.length > 0, anzahl: warnungen.length,\n  text: '🩺 Auslandsjob-Wächter: ' + warnungen.length + ' Auffälligkeit(en)\\n' + warnungen.map(w => '• ' + w).join('\\n') } }];",
+        "mode": "runOnceForAllItems"
+      },
+      "name": "Auffälligkeiten prüfen",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        720,
+        100
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose"
+          },
+          "conditions": [
+            {
+              "id": "c1",
+              "leftValue": "={{ $json.warnen }}",
+              "rightValue": "",
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "name": "Etwas auffällig?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        960,
+        100
+      ]
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $('Konfiguration').first().json.telegram_chat_id }}",
+        "text": "={{ $json.text }}",
+        "additionalFields": {
+          "appendAttribution": false,
+          "disable_web_page_preview": true
+        }
+      },
+      "name": "Telegram: Warnung",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        1200,
+        0
+      ],
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 10000,
+      "credentials": {
+        "telegramApi": {
+          "name": "Telegram Bot"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Täglich 09:00": {
+      "main": [
+        [
+          {
+            "node": "Konfiguration",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Manuell prüfen": {
+      "main": [
+        [
+          {
+            "node": "Konfiguration",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Konfiguration": {
+      "main": [
+        [
+          {
+            "node": "Status lesen",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Status lesen": {
+      "main": [
+        [
+          {
+            "node": "Auffälligkeiten prüfen",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Auffälligkeiten prüfen": {
+      "main": [
+        [
+          {
+            "node": "Etwas auffällig?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Etwas auffällig?": {
+      "main": [
+        [
+          {
+            "node": "Telegram: Warnung",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        []
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Europe/Vienna"
+  }
+}

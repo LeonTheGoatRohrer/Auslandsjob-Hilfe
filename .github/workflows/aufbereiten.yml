@@ -1,9 +1,14 @@
-# Aufbereiten: KI-Bewertungen (llm_cache.json, von n8n geschrieben) + Regeln → gesammelt.json, treffer.json
-# → Commit → n8n-Webhook "benachrichtigen". Wird von n8n nach der Bewertung per workflow_dispatch gestartet.
+# Aufbereiten: KI-Bewertungen (llm_cache/, von der Claude-Code-Routine gepusht) + Regeln
+# → gesammelt.json, treffer.json, status.json → Commit → n8n-Webhook "benachrichtigen".
+# Startet automatisch, wenn die Routine neue Bewertungen pusht. Darf die Routine nicht auf main pushen,
+# pusht sie auf ihren Arbeitsbranch (claude/…); dann übernimmt dieser Workflow die Bewertungsdateien nach main.
 name: Aufbereiten
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main, "claude/**"]
+    paths: ["daten/aufbereitet/llm_cache/**"]
 
 concurrency:
   group: pipeline
@@ -12,17 +17,40 @@ concurrency:
 permissions:
   contents: write
 
+env:
+  N8N_WEBHOOK_BENACHRICHTIGEN: ${{ secrets.N8N_WEBHOOK_BENACHRICHTIGEN }}
+  N8N_WEBHOOK_SECRET: ${{ secrets.N8N_WEBHOOK_SECRET }}
+
 jobs:
   aufbereiten:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
           cache: pip
       - run: pip install -r requirements.txt
+      - run: |
+          git config user.name "auslandsjob-pipeline"
+          git config user.email "pipeline@users.noreply.github.com"
+
+      - name: Bewertungen vom Routine-Branch übernehmen
+        if: ${{ github.event_name == 'push' && github.ref_name != 'main' }}
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          git fetch origin "$BRANCH"
+          git checkout "origin/$BRANCH" -- daten/aufbereitet/llm_cache
+          git checkout "origin/$BRANCH" -- daten/aufbereitet/bewertungslaeufe.json || true
+          git add daten/aufbereitet
+          git diff --cached --quiet || git commit -m "KI-Bewertung von $BRANCH übernommen"
+          git push origin main
+          git push origin --delete "$BRANCH" || true
 
       - name: Aufbereiten
         env:
@@ -32,22 +60,18 @@ jobs:
       - name: Ergebnis committen
         id: commit
         run: |
-          git config user.name "auslandsjob-pipeline"
-          git config user.email "pipeline@users.noreply.github.com"
           git add daten/aufbereitet
           if git diff --cached --quiet; then echo "nichts zu committen"; else
             git commit -m "Aufbereitung ${{ github.run_id }}"
-            git pull --rebase
-            git push
+            git pull --rebase origin main
+            git push origin main
           fi
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
       - name: n8n benachrichtigen
-        if: ${{ secrets.N8N_WEBHOOK_BENACHRICHTIGEN != '' }}
-        env:
-          WEBHOOK: ${{ secrets.N8N_WEBHOOK_BENACHRICHTIGEN }}
-          SECRET: ${{ secrets.N8N_WEBHOOK_SECRET }}
+        if: ${{ env.N8N_WEBHOOK_BENACHRICHTIGEN != '' }}
         run: |
           anzahl=$(python -c "import json;d=json.load(open('daten/aufbereitet/treffer.json'));print(len(d['treffer']))")
-          curl -sS -f -X POST "$WEBHOOK" -H "Content-Type: application/json" -H "X-Auftrag-Secret: $SECRET" \
+          curl -sS -f -X POST "$N8N_WEBHOOK_BENACHRICHTIGEN" -H "Content-Type: application/json" \
+            -H "X-Auftrag-Secret: $N8N_WEBHOOK_SECRET" \
             -d "{\"lauf_id\":\"${{ github.run_id }}\",\"commit\":\"${{ steps.commit.outputs.sha }}\",\"treffer\":$anzahl}"

@@ -1,4 +1,5 @@
-# Sammeln ohne KI: Sammler → normalisieren → Zustand → Vorfilter → Commit → n8n-Webhook "bewerten".
+# Sammeln ohne KI: Sammler → normalisieren → Zustand → Vorfilter → Aufbereiten → Commit → n8n-Webhook "benachrichtigen".
+# Neue Kandidaten bewertet danach die Claude-Code-Routine (täglich 07:00 Wien) und pusht llm_cache/ → aufbereiten.yml.
 # Wird von n8n (Workflow "Dirigent") per workflow_dispatch gestartet; manuell über den Actions-Tab.
 name: Sammeln
 
@@ -19,6 +20,10 @@ concurrency:
 
 permissions:
   contents: write
+
+env:
+  N8N_WEBHOOK_BENACHRICHTIGEN: ${{ secrets.N8N_WEBHOOK_BENACHRICHTIGEN }}
+  N8N_WEBHOOK_SECRET: ${{ secrets.N8N_WEBHOOK_SECRET }}
 
 jobs:
   sammeln:
@@ -52,10 +57,12 @@ jobs:
           done
           python -m sammler.demo
 
-      - name: Verarbeiten (normalisieren, Zustand, Vorfilter)
+      - name: Verarbeiten (normalisieren, Zustand, Vorfilter, Aufbereiten)
         env:
           PYTHONIOENCODING: utf-8
-        run: python -m pipeline.verarbeiten
+        run: |
+          python -m pipeline.verarbeiten
+          python -m pipeline.aufbereiten
 
       - uses: actions/upload-artifact@v4
         with:
@@ -71,17 +78,15 @@ jobs:
           git add daten/aufbereitet
           if git diff --cached --quiet; then echo "nichts zu committen"; else
             git commit -m "Sammellauf ${{ github.run_id }}"
-            git pull --rebase
-            git push
+            git pull --rebase origin main
+            git push origin main
           fi
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
-      - name: n8n benachrichtigen (Bewertung starten)
-        if: ${{ secrets.N8N_WEBHOOK_BEWERTEN != '' }}
-        env:
-          WEBHOOK: ${{ secrets.N8N_WEBHOOK_BEWERTEN }}
-          SECRET: ${{ secrets.N8N_WEBHOOK_SECRET }}
+      - name: n8n benachrichtigen
+        if: ${{ env.N8N_WEBHOOK_BENACHRICHTIGEN != '' }}
         run: |
-          zaehlung=$(python -c "import json;print(json.dumps(json.load(open('daten/aufbereitet/aenderungen.json'))['zaehlung']))")
-          curl -sS -f -X POST "$WEBHOOK" -H "Content-Type: application/json" -H "X-Auftrag-Secret: $SECRET" \
-            -d "{\"lauf_id\":\"${{ github.run_id }}\",\"commit\":\"${{ steps.commit.outputs.sha }}\",\"zaehlung\":$zaehlung}"
+          anzahl=$(python -c "import json;d=json.load(open('daten/aufbereitet/treffer.json'));print(len(d['treffer']))")
+          curl -sS -f -X POST "$N8N_WEBHOOK_BENACHRICHTIGEN" -H "Content-Type: application/json" \
+            -H "X-Auftrag-Secret: $N8N_WEBHOOK_SECRET" \
+            -d "{\"lauf_id\":\"${{ github.run_id }}\",\"commit\":\"${{ steps.commit.outputs.sha }}\",\"treffer\":$anzahl}"

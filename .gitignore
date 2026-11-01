@@ -5,3 +5,4 @@ daten/aufbereitet/*.tmp
 __pycache__/
 .pytest_cache/
 node_modules/
+daten/arbeit/
