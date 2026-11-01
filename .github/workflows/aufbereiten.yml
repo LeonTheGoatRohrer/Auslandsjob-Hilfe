@@ -43,7 +43,7 @@ jobs:
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
       - name: n8n benachrichtigen
-        if: ${{ env.WEBHOOK != '' }}
+        if: ${{ secrets.N8N_WEBHOOK_BENACHRICHTIGEN != '' }}
         env:
           WEBHOOK: ${{ secrets.N8N_WEBHOOK_BENACHRICHTIGEN }}
           SECRET: ${{ secrets.N8N_WEBHOOK_SECRET }}
