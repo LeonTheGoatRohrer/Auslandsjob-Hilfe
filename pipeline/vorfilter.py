@@ -1,18 +1,9 @@
-"""Vorfilter ohne KI: wirft offensichtlich unpassende Roh-Angebote raus, bevor Claude bewertet.
+"""Vorfilter ohne KI: wirft offensichtlich unpassende Angebote raus, bevor die KI bewertet.
 
-    python pipeline/vorfilter.py
-
-Liest  daten/roh/*.json
-Schreibt daten/aufbereitet/kandidaten.json  (Kandidaten + Zählung je Quelle)
+Wird von pipeline/verarbeiten.py aufgerufen; grund_zum_ausschluss(angebot) liefert den Grund oder None.
 """
 
-import json
 import re
-from pathlib import Path
-
-BASIS = Path(__file__).resolve().parent.parent
-ROH = BASIS / "daten" / "roh"
-AUSGABE = BASIS / "daten" / "aufbereitet" / "kandidaten.json"
 
 # Berufe, die laut Profil nicht gesucht sind (Pflege, Büro, IT, Verkauf, Gastro-Kern, Lehre, Management)
 UNPASSEND = re.compile(
@@ -77,27 +68,3 @@ def grund_zum_ausschluss(a):
         return "Anzeige nicht auf Englisch"
     return None
 
-
-def main():
-    kandidaten, zaehlung = [], {}
-    for datei in sorted(ROH.glob("*.json")):
-        roh = json.loads(datei.read_text(encoding="utf-8"))
-        gruende = {}
-        for a in roh["angebote"]:
-            grund = grund_zum_ausschluss(a)
-            if grund:
-                gruende[grund] = gruende.get(grund, 0) + 1
-            else:
-                kandidaten.append(a)
-        uebrig = roh["anzahl"] - sum(gruende.values())
-        zaehlung[roh["quelle"]] = {"roh": roh["anzahl"], "kandidaten": uebrig, "abgerufen": roh["abgerufen"],
-                                   "ausgeschlossen": gruende}
-        print(f"{roh['quelle']:12} {roh['anzahl']:5} roh → {uebrig:4} Kandidaten   {gruende}")
-    AUSGABE.parent.mkdir(parents=True, exist_ok=True)
-    AUSGABE.write_text(json.dumps({"zaehlung": zaehlung, "kandidaten": kandidaten}, ensure_ascii=False, indent=1),
-                       encoding="utf-8")
-    print(f"\n{len(kandidaten)} Kandidaten → {AUSGABE.relative_to(BASIS)}")
-
-
-if __name__ == "__main__":
-    main()
