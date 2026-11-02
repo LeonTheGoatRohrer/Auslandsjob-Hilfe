@@ -83,11 +83,12 @@ def aufbereiten(aus_ordner=AUS, profil=None, wiki=wiki_infos):
             except Exception:
                 pass  # ohne Ortsbild weiter
         gesammelt.append(angebot)
-    # Geschlossene Angebote sind keine Kandidaten mehr, bleiben aber mit ihrem letzten Stand sichtbar.
-    ids = {g["id"] for g in gesammelt}
+    # Angebote, die in diesem Lauf nicht als Kandidat vorkommen, bleiben mit ihrem letzten Stand sichtbar:
+    # geschlossene (keine Kandidaten mehr) und offene aus inkrementellen Quellen wie NAV, die nur Änderungen liefern.
+    kandidaten_keys = {a["key"] for a in kandidaten}
     for gid, alt in vorher.items():
         z = zustand.get(alt.get("key"))
-        if gid not in ids and z and z["status"] == "geschlossen":
+        if z and alt["key"] not in kandidaten_keys:
             gesammelt.append({**alt, "zustand": zustand_kurz(z)})
     bewerte(gesammelt, profil)
 

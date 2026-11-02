@@ -76,3 +76,24 @@ def test_geschlossene_bleiben_sichtbar(tmp_path):
     assert [g["id"] for g in gesammelt] == ["demo-1"]
     assert gesammelt[0]["zustand"]["status"] == "geschlossen" and gesammelt[0]["zustand"]["geschlossen_grund"] == "nicht mehr gelistet"
     assert ausgabe["treffer"] == []
+
+
+def test_offene_aus_inkrementeller_quelle_bleiben(tmp_path):
+    # NAV liefert nur Änderungen: ein früher bewertetes, weiter offenes Angebot fehlt im nächsten Lauf als Kandidat.
+    schreibe(tmp_path, [kandidat("nav:1"), kandidat("nav:2")],
+             {"nav:1": bewertung("nav:1"), "nav:2": bewertung("nav:2")},
+             {"nav:1": zustand("nav:1"), "nav:2": zustand("nav:2")})
+    aufbereiten(tmp_path, wiki=lambda t: {"bilder": []})
+    (tmp_path / "kandidaten.json").write_text(json.dumps({"kandidaten": [kandidat("nav:2")]}), encoding="utf-8")
+    gesammelt, ausgabe = aufbereiten(tmp_path, wiki=lambda t: {"bilder": []})
+    assert sorted(g["id"] for g in gesammelt) == ["nav-1", "nav-2"]
+    assert sorted(t["id"] for t in ausgabe["treffer"]) == ["nav-1", "nav-2"]
+
+
+def test_neu_als_irrelevant_bewertet_faellt_raus(tmp_path):
+    schreibe(tmp_path, [kandidat("nav:1")], {"nav:1": bewertung("nav:1")}, {"nav:1": zustand("nav:1")})
+    aufbereiten(tmp_path, wiki=lambda t: {"bilder": []})
+    (tmp_path / "llm_cache" / "demo.json").write_text(json.dumps({"nav:1": bewertung("nav:1", relevant=False)}),
+                                                      encoding="utf-8")
+    gesammelt, _ = aufbereiten(tmp_path, wiki=lambda t: {"bilder": []})
+    assert gesammelt == []
