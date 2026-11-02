@@ -1,23 +1,7 @@
 {
- "datum": "2026-11-02T15:17:46+00:00",
+ "datum": "2026-11-02T15:54:53+00:00",
  "passung_min": 60,
  "treffer": [
-  {
-   "id": "backpacker-123961",
-   "key": "backpacker:123961",
-   "titel": "Stationhand auf Rinder-, Schaf- und Ziegenfarm im Outback",
-   "organisation": "Hudson",
-   "land": "Australien",
-   "ort": "Mitchell",
-   "passung": 81,
-   "url": "https://www.backpackerjobboard.com.au/job/123961/stationhand-at-hudson/",
-   "bezahlung": "lohn",
-   "dauer_text": "Start sofort, Dauer nicht genannt, zählt für die 88 Tage.",
-   "haken": "Start sofort; ob ein Platz im April–Juni frei ist, muss erfragt werden.",
-   "nicht_angegeben": [],
-   "inhalts_hash": "a64f896c95fadf56",
-   "geaendert_felder": []
-  },
   {
    "id": "tamu-119379",
    "key": "tamu:119379",
@@ -496,22 +480,6 @@
    "haken": "Gesucht wird ein Paar, Dauer und Lohn sind unklar und ein Auto waere hilfreich.",
    "nicht_angegeben": [],
    "inhalts_hash": "c7631089b1936258",
-   "geaendert_felder": []
-  },
-  {
-   "id": "backpacker-122294",
-   "key": "backpacker:122294",
-   "titel": "Werkstatt-Helfer für Schwermaschinen in Mossman",
-   "organisation": "MCGROUP",
-   "land": "Australien",
-   "ort": "Mossman",
-   "passung": 60,
-   "url": "https://www.backpackerjobboard.com.au/job/122294/trades-assistant-at-mcgroup/",
-   "bezahlung": "unklar",
-   "dauer_text": "Befristete Stelle, Dauer nicht genannt.",
-   "haken": "Unterkunft und Lohn unklar, Dauer offen.",
-   "nicht_angegeben": [],
-   "inhalts_hash": "5d943fd8fa59c7b1",
    "geaendert_felder": []
   }
  ],

@@ -1,699 +1,1103 @@
 {
- "datum": "2026-11-01T21:33:08+00:00",
+ "datum": "2026-11-02T15:54:52+00:00",
  "neu": [
-  "nav:4081c0d0-c009-44f1-b46d-ec498ea17ccd",
-  "nav:23eb8dfb-8976-4920-bf03-a8533cb94bb9",
-  "nav:415e7178-4ffc-4ef9-9c27-d9d6d18bbf75",
-  "nav:a212f91e-cecd-41da-9061-7f67c9df3668",
-  "nav:e812cea6-11bd-4853-a837-e0735d409ddb",
-  "nav:190bbd86-e836-4c3f-a386-e1ae881374ff",
-  "nav:b5a8dd8e-6e29-4be7-9b76-7c6d827ad3fa",
-  "nav:027d9a71-0620-4c25-a519-a1238dd8444e",
-  "nav:7ea8404b-1348-4064-8c62-250014dda878",
-  "nav:71ff4d00-d7ab-443d-a6ec-41bd19d4c68f",
-  "nav:c536b19b-6d9c-4b0e-bd0b-9e4718df2bac",
-  "nav:0cf616d1-3ba7-455e-887f-0974833df3ff",
-  "nav:e65c3e7d-97db-4b64-9a0d-2f12147f1dec",
-  "nav:e670cec6-0e2f-4f84-878c-a21c10e461ae",
-  "nav:c396e126-862f-4cfa-8707-d906a5f07882",
-  "nav:eb63a955-7403-488c-b407-88df1bebde47",
-  "nav:1ac72462-b6e5-4651-bb72-1cbe0426a378",
-  "nav:61a02ca9-5822-47f3-9f0c-10757c733a6e",
-  "nav:0a45184a-3a38-40de-9d56-9fe7f33eaba2",
-  "nav:ef459656-00ea-4362-aeae-044d0700b4cc",
-  "nav:9848080c-c6e8-4c1e-a59c-48a52ed3f2f7",
-  "nav:04e4e073-26bd-44e3-b452-3308d37ec657",
-  "nav:a961a597-9e37-4f4a-8063-8fc28e7d02a2",
-  "nav:3677e899-bd58-4d94-92b1-e19bf8685b2c",
-  "nav:e3cf50dc-e366-4d67-9048-1ad196dadedf",
-  "nav:6647334d-388a-4092-b136-31c9c1846854",
-  "nav:b7173d8c-3f41-4256-aafc-fac470596c1e",
-  "nav:8af371f3-8b67-40aa-89f1-1ebde6c7215c",
-  "nav:33fb716c-8a69-4f4e-96b2-e5b48eff602c",
-  "nav:ec4bf0da-1047-4b85-bcef-61c20b418318",
-  "nav:8c1175d4-1d70-4f8e-b9ec-1b5c3acd1624",
-  "nav:57e9c377-c1bb-4d4c-86fb-6ae2ad9a5e14",
-  "nav:20431694-b890-47ee-bb3b-ae716d863d2c",
-  "nav:fca79399-ea7c-4dfd-a61f-b72bca87af86",
-  "nav:e60d895a-8c3b-4daa-aa80-42b3a6a4bc89",
-  "nav:646dd8f8-4be6-4eac-a32f-7c4a52ebf8ff",
-  "nav:296b4c00-52a6-46cb-ab58-1a03b90ac694",
-  "nav:02252b43-8df6-41ea-a361-4250609bebb5",
-  "nav:10f432a3-ae03-4a40-b20b-86c3abfd9fd8",
-  "nav:6c36e93e-e6bf-434d-935c-1f1df2ba576f",
-  "nav:fe33bfdc-7956-4a9c-a083-e0890907aac6",
-  "nav:154bd2fe-1658-4cdb-9d29-a28b949a8f9a",
-  "nav:9096b943-dda8-4996-ac1c-074203b16d03",
-  "nav:6756c21b-e8ab-4f4f-8573-6e69b1f412a0",
-  "nav:1583fff0-c868-4829-9f09-668d519ebb02",
-  "nav:7e07abe5-e3c9-4055-8340-fea363e8a6f2",
-  "nav:d53d583c-e86c-451b-b829-85ce61f4dd14",
-  "nav:7bb4a472-7c69-47b8-8cd9-3adc3d48c554",
-  "nav:b6ddedb6-be00-4e9e-bf4d-b4c68f755d44",
-  "nav:dc83dab3-f93c-4be7-828a-373784c25600",
-  "nav:dec41bf1-ad5e-4b77-a774-d9bd466cea6e",
-  "nav:83961d57-2dfe-4213-b64e-bd2a384c55a6",
-  "nav:3078feb5-57b4-4234-bf69-d946784de9ea",
-  "nav:0af50b76-cd02-4044-b378-6c935ebf74ab",
-  "nav:3412b7d2-169f-4f39-92dd-8bcb262bf18a",
-  "nav:8aec229c-03bf-4a64-8023-f5917d381827",
-  "nav:d5065282-5702-4969-955b-299ea6b59fdf",
-  "nav:90207fc3-2a98-4c0d-8226-c9e1266969bb",
-  "nav:f7e548ea-b549-4c33-b305-684780577439"
+  "backpacker:124433",
+  "backpacker:124432",
+  "backpacker:124431",
+  "backpacker:124429",
+  "backpacker:124428",
+  "backpacker:124427",
+  "backpacker:124426",
+  "backpacker:124425",
+  "backpacker:124424",
+  "backpacker:124423",
+  "backpacker:124422",
+  "backpacker:124421",
+  "backpacker:124420",
+  "backpacker:124419",
+  "backpacker:124418",
+  "backpacker:124417",
+  "backpacker:124415",
+  "backpacker:124414",
+  "backpacker:124413",
+  "backpacker:124412",
+  "backpacker:124411",
+  "backpacker:124410",
+  "backpacker:124409",
+  "backpacker:124408",
+  "backpacker:124407",
+  "backpacker:124406",
+  "backpacker:124405",
+  "backpacker:124404",
+  "backpacker:124403",
+  "backpacker:124402",
+  "backpacker:124401",
+  "backpacker:124398",
+  "backpacker:124397",
+  "backpacker:124396",
+  "backpacker:124395",
+  "backpacker:124394",
+  "backpacker:124393",
+  "backpacker:124392",
+  "backpacker:124391",
+  "backpacker:124390",
+  "backpacker:124389",
+  "backpacker:124388",
+  "backpacker:124387",
+  "backpacker:124386",
+  "backpacker:124385",
+  "backpacker:124384",
+  "backpacker:124383",
+  "backpacker:124382",
+  "backpacker:124381",
+  "backpacker:124380",
+  "backpacker:98379",
+  "backpacker:124379",
+  "backpacker:124377",
+  "backpacker:124376",
+  "backpacker:124373",
+  "backpacker:124372",
+  "backpacker:122641",
+  "backpacker:91736",
+  "backpacker:124371",
+  "backpacker:124370",
+  "backpacker:124369",
+  "backpacker:124367",
+  "backpacker:124366",
+  "backpacker:124365",
+  "backpacker:124364",
+  "backpacker:124362",
+  "backpacker:124361",
+  "backpacker:124360",
+  "backpacker:124359",
+  "backpacker:124358",
+  "backpacker:124356",
+  "backpacker:124355",
+  "backpacker:124354",
+  "backpacker:124353",
+  "backpacker:124352",
+  "backpacker:124351",
+  "backpacker:124350",
+  "backpacker:124348",
+  "backpacker:124347",
+  "backpacker:124342",
+  "backpacker:124341",
+  "backpacker:124340",
+  "backpacker:124339",
+  "backpacker:124338",
+  "backpacker:124336",
+  "backpacker:106913",
+  "backpacker:124334",
+  "backpacker:112742",
+  "backpacker:124330",
+  "backpacker:124328",
+  "backpacker:124327",
+  "backpacker:124326",
+  "backpacker:87183",
+  "backpacker:124325",
+  "backpacker:124324",
+  "backpacker:124322",
+  "backpacker:124321",
+  "backpacker:124320",
+  "backpacker:124319",
+  "backpacker:124317",
+  "backpacker:124316",
+  "backpacker:124315",
+  "backpacker:124314",
+  "backpacker:124313",
+  "backpacker:124300",
+  "backpacker:124299",
+  "backpacker:124298",
+  "backpacker:124297",
+  "backpacker:124295",
+  "backpacker:113745",
+  "backpacker:124015",
+  "backpacker:124003",
+  "backpacker:123405",
+  "backpacker:122695",
+  "backpacker:122613",
+  "backpacker:75077",
+  "backpacker:121058",
+  "jobtech:31672493",
+  "jobtech:31672123",
+  "jobtech:31672117",
+  "jobtech:31672119",
+  "jobtech:31671376",
+  "jobtech:31670392",
+  "jobtech:31670140",
+  "jobtech:31670136",
+  "jobtech:31670078",
+  "jobtech:31670076",
+  "jobtech:31670070",
+  "jobtech:31670050",
+  "jobtech:31670024",
+  "jobtech:31670002",
+  "jobtech:31670000",
+  "jobtech:31670006",
+  "jobtech:31670008",
+  "jobtech:31669998",
+  "jobtech:31670004",
+  "jobtech:31669996",
+  "jobtech:31669994",
+  "jobtech:31669992",
+  "jobtech:31669982",
+  "jobtech:31669980",
+  "jobtech:31669990",
+  "jobtech:31669988",
+  "jobtech:31669962",
+  "jobtech:31669960",
+  "jobtech:31669908",
+  "jobtech:31669872",
+  "jobtech:31669892",
+  "jobtech:31672442",
+  "jobtech:31670397",
+  "jobtech:31670164",
+  "jobtech:31670098",
+  "jobtech:31670084",
+  "jobtech:31669906",
+  "jobtech:31669904",
+  "jobtech:31669902",
+  "jobtech:31669874",
+  "jobtech:31669900",
+  "jobtech:31669898",
+  "jobtech:31669896",
+  "jobtech:31669894",
+  "jobtech:31670108",
+  "jobtech:31670080",
+  "jobtech:31670062",
+  "jobtech:31670074",
+  "jobtech:31669978",
+  "jobtech:31669966",
+  "jobtech:31669910",
+  "jobtech:31670162",
+  "jobtech:31670036",
+  "jobtech:31670038",
+  "jobtech:31670020",
+  "jobtech:31670018",
+  "jobtech:31670034",
+  "jobtech:31670032",
+  "jobtech:31670014",
+  "jobtech:31670016",
+  "jobtech:31670012",
+  "jobtech:31670030",
+  "jobtech:31670010",
+  "jobtech:31670028",
+  "jobtech:31670026",
+  "jobtech:31669964",
+  "jobtech:31669958",
+  "jobtech:31669956",
+  "jobtech:31669940",
+  "jobtech:31669952",
+  "jobtech:31669950",
+  "jobtech:31669936",
+  "jobtech:31669890",
+  "jobtech:31670138",
+  "jobtech:31669942",
+  "jobtech:31669954",
+  "jobtech:31669938",
+  "jobtech:31669948",
+  "jobtech:31669888",
+  "jobtech:31670967",
+  "jobtech:31670118",
+  "jobtech:31670116",
+  "jobtech:31670096",
+  "jobtech:31670114",
+  "jobtech:31670056",
+  "jobtech:31670054",
+  "jobtech:31670068",
+  "jobtech:31670066",
+  "jobtech:31670052",
+  "jobtech:31670064",
+  "jobtech:31669976",
+  "jobtech:31669972",
+  "jobtech:31669970",
+  "jobtech:31669968",
+  "jobtech:31669934",
+  "jobtech:31669946",
+  "jobtech:31669932",
+  "jobtech:31669930",
+  "jobtech:31670160",
+  "jobtech:31670144",
+  "jobtech:31670124",
+  "jobtech:31670122",
+  "jobtech:31670102",
+  "jobtech:31670120",
+  "jobtech:31670100",
+  "jobtech:31670094",
+  "jobtech:31670106",
+  "jobtech:31670048",
+  "jobtech:31670042",
+  "jobtech:31670046",
+  "jobtech:31670044",
+  "jobtech:31670022",
+  "jobtech:31670040",
+  "jobtech:31669986",
+  "jobtech:31669984",
+  "jobtech:31669928",
+  "jobtech:31669944",
+  "jobtech:31669926",
+  "jobtech:31669922",
+  "jobtech:31669876",
+  "jobtech:31670088",
+  "jobtech:31669882",
+  "jobtech:31669924",
+  "jobtech:31669920",
+  "jobtech:31669916",
+  "jobtech:31669914",
+  "jobtech:31669912",
+  "jobtech:31670086",
+  "jobtech:31669878",
+  "jobtech:31669880",
+  "jobtech:31669918",
+  "jobtech:31670604",
+  "jobtech:31670134",
+  "jobtech:31670132",
+  "jobtech:31670158",
+  "jobtech:31670130",
+  "jobtech:31670154",
+  "jobtech:31670156",
+  "jobtech:31669504",
+  "jobtech:31669500",
+  "jobtech:31669502",
+  "jobtech:31670060",
+  "jobtech:31670110",
+  "jobtech:31670104",
+  "jobtech:31670112",
+  "jobtech:31670152",
+  "jobtech:31670128",
+  "jobtech:31670126",
+  "jobtech:31670150",
+  "jobtech:31670148",
+  "jobtech:31670146",
+  "jobtech:31670072",
+  "jobtech:31670082",
+  "jobtech:31670092",
+  "jobtech:31670090",
+  "jobtech:31670310",
+  "jobtech:31670280",
+  "jobtech:31673925",
+  "jobtech:31675204",
+  "jobtech:31675170",
+  "jobtech:31671961",
+  "jobtech:31670266",
+  "jobtech:31674359",
+  "jobtech:31671963",
+  "jobtech:31671990",
+  "jobtech:31674306",
+  "jobtech:31672553",
+  "jobtech:31669508",
+  "jobtech:31669548",
+  "jobtech:31670213",
+  "jobtech:31669586",
+  "jobtech:31669572",
+  "jobtech:31669588",
+  "jobtech:31674937",
+  "jobtech:31673366",
+  "jobtech:31673120",
+  "jobtech:31672827",
+  "jobtech:31671747",
+  "jobtech:31672524",
+  "jobtech:31674500",
+  "jobtech:31671879",
+  "jobtech:31671773",
+  "jobtech:31674659",
+  "jobtech:31673595",
+  "jobtech:31674288",
+  "jobtech:31671453",
+  "jobtech:31673499",
+  "jobtech:31673633",
+  "jobtech:31674939",
+  "jobtech:31673839",
+  "jobtech:31673835",
+  "jobtech:31673833",
+  "jobtech:31673852",
+  "jobtech:31673850",
+  "jobtech:31671136",
+  "jobtech:31671034",
+  "jobtech:31670828",
+  "jobtech:31669656",
+  "jobtech:31673252",
+  "jobtech:31674035",
+  "jobtech:31670487",
+  "jobtech:31674871",
+  "jobtech:31669761",
+  "jobtech:31669679",
+  "jobtech:31673648",
+  "nav:8baf0469-125a-4e0c-9aaa-dc21b2e90aff",
+  "nav:52c7758b-2a48-4e11-9246-a75685b73435",
+  "nav:096f7a11-3fc4-4600-a799-a7b6009971d7",
+  "nav:4e8dd9de-08b6-4653-bb18-63d52ad0b81b",
+  "nav:18c5598b-4839-441d-b8dd-d724b380a247",
+  "nav:c1f456c4-331d-4aa9-a15f-5e5d30b48906",
+  "nav:bd62f70d-0d60-4e54-9be8-07ee5bfe5645",
+  "nav:56d59c2a-88e8-4625-979a-e0eb6ddfc889",
+  "nav:15f7a3e9-d99b-4edb-9c94-964a0451b2be",
+  "nav:d3e906ac-2bcc-4033-8fd8-87976b838bf4",
+  "nav:e4916cb3-1af7-40b1-a53d-cae06782e69b",
+  "nav:7a58e858-7a7e-403c-9712-d84fe1efb0c3",
+  "nav:ed4e36e8-55e9-406a-addf-4cd79ce6fd45",
+  "nav:3c7de005-a2ca-428a-9b44-0cfbf7f1a421",
+  "nav:0821c413-6699-43e3-87fb-3255a33ea7f2",
+  "nav:9f13134f-21e1-4978-a7bb-2bea55a67e6c",
+  "nav:5ef5645a-e75c-4e7a-a10b-35d1aec0f977",
+  "nav:f6042787-e368-4b25-96e2-5f6e14c4357d",
+  "nav:a2d107a6-7853-4dc4-9e72-4c62f118f74b",
+  "nav:800e7605-8d9c-4dea-b98d-be55b852aa95",
+  "nav:6b78581b-64f6-4e9b-8002-31969d49f282",
+  "nav:8ade3f34-982e-4b26-be8d-67c545a35871",
+  "nav:756e05bf-765a-473c-b0ae-fee575fe107d",
+  "nav:eb0432f2-ae00-4a81-9c18-d001f44290e4",
+  "nav:28921be1-a268-4644-a8a4-68ead15dc379",
+  "nav:c75439eb-ff9d-43a0-a08c-f9abf3ca9f7d",
+  "nav:cc07644a-5dbf-4980-b7dd-442ebbabf15d",
+  "nav:56b53d3c-06a1-4eec-8430-77cbe2e7b2be",
+  "nav:b31d6b7d-118e-48c5-92a7-228876a5ee20",
+  "nav:fbe70285-3f40-4868-8675-f0dc87b20782",
+  "nav:3c30d0d9-ef4b-4394-8385-623cf5fb42e7",
+  "nav:ba1a9de7-dfe3-4919-acac-6f2cdb04607c",
+  "nav:28469bd9-1ce6-439d-bc47-3d49050ca743",
+  "nav:53597df9-0f06-48f0-aa45-75f3f9e270fe",
+  "nav:3996dc5e-1571-47c8-b23d-33bf44a1ca1e"
  ],
  "geaendert": [
   {
-   "key": "nav:ce88d509-d5e7-478d-8e73-46bc2a00a458",
+   "key": "backpacker:116431",
    "felder": [
-    "extra"
+    "titel"
    ]
   },
   {
-   "key": "nav:b95484c6-1553-444d-bfbb-79e91eb3a4bf",
-   "felder": [
-    "frist"
-   ]
-  },
-  {
-   "key": "nav:abf80ce2-bf5e-4009-a91c-6f2a603cd889",
-   "felder": [
-    "frist"
-   ]
-  },
-  {
-   "key": "nav:dc1d1e47-08c3-4bd0-96d6-1bbd1f1c5a15",
-   "felder": [
-    "frist"
-   ]
-  },
-  {
-   "key": "nav:637524cf-c999-412e-991e-2d83cfe1ae81",
-   "felder": [
-    "frist",
-    "extra"
-   ]
-  },
-  {
-   "key": "nav:0d68974b-603a-41ee-8d22-fe91031f17cd",
-   "felder": [
-    "frist"
-   ]
-  },
-  {
-   "key": "nav:6a9cce6d-0802-4a86-b87a-dde305a7bd86",
-   "felder": [
-    "frist",
-    "beschreibung"
-   ]
-  },
-  {
-   "key": "nav:0ac5d9f8-82cf-4f9d-8d84-fcbf54c65678",
-   "felder": []
-  },
-  {
-   "key": "nav:02fd9ab4-a90f-40fb-916d-ea64c0926541",
+   "key": "backpacker:124119",
    "felder": [
     "titel",
     "extra"
    ]
   },
   {
-   "key": "nav:ecbb5ce8-a36b-494a-8512-46c770307ff1",
+   "key": "backpacker:122170",
+   "felder": [
+    "titel",
+    "beschreibung"
+   ]
+  },
+  {
+   "key": "backpacker:123745",
+   "felder": [
+    "titel",
+    "beschreibung"
+   ]
+  },
+  {
+   "key": "backpacker:123417",
+   "felder": [
+    "beschreibung"
+   ]
+  },
+  {
+   "key": "backpacker:123360",
+   "felder": [
+    "beschreibung"
+   ]
+  },
+  {
+   "key": "backpacker:124264",
    "felder": []
+  },
+  {
+   "key": "backpacker:124196",
+   "felder": [
+    "beschreibung"
+   ]
+  },
+  {
+   "key": "backpacker:120419",
+   "felder": [
+    "titel",
+    "beschreibung"
+   ]
+  },
+  {
+   "key": "backpacker:124137",
+   "felder": [
+    "titel"
+   ]
+  },
+  {
+   "key": "backpacker:124111",
+   "felder": [
+    "titel",
+    "beschreibung"
+   ]
+  },
+  {
+   "key": "backpacker:124007",
+   "felder": [
+    "titel",
+    "beschreibung"
+   ]
+  },
+  {
+   "key": "backpacker:123757",
+   "felder": [
+    "titel",
+    "beschreibung"
+   ]
+  },
+  {
+   "key": "backpacker:123607",
+   "felder": []
+  },
+  {
+   "key": "jobtech:31626182",
+   "felder": [
+    "frist"
+   ]
+  },
+  {
+   "key": "jobtech:31626416",
+   "felder": [
+    "extra"
+   ]
+  },
+  {
+   "key": "nav:bb997b63-16bd-4211-8656-a74f75e8ae72",
+   "felder": []
+  },
+  {
+   "key": "nav:b7173d8c-3f41-4256-aafc-fac470596c1e",
+   "felder": [
+    "extra"
+   ]
+  },
+  {
+   "key": "nav:83961d57-2dfe-4213-b64e-bd2a384c55a6",
+   "felder": [
+    "extra"
+   ]
+  },
+  {
+   "key": "nav:7d5fd7af-f25c-41fd-8f36-feffb541038e",
+   "felder": [
+    "frist"
+   ]
+  },
+  {
+   "key": "nav:03403b50-27f8-4983-80ad-67aa82b20db5",
+   "felder": [
+    "titel",
+    "beschreibung",
+    "extra"
+   ]
   }
  ],
  "geschlossen": [
   {
-   "key": "nav:1ca3d38f-240f-49cc-87a6-4f1c2f857dcd",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:124292",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:af195056-aa03-4331-9717-f83b73746718",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:124290",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:800a04a2-29ce-4db6-9ee0-215b7c742c13",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:124283",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:00524d48-24eb-48a1-84e5-5ac3aafe050e",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:124280",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:d0af99d7-dd75-47b2-ac25-b4e1f06b1dfd",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:124277",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:14c3ebbf-c092-420d-b0ac-ec14a972afc1",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:124274",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:7baa8e84-7a1c-42a9-bc40-fa55d66ff6a3",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:123464",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:4ec6dc08-2c73-4dc6-a4b9-6f283b4bf6c2",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:106585",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:fc74d579-92cc-4d73-9836-40cdbabc063b",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:124261",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:92f9d7e3-9ed9-48e8-90a7-687643fb1eda",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:124259",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:a964c625-5f3b-4991-86b7-754c03537fa8",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:124258",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:8e5d97b9-ee08-4a85-aba1-4fe065c4bbe6",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:124257",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:d34d51ba-676e-473f-86ae-ee8b3cfc3e08",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:124256",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:6a4f600b-ea89-4fb4-afb3-73f2156fe301",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:124254",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:2bb2c26f-b551-4424-9240-2a98d2bded3b",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:124253",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:3381fb3e-6453-4a83-aa8b-52e035c6834f",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:124252",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:24b91906-3df2-4670-87cb-8bcc6cee7b63",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:124251",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:2466fc70-b769-4fca-999d-046622d4f9bb",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:124250",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:2d5975c6-6947-4780-b568-af420fce7241",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:124239",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:24865243-5dc6-42bc-b888-d778bddb4fd2",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:124185",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:bf97d3c2-d7e4-4085-bf59-f863778ac3a1",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:124134",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:d6883cb1-7bc6-4794-acbd-54d81a5af931",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:124056",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:7de77235-114b-4eb8-934a-d7075b738967",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:124013",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:d61efc9e-1b9d-4a11-ada2-28af87eb2a8c",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:123987",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:c7ff67ee-9f21-4a95-88a7-7778b07450e1",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:123964",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:19548e37-0599-42b5-b12a-755a4b70ff20",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:123961",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:511c094b-a43d-4b15-a5d5-cd61bea55a28",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:123955",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:273f729f-ce4d-410e-9c6a-2fade22d6e68",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:123891",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:8919007c-495b-47a9-b3ed-02dbe53a1dee",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:123881",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:0e70b8e1-02da-41e2-9138-e1bc5d143cd1",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:123767",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:11c26b55-0f61-4fe3-b661-0abe0f1dc6fc",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:123765",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:e67ec6c9-db4a-435c-80d8-e925b3d97827",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:123761",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:cdd3096d-c05f-4146-ac67-d75bbf0f527f",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:123603",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:cd5c235f-894f-42e3-8b44-138ed1cb26b3",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:123646",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:c6b7d788-c28a-4ac1-926e-0fe96043bcf2",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:123612",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:eefd821a-0018-4020-a83c-504ff5e8b0e0",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:123559",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:a91046c6-13a1-4a1a-91be-939837c16784",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:123471",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:d4b96aec-a68f-4fc3-8766-cf808cf15c11",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:123321",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:cd953b44-89e4-4a15-8f7b-8ddbbb2beef1",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:123276",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:858210d5-e492-45a0-87ed-2b821e70be98",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:123273",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:6509b9f2-234b-46d3-b494-8c40d8e54b5c",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122251",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:8531a511-0bc3-41b3-b4ba-aecc81d43c77",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:106134",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:59b4fad2-7352-4a7c-abe3-73c2a6a91ad2",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:123207",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:4b90c7f7-1b32-432f-941a-58e753ec2773",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:123185",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:04380094-fd3e-448f-82e8-6050cdca495c",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122932",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:a01bb3f0-f8d2-467d-8f4d-f929caeee286",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122922",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:17b6c91b-1fa2-494d-9794-c38f89206d59",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:104266",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:e117ee2a-c9ab-477c-9564-8f7a2fa5f89a",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122884",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:f2ff9f05-e697-4451-b579-3b1896159762",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122838",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:6870f4ec-6249-4301-879d-95d1656498e1",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122837",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:aa7c0d7e-aebb-4fc5-a5c7-53a7c9ce9575",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122793",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:8ad1a450-5de4-4698-a1e4-815582264196",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122704",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:e00ebc5c-f713-40dc-913e-f404545d481e",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:67290",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:a2091fb6-a491-42a8-ac31-fffe14f76185",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122517",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:c0df5c39-91b4-4733-be49-ca17b27e0a67",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122263",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:46528af6-5a4b-4bbc-8691-e0a4cdf1dbca",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122433",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:cd11458a-c1ec-482f-a31b-d8ee07a72c7a",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122432",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:258b92cc-a081-4efd-8f64-de408f0ca7ab",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122430",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:775d59fd-c5de-4a28-a03a-5393caf8b48c",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122407",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:1c37c827-5de8-444c-823d-08da088a00d5",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122405",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:b63c0989-d710-40bb-a014-6c45fb395039",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122402",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:4590b9c1-ca21-4e2f-8efd-0e7e3e106bf4",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122396",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:84d8285a-20d5-4d62-bec0-3c3e03fc7184",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122395",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:0eebf445-44d9-4f43-8bff-4287c77664b4",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122392",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:0f41bc33-d747-4c8c-a62d-7d5ab530173e",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122388",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:42805f74-3de8-4183-a4c4-86544fdc2426",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122386",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:bb7128de-436a-41db-9434-95ae0790d458",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122385",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:ee303888-4af8-4b6a-9877-53943501731c",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122382",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:01d92107-0d0e-4a77-8ce8-bd0861d98836",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122379",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:d6665916-2089-45bb-acc9-7a2e39b7dfa7",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122377",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:9e9a5ab1-5bfd-47a9-9201-468d230fa50b",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122375",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:ead238fa-6467-409a-86f7-9b7f19a5dd1b",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122355",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:7bf2958b-ef41-4e77-85b2-265d04198614",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122354",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:99b639f6-559d-4a68-b7a8-1a53ba2fefcd",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122353",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:41ca67cd-f19a-4e90-b832-968c09ddb4fe",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122352",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:5b4dd09c-6562-4c09-8007-1393dfb2beb6",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122346",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:46d3032f-7b3e-48e5-949d-e21ae8b469eb",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:121996",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:49695c44-45bf-479a-8783-6bec6a2a1040",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122342",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:a869d942-2d15-4372-8cec-f74cd194de86",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122339",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:43c6a35e-2035-46f2-ade7-d5debacc5425",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122338",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:091cd300-c7ec-4370-92df-0834d5ba3700",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122335",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:c1da5d74-33e6-48f9-9f3d-13319d515126",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122334",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:8c4f2786-324e-400e-8971-281f36037510",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122332",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:08115eaf-e7c3-4b4e-ab2c-e1f55a0a9ef6",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122331",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:36fa9056-4738-4a02-a680-870e585ff25a",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122324",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:268e6d81-5ecd-40d4-95a6-bf1b12500831",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122320",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:1f2d6ce0-92e4-49b0-8a57-c6236a9000d1",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122319",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:0343de0e-559d-4720-844a-d86a93cde55f",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122317",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:3018452e-76ca-44c5-b279-b4814117a579",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122316",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:86365d20-2f7f-4348-a1e0-b1186c80e80d",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122314",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:07716594-b0c7-4c2c-851e-0ae4450f99c4",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122312",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:94f76e1c-45d4-4416-bce2-5d7ae1943974",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122310",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:8386ee33-f90a-4df4-baf2-2bf96d031e3f",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122299",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:07ac8992-a371-4ffa-ac5b-ff5909686908",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122298",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:10ac2f6f-3825-40a9-bceb-2aa6f4f4e599",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:117580",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:40b6d7e5-6fdc-4fae-81ff-cc23f04b580e",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122296",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:e90eec03-9861-4fbe-b4ed-13cff5c1b987",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122294",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:c2522502-129d-47be-b5ef-7a8a0296d701",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122290",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:3d3c9291-d110-427c-9c94-20d27dd32786",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122287",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:031dd71d-a67b-48be-8982-637a2f748d5a",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122282",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:4f86738a-ce4e-41da-b3d8-11d9b300e4d5",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122281",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:43a1ca16-5745-4f28-ae7a-6e421fe8aa96",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122280",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:ccb4757b-c4a9-4793-b73a-63a0da419396",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122279",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:c690203f-03ed-4993-942c-a383c2a89901",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122271",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:6f2fc663-342c-465b-8612-c7832bcf4a0f",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122270",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:d55f4657-e2af-438c-b589-cf656b28ac9b",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122268",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:3a87f70a-9b4e-4400-85b4-de6ef4f50b65",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122266",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:259e3561-b7b2-4b43-af2f-12e0e79d125e",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122264",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:0caa43b0-5248-43da-89fc-6934a1f023c2",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122262",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:c02ee58e-fabc-4107-ac75-b20a5f3c44d7",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122261",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:c1afdef7-e7fc-466b-a7a6-51203feff371",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122259",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:a1edb17d-e435-4494-bec3-30005cf5b555",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122258",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:9bf00dc0-8e28-4609-8cca-6b9ad4fdf52d",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122256",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:db6240e5-bd9b-4bd7-aeb7-22b50d77c27f",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122254",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:55a98f1b-85cb-4e70-86a5-3a931488d730",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122249",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:f35d70d0-82d1-4b27-abd7-f17f012d8e43",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:114571",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:804f9e34-dba8-47d6-a14c-33d7f7d8cae5",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122246",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:b3c1dddd-2122-4d47-89ad-a4e2bf342d4a",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122243",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:813157d6-7eaa-4fbb-ab0b-5285f975079d",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122241",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:71c32326-469a-4c9c-97d6-4cb8d824d089",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122238",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:f3a53013-19b2-46c9-a45c-c995862683fa",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122236",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:bddc3079-949f-4e79-8448-2fd46f8dc922",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122233",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:ebf060d5-4d8b-4d77-a729-209142dba591",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:121671",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:2de80df7-c831-4073-a9d5-2b7aaac41da0",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122230",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:7b1a962b-c838-49a2-bde3-0208d2144fee",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122229",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:c964f678-a149-4b27-97bd-0a412e8735ff",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122226",
+   "grund": "nicht mehr gelistet"
   },
   {
-   "key": "nav:915f5efc-95db-4bfd-bfa1-4cfa243b5ea0",
-   "grund": "Status INACTIVE"
+   "key": "backpacker:122222",
+   "grund": "nicht mehr gelistet"
+  },
+  {
+   "key": "backpacker:122221",
+   "grund": "nicht mehr gelistet"
+  },
+  {
+   "key": "backpacker:122220",
+   "grund": "nicht mehr gelistet"
+  },
+  {
+   "key": "backpacker:122055",
+   "grund": "nicht mehr gelistet"
+  },
+  {
+   "key": "backpacker:113173",
+   "grund": "nicht mehr gelistet"
+  },
+  {
+   "key": "backpacker:121989",
+   "grund": "nicht mehr gelistet"
+  },
+  {
+   "key": "backpacker:121905",
+   "grund": "nicht mehr gelistet"
+  },
+  {
+   "key": "backpacker:121633",
+   "grund": "nicht mehr gelistet"
+  },
+  {
+   "key": "backpacker:121427",
+   "grund": "nicht mehr gelistet"
+  },
+  {
+   "key": "backpacker:121268",
+   "grund": "nicht mehr gelistet"
+  },
+  {
+   "key": "backpacker:120797",
+   "grund": "nicht mehr gelistet"
+  },
+  {
+   "key": "backpacker:120431",
+   "grund": "nicht mehr gelistet"
   }
  ],
  "abruf_fehler": [],
  "zaehlung": {
   "backpacker": {
-   "offen": 1133,
-   "neu": 0,
-   "geaendert": 0,
-   "geschlossen": 0,
+   "offen": 1112,
+   "neu": 117,
+   "geaendert": 14,
+   "geschlossen": 138,
    "abruf_fehler": 0,
-   "roh": 1133,
-   "abgerufen": "2026-10-28T14:05:31",
+   "roh": 1112,
+   "abgerufen": "2026-11-02T15:53:18+00:00",
    "ausgeschlossen": {
-    "Stadtjob / kein ländlicher Bezug": 482,
-    "Beruf passt nicht": 304
+    "Beruf passt nicht": 304,
+    "Stadtjob / kein ländlicher Bezug": 458
    },
-   "kandidaten": 347
+   "kandidaten": 350
   },
   "jobtech": {
-   "offen": 768,
-   "neu": 0,
-   "geaendert": 0,
+   "offen": 973,
+   "neu": 205,
+   "geaendert": 2,
    "geschlossen": 0,
    "abruf_fehler": 0,
-   "roh": 921,
-   "abgerufen": "2026-11-01T14:43:43+00:00",
+   "roh": 924,
+   "abgerufen": "2026-11-02T15:20:19+00:00",
    "ausgeschlossen": {
-    "Beruf passt nicht": 426,
-    "Anzeige nicht auf Englisch": 57,
-    "Dauer": 257,
-    "Lokalsprache Pflicht": 16,
-    "Geschlossen": 153
+    "Beruf passt nicht": 547,
+    "Anzeige nicht auf Englisch": 94,
+    "Dauer": 252,
+    "Lokalsprache Pflicht": 17
    },
-   "kandidaten": 12
+   "kandidaten": 14
   },
   "nav": {
-   "offen": 504,
-   "neu": 59,
-   "geaendert": 10,
-   "geschlossen": 127,
+   "offen": 540,
+   "neu": 35,
+   "geaendert": 5,
+   "geschlossen": 0,
    "abruf_fehler": 0,
-   "roh": 631,
-   "abgerufen": "2026-11-01T15:24:47+00:00",
+   "roh": 53,
+   "abgerufen": "2026-11-02T15:19:42+00:00",
    "ausgeschlossen": {
-    "Anzeige nicht auf Englisch": 108,
-    "Dauer": 173,
-    "Geschlossen": 127,
-    "Lokalsprache Pflicht": 34,
-    "Beruf passt nicht": 140
+    "Beruf passt nicht": 18,
+    "Dauer": 19,
+    "Anzeige nicht auf Englisch": 5,
+    "Lokalsprache Pflicht": 2
    },
-   "kandidaten": 49
+   "kandidaten": 9
   },
   "tamu": {
    "offen": 87,
    "neu": 0,
    "geaendert": 0,
    "geschlossen": 0,
-   "abruf_fehler": 0,
-   "roh": 87,
-   "abgerufen": "2026-10-28T13:33:56",
-   "ausgeschlossen": {
-    "Beruf passt nicht": 17
-   },
-   "kandidaten": 70
+   "abruf_fehler": 0
   }
  }
 }
