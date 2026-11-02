@@ -6,23 +6,47 @@
       "name": "Error Trigger",
       "type": "n8n-nodes-base.errorTrigger",
       "typeVersion": 1,
-      "position": [0, 0]
+      "position": [
+        0,
+        0
+      ]
     },
     {
       "parameters": {
         "chatId": "DEINE_TELEGRAM_CHAT_ID",
         "text": "=⚠️ Auslandsjob-Pipeline: Fehler in „{{ $json.workflow.name }}“\nKnoten: {{ $json.execution.lastNodeExecuted }}\nFehler: {{ $json.execution.error.message }}\nAusführung: {{ $json.execution.url }}\n\nWiederaufnahme: Webhook erneut auslösen oder Workflow manuell starten.",
-        "additionalFields": { "appendAttribution": false }
+        "additionalFields": {
+          "appendAttribution": false
+        }
       },
       "name": "Telegram: Fehler melden",
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
-      "position": [260, 0],
-      "credentials": { "telegramApi": { "name": "Telegram Bot" } }
+      "position": [
+        260,
+        0
+      ],
+      "credentials": {
+        "telegramApi": {
+          "name": "Telegram account"
+        }
+      }
     }
   ],
   "connections": {
-    "Error Trigger": { "main": [[{ "node": "Telegram: Fehler melden", "type": "main", "index": 0 }]] }
+    "Error Trigger": {
+      "main": [
+        [
+          {
+            "node": "Telegram: Fehler melden",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
   },
-  "settings": { "executionOrder": "v1" }
+  "settings": {
+    "executionOrder": "v1"
+  }
 }

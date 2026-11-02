@@ -5,7 +5,7 @@
       "parameters": {
         "httpMethod": "POST",
         "path": "auslandsjob-benachrichtigen",
-        "authentication": "headerAuth",
+        "authentication": "none",
         "responseMode": "onReceived",
         "options": {}
       },
@@ -15,12 +15,39 @@
       "position": [
         0,
         200
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "s1",
+              "leftValue": "={{ ($json.headers['x-auftrag-secret'] || '').hash('sha256') }}",
+              "rightValue": "SHA256_DES_SECRETS_N8N_WEBHOOK_SECRET",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "name": "Absender prüfen",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        110,
+        400
       ],
-      "credentials": {
-        "httpHeaderAuth": {
-          "name": "Auftrag-Secret (X-Auftrag-Secret)"
-        }
-      }
+      "notes": "Nur Aufrufe aus GitHub Actions: SHA-256 des Headers X-Auftrag-Secret muss zum Repo-Secret N8N_WEBHOOK_SECRET passen."
     },
     {
       "parameters": {
@@ -105,7 +132,7 @@
       ],
       "credentials": {
         "githubApi": {
-          "name": "GitHub Auslandsjob"
+          "name": "GitHub account"
         }
       },
       "retryOnFail": true,
@@ -144,7 +171,7 @@
       ],
       "credentials": {
         "githubApi": {
-          "name": "GitHub Auslandsjob"
+          "name": "GitHub account"
         }
       },
       "onError": "continueRegularOutput"
@@ -212,7 +239,7 @@
       ],
       "credentials": {
         "telegramApi": {
-          "name": "Telegram Bot"
+          "name": "Telegram account"
         }
       },
       "retryOnFail": true,
@@ -254,7 +281,7 @@
       ],
       "credentials": {
         "githubApi": {
-          "name": "GitHub Auslandsjob"
+          "name": "GitHub account"
         }
       },
       "retryOnFail": true,
@@ -267,7 +294,7 @@
       "main": [
         [
           {
-            "node": "Konfiguration",
+            "node": "Absender prüfen",
             "type": "main",
             "index": 0
           }
@@ -339,6 +366,18 @@
             "index": 0
           }
         ]
+      ]
+    },
+    "Absender prüfen": {
+      "main": [
+        [
+          {
+            "node": "Konfiguration",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        []
       ]
     }
   },

@@ -110,7 +110,7 @@
       "waitBetweenTries": 10000,
       "credentials": {
         "githubApi": {
-          "name": "GitHub Auslandsjob"
+          "name": "GitHub account"
         }
       }
     },
@@ -180,7 +180,7 @@
       "waitBetweenTries": 10000,
       "credentials": {
         "telegramApi": {
-          "name": "Telegram Bot"
+          "name": "Telegram account"
         }
       }
     }

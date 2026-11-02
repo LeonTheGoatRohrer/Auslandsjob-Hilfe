@@ -23,25 +23,27 @@ W4 Fehler            Error Trigger ──► Telegram
 
 ## Einrichten
 
-1. Credentials in n8n anlegen und in den Knoten auswählen. In der Instanz heißen sie „GitHub account“ und „Telegram account“ und sind bereits mit allen Knoten verbunden; der Name selbst ist egal:
+Stand 2026-11-02 erledigt: Zugänge „GitHub account“ (fine-grained PAT nur für dieses Repo, *Contents* und *Actions*
+Read and write) und „Telegram account“ (Bot-Token von @BotFather) sind angelegt und mit allen Knoten verbunden.
+Die Repo-Secrets `N8N_WEBHOOK_BENACHRICHTIGEN` und `N8N_WEBHOOK_SECRET` sind gesetzt.
 
-   | Name in den Workflows | Typ | Inhalt |
-   |---|---|---|
-   | `GitHub Auslandsjob` | GitHub API | Access Token = fine-grained PAT nur für dieses Repo: *Contents: Read and write*, *Actions: Read and write*. |
-   | `Auftrag-Secret (X-Auftrag-Secret)` | Header Auth | Name `X-Auftrag-Secret`, Wert = selbst gewähltes langes Geheimnis; derselbe Wert als Repo-Secret `N8N_WEBHOOK_SECRET`. |
-   | `Telegram Bot` | Telegram API | Bot-Token von @BotFather |
+Offen bzw. bei einer Neueinrichtung:
 
-2. In W2, W3 (Knoten **Konfiguration**) und W4 (Knoten **Telegram: Fehler melden**) die eigene Telegram-Chat-ID statt `DEINE_TELEGRAM_CHAT_ID` eintragen.
-3. W4 veröffentlichen, dann in den Einstellungen von W1–W3 W4 als *Error workflow* auswählen.
-4. Im GitHub-Repo unter *Settings → Secrets and variables → Actions*:
-   `N8N_WEBHOOK_BENACHRICHTIGEN` = `https://summerjobs.app.n8n.cloud/webhook/auslandsjob-benachrichtigen`,
-   `N8N_WEBHOOK_SECRET` = das Geheimnis aus Schritt 1.
-5. W1, W2, W3 veröffentlichen.
+1. Telegram-Chat-ID in W2, W3 (Knoten **Konfiguration**) und W4 (Knoten **Telegram: Fehler melden**) eintragen.
+   Ermitteln lässt sie sich mit dem Hilfs-Workflow „Hilfe: Telegram-Chat-ID ermitteln“: veröffentlichen, dem Bot
+   eine Nachricht schicken, in der Ausführung `message.chat.id` ablesen, Workflow archivieren.
+2. W4 veröffentlichen, dann in den Einstellungen von W1–W3 W4 als *Error workflow* auswählen.
+3. W1, W2, W3 veröffentlichen.
+
+**Absenderprüfung in W3:** Der Webhook ist ohne n8n-Credential erreichbar. Der Knoten **Absender prüfen** lässt nur
+Aufrufe durch, deren Header `X-Auftrag-Secret` den gleichen SHA-256-Hash hat wie das Repo-Secret `N8N_WEBHOOK_SECRET`.
+In n8n steht nur der Hash, nicht das Secret. Wird das Secret erneuert, muss der Hash im Knoten mitgeändert werden
+(`python -c "import hashlib,sys; print(hashlib.sha256(sys.stdin.read().strip().encode()).hexdigest())"`).
 
 ## Datenvertrag
 
-- Actions → W3: `POST <webhook>` mit `{lauf_id, commit, treffer}` und Header `X-Auftrag-Secret`. Ohne gesetztes Secret
-  überspringt Actions den Schritt.
+- Actions → W3: `POST <webhook>` mit `{lauf_id, commit, treffer}` und Header `X-Auftrag-Secret`. Ohne gesetztes
+  Repo-Secret überspringt Actions den Schritt; ein falscher Header endet in W3 still am Knoten „Absender prüfen“.
 - W3 meldet nur, was in `benachrichtigt.json` noch nicht steht (neu), einen anderen `inhalts_hash` hat (geändert)
   oder ein gemerktes Angebot ist, das geschlossen wurde. Ohne Neuigkeit keine Nachricht. Danach schreibt W3
   `benachrichtigt.json` per GitHub-API zurück.

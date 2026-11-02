@@ -102,7 +102,7 @@
       "waitBetweenTries": 10000,
       "credentials": {
         "githubApi": {
-          "name": "GitHub Auslandsjob"
+          "name": "GitHub account"
         }
       }
     }
