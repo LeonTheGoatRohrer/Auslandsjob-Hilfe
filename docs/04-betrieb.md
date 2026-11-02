@@ -8,7 +8,7 @@ Stand: 2026-11-01. Ergänzt [02-konzept.md](02-konzept.md): Dort steht das Was, 
 |---|---|---|
 | **Python in GitHub Actions** | Sammler, Normalisieren, Dubletten, Zustand je Angebot, Vorfilter, Regeln (Visum, Dauer, Gebühr), Passung | deterministisch, mit Tests, versioniert; kein Server nötig |
 | **Claude-Code-Routine** (claude.ai, Abo) | KI-Bewertung offener Kandidaten mit Zitaten | kein API-Key nötig; `pipeline/routine.py` bereitet Aufträge vor und prüft die Antworten |
-| **n8n** (Cloud oder selbst gehostet) | Zeitplan, Telegram-Benachrichtigung, Wächter, Fehlerpfad | Ereignisse, Integrationen, Überwachung; Laufhistorie sichtbar |
+| **n8n** (Cloud oder selbst gehostet) | Zeitplan, E-Mail-Benachrichtigung, Wächter, Fehlerpfad | Ereignisse, Integrationen, Überwachung; Laufhistorie sichtbar |
 | **Git-Repo** | alle Zustände als JSON unter `daten/aufbereitet/` | reicht für ein Profil und wenige tausend Angebote; jede Änderung ist ein Commit |
 | **Review-App lokal** | Durchsehen, Bewerten, Merken | wie bisher; liest den Repo-Stand |
 
@@ -30,9 +30,9 @@ Stand: 2026-11-01. Ergänzt [02-konzept.md](02-konzept.md): Dort steht das Was, 
 4. **Actions „Aufbereiten“** startet durch den Push (`llm_cache/**`). Kam er von einem `claude/…`-Branch, übernimmt der
    Workflow die Bewertungsdateien nach `main` und löscht den Branch. Danach Aufbereitung wie in Schritt 2, Commit, `POST` an W3.
 5. **n8n W3** vergleicht `treffer.json` mit `benachrichtigt.json`: neu (unbekannte ID), geändert (anderer Hash),
-   geschlossen (gemerkt und zu). Nur dann eine Telegram-Nachricht; danach `benachrichtigt.json` fortschreiben.
+   geschlossen (gemerkt und zu). Nur dann eine E-Mail; danach `benachrichtigt.json` fortschreiben.
 6. **n8n W2** prüft um 09:00 `status.json` und meldet nur Auffälligkeiten (siehe unten).
-7. **n8n W4** meldet jeden Fehler in W1–W3 per Telegram mit Workflow, Knoten und Link zur Ausführung.
+7. **n8n W4** meldet jeden Fehler in W1–W3 per E-Mail mit Workflow, Knoten und Link zur Ausführung.
 
 Offen ist ein Kandidat für die Routine, wenn er keine Bewertung hat, sein `inhalts_hash` sich geändert hat oder
 `profil.yaml` bzw. der Bewertungs-Prompt geändert wurden (`profil_hash` über beide Dateien). Bewertungen aus Oktober
@@ -68,14 +68,14 @@ neu bewertet, sobald sich die Anzeige, das Profil oder der Prompt ändert, oder 
 | GitHub (privates Repo) | Secrets `N8N_WEBHOOK_BENACHRICHTIGEN`, `N8N_WEBHOOK_SECRET` | Actions in privaten Repos: 2.000 Freiminuten/Monat (recherchiert); ein Sammellauf braucht 5–40 Min. |
 | Claude-Code-Routine | claude.ai-Abo; GitHub-Zugriff der Claude-App auf das Repo | keine Zusatzkosten, verbraucht Abo-Nutzung; höchstens 48 Bewertungen je Lauf |
 | n8n Cloud | Testphase (1.000 Ausführungen), danach Starter 20 €/Monat bei Jahreszahlung (Preisseite) | 0 € in der Testphase; selbst gehostet unter Community-Lizenz 0 € + Server |
-| Telegram | Bot-Token (@BotFather), Chat-ID | 0 € |
+| Gmail | in n8n einmal „Sign in with Google“ (OAuth), Empfänger im Knoten „Konfiguration“ | 0 € |
 | GitHub PAT (fine-grained) | nur dieses Repo: Contents RW, Actions RW; in n8n als Credential „GitHub API“ | 0 € |
 
 n8n-Ausführungen je Tag: W1 1, W2 1, W3 1–2. Das sind etwa 100 im Monat.
 
 ## Wächter (n8n W2)
 
-Meldet per Telegram, wenn in `status.json` eines davon zutrifft; sonst schweigt er:
+Meldet per E-Mail, wenn in `status.json` eines davon zutrifft; sonst schweigt er:
 
 - letzter Sammellauf älter als 30 h (W1 aus, Actions fehlgeschlagen, Zeitplan nach 60 Tagen ohne Aktivität deaktiviert)
 - offene Kandidaten und keine Routine-Bewertung seit 30 h (Routine pausiert, fehlgeschlagen, Abo-Limit erreicht)

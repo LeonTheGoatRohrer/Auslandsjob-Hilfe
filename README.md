@@ -4,7 +4,7 @@ Persönliches Tool, um weltweit die eine außergewöhnliche Auslandserfahrung f�
 Angebote aus vielen Quellen sammeln, gegen meine Kriterien bewerten und die besten als Karten
 zum schnellen Durcharbeiten (Bewertung 1–10) aufbereiten. Seit November 2026 läuft die Suche automatisch:
 GitHub Actions sammelt und filtert, eine Claude-Code-Routine bewertet, n8n steuert, überwacht und meldet neue
-Treffer per Telegram.
+Treffer per E-Mail.
 
 ## Dokumente
 
@@ -34,8 +34,8 @@ daten/      roh/ = Rohdaten je Quelle (nicht im Git), aufbereitet/ = Zustand, Ka
 n8n W1 (06:00) ─► Actions „Sammeln“: Sammler → Zustand → Vorfilter → Regeln, Passung → Commit ─► n8n W3
 Routine (07:00): offene Kandidaten → Claude Sonnet 5.5 (Zitat je Fakt, geprüft) → push llm_cache/ ─► Actions „Aufbereiten“
 Actions „Aufbereiten“: Regeln (Visum, Dauer, Gebühr), Passung → gesammelt.json, treffer.json → Commit ─► n8n W3
-n8n W3: neue / geänderte Treffer, geschlossene Gemerkte → Telegram
-n8n W2 (09:00): Wächter über status.json → Telegram nur bei Auffälligkeiten      n8n W4: Fehler → Telegram
+n8n W3: neue / geänderte Treffer, geschlossene Gemerkte → E-Mail
+n8n W2 (09:00): Wächter über status.json → E-Mail nur bei Auffälligkeiten      n8n W4: Fehler → E-Mail
 ```
 
 ## Lokal starten

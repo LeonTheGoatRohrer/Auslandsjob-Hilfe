@@ -9,9 +9,9 @@ W1 Dirigent          06:00 Wien ──► GitHub: workflow_dispatch sammeln.yml
                         (Actions sammelt, verarbeitet, bereitet auf, committet, ruft Webhook W3)
 Routine (claude.ai)  07:00 Wien ──► bewertet offene Kandidaten ──► pusht llm_cache/
                         (Push startet Actions „Aufbereiten“, das ruft Webhook W3)
-W3 Benachrichtigen   Webhook ──► treffer.json gegen benachrichtigt.json ──► Telegram ──► benachrichtigt.json
-W2 Wächter           09:00 Wien ──► status.json ──► Telegram nur bei Auffälligkeiten
-W4 Fehler            Error Trigger ──► Telegram
+W3 Benachrichtigen   Webhook ──► treffer.json gegen benachrichtigt.json ──► E-Mail ──► benachrichtigt.json
+W2 Wächter           09:00 Wien ──► status.json ──► E-Mail nur bei Auffälligkeiten
+W4 Fehler            Error Trigger ──► E-Mail
 ```
 
 | Workflow | ID in n8n |
@@ -24,14 +24,14 @@ W4 Fehler            Error Trigger ──► Telegram
 ## Einrichten
 
 Stand 2026-11-02 erledigt: Zugänge „GitHub account“ (fine-grained PAT nur für dieses Repo, *Contents* und *Actions*
-Read and write) und „Telegram account“ (Bot-Token von @BotFather) sind angelegt und mit allen Knoten verbunden.
+Read and write) ist angelegt und mit allen Knoten verbunden. Benachrichtigt wird per E-Mail über Gmail an
+leonrohrer06@gmail.com (Empfänger im Knoten „Konfiguration“ von W2/W3 bzw. im Gmail-Knoten von W4).
 Die Repo-Secrets `N8N_WEBHOOK_BENACHRICHTIGEN` und `N8N_WEBHOOK_SECRET` sind gesetzt.
 
 Offen bzw. bei einer Neueinrichtung:
 
-1. Telegram-Chat-ID in W2, W3 (Knoten **Konfiguration**) und W4 (Knoten **Telegram: Fehler melden**) eintragen.
-   Ermitteln lässt sie sich mit dem Hilfs-Workflow „Hilfe: Telegram-Chat-ID ermitteln“: veröffentlichen, dem Bot
-   eine Nachricht schicken, in der Ausführung `message.chat.id` ablesen, Workflow archivieren.
+1. Gmail verbinden: einen der Gmail-Knoten öffnen, bei *Credential* „Create new“ → „Sign in with Google“,
+   danach denselben Zugang in den beiden anderen Gmail-Knoten auswählen.
 2. W4 veröffentlichen, dann in den Einstellungen von W1–W3 W4 als *Error workflow* auswählen.
 3. W1, W2, W3 veröffentlichen.
 

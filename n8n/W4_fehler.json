@@ -13,22 +13,29 @@
     },
     {
       "parameters": {
-        "chatId": "DEINE_TELEGRAM_CHAT_ID",
-        "text": "=⚠️ Auslandsjob-Pipeline: Fehler in „{{ $json.workflow.name }}“\nKnoten: {{ $json.execution.lastNodeExecuted }}\nFehler: {{ $json.execution.error.message }}\nAusführung: {{ $json.execution.url }}\n\nWiederaufnahme: Webhook erneut auslösen oder Workflow manuell starten.",
-        "additionalFields": {
+        "resource": "message",
+        "operation": "send",
+        "sendTo": "leonrohrer06@gmail.com",
+        "subject": "=Auslandsjob: Fehler in {{ $json.workflow.name }}",
+        "emailType": "text",
+        "message": "=Fehler in „{{ $json.workflow.name }}“\nKnoten: {{ $json.execution.lastNodeExecuted }}\nFehler: {{ $json.execution.error.message }}\nAusführung: {{ $json.execution.url }}\n\nWiederaufnahme: Webhook erneut auslösen oder Workflow manuell starten.",
+        "options": {
           "appendAttribution": false
         }
       },
-      "name": "Telegram: Fehler melden",
-      "type": "n8n-nodes-base.telegram",
-      "typeVersion": 1.2,
+      "name": "E-Mail: Fehler melden",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.2,
       "position": [
         260,
         0
       ],
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000,
       "credentials": {
-        "telegramApi": {
-          "name": "Telegram account"
+        "gmailOAuth2": {
+          "name": "Gmail account"
         }
       }
     }
@@ -38,7 +45,7 @@
       "main": [
         [
           {
-            "node": "Telegram: Fehler melden",
+            "node": "E-Mail: Fehler melden",
             "type": "main",
             "index": 0
           }

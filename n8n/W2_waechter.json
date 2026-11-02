@@ -54,8 +54,8 @@
             },
             {
               "id": "a3",
-              "name": "telegram_chat_id",
-              "value": "DEINE_TELEGRAM_CHAT_ID",
+              "name": "email",
+              "value": "leonrohrer06@gmail.com",
               "type": "string"
             }
           ]
@@ -161,26 +161,29 @@
     },
     {
       "parameters": {
-        "chatId": "={{ $('Konfiguration').first().json.telegram_chat_id }}",
-        "text": "={{ $json.text }}",
-        "additionalFields": {
-          "appendAttribution": false,
-          "disable_web_page_preview": true
+        "resource": "message",
+        "operation": "send",
+        "sendTo": "={{ $('Konfiguration').first().json.email }}",
+        "subject": "=Auslandsjob-Wächter: {{ $json.anzahl }} Auffälligkeit(en)",
+        "emailType": "text",
+        "message": "={{ $json.text }}",
+        "options": {
+          "appendAttribution": false
         }
       },
-      "name": "Telegram: Warnung",
-      "type": "n8n-nodes-base.telegram",
-      "typeVersion": 1.2,
+      "name": "E-Mail: Warnung",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.2,
       "position": [
         1200,
         0
       ],
       "retryOnFail": true,
       "maxTries": 3,
-      "waitBetweenTries": 10000,
+      "waitBetweenTries": 5000,
       "credentials": {
-        "telegramApi": {
-          "name": "Telegram account"
+        "gmailOAuth2": {
+          "name": "Gmail account"
         }
       }
     }
@@ -245,7 +248,7 @@
       "main": [
         [
           {
-            "node": "Telegram: Warnung",
+            "node": "E-Mail: Warnung",
             "type": "main",
             "index": 0
           }

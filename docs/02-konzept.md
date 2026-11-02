@@ -73,7 +73,7 @@ schicke selbst.
 
 Festgelegt und gebaut, Details in [04-betrieb.md](04-betrieb.md): Python-Sammler und Regeln laufen in GitHub Actions,
 die KI-Bewertung (Claude-Code-Routine über das Abo, mit Zitat je Faktenfeld) in der Cloud,
-Zeitplan, Benachrichtigung (Telegram) und Überwachung in n8n,
+Zeitplan, Benachrichtigung (E-Mail über Gmail) und Überwachung in n8n,
 alle Zustände liegen als JSON im Repo. „Läuft lokal“ gilt nur noch für die Review-App.
 
 Später: Quellen-Scout, Mail-Alert-Eingang, Lead-Anreicherung mit Mail-Entwurf, Bewerbungs-Tracker, mehrere Profile.
