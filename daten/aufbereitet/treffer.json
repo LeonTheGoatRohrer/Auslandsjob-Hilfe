@@ -1,5 +1,5 @@
 {
- "datum": "2026-11-02T16:02:27+00:00",
+ "datum": "2026-11-02T16:20:59+00:00",
  "passung_min": 60,
  "treffer": [
   {
@@ -7,7 +7,7 @@
    "key": "tamu:119379",
    "titel": "Feldassistenz Rotkronen-Staffelschwanz, Kimberley",
    "organisation": "Monash University",
-   "land": "Australia)",
+   "land": "Australia",
    "ort": "Mornington Wilderness Sanctuary",
    "passung": 75,
    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119379",
@@ -23,7 +23,7 @@
    "key": "tamu:116895",
    "titel": "Feldassistenz Papageien und Aras, Tambopata (Peru)",
    "organisation": "The Macaw Society",
-   "land": "Peru)",
+   "land": "Peru",
    "ort": "Tambopata-Nationalreservat",
    "passung": 74,
    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=116895",
@@ -39,7 +39,7 @@
    "key": "tamu:98847",
    "titel": "Feldassistenz Papageien und Aras, Tambopata (Peru)",
    "organisation": "The Macaw Society",
-   "land": "Peru)",
+   "land": "Peru",
    "ort": "Tambopata-Nationalreservat",
    "passung": 74,
    "url": "https://jobs.rwfm.tamu.edu/view-job/?id=98847",
