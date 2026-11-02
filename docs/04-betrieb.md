@@ -14,7 +14,7 @@ Stand: 2026-11-01. Ergänzt [02-konzept.md](02-konzept.md): Dort steht das Was, 
 
 ## Ein Lauf im Detail
 
-1. **n8n W1** startet täglich um 06:00 (Europe/Vienna) den Actions-Workflow `sammeln.yml` (`workflow_dispatch`).
+1. **n8n W1** startet täglich um 05:00 UTC (06:00 Wien im Winter, 07:00 im Sommer) den Actions-Workflow `sammeln.yml` (`workflow_dispatch`).
 2. **Actions „Sammeln“** (`.github/workflows/sammeln.yml`): Rohdaten und Seiten-Cache kommen aus dem Actions-Cache
    (`daten/roh` ist nicht im Repo). Jeder Sammler läuft einzeln; fällt einer aus, bleibt sein alter Stand und der Lauf
    geht weiter (Warnung im Log). Danach `pipeline/verarbeiten.py` (normalisieren, Zustand, Vorfilter → `kandidaten.json`,

@@ -7,12 +7,12 @@
           "interval": [
             {
               "field": "cronExpression",
-              "expression": "0 6 * * *"
+              "expression": "0 5 * * *"
             }
           ]
         }
       },
-      "name": "Täglich 06:00",
+      "name": "Täglich 05:00",
       "type": "n8n-nodes-base.scheduleTrigger",
       "typeVersion": 1.2,
       "position": [
@@ -108,7 +108,7 @@
     }
   ],
   "connections": {
-    "Täglich 06:00": {
+    "Täglich 05:00": {
       "main": [
         [
           {

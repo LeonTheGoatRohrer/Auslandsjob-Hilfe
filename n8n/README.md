@@ -5,9 +5,9 @@ Alles Deterministische (Sammeln, Regeln, Zustand, Ranking) läuft als Python in 
 Claude-Code-Routine über das Abo. n8n übernimmt Zeitplan, Benachrichtigung, Überwachung und Fehlerpfad.
 
 ```
-W1 Dirigent          06:00 Wien ──► GitHub: workflow_dispatch sammeln.yml
+W1 Dirigent          05:00 UTC  ──► GitHub: workflow_dispatch sammeln.yml
                         (Actions sammelt, verarbeitet, bereitet auf, committet, ruft Webhook W3)
-Routine (claude.ai)  07:00 Wien ──► bewertet offene Kandidaten ──► pusht llm_cache/
+Routine (claude.ai)  06:00 UTC  ──► bewertet offene Kandidaten ──► pusht llm_cache/
                         (Push startet Actions „Aufbereiten“, das ruft Webhook W3)
 W3 Benachrichtigen   Webhook ──► treffer.json gegen benachrichtigt.json ──► E-Mail ──► benachrichtigt.json
 W2 Wächter           09:00 Wien ──► status.json ──► E-Mail nur bei Auffälligkeiten
