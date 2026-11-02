@@ -1,0 +1,11 @@
+[
+ {
+  "auftraege": 6,
+  "bewertet": 48,
+  "datum": "2026-11-02T16:01:19+00:00",
+  "fehler": [],
+  "modell": "claude-sonnet-5-5",
+  "verworfen": 0,
+  "zitate_ungueltig": 0
+ }
+]
