@@ -23,7 +23,7 @@ W4 Fehler            Error Trigger ──► Telegram
 
 ## Einrichten
 
-1. Credentials in n8n anlegen und in den Knoten auswählen (die Namen sind schon eingetragen):
+1. Credentials in n8n anlegen und in den Knoten auswählen. In der Instanz heißen sie „GitHub account“ und „Telegram account“ und sind bereits mit allen Knoten verbunden; der Name selbst ist egal:
 
    | Name in den Workflows | Typ | Inhalt |
    |---|---|---|
