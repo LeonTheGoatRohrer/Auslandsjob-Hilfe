@@ -1,5 +1,5 @@
 {
- "datum": "2026-11-02T15:54:53+00:00",
+ "datum": "2026-11-02T16:02:27+00:00",
  "passung_min": 60,
  "treffer": [
   {
@@ -112,6 +112,26 @@
    "haken": "Zeitraum Dez-März passt nicht zu Apr-Jun, Lohn und Unterkunft ungeklärt, Regenzeit.",
    "nicht_angegeben": [],
    "inhalts_hash": "e8487fd7dcf2b381",
+   "geaendert_felder": []
+  },
+  {
+   "id": "backpacker-124373",
+   "key": "backpacker:124373",
+   "titel": "Stationhand auf Rinder-/Schafstation im Outback",
+   "organisation": "Hudson",
+   "land": "Australien",
+   "ort": "Mitchell",
+   "passung": 71,
+   "url": "https://www.backpackerjobboard.com.au/job/124373/stationhand-at-hudson/",
+   "bezahlung": "lohn",
+   "dauer_text": "Start sofort, Dauer nicht angegeben",
+   "haken": "Start sofort (Nov. 2026), Dauer nicht genannt.",
+   "nicht_angegeben": [
+    "gebuehr",
+    "englisch",
+    "voraussetzungen"
+   ],
+   "inhalts_hash": "a64f896c95fadf56",
    "geaendert_felder": []
   },
   {
@@ -368,6 +388,26 @@
    "haken": "Nur eine Stelle, abgelegen, Unterkunft nicht genannt; Angebot aus 2026.",
    "nicht_angegeben": [],
    "inhalts_hash": "84bba0135b44e6ea",
+   "geaendert_felder": []
+  },
+  {
+   "id": "backpacker-124316",
+   "key": "backpacker:124316",
+   "titel": "Haushalts- und Stationshelfer auf Outback-Station",
+   "organisation": "King Creek Pastoral Co.",
+   "land": "Australien",
+   "ort": "Bedourie",
+   "passung": 63,
+   "url": "https://www.backpackerjobboard.com.au/job/124316/domestic-and-station-hand-homestead-role-at-king-creek-pastoral-co/",
+   "bezahlung": "lohn",
+   "dauer_text": "nicht angegeben",
+   "haken": "Dauer und Lohnhöhe unklar, großer Haushaltsanteil.",
+   "nicht_angegeben": [
+    "dauer",
+    "gebuehr",
+    "englisch"
+   ],
+   "inhalts_hash": "ab8f8faf64b08b25",
    "geaendert_felder": []
   },
   {
