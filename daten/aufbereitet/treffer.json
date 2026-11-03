@@ -1,5 +1,5 @@
 {
- "datum": "2026-11-03T04:16:43+00:00",
+ "datum": "2026-11-03T06:05:02+00:00",
  "passung_min": 60,
  "treffer": [
   {
@@ -164,6 +164,28 @@
    "haken": "Reiterfahrung mit Rindern wird verlangt, Dauer und Lohn unklar.",
    "nicht_angegeben": [],
    "inhalts_hash": "15ddab128f423324",
+   "geaendert_felder": []
+  },
+  {
+   "id": "tamu-119799",
+   "key": "tamu:119799",
+   "titel": "Forschungspraktikum im Nebelwald-Reservat",
+   "organisation": "Cloud Forest Conservation Alliance",
+   "land": "Costa Rica",
+   "ort": "San Gerardo de Rivas",
+   "passung": 70,
+   "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119799",
+   "bezahlung": "unklar",
+   "dauer_text": "Mindestens 11 Wochen.",
+   "haken": "Kosten unklar (Unterkunft/Gebühr nicht genannt); 11 Wochen Minimum; Forschungsvorschlag nötig.",
+   "nicht_angegeben": [
+    "bezahlung",
+    "gebuehr",
+    "unterkunft",
+    "verpflegung",
+    "englisch"
+   ],
+   "inhalts_hash": "6a1d9b1be63f6f4c",
    "geaendert_felder": []
   },
   {
@@ -425,6 +447,29 @@
    "nicht_angegeben": [],
    "inhalts_hash": "fb8bd25070a0a21c",
    "geaendert_felder": []
+  },
+  {
+   "id": "tamu-94795",
+   "key": "tamu:94795",
+   "titel": "Gepardenforschung in Limpopo",
+   "organisation": "Bushveld Biodiversity Research Centre",
+   "land": "South Africa",
+   "ort": "Maasstroom",
+   "passung": 62,
+   "url": "https://jobs.rwfm.tamu.edu/view-job/?id=94795",
+   "bezahlung": "kostet_geld",
+   "dauer_text": "Mindestens 2 Monate.",
+   "haken": "Monatliche Gebühr unbekannt, möglicherweise über 500 Euro; Studierende bevorzugt.",
+   "nicht_angegeben": [
+    "bezahlung",
+    "verpflegung",
+    "englisch"
+   ],
+   "inhalts_hash": "bd9baaf211b06659",
+   "geaendert_felder": [
+    "extra",
+    "frist"
+   ]
   },
   {
    "id": "backpacker-121189",
