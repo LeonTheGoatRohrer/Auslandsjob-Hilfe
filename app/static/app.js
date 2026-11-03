@@ -55,6 +55,7 @@ const nachId = (id) => S.angebote.find((a) => a.id === id);
 const katName = (key) => (S.kategorien[key]?.name || schoen(key)).replace(/^\S+\s/, "");
 const katEmoji = (key) => (S.kategorien[key]?.name || "").split(" ")[0];
 const farbe = (key) => `var(--k-${key}, var(--tinte))`;
+const katStil = (key) => `--farbe:${farbe(key)};--kat-bild:url(img/kat-${key}.jpg)`;
 const kostetGeld = (a) => a.bezahlung === "kostet_geld" || (a.gebuehr_eur ?? 0) > 0;
 const bilderVon = (a) => (a.bilder || []).filter((b) => !S.kaputt.has(b.url));
 const tageSeit = (iso) => (Date.now() - new Date(iso)) / 864e5;
@@ -124,7 +125,8 @@ function gefiltert({ ohneKategorie = false } = {}) {
 function aktualisiereKopf() {
   const bewertet = S.angebote.filter((a) => bew(a.id).rating != null).length;
   const gemerkt = S.angebote.filter((a) => bew(a.id).liked).length;
-  document.getElementById("fortschritt").textContent = `${bewertet} von ${S.angebote.length} bewertet`;
+  document.getElementById("fortschritt").innerHTML = `${bewertet} von ${S.angebote.length} bewertet
+    <span class="fortschritt-balken" aria-hidden="true"><span style="width:${(bewertet / (S.angebote.length || 1)) * 100}%"></span></span>`;
   document.getElementById("zahl-favoriten").textContent = gemerkt;
   const view = aktuelleView();
   document.querySelectorAll(".tabs a").forEach((a) => {
@@ -158,7 +160,7 @@ function renderUebersicht() {
     `<button class="flagge flagge-alle" data-aktion="kategorie" data-wert="" aria-pressed="${!S.filter.kategorie}">
        <strong>Alle</strong><span>${basis.length} Angebote</span></button>`,
     ...Object.keys(S.kategorien).map((k) => `
-      <button class="flagge ${S.filter.kategorie ? "gedimmt" : ""}" style="--farbe:${farbe(k)}"
+      <button class="flagge ${S.filter.kategorie ? "gedimmt" : ""}" style="${katStil(k)}"
               data-aktion="kategorie" data-wert="${k}" aria-pressed="${S.filter.kategorie === k}">
         <strong>${katEmoji(k)} ${esc(katName(k))}</strong><span>${zaehle(k)} Angebote</span>
       </button>`),
@@ -175,6 +177,7 @@ function renderUebersicht() {
         <button class="knopf knopf-haupt" data-aktion="durchgehen">Angebote durchgehen</button>
         <button class="knopf" data-aktion="zufall">Zufälliges Angebot</button>
       </div>
+      <span class="hero-quelle">Bilder: KI-generiert mit Higgsfield</span>
     </section>
     <section class="flaggen" aria-label="Kategorien">${flaggen}</section>
     <div class="raster">
@@ -233,14 +236,14 @@ function bildOderPlatzhalter(a, bild, klasse = "") {
     return `<img class="${klasse}" src="${esc(bild.url)}" data-url="${esc(bild.url)}" alt="" loading="lazy"
              referrerpolicy="no-referrer" onerror="bildFehler(this)" onload="bildPruefen(this)">`;
   }
-  return `<div class="platzhalter-bild">${esc(a.ort || a.land)}</div>`;
+  return `<div class="platzhalter-bild"><span>${esc(a.ort || a.land)}</span></div>`;
 }
 
 function renderKarte(a) {
   const b = bew(a.id);
   const bild = bilderVon(a)[0];
   return `
-  <article class="karte ${a.ausschluss.length ? "ausgeschlossen" : ""}" style="--farbe:${farbe(a.kategorie)}">
+  <article class="karte ${a.ausschluss.length ? "ausgeschlossen" : ""}" style="${katStil(a.kategorie)}">
     <div class="karte-bild">
       ${bildOderPlatzhalter(a, bild)}
       <span class="kat-label">${katEmoji(a.kategorie)} ${esc(katName(a.kategorie))}</span>
@@ -265,7 +268,7 @@ function renderKarte(a) {
       ${b.notiz ? `<p class="org">„${esc(b.notiz.slice(0, 90))}${b.notiz.length > 90 ? "…" : ""}“</p>` : ""}
       ${a.ausschluss.length ? `<p class="ausschluss-hinweis">Ausgeschlossen: ${esc(a.ausschluss.join(", "))}</p>` : ""}
       <div class="karte-fuss">
-        <span class="passung"><b>${a.passung}</b><small>Passung</small></span>
+        <span class="passung"><b>${a.passung}</b><span class="passung-balken" aria-hidden="true"><span style="width:${a.passung}%"></span></span><small>Passung</small></span>
         ${b.rating != null ? `<span class="mein-rating">Du: ${b.rating}/10</span>` : ""}
       </div>
     </div>
@@ -300,12 +303,12 @@ function renderQuellen() {
           const relevant = S.angebote.filter((a) => a.id.startsWith(`${quelle}-`)).length;
           return `<div class="quelle"><h4>${esc(quelle)}</h4>
             <dl class="quelle-fakten">
-              <div><dt>Gesammelt</dt><dd>${z.roh}</dd></div>
-              <div><dt>Nach Vorfilter</dt><dd>${z.kandidaten}</dd></div>
+              <div><dt>Gesammelt</dt><dd>${z.roh ?? "–"}</dd></div>
+              <div><dt>Nach Vorfilter</dt><dd>${z.kandidaten ?? "–"}</dd></div>
               <div><dt>Relevant (Claude)</dt><dd>${relevant}</dd></div>
-              <div><dt>Abgerufen</dt><dd>${esc(z.abgerufen.replace("T", " ").slice(0, 16))}</dd></div>
+              <div><dt>Abgerufen</dt><dd>${esc(z.abgerufen ? z.abgerufen.replace("T", " ").slice(0, 16) : "–")}</dd></div>
               ${z.offen != null ? `<div><dt>Letzter Lauf</dt><dd>${z.offen} offen · ${z.neu} neu · ${z.geaendert} geändert · ${z.geschlossen} geschlossen${z.abruf_fehler ? ` · ${z.abruf_fehler} Abruffehler` : ""}</dd></div>` : ""}
-              <div><dt>Aussortiert</dt><dd>${esc(Object.entries(z.ausgeschlossen).map(([g, n]) => `${g}: ${n}`).join(", ") || "–")}</dd></div>
+              <div><dt>Aussortiert</dt><dd>${esc(Object.entries(z.ausgeschlossen || {}).map(([g, n]) => `${g}: ${n}`).join(", ") || "–")}</dd></div>
             </dl></div>`;
         }).join("")}
       </div>` : ""}
@@ -368,7 +371,7 @@ function ring(wert) {
   const umfang = 2 * Math.PI * 42;
   return `<svg class="ring" viewBox="0 0 100 100" role="img" aria-label="Passung ${wert} von 100">
     <circle cx="50" cy="50" r="42" fill="none" stroke="var(--linie)" stroke-width="9"/>
-    <circle cx="50" cy="50" r="42" fill="none" stroke="var(--tinte)" stroke-width="9" stroke-linecap="round"
+    <circle cx="50" cy="50" r="42" fill="none" stroke="var(--signal)" stroke-width="9" stroke-linecap="round"
       stroke-dasharray="${(umfang * wert) / 100} ${umfang}" transform="rotate(-90 50 50)"/>
     <text x="50" y="61" text-anchor="middle">${wert}</text></svg>`;
 }
@@ -412,7 +415,7 @@ function renderDurchgehen() {
       ${gesamt ? `<span class="dg-balken" aria-hidden="true"><span style="width:${((dg.index + 1) / gesamt) * 100}%"></span></span>
                   <span class="dg-zaehler">${dg.index + 1} von ${gesamt}</span>` : `<span class="dg-balken" aria-hidden="true"></span>`}
     </div>
-    <div class="dg-raster" style="--farbe:${farbe(a.kategorie)}">
+    <div class="dg-raster" style="${katStil(a.kategorie)}">
       <article>
         <div class="galerie-haupt">
           ${bildOderPlatzhalter(a, bild)}
