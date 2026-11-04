@@ -1,23 +1,7 @@
 {
- "datum": "2026-11-03T06:05:02+00:00",
+ "datum": "2026-11-04T04:17:18+00:00",
  "passung_min": 60,
  "treffer": [
-  {
-   "id": "tamu-119379",
-   "key": "tamu:119379",
-   "titel": "Feldassistenz Rotkronen-Staffelschwanz, Kimberley",
-   "organisation": "Monash University",
-   "land": "Australia",
-   "ort": "Mornington Wilderness Sanctuary",
-   "passung": 75,
-   "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119379",
-   "bezahlung": "unterkunft_gegen_arbeit",
-   "dauer_text": "Feldsaison Februar bis Mitte/Ende Juni 2027, Ende flexibel.",
-   "haken": "Start Anfang Februar, also vor dem gewünschten Zeitraum, Felderfahrung (mindestens 1 Jahr) erwünscht, Flug selbst zu tragen.",
-   "nicht_angegeben": [],
-   "inhalts_hash": "5af277c3d65b0d2d",
-   "geaendert_felder": []
-  },
   {
    "id": "tamu-116895",
    "key": "tamu:116895",
@@ -202,22 +186,6 @@
    "haken": "Verlangt Kuherfahrung, Unterkunft unklar, Start wohl vor April.",
    "nicht_angegeben": [],
    "inhalts_hash": "05e494d5e5c2ffc5",
-   "geaendert_felder": []
-  },
-  {
-   "id": "backpacker-122467",
-   "key": "backpacker:122467",
-   "titel": "Bauhelfer auf Horn Island (Torres Strait)",
-   "organisation": "Somerset Building Pty Ltd",
-   "land": "Australien",
-   "ort": "Horn Island",
-   "passung": 69,
-   "url": "https://www.backpackerjobboard.com.au/job/122467/builders-labourer-at-somerset-building-pty-ltd/",
-   "bezahlung": "lohn",
-   "dauer_text": "Befristete Baustelle, Dauer nicht genannt.",
-   "haken": "Vorerfahrung wird verlangt, Dauer und Zeitraum unklar.",
-   "nicht_angegeben": [],
-   "inhalts_hash": "64aa70de16cfeaa3",
    "geaendert_felder": []
   },
   {
