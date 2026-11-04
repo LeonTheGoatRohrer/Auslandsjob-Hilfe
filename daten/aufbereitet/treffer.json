@@ -1,5 +1,5 @@
 {
- "datum": "2026-11-04T04:17:18+00:00",
+ "datum": "2026-11-04T06:04:07+00:00",
  "passung_min": 60,
  "treffer": [
   {
@@ -333,6 +333,26 @@
    "geaendert_felder": []
   },
   {
+   "id": "tamu-109419",
+   "key": "tamu:109419",
+   "titel": "Samango-Affen Feldforschung",
+   "organisation": "Lajuma Research Centre",
+   "land": "South Africa",
+   "ort": "Vivo, Limpopo",
+   "passung": 65,
+   "url": "https://jobs.rwfm.tamu.edu/view-job/?id=109419",
+   "bezahlung": "kostet_geld",
+   "dauer_text": "Mindestens 8 Wochen empfohlen",
+   "haken": "Gebühr unbekannt, Startfenster Feb/März statt ab 20. April.",
+   "nicht_angegeben": [
+    "bezahlung",
+    "verpflegung",
+    "englisch"
+   ],
+   "inhalts_hash": "03cc2ba232d8bd7d",
+   "geaendert_felder": []
+  },
+  {
    "id": "backpacker-120141",
    "key": "backpacker:120141",
    "titel": "Farmhelfer auf Schaf-, Rinder- und Ackerbaubetrieb (12.500 Acre)",
@@ -398,6 +418,26 @@
     "englisch"
    ],
    "inhalts_hash": "ab8f8faf64b08b25",
+   "geaendert_felder": []
+  },
+  {
+   "id": "tamu-109927",
+   "key": "tamu:109927",
+   "titel": "Vegetations- und Habitatkartierung Lajuma",
+   "organisation": "Lajuma Research Centre",
+   "land": "South Africa",
+   "ort": "Vivo, Limpopo",
+   "passung": 63,
+   "url": "https://jobs.rwfm.tamu.edu/view-job/?id=109927",
+   "bezahlung": "kostet_geld",
+   "dauer_text": "Mindestens 8 Wochen empfohlen",
+   "haken": "Gebühr unbekannt, Startfenster Feb/März.",
+   "nicht_angegeben": [
+    "bezahlung",
+    "verpflegung",
+    "englisch"
+   ],
+   "inhalts_hash": "24d4b3db17de5241",
    "geaendert_felder": []
   },
   {
@@ -533,6 +573,26 @@
    "haken": "Gesucht wird ein Paar, Dauer und Lohn sind unklar und ein Auto waere hilfreich.",
    "nicht_angegeben": [],
    "inhalts_hash": "c7631089b1936258",
+   "geaendert_felder": []
+  },
+  {
+   "id": "tamu-108392",
+   "key": "tamu:108392",
+   "titel": "Vogelmonitoring Lajuma",
+   "organisation": "Lajuma Research Centre",
+   "land": "South Africa",
+   "ort": "Vivo, Limpopo",
+   "passung": 60,
+   "url": "https://jobs.rwfm.tamu.edu/view-job/?id=108392",
+   "bezahlung": "kostet_geld",
+   "dauer_text": "Mindestens 12 Wochen empfohlen",
+   "haken": "Gebühr unbekannt, Start Feb/März.",
+   "nicht_angegeben": [
+    "bezahlung",
+    "verpflegung",
+    "englisch"
+   ],
+   "inhalts_hash": "66534b0b3460a7f5",
    "geaendert_felder": []
   }
  ],

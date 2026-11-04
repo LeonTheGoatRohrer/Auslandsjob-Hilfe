@@ -2079,6 +2079,100 @@
   "ausschluss": []
  },
  {
+  "beitrag": "Datenerfassung/Auswertung.",
+  "beschreibung": "Verhaltens- und Ernährungsdaten von Samango-Affen zu Fuß im Bergwald erheben.",
+  "bewertet_am": "2026-11-04T06:03:31+00:00",
+  "bezahlung": "kostet_geld",
+  "bezahlung_text": "Conservation Fee fällig, Höhe nicht angegeben",
+  "dauer_text": "Mindestens 8 Wochen empfohlen",
+  "dauer_wochen": [
+   8,
+   16
+  ],
+  "englisch": "nicht_angegeben",
+  "gebuehr_eur": null,
+  "haken": "Gebühr unbekannt, Startfenster Feb/März statt ab 20. April.",
+  "kategorie": "natur_forschung",
+  "kriterien": {
+   "abenteuer": 8,
+   "authentizität": 7,
+   "außergewöhnlichkeit": 8,
+   "eigener_beitrag": 5,
+   "finanzierung": 2,
+   "lernen": 7,
+   "menschen": 3,
+   "ort": 8,
+   "praktische_arbeit": 8,
+   "realisierbarkeit": 5,
+   "sinn": 7
+  },
+  "lernen": "Primatenfeldarbeit.",
+  "modell": "claude-sonnet-5-5",
+  "ort": "Vivo, Limpopo",
+  "ort_wiki": "Soutpansberg",
+  "region": "Soutpansberg",
+  "tags": [
+   "forschungsstationen"
+  ],
+  "titel": "Samango-Affen Feldforschung",
+  "unterkunft": "crew_haus",
+  "unterpunkt": "wildlife_feldassistenz",
+  "verpflegung": "nicht_angegeben",
+  "voraussetzungen": "Interesse an Primatologie",
+  "warum": "Echte Langzeitforschung im Feld in Südafrika.",
+  "zitate": {
+   "dauer": "A minimum stay of 8 weeks is recommended.",
+   "bezahlung": null,
+   "gebuehr": "A conservation fee is required",
+   "unterkunft": "Shared accommodation",
+   "verpflegung": null,
+   "englisch": null,
+   "voraussetzungen": "Open to students, recent graduates, or individuals interested in primatology, animal behaviour, or conservation"
+  },
+  "zitate_ungueltig": [],
+  "nicht_angegeben": [
+   "bezahlung",
+   "verpflegung",
+   "englisch"
+  ],
+  "id": "tamu-109419",
+  "key": "tamu:109419",
+  "organisation": "Lajuma Research Centre",
+  "sparte": "ausschreibung",
+  "land": "South Africa",
+  "land_code": "ZA",
+  "website": "https://jobs.rwfm.tamu.edu/view-job/?id=109419",
+  "angebot_url": "https://jobs.rwfm.tamu.edu/view-job/?id=109419",
+  "auch_bei": [],
+  "kontakt": null,
+  "status": "automatisch",
+  "quelle": "Texas A&M Natural Resources Job Board",
+  "veroeffentlicht": "04/24/2026",
+  "frist": "12/11/2026",
+  "originaltitel": "Samango Monkey Internship in South Africa",
+  "abgerufen": "2026-11-04T04:17:17+00:00",
+  "inhalts_hash": "03cc2ba232d8bd7d",
+  "zustand": {
+   "erstmals_gesehen": "2026-11-04T04:17:17+00:00",
+   "zuletzt_gesehen": "2026-11-04T04:17:17+00:00",
+   "status": "offen",
+   "geschlossen_grund": null,
+   "aenderungen": []
+  },
+  "bilder": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Vivo_Limpopo_SouthAfrica_June2009.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "quelle": "Wikipedia"
+   }
+  ],
+  "ort_info": "The Soutpansberg, meaning \"Salt Pan Mountain\" in Afrikaans, is a range of mountains in far northern South Africa. It is located in Vhembe District, Limpopo. It is named for the salt pan located at its western end. The mountain range reaches the opposite extremity in the Matikwa Nature Reserve, some 107 kilometres (66 mi) due east. The range as a whole had no Venda name, as it was instead known by its sub-ranges which include Dzanani, Songozwi and others.",
+  "ort_link": "https://en.wikipedia.org/wiki/Soutpansberg",
+  "visum": "mit_auflagen",
+  "visum_regel_text": "Volunteering: nur mit eigenem Visum (meist mit Sponsor).",
+  "passung": 65,
+  "ausschluss": []
+ },
+ {
   "beitrag": "Wartung und Elektronik an Pumpen und Zaunanlagen möglich.",
   "beschreibung": "Zäune, Wartung, Viehtrieb auf Motorrädern und Buggys, Tierhaltung wie Drenchen und Maschinenbedienung auf einem Familienbetrieb mit 12.500 Acre.",
   "bezahlung": "lohn",
@@ -2402,6 +2496,100 @@
   "ort_link": "https://en.wikipedia.org/wiki/Bedourie%2C_Queensland",
   "visum": "working_holiday_nötig",
   "visum_regel_text": "Bezahlte Arbeit: nur mit Working-Holiday-Visum. Working Holiday: ca. 510 €, nur einmal im Leben.",
+  "passung": 63,
+  "ausschluss": []
+ },
+ {
+  "beitrag": "GIS und Datenverwaltung.",
+  "beschreibung": "Vegetationsgemeinschaften kartieren, invasive Arten entfernen und Daten verwalten.",
+  "bewertet_am": "2026-11-04T06:03:31+00:00",
+  "bezahlung": "kostet_geld",
+  "bezahlung_text": "Conservation Fee fällig, Höhe nicht angegeben",
+  "dauer_text": "Mindestens 8 Wochen empfohlen",
+  "dauer_wochen": [
+   8,
+   16
+  ],
+  "englisch": "nicht_angegeben",
+  "gebuehr_eur": null,
+  "haken": "Gebühr unbekannt, Startfenster Feb/März.",
+  "kategorie": "natur_forschung",
+  "kriterien": {
+   "abenteuer": 7,
+   "authentizität": 7,
+   "außergewöhnlichkeit": 7,
+   "eigener_beitrag": 6,
+   "finanzierung": 2,
+   "lernen": 7,
+   "menschen": 3,
+   "ort": 8,
+   "praktische_arbeit": 8,
+   "realisierbarkeit": 5,
+   "sinn": 7
+  },
+  "lernen": "Vegetationsökologie, GIS.",
+  "modell": "claude-sonnet-5-5",
+  "ort": "Vivo, Limpopo",
+  "ort_wiki": "Soutpansberg",
+  "region": "Soutpansberg",
+  "tags": [
+   "wiederaufforstung_invasive_arten"
+  ],
+  "titel": "Vegetations- und Habitatkartierung Lajuma",
+  "unterkunft": "crew_haus",
+  "unterpunkt": "umweltmonitoring",
+  "verpflegung": "nicht_angegeben",
+  "voraussetzungen": "GIS von Vorteil",
+  "warum": "Feldökologie mit GIS-Bezug.",
+  "zitate": {
+   "dauer": "A minimum stay of 8 weeks is recommended.",
+   "bezahlung": null,
+   "gebuehr": "A conservation fee is required",
+   "unterkunft": "Shared accommodation",
+   "verpflegung": null,
+   "englisch": null,
+   "voraussetzungen": "GIS proficiency is beneficial"
+  },
+  "zitate_ungueltig": [],
+  "nicht_angegeben": [
+   "bezahlung",
+   "verpflegung",
+   "englisch"
+  ],
+  "id": "tamu-109927",
+  "key": "tamu:109927",
+  "organisation": "Lajuma Research Centre",
+  "sparte": "ausschreibung",
+  "land": "South Africa",
+  "land_code": "ZA",
+  "website": "https://jobs.rwfm.tamu.edu/view-job/?id=109927",
+  "angebot_url": "https://jobs.rwfm.tamu.edu/view-job/?id=109927",
+  "auch_bei": [],
+  "kontakt": null,
+  "status": "automatisch",
+  "quelle": "Texas A&M Natural Resources Job Board",
+  "veroeffentlicht": "03/18/2026",
+  "frist": "12/11/2026",
+  "originaltitel": "Vegetation and Habitat Assessment Internship at Lajuma - South Africa",
+  "abgerufen": "2026-11-04T04:17:17+00:00",
+  "inhalts_hash": "24d4b3db17de5241",
+  "zustand": {
+   "erstmals_gesehen": "2026-11-04T04:17:17+00:00",
+   "zuletzt_gesehen": "2026-11-04T04:17:17+00:00",
+   "status": "offen",
+   "geschlossen_grund": null,
+   "aenderungen": []
+  },
+  "bilder": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Vivo_Limpopo_SouthAfrica_June2009.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "quelle": "Wikipedia"
+   }
+  ],
+  "ort_info": "The Soutpansberg, meaning \"Salt Pan Mountain\" in Afrikaans, is a range of mountains in far northern South Africa. It is located in Vhembe District, Limpopo. It is named for the salt pan located at its western end. The mountain range reaches the opposite extremity in the Matikwa Nature Reserve, some 107 kilometres (66 mi) due east. The range as a whole had no Venda name, as it was instead known by its sub-ranges which include Dzanani, Songozwi and others.",
+  "ort_link": "https://en.wikipedia.org/wiki/Soutpansberg",
+  "visum": "mit_auflagen",
+  "visum_regel_text": "Volunteering: nur mit eigenem Visum (meist mit Sponsor).",
   "passung": 63,
   "ausschluss": []
  },
@@ -3127,6 +3315,100 @@
   "ausschluss": []
  },
  {
+  "beitrag": "Datenorganisation.",
+  "beschreibung": "Vogelarten, Verhalten und Rufe systematisch erfassen und Daten ordnen.",
+  "bewertet_am": "2026-11-04T06:03:31+00:00",
+  "bezahlung": "kostet_geld",
+  "bezahlung_text": "Conservation Fee fällig, Höhe nicht angegeben",
+  "dauer_text": "Mindestens 12 Wochen empfohlen",
+  "dauer_wochen": [
+   12,
+   16
+  ],
+  "englisch": "nicht_angegeben",
+  "gebuehr_eur": null,
+  "haken": "Gebühr unbekannt, Start Feb/März.",
+  "kategorie": "natur_forschung",
+  "kriterien": {
+   "abenteuer": 7,
+   "authentizität": 7,
+   "außergewöhnlichkeit": 7,
+   "eigener_beitrag": 5,
+   "finanzierung": 2,
+   "lernen": 6,
+   "menschen": 3,
+   "ort": 8,
+   "praktische_arbeit": 7,
+   "realisierbarkeit": 5,
+   "sinn": 6
+  },
+  "lernen": "Feldmethoden der Ornithologie.",
+  "modell": "claude-sonnet-5-5",
+  "ort": "Vivo, Limpopo",
+  "ort_wiki": "Soutpansberg",
+  "region": "Soutpansberg",
+  "tags": [
+   "wildlife_feldassistenz"
+  ],
+  "titel": "Vogelmonitoring Lajuma",
+  "unterkunft": "crew_haus",
+  "unterpunkt": "umweltmonitoring",
+  "verpflegung": "nicht_angegeben",
+  "voraussetzungen": "Keine zwingenden",
+  "warum": "Eigenständige Vogelfeldarbeit in Südafrika.",
+  "zitate": {
+   "dauer": "A minimum of 12 weeks is recommended.",
+   "bezahlung": null,
+   "gebuehr": "A conservation fee is required",
+   "unterkunft": "Shared accommodation",
+   "verpflegung": null,
+   "englisch": null,
+   "voraussetzungen": "Previous fieldwork experience is beneficial but not required"
+  },
+  "zitate_ungueltig": [],
+  "nicht_angegeben": [
+   "bezahlung",
+   "verpflegung",
+   "englisch"
+  ],
+  "id": "tamu-108392",
+  "key": "tamu:108392",
+  "organisation": "Lajuma Research Centre",
+  "sparte": "ausschreibung",
+  "land": "South Africa",
+  "land_code": "ZA",
+  "website": "https://jobs.rwfm.tamu.edu/view-job/?id=108392",
+  "angebot_url": "https://jobs.rwfm.tamu.edu/view-job/?id=108392",
+  "auch_bei": [],
+  "kontakt": null,
+  "status": "automatisch",
+  "quelle": "Texas A&M Natural Resources Job Board",
+  "veroeffentlicht": "01/15/2026",
+  "frist": "12/07/2026",
+  "originaltitel": "Bird Project in South Africa",
+  "abgerufen": "2026-11-04T04:17:17+00:00",
+  "inhalts_hash": "66534b0b3460a7f5",
+  "zustand": {
+   "erstmals_gesehen": "2026-11-04T04:17:17+00:00",
+   "zuletzt_gesehen": "2026-11-04T04:17:17+00:00",
+   "status": "offen",
+   "geschlossen_grund": null,
+   "aenderungen": []
+  },
+  "bilder": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Vivo_Limpopo_SouthAfrica_June2009.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "quelle": "Wikipedia"
+   }
+  ],
+  "ort_info": "The Soutpansberg, meaning \"Salt Pan Mountain\" in Afrikaans, is a range of mountains in far northern South Africa. It is located in Vhembe District, Limpopo. It is named for the salt pan located at its western end. The mountain range reaches the opposite extremity in the Matikwa Nature Reserve, some 107 kilometres (66 mi) due east. The range as a whole had no Venda name, as it was instead known by its sub-ranges which include Dzanani, Songozwi and others.",
+  "ort_link": "https://en.wikipedia.org/wiki/Soutpansberg",
+  "visum": "mit_auflagen",
+  "visum_regel_text": "Volunteering: nur mit eigenem Visum (meist mit Sponsor).",
+  "passung": 60,
+  "ausschluss": []
+ },
+ {
   "titel": "Werkstatt-Helfer für Schwermaschinen in Mossman",
   "kategorie": "bezahlte_jobs",
   "unterpunkt": "werkstatt_mechanik",
@@ -3354,6 +3636,99 @@
   "ort_link": "https://en.wikipedia.org/wiki/Yarra_Valley",
   "visum": "working_holiday_nötig",
   "visum_regel_text": "Bezahlte Arbeit: nur mit Working-Holiday-Visum. Working Holiday: ca. 510 €, nur einmal im Leben.",
+  "passung": 59,
+  "ausschluss": []
+ },
+ {
+  "beitrag": "Buchungen/Wetterdaten ließen sich automatisieren.",
+  "beschreibung": "Kleine Gruppen auf Kajaktouren im Fjord führen, Ausrüstung warten, Gäste fahren, Ferienhaus reinigen. Viel Eigenverantwortung.",
+  "bewertet_am": "2026-11-04T06:03:31+00:00",
+  "bezahlung": "unklar",
+  "bezahlung_text": "nicht angegeben",
+  "dauer_text": "Saison ca. 10. Juni bis 2. September 2027",
+  "dauer_wochen": [
+   12,
+   13
+  ],
+  "englisch": "ja",
+  "gebuehr_eur": null,
+  "haken": "Bezahlung und Unterkunft unklar, schwankende Arbeitszeit.",
+  "kategorie": "bezahlte_jobs",
+  "kriterien": {
+   "abenteuer": 7,
+   "authentizität": 7,
+   "außergewöhnlichkeit": 6,
+   "eigener_beitrag": 2,
+   "finanzierung": 3,
+   "lernen": 5,
+   "menschen": 6,
+   "ort": 9,
+   "praktische_arbeit": 6,
+   "realisierbarkeit": 6,
+   "sinn": 5
+  },
+  "lernen": "Kajak-Guiding und Ausrüstungswartung.",
+  "modell": "claude-sonnet-5-5",
+  "ort": "Olden",
+  "ort_wiki": "Olden, Norway",
+  "region": "Vestland",
+  "tags": [],
+  "titel": "Kajak-Guide in Olden",
+  "unterkunft": "unklar",
+  "unterpunkt": "saisonjobs_besonders",
+  "verpflegung": "nicht_angegeben",
+  "voraussetzungen": "Sehr gutes Englisch, Führerschein",
+  "warum": "Fjord-Sommersaison in Norwegen mit passendem Zeitfenster.",
+  "zitate": {
+   "dauer": "Sesongen vil sannsynligvis vare fra ca. 10. juni til 2. september.",
+   "bezahlung": null,
+   "gebuehr": null,
+   "unterkunft": null,
+   "verpflegung": null,
+   "englisch": "Engelsken din må være svært god.",
+   "voraussetzungen": "Førerkort er nødvendig."
+  },
+  "zitate_ungueltig": [],
+  "nicht_angegeben": [
+   "bezahlung",
+   "gebuehr",
+   "unterkunft",
+   "verpflegung"
+  ],
+  "id": "nav-89483c8a-ed92-4899-b945-d2c2af77ae19",
+  "key": "nav:89483c8a-ed92-4899-b945-d2c2af77ae19",
+  "organisation": "Discover Olden",
+  "sparte": "ausschreibung",
+  "land": "Norwegen",
+  "land_code": "NO",
+  "website": "https://arbeidsplassen.nav.no/stillinger/stilling/89483c8a-ed92-4899-b945-d2c2af77ae19",
+  "angebot_url": "https://arbeidsplassen.nav.no/stillinger/stilling/89483c8a-ed92-4899-b945-d2c2af77ae19",
+  "auch_bei": [],
+  "kontakt": null,
+  "status": "automatisch",
+  "quelle": "NAV / arbeidsplassen.no",
+  "veroeffentlicht": "2026-11-03",
+  "frist": "2027-01-31",
+  "originaltitel": "Kajakkguider / sesongmedarbeidere i Olden – sommeren 2027",
+  "abgerufen": "2026-11-04T04:00:38+00:00",
+  "inhalts_hash": "590d09e5adf666c0",
+  "zustand": {
+   "erstmals_gesehen": "2026-11-04T04:17:17+00:00",
+   "zuletzt_gesehen": "2026-11-04T04:17:17+00:00",
+   "status": "offen",
+   "geschlossen_grund": null,
+   "aenderungen": []
+  },
+  "bilder": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Olden_Norway.jpg/1280px-Olden_Norway.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "quelle": "Wikipedia"
+   }
+  ],
+  "ort_info": "Olden is a village in Stryn Municipality in Vestland county, Norway. It is located at the mouth of the Oldeelva river and northern end of the Oldedalen valley on the southern shore of the Nordfjorden, 6 kilometres (3.7 mi) southwest of the village of Loen, 16 kilometres (9.9 mi) southeast of Stryn, and 15 kilometres (9.3 mi) east of the village of Innvik.",
+  "ort_link": "https://en.wikipedia.org/wiki/Olden%2C_Norway",
+  "visum": "machbar",
+  "visum_regel_text": "Arbeit gegen Unterkunft: erlaubt.",
   "passung": 59,
   "ausschluss": []
  },

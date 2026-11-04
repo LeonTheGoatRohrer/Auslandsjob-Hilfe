@@ -1,9 +1,9 @@
 {
- "datum": "2026-11-04T04:17:18+00:00",
+ "datum": "2026-11-04T06:04:07+00:00",
  "letzter_sammellauf": "2026-11-04T04:17:17+00:00",
  "kandidaten": 433,
- "unbewertet": 17,
- "letzte_bewertung": "2026-11-03T06:04:31+00:00",
+ "unbewertet": 0,
+ "letzte_bewertung": "2026-11-04T06:03:31+00:00",
  "letzte_bewertung_fehler": [],
  "quellen": {
   "backpacker": {
