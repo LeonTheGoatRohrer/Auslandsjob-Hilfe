@@ -1061,6 +1061,95 @@
   "ausschluss": []
  },
  {
+  "beitrag": "Daten- und GPS-Erfassung, Python/Datenanalyse möglich.",
+  "beschreibung": "Vegetations- und Bodendaten auf Ranches im Westen der USA erheben, Pflanzen bestimmen, per GPS navigieren, Daten erfassen und hochladen.",
+  "bewertet_am": "2026-11-05T06:06:01+00:00",
+  "bezahlung": "lohn",
+  "bezahlung_text": "1.950–2.500 USD pro Monat.",
+  "dauer_text": "Saison Frühling bis Herbst 2027, flexibler Start",
+  "dauer_wochen": null,
+  "englisch": "ja",
+  "gebuehr_eur": null,
+  "haken": "US-Arbeitsvisum für Österreicher unklar, Saison länger als 13 Wochen möglich.",
+  "kategorie": "natur_forschung",
+  "kriterien": {
+   "abenteuer": 8,
+   "authentizität": 8,
+   "außergewöhnlichkeit": 7,
+   "eigener_beitrag": 6,
+   "finanzierung": 6,
+   "lernen": 8,
+   "menschen": 6,
+   "ort": 9,
+   "praktische_arbeit": 8,
+   "realisierbarkeit": 3,
+   "sinn": 8
+  },
+  "lernen": "Botanik, Feldmethodik, Pflanzenbestimmung.",
+  "modell": "claude-sonnet-5-5",
+  "ort": "Fort Collins / Western USA",
+  "ort_wiki": "Fort Collins, Colorado",
+  "region": "Colorado",
+  "tags": [],
+  "titel": "Weideland-Monitoring in den Western USA",
+  "unterkunft": "unklar",
+  "unterpunkt": "umweltmonitoring",
+  "verpflegung": "nicht_angegeben",
+  "voraussetzungen": "Pflanzenbestimmung erwünscht, Führerschein, Arbeit im Gelände.",
+  "warum": "Echte Feldarbeit auf Ranches, Datenerfassung passt, Visa-Frage offen.",
+  "zitate": {
+   "dauer": "Seasonal: Spring-Fall 2027 (flexible start date)",
+   "bezahlung": "Compensation: $1950- $2500 monthly DOE",
+   "gebuehr": null,
+   "unterkunft": null,
+   "verpflegung": null,
+   "englisch": null,
+   "voraussetzungen": "Plant identification is an important part of the role."
+  },
+  "zitate_ungueltig": [],
+  "nicht_angegeben": [
+   "gebuehr",
+   "unterkunft",
+   "verpflegung",
+   "englisch"
+  ],
+  "id": "tamu-119941",
+  "key": "tamu:119941",
+  "organisation": "SnapLands LLC",
+  "sparte": "ausschreibung",
+  "land": "remote work allowed",
+  "land_code": "",
+  "website": "https://jobs.rwfm.tamu.edu/view-job/?id=119941",
+  "angebot_url": "https://jobs.rwfm.tamu.edu/view-job/?id=119941",
+  "auch_bei": [],
+  "kontakt": null,
+  "status": "automatisch",
+  "quelle": "Texas A&M Natural Resources Job Board",
+  "veroeffentlicht": "11/04/2026",
+  "frist": "12/20/2026",
+  "originaltitel": "Rangeland Stewardship & Monitoring Specialist",
+  "abgerufen": "2026-11-05T04:18:08+00:00",
+  "inhalts_hash": "eab35cb0d97efb7b",
+  "zustand": {
+   "erstmals_gesehen": "2026-11-05T04:18:09+00:00",
+   "zuletzt_gesehen": "2026-11-05T04:18:09+00:00",
+   "status": "offen",
+   "geschlossen_grund": null,
+   "aenderungen": []
+  },
+  "bilder": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Downtown_Fort_Collins_Colorado.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "quelle": "Wikipedia"
+   }
+  ],
+  "ort_info": "Fort Collins is a home rule city in Larimer County, Colorado, United States, and serves as the county seat and most populous municipality of the county. It is the fourth-most populous city in Colorado with a population of 169,810 in the 2020 census, while the Fort Collins, CO Metropolitan Statistical Area has an estimated 375,000 residents.",
+  "ort_link": "https://en.wikipedia.org/wiki/Fort_Collins%2C_Colorado",
+  "visum": "unklar",
+  "passung": 70,
+  "ausschluss": []
+ },
+ {
   "titel": "Stallhilfe auf Milchhof in Karasjok",
   "kategorie": "bezahlte_jobs",
   "unterpunkt": "farm_station_outback",
@@ -1359,6 +1448,101 @@
   "visum_regel_text": "Arbeit gegen Unterkunft: nur mit Working-Holiday-Visum. Working Holiday: ca. 510 €, nur einmal im Leben.",
   "passung": 68,
   "ausschluss": []
+ },
+ {
+  "beitrag": "Mechanik-Grundlagen, evtl. Sensorik für Wasserstände.",
+  "beschreibung": "Reparatur und Wartung von Windmühlen und Wasserinfrastruktur auf Rinderstationen im Umkreis von Mackay, mit Arbeit in der Höhe.",
+  "bewertet_am": "2026-11-05T06:06:01+00:00",
+  "bezahlung": "lohn",
+  "bezahlung_text": "33,20 pro Stunde, Unterkunft und Essen auf Dienstreisen.",
+  "dauer_text": "mindestens 6 Monate, Start 16. November",
+  "dauer_wochen": [
+   26,
+   52
+  ],
+  "englisch": "nicht_angegeben",
+  "gebuehr_eur": null,
+  "haken": "Mindestens 6 Monate ab November, passt nicht zu April–Juni.",
+  "kategorie": "bezahlte_jobs",
+  "kriterien": {
+   "abenteuer": 7,
+   "authentizität": 9,
+   "außergewöhnlichkeit": 7,
+   "eigener_beitrag": 5,
+   "finanzierung": 8,
+   "lernen": 7,
+   "menschen": 5,
+   "ort": 6,
+   "praktische_arbeit": 9,
+   "realisierbarkeit": 1,
+   "sinn": 8
+  },
+  "lernen": "Wasserinfrastruktur, Windpumpen, Anlernen vor Ort.",
+  "modell": "claude-sonnet-5-5",
+  "ort": "Mount Martin",
+  "ort_wiki": "Mackay, Queensland",
+  "region": "Queensland",
+  "tags": [
+   "infrastruktur_solar_wasser"
+  ],
+  "titel": "Windmühlen-Wartung auf Rinderfarmen",
+  "unterkunft": "beim_betrieb",
+  "unterpunkt": "farm_station_outback",
+  "verpflegung": "ja",
+  "voraussetzungen": "Arbeit in der Höhe, sauberer Schaltführerschein, keine Erfahrung nötig.",
+  "warum": "Authentische Outback-Arbeit, aber Mindestdauer und Starttermin passen nicht.",
+  "zitate": {
+   "dauer": "minimum of 6 months employment",
+   "bezahlung": "Starting rate will be 33.20 per hour",
+   "gebuehr": null,
+   "unterkunft": "Accommodation and meals provided while working away.",
+   "verpflegung": "Accommodation and meals provided while working away.",
+   "englisch": null,
+   "voraussetzungen": "No experience required and will be trained on the job."
+  },
+  "zitate_ungueltig": [],
+  "nicht_angegeben": [
+   "gebuehr",
+   "englisch"
+  ],
+  "id": "backpacker-124510",
+  "key": "backpacker:124510",
+  "organisation": "Muston Rural Contractors Pty Ltd",
+  "sparte": "ausschreibung",
+  "land": "Australien",
+  "land_code": "AU",
+  "website": "https://www.backpackerjobboard.com.au/job/124510/labourer-at-muston-rural-contractors-pty-ltd/",
+  "angebot_url": "https://www.backpackerjobboard.com.au/job/124510/labourer-at-muston-rural-contractors-pty-ltd/",
+  "auch_bei": [],
+  "kontakt": null,
+  "status": "automatisch",
+  "quelle": "Backpacker Job Board",
+  "veroeffentlicht": "2026-11-04",
+  "frist": "",
+  "originaltitel": "Labourer",
+  "abgerufen": "2026-11-05T04:14:32+00:00",
+  "inhalts_hash": "9635eb7b11d85e7d",
+  "zustand": {
+   "erstmals_gesehen": "2026-11-05T04:18:09+00:00",
+   "zuletzt_gesehen": "2026-11-05T04:18:09+00:00",
+   "status": "offen",
+   "geschlossen_grund": null,
+   "aenderungen": []
+  },
+  "bilder": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Aerial_view_over_Mackay%2C_2009.jpg/1280px-Aerial_view_over_Mackay%2C_2009.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "quelle": "Wikipedia"
+   }
+  ],
+  "ort_info": "Mackay is a city in the Mackay Region on the eastern or Coral Sea coast of Queensland, Australia. It is located about 803 kilometres (499 mi) north of Brisbane, on the Pioneer River. Mackay is described as being in either Central Queensland or North Queensland, as these regions are not precisely defined. More generally, the area is known as the Mackay–Whitsunday Region. Nicknames of Mackay include the Sugar capital, Alexandra and Macktown.",
+  "ort_link": "https://en.wikipedia.org/wiki/Mackay%2C_Queensland",
+  "visum": "working_holiday_nötig",
+  "visum_regel_text": "Bezahlte Arbeit: nur mit Working-Holiday-Visum. Working Holiday: ca. 510 €, nur einmal im Leben.",
+  "passung": 67,
+  "ausschluss": [
+   "zu lang (mind. 26 Wochen)"
+  ]
  },
  {
   "beitrag": "Elektronik und Solartechnik, HTL-Wissen direkt nutzbar.",
@@ -3315,6 +3499,106 @@
   "ausschluss": []
  },
  {
+  "beitrag": "Kaum.",
+  "beschreibung": "Kleine Gruppen auf Kajaktouren führen, Ausrüstung vorbereiten und warten, Gäste fahren und Praktisches erledigen.",
+  "bewertet_am": "2026-11-05T06:06:01+00:00",
+  "bezahlung": "unklar",
+  "bezahlung_text": "nicht angegeben",
+  "dauer_text": "Saison etwa 10. Juni bis 2. September 2027",
+  "dauer_wochen": [
+   12,
+   12
+  ],
+  "englisch": "ja",
+  "gebuehr_eur": null,
+  "haken": "Teilzeit, schwankende Stunden, Unterkunft und Lohn nicht ersichtlich.",
+  "kategorie": "bezahlte_jobs",
+  "kriterien": {
+   "abenteuer": 8,
+   "authentizität": 7,
+   "außergewöhnlichkeit": 7,
+   "eigener_beitrag": 1,
+   "finanzierung": 4,
+   "lernen": 6,
+   "menschen": 5,
+   "ort": 9,
+   "praktische_arbeit": 6,
+   "realisierbarkeit": 5,
+   "sinn": 5
+  },
+  "lernen": "Kajakguiding, Wetter- und Lageeinschätzung.",
+  "modell": "claude-sonnet-5-5",
+  "ort": "Olden",
+  "ort_wiki": "Olden, Norway",
+  "region": "Vestland",
+  "tags": [],
+  "titel": "Kajakguide in Olden (Fjordnorwegen)",
+  "unterkunft": "unklar",
+  "unterpunkt": "saisonjobs_besonders",
+  "verpflegung": "nicht_angegeben",
+  "voraussetzungen": "Sehr gutes Englisch, Führerschein, keine Guide-Erfahrung nötig.",
+  "warum": "Sommer-Fjordguiding in Norwegen, Startzeitpunkt passt ins Fenster.",
+  "zitate": {
+   "dauer": "Sesongen vil sannsynligvis vare fra ca. 10. juni til 2. september.",
+   "bezahlung": null,
+   "gebuehr": null,
+   "unterkunft": null,
+   "verpflegung": null,
+   "englisch": "Engelsken din må være svært god.",
+   "voraussetzungen": "Du trenger ikke å ha jobbet som kajakkguide tidligere."
+  },
+  "zitate_ungueltig": [],
+  "nicht_angegeben": [
+   "bezahlung",
+   "gebuehr",
+   "unterkunft",
+   "verpflegung"
+  ],
+  "id": "nav-89483c8a-ed92-4899-b945-d2c2af77ae19",
+  "key": "nav:89483c8a-ed92-4899-b945-d2c2af77ae19",
+  "organisation": "Discover Olden",
+  "sparte": "ausschreibung",
+  "land": "Norwegen",
+  "land_code": "NO",
+  "website": "https://arbeidsplassen.nav.no/stillinger/stilling/89483c8a-ed92-4899-b945-d2c2af77ae19",
+  "angebot_url": "https://arbeidsplassen.nav.no/stillinger/stilling/89483c8a-ed92-4899-b945-d2c2af77ae19",
+  "auch_bei": [],
+  "kontakt": null,
+  "status": "automatisch",
+  "quelle": "NAV / arbeidsplassen.no",
+  "veroeffentlicht": "2026-11-03",
+  "frist": "2027-01-31",
+  "originaltitel": "Kajakkguider / sesongmedarbeidere i Olden – sommeren 2027",
+  "abgerufen": "2026-11-05T04:00:31+00:00",
+  "inhalts_hash": "c4938d8a6bacd17f",
+  "zustand": {
+   "erstmals_gesehen": "2026-11-04T04:17:17+00:00",
+   "zuletzt_gesehen": "2026-11-05T04:18:09+00:00",
+   "status": "offen",
+   "geschlossen_grund": null,
+   "aenderungen": [
+    {
+     "datum": "2026-11-05T04:18:09+00:00",
+     "feld": "beschreibung",
+     "alt": "KAJAKKGUIDER / SESONGMEDARBEIDERE I OLDEN -- SOMMEREN 2027\n\n Discover Olden søker to kajakkguider for sommersesongen 2027. Sesongen vil sannsynligvis vare fra ca. 10. juni til 2. september.\n\n Hovedopp",
+     "neu": "KAJAKKGUIDER / SESONGMEDARBEIDERE I OLDEN - SOMMEREN 2027\n\n Discover Olden søker to kajakkguider for sommersesongen 2027. Sesongen vil sannsynligvis vare fra ca. 10. juni til 2. september.\n\n Hovedoppg"
+    }
+   ]
+  },
+  "bilder": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Olden_Norway.jpg/1280px-Olden_Norway.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "quelle": "Wikipedia"
+   }
+  ],
+  "ort_info": "Olden is a village in Stryn Municipality in Vestland county, Norway. It is located at the mouth of the Oldeelva river and northern end of the Oldedalen valley on the southern shore of the Nordfjorden, 6 kilometres (3.7 mi) southwest of the village of Loen, 16 kilometres (9.9 mi) southeast of Stryn, and 15 kilometres (9.3 mi) east of the village of Innvik.",
+  "ort_link": "https://en.wikipedia.org/wiki/Olden%2C_Norway",
+  "visum": "machbar",
+  "visum_regel_text": "Arbeit gegen Unterkunft: erlaubt.",
+  "passung": 60,
+  "ausschluss": []
+ },
+ {
   "beitrag": "Datenorganisation.",
   "beschreibung": "Vogelarten, Verhalten und Rufe systematisch erfassen und Daten ordnen.",
   "bewertet_am": "2026-11-04T06:03:31+00:00",
@@ -3636,106 +3920,6 @@
   "ort_link": "https://en.wikipedia.org/wiki/Yarra_Valley",
   "visum": "working_holiday_nötig",
   "visum_regel_text": "Bezahlte Arbeit: nur mit Working-Holiday-Visum. Working Holiday: ca. 510 €, nur einmal im Leben.",
-  "passung": 59,
-  "ausschluss": []
- },
- {
-  "beitrag": "Buchungen/Wetterdaten ließen sich automatisieren.",
-  "beschreibung": "Kleine Gruppen auf Kajaktouren im Fjord führen, Ausrüstung warten, Gäste fahren, Ferienhaus reinigen. Viel Eigenverantwortung.",
-  "bewertet_am": "2026-11-04T06:03:31+00:00",
-  "bezahlung": "unklar",
-  "bezahlung_text": "nicht angegeben",
-  "dauer_text": "Saison ca. 10. Juni bis 2. September 2027",
-  "dauer_wochen": [
-   12,
-   13
-  ],
-  "englisch": "ja",
-  "gebuehr_eur": null,
-  "haken": "Bezahlung und Unterkunft unklar, schwankende Arbeitszeit.",
-  "kategorie": "bezahlte_jobs",
-  "kriterien": {
-   "abenteuer": 7,
-   "authentizität": 7,
-   "außergewöhnlichkeit": 6,
-   "eigener_beitrag": 2,
-   "finanzierung": 3,
-   "lernen": 5,
-   "menschen": 6,
-   "ort": 9,
-   "praktische_arbeit": 6,
-   "realisierbarkeit": 6,
-   "sinn": 5
-  },
-  "lernen": "Kajak-Guiding und Ausrüstungswartung.",
-  "modell": "claude-sonnet-5-5",
-  "ort": "Olden",
-  "ort_wiki": "Olden, Norway",
-  "region": "Vestland",
-  "tags": [],
-  "titel": "Kajak-Guide in Olden",
-  "unterkunft": "unklar",
-  "unterpunkt": "saisonjobs_besonders",
-  "verpflegung": "nicht_angegeben",
-  "voraussetzungen": "Sehr gutes Englisch, Führerschein",
-  "warum": "Fjord-Sommersaison in Norwegen mit passendem Zeitfenster.",
-  "zitate": {
-   "dauer": "Sesongen vil sannsynligvis vare fra ca. 10. juni til 2. september.",
-   "bezahlung": null,
-   "gebuehr": null,
-   "unterkunft": null,
-   "verpflegung": null,
-   "englisch": "Engelsken din må være svært god.",
-   "voraussetzungen": "Førerkort er nødvendig."
-  },
-  "zitate_ungueltig": [],
-  "nicht_angegeben": [
-   "bezahlung",
-   "gebuehr",
-   "unterkunft",
-   "verpflegung"
-  ],
-  "id": "nav-89483c8a-ed92-4899-b945-d2c2af77ae19",
-  "key": "nav:89483c8a-ed92-4899-b945-d2c2af77ae19",
-  "organisation": "Discover Olden",
-  "sparte": "ausschreibung",
-  "land": "Norwegen",
-  "land_code": "NO",
-  "website": "https://arbeidsplassen.nav.no/stillinger/stilling/89483c8a-ed92-4899-b945-d2c2af77ae19",
-  "angebot_url": "https://arbeidsplassen.nav.no/stillinger/stilling/89483c8a-ed92-4899-b945-d2c2af77ae19",
-  "auch_bei": [],
-  "kontakt": null,
-  "status": "automatisch",
-  "quelle": "NAV / arbeidsplassen.no",
-  "veroeffentlicht": "2026-11-03",
-  "frist": "2027-01-31",
-  "originaltitel": "Kajakkguider / sesongmedarbeidere i Olden – sommeren 2027",
-  "abgerufen": "2026-11-05T04:00:31+00:00",
-  "inhalts_hash": "c4938d8a6bacd17f",
-  "zustand": {
-   "erstmals_gesehen": "2026-11-04T04:17:17+00:00",
-   "zuletzt_gesehen": "2026-11-05T04:18:09+00:00",
-   "status": "offen",
-   "geschlossen_grund": null,
-   "aenderungen": [
-    {
-     "datum": "2026-11-05T04:18:09+00:00",
-     "feld": "beschreibung",
-     "alt": "KAJAKKGUIDER / SESONGMEDARBEIDERE I OLDEN -- SOMMEREN 2027\n\n Discover Olden søker to kajakkguider for sommersesongen 2027. Sesongen vil sannsynligvis vare fra ca. 10. juni til 2. september.\n\n Hovedopp",
-     "neu": "KAJAKKGUIDER / SESONGMEDARBEIDERE I OLDEN - SOMMEREN 2027\n\n Discover Olden søker to kajakkguider for sommersesongen 2027. Sesongen vil sannsynligvis vare fra ca. 10. juni til 2. september.\n\n Hovedoppg"
-    }
-   ]
-  },
-  "bilder": [
-   {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Olden_Norway.jpg/1280px-Olden_Norway.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "quelle": "Wikipedia"
-   }
-  ],
-  "ort_info": "Olden is a village in Stryn Municipality in Vestland county, Norway. It is located at the mouth of the Oldeelva river and northern end of the Oldedalen valley on the southern shore of the Nordfjorden, 6 kilometres (3.7 mi) southwest of the village of Loen, 16 kilometres (9.9 mi) southeast of Stryn, and 15 kilometres (9.3 mi) east of the village of Innvik.",
-  "ort_link": "https://en.wikipedia.org/wiki/Olden%2C_Norway",
-  "visum": "machbar",
-  "visum_regel_text": "Arbeit gegen Unterkunft: erlaubt.",
   "passung": 59,
   "ausschluss": []
  },
@@ -6583,6 +6767,102 @@
   "ort_link": "https://en.wikipedia.org/wiki/Wynyard%2C_Tasmania",
   "visum": "working_holiday_nötig",
   "visum_regel_text": "Bezahlte Arbeit: nur mit Working-Holiday-Visum. Working Holiday: ca. 510 €, nur einmal im Leben.",
+  "passung": 47,
+  "ausschluss": []
+ },
+ {
+  "beitrag": "Kaum.",
+  "beschreibung": "Halb- und Ganztagesausflüge in Bodø und auf den Lofoten, Gäste durch Natur und Kultur führen.",
+  "bewertet_am": "2026-11-05T06:06:01+00:00",
+  "bezahlung": "lohn",
+  "bezahlung_text": "Wettbewerbsfähiger Lohn, Höhe nicht genannt.",
+  "dauer_text": "Saison 2027, Start ab Ende Februar möglich",
+  "dauer_wochen": null,
+  "englisch": "teilweise",
+  "gebuehr_eur": null,
+  "haken": "Unterkunft selbst, Umfang und Dauer offen, Büro-/Servicecharakter.",
+  "kategorie": "bezahlte_jobs",
+  "kriterien": {
+   "abenteuer": 5,
+   "authentizität": 6,
+   "außergewöhnlichkeit": 6,
+   "eigener_beitrag": 1,
+   "finanzierung": 6,
+   "lernen": 4,
+   "menschen": 5,
+   "ort": 8,
+   "praktische_arbeit": 3,
+   "realisierbarkeit": 3,
+   "sinn": 4
+  },
+  "lernen": "Guiding, Natur und Geschichte Nordnorwegens.",
+  "modell": "claude-sonnet-5-5",
+  "ort": "Bodø",
+  "ort_wiki": "Bodø",
+  "region": "Nordland",
+  "tags": [],
+  "titel": "Tourguide in Bodø und auf den Lofoten",
+  "unterkunft": "selbst_organisieren",
+  "unterpunkt": "saisonjobs_besonders",
+  "verpflegung": "nicht_angegeben",
+  "voraussetzungen": "Fließend Deutsch, Kundenerfahrung von Vorteil.",
+  "warum": "Deutsch ist ein Plus, Nordnorwegen reizt, aber Unterkunft und Dauer offen.",
+  "zitate": {
+   "dauer": null,
+   "bezahlung": "Competitive wages.",
+   "gebuehr": null,
+   "unterkunft": "Already living in Bodø or planning on moving there for other reasons than this offer.",
+   "verpflegung": null,
+   "englisch": "Alternatively ,  English is a plus.",
+   "voraussetzungen": "Fluent in  German."
+  },
+  "zitate_ungueltig": [],
+  "nicht_angegeben": [
+   "dauer",
+   "gebuehr",
+   "verpflegung"
+  ],
+  "id": "nav-c885bb02-dff6-4ff9-93bd-c78f55eca3c3",
+  "key": "nav:c885bb02-dff6-4ff9-93bd-c78f55eca3c3",
+  "organisation": "Nordic Gateway AS",
+  "sparte": "ausschreibung",
+  "land": "Norwegen",
+  "land_code": "NO",
+  "website": "https://arbeidsplassen.nav.no/stillinger/stilling/c885bb02-dff6-4ff9-93bd-c78f55eca3c3",
+  "angebot_url": "https://arbeidsplassen.nav.no/stillinger/stilling/c885bb02-dff6-4ff9-93bd-c78f55eca3c3",
+  "auch_bei": [],
+  "kontakt": null,
+  "status": "automatisch",
+  "quelle": "NAV / arbeidsplassen.no",
+  "veroeffentlicht": "2026-11-03",
+  "frist": "2027-01-31T00:00:00",
+  "originaltitel": "Looking for Guides in Bodø 2027",
+  "abgerufen": "2026-11-05T04:00:31+00:00",
+  "inhalts_hash": "a29e2f864a37dc62",
+  "zustand": {
+   "erstmals_gesehen": "2026-11-04T04:17:17+00:00",
+   "zuletzt_gesehen": "2026-11-05T04:18:09+00:00",
+   "status": "offen",
+   "geschlossen_grund": null,
+   "aenderungen": [
+    {
+     "datum": "2026-11-05T04:18:09+00:00",
+     "feld": "extra",
+     "alt": "{'anstellung': 'Sesong', 'umfang': 'Heltid', 'start': '', 'beruf': '', 'website': '', 'kategorien': ['Industri og produksjon/Matproduksjon og næringsmiddelarbeid']}",
+     "neu": "{'anstellung': 'Sesong', 'umfang': 'Heltid', 'start': '', 'beruf': '', 'website': '', 'kategorien': ['Reiseliv og mat/Reiseliv, hotell og overnatting']}"
+    }
+   ]
+  },
+  "bilder": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Bod%C3%B8_Town_Hall%2C_South_view_20150608_1.jpg/1280px-Bod%C3%B8_Town_Hall%2C_South_view_20150608_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "quelle": "Wikipedia"
+   }
+  ],
+  "ort_info": "Bodø is a municipality in Nordland county, Norway. It is part of the traditional region of Salten. The administrative centre of the municipality is the town of Bodø. Some of the notable villages in Bodø include Misvær, Skjerstad, Saltstraumen, Løding, Løpsmarka, Kjerringøy, Sørvær, and Fenes.",
+  "ort_link": "https://en.wikipedia.org/wiki/Bod%C3%B8_Municipality",
+  "visum": "machbar",
+  "visum_regel_text": "Bezahlte Arbeit: erlaubt.",
   "passung": 47,
   "ausschluss": []
  },

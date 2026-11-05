@@ -1,5 +1,5 @@
 {
- "datum": "2026-11-05T04:18:10+00:00",
+ "datum": "2026-11-05T06:06:52+00:00",
  "passung_min": 60,
  "treffer": [
   {
@@ -170,6 +170,27 @@
     "englisch"
    ],
    "inhalts_hash": "6a1d9b1be63f6f4c",
+   "geaendert_felder": []
+  },
+  {
+   "id": "tamu-119941",
+   "key": "tamu:119941",
+   "titel": "Weideland-Monitoring in den Western USA",
+   "organisation": "SnapLands LLC",
+   "land": "remote work allowed",
+   "ort": "Fort Collins / Western USA",
+   "passung": 70,
+   "url": "https://jobs.rwfm.tamu.edu/view-job/?id=119941",
+   "bezahlung": "lohn",
+   "dauer_text": "Saison Frühling bis Herbst 2027, flexibler Start",
+   "haken": "US-Arbeitsvisum für Österreicher unklar, Saison länger als 13 Wochen möglich.",
+   "nicht_angegeben": [
+    "gebuehr",
+    "unterkunft",
+    "verpflegung",
+    "englisch"
+   ],
+   "inhalts_hash": "eab35cb0d97efb7b",
    "geaendert_felder": []
   },
   {
@@ -574,6 +595,29 @@
    "nicht_angegeben": [],
    "inhalts_hash": "c7631089b1936258",
    "geaendert_felder": []
+  },
+  {
+   "id": "nav-89483c8a-ed92-4899-b945-d2c2af77ae19",
+   "key": "nav:89483c8a-ed92-4899-b945-d2c2af77ae19",
+   "titel": "Kajakguide in Olden (Fjordnorwegen)",
+   "organisation": "Discover Olden",
+   "land": "Norwegen",
+   "ort": "Olden",
+   "passung": 60,
+   "url": "https://arbeidsplassen.nav.no/stillinger/stilling/89483c8a-ed92-4899-b945-d2c2af77ae19",
+   "bezahlung": "unklar",
+   "dauer_text": "Saison etwa 10. Juni bis 2. September 2027",
+   "haken": "Teilzeit, schwankende Stunden, Unterkunft und Lohn nicht ersichtlich.",
+   "nicht_angegeben": [
+    "bezahlung",
+    "gebuehr",
+    "unterkunft",
+    "verpflegung"
+   ],
+   "inhalts_hash": "c4938d8a6bacd17f",
+   "geaendert_felder": [
+    "beschreibung"
+   ]
   },
   {
    "id": "tamu-108392",
