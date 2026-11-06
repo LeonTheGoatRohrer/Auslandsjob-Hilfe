@@ -1,5 +1,5 @@
 {
- "datum": "2026-11-06T04:18:09+00:00",
+ "datum": "2026-11-06T06:05:34+00:00",
  "passung_min": 60,
  "treffer": [
   {
@@ -499,6 +499,28 @@
     "extra",
     "frist"
    ]
+  },
+  {
+   "id": "backpacker-124564",
+   "key": "backpacker:124564",
+   "titel": "Helfer auf Vollblut-Gestüt",
+   "organisation": "Chatsworth Park",
+   "land": "Australien",
+   "ort": "Scone",
+   "passung": 61,
+   "url": "https://www.backpackerjobboard.com.au/job/124564/horse-stud-farm-hand-at-chatsworth-park/",
+   "bezahlung": "unterkunft_gegen_arbeit",
+   "dauer_text": "nicht angegeben",
+   "haken": "Pferdeerfahrung wird selbstständig verlangt, Dauer und Lohn unklar.",
+   "nicht_angegeben": [
+    "dauer",
+    "bezahlung",
+    "gebuehr",
+    "verpflegung",
+    "englisch"
+   ],
+   "inhalts_hash": "57d59a992823845e",
+   "geaendert_felder": []
   },
   {
    "id": "backpacker-121189",
