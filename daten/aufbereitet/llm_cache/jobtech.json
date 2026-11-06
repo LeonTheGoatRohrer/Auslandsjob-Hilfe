@@ -596,5 +596,60 @@
    "voraussetzungen": "Avslutad utbildning inom hotell/restaurang"
   },
   "zitate_ungueltig": []
+ },
+ "jobtech:31690672": {
+  "beitrag": "Kaum.",
+  "beschreibung": "Notrufe und Alarme an einer Alarmzentrale annehmen und bearbeiten, Schichtdienst rund um die Uhr.",
+  "bewertet_am": "2026-11-06T06:04:39+00:00",
+  "bezahlung": "lohn",
+  "bezahlung_text": "Fest- und variabler Lohn, Höhe nicht angegeben.",
+  "dauer_text": "Drei bis sechs Monate, April bis September 2027.",
+  "dauer_wochen": [
+   13,
+   26
+  ],
+  "englisch": "teilweise",
+  "gebuehr_eur": null,
+  "haken": "Fließend Schwedisch, drei Jahre Berufserfahrung, Schichtdienst, Büro.",
+  "id": "jobtech:31690672",
+  "inhalts_hash": "99d85d0f8106e788",
+  "kategorie": "bezahlte_jobs",
+  "kriterien": {
+   "abenteuer": 2,
+   "authentizität": 8,
+   "außergewöhnlichkeit": 2,
+   "eigener_beitrag": 1,
+   "finanzierung": 6,
+   "lernen": 3,
+   "menschen": 3,
+   "ort": 2,
+   "praktische_arbeit": 0,
+   "realisierbarkeit": 0,
+   "sinn": 6
+  },
+  "lernen": "Notrufabwicklung, aber Büro- und Telefonarbeit.",
+  "modell": "claude-sonnet-5-5",
+  "ort": "Västerås",
+  "ort_wiki": "Västerås",
+  "profil_hash": "e42c8ef3c9d2255f",
+  "region": "Västmanland",
+  "relevant": false,
+  "tags": [],
+  "titel": "Sommervertretung Notruf-/Alarmzentrale",
+  "unterkunft": "selbst_organisieren",
+  "unterpunkt": "saisonjobs_besonders",
+  "verpflegung": "nicht_angegeben",
+  "voraussetzungen": "Fließend Schwedisch, 3 Jahre Berufserfahrung, Computererfahrung.",
+  "warum": "Büro-/Callcenter-Arbeit, Voraussetzungen unerreichbar.",
+  "zitate": {
+   "bezahlung": null,
+   "dauer": null,
+   "englisch": null,
+   "gebuehr": null,
+   "unterkunft": null,
+   "verpflegung": null,
+   "voraussetzungen": "Talar och skriver svenska obehindrat och är bekväm med att ta samtal på engelska"
+  },
+  "zitate_ungueltig": []
  }
 }
