@@ -1,5 +1,5 @@
 {
- "datum": "2026-11-06T06:05:34+00:00",
+ "datum": "2026-11-07T04:17:26+00:00",
  "passung_min": 60,
  "treffer": [
   {
@@ -335,22 +335,6 @@
    "haken": "Kinderbetreuung ist Teil der Stelle, eigenes Fahrzeug Pflicht, Mischung aus Nanny- und Imkerarbeit.",
    "nicht_angegeben": [],
    "inhalts_hash": "3e49f8e9931b55df",
-   "geaendert_felder": []
-  },
-  {
-   "id": "backpacker-122575",
-   "key": "backpacker:122575",
-   "titel": "Hilfsarbeiter/in auf Solarfarm-Baustelle",
-   "organisation": "Solar X",
-   "land": "Australien",
-   "ort": "Merriwa",
-   "passung": 65,
-   "url": "https://www.backpackerjobboard.com.au/job/122575/trade-assistant-at-solar-x/",
-   "bezahlung": "lohn",
-   "dauer_text": "Projektbezogen, Dauer offen.",
-   "haken": "Abgelegene Baustelle, Projektdauer und Lohn unklar, Angebot aus 2026.",
-   "nicht_angegeben": [],
-   "inhalts_hash": "0328efc4edd3395d",
    "geaendert_felder": []
   },
   {
