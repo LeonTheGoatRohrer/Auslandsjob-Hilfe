@@ -18535,6 +18535,63 @@
   },
   "zitate_ungueltig": []
  },
+ "backpacker:124580": {
+  "beitrag": "Kaum Möglichkeit für Technik.",
+  "beschreibung": "Reinigung von Hühnerställen: Plastikböden abbauen, mit Hochdruck reinigen und desinfizieren, stapeln und wieder aufbauen. Körperliche Arbeit auf zwei Farmen.",
+  "bewertet_am": "2026-11-07T06:02:52+00:00",
+  "bezahlung": "lohn",
+  "bezahlung_text": "33.11 pro Stunde.",
+  "dauer_text": "Projekt ca. 10. Nov 2026 bis 4. Jan 2027, ca. 7 Wochen.",
+  "dauer_wochen": [
+   7,
+   7
+  ],
+  "englisch": "ja",
+  "gebuehr_eur": null,
+  "haken": "Zeitraum Nov 2026–Jan 2027 liegt vor dem gewünschten Start im April 2027; eigenes Transportmittel nötig.",
+  "id": "backpacker:124580",
+  "inhalts_hash": "a7cb28ab7cc76fd2",
+  "kategorie": "bezahlte_jobs",
+  "kriterien": {
+   "abenteuer": 3,
+   "authentizität": 6,
+   "außergewöhnlichkeit": 3,
+   "eigener_beitrag": 1,
+   "finanzierung": 6,
+   "lernen": 1,
+   "menschen": 2,
+   "ort": 3,
+   "praktische_arbeit": 8,
+   "realisierbarkeit": 1,
+   "sinn": 4
+  },
+  "lernen": "Kaum neue Fähigkeiten, einfache Reinigungsarbeit.",
+  "modell": "claude-sonnet-5-5",
+  "ort": "Clarencetown und Willow Tree (NSW)",
+  "ort_wiki": "Newcastle, New South Wales",
+  "profil_hash": "e42c8ef3c9d2255f",
+  "region": "New South Wales",
+  "relevant": false,
+  "tags": [
+   "bau_handwerkshelfer"
+  ],
+  "titel": "Hühnerstall-Reinigung auf Farmen",
+  "unterkunft": "selbst_organisieren",
+  "unterpunkt": "farm_station_outback",
+  "verpflegung": "nicht_angegeben",
+  "voraussetzungen": "Eigenes Transportmittel, fit und gesund.",
+  "warum": "Bezahlte Farmarbeit, aber zeitlich nicht passend und wenig außergewöhnlich.",
+  "zitate": {
+   "bezahlung": "33.11 per hour",
+   "dauer": "approximately 7 weeks",
+   "englisch": null,
+   "gebuehr": null,
+   "unterkunft": "Accommodation available at a local caravan park (Clarencetown/Willow Tree) at your own cost",
+   "verpflegung": null,
+   "voraussetzungen": "Own transport is a must"
+  },
+  "zitate_ungueltig": []
+ },
  "backpacker:38927": {
   "beitrag": "Kein Technikbezug.",
   "beschreibung": "Du beschneidest und jätest an langen, heißen Tagen auf einer Farm bei Bundaberg. Transport wird gestellt.",
