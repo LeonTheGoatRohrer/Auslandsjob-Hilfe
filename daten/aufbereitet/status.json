@@ -1,30 +1,30 @@
 {
- "datum": "2026-11-07T06:03:47+00:00",
- "letzter_sammellauf": "2026-11-07T04:17:25+00:00",
- "kandidaten": 446,
- "unbewertet": 0,
+ "datum": "2026-11-08T04:17:29+00:00",
+ "letzter_sammellauf": "2026-11-08T04:17:28+00:00",
+ "kandidaten": 447,
+ "unbewertet": 15,
  "letzte_bewertung": "2026-11-07T06:02:52+00:00",
  "letzte_bewertung_fehler": [],
  "quellen": {
   "backpacker": {
-   "abgerufen": "2026-11-07T04:13:47+00:00",
+   "abgerufen": "2026-11-08T04:13:59+00:00",
    "abruf_fehler": 0,
-   "offen": 1092
+   "offen": 1099
   },
   "jobtech": {
-   "abgerufen": "2026-11-07T04:02:08+00:00",
+   "abgerufen": "2026-11-08T04:01:27+00:00",
    "abruf_fehler": 0,
-   "offen": 1012
+   "offen": 1000
   },
   "nav": {
-   "abgerufen": "2026-11-07T04:00:44+00:00",
+   "abgerufen": "2026-11-08T04:00:21+00:00",
    "abruf_fehler": 0,
-   "offen": 626
+   "offen": 629
   },
   "tamu": {
-   "abgerufen": "2026-11-07T04:17:24+00:00",
+   "abgerufen": "2026-11-08T04:17:28+00:00",
    "abruf_fehler": 0,
-   "offen": 71
+   "offen": 68
   }
  }
 }
