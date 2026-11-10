@@ -1,5 +1,5 @@
 {
- "datum": "2026-11-09T06:06:31+00:00",
+ "datum": "2026-11-10T04:18:11+00:00",
  "passung_min": 60,
  "treffer": [
   {
@@ -290,22 +290,6 @@
    "geaendert_felder": []
   },
   {
-   "id": "backpacker-119569",
-   "key": "backpacker:119569",
-   "titel": "Naturschutz-Feldcrew mit Aboriginal Landcare",
-   "organisation": "Aboriginal Landcare (Ngala Boodja) Pty Ltd",
-   "land": "Australien",
-   "ort": "South Guildford",
-   "passung": 66,
-   "url": "https://www.backpackerjobboard.com.au/job/119569/natural-area-technician-casual-positions-at-aboriginal-landcare-ngala-boodja-pty-ltd/",
-   "bezahlung": "lohn",
-   "dauer_text": "Arbeitsblock von 2 bis 3 Monaten, danach evtl. Weiterbeschaeftigung, sofortiger Start.",
-   "haken": "Unterkunft selbst zu organisieren, Perth ist teuer, Stelle ist eine Casual-Anstellung ohne Garantie.",
-   "nicht_angegeben": [],
-   "inhalts_hash": "67e4545ac6b1ab21",
-   "geaendert_felder": []
-  },
-  {
    "id": "backpacker-106570",
    "key": "backpacker:106570",
    "titel": "Bio-Farmhelfer/in und Handwerker/in im Clare Valley",
@@ -478,7 +462,7 @@
     "verpflegung",
     "englisch"
    ],
-   "inhalts_hash": "bd9baaf211b06659",
+   "inhalts_hash": "f5862a7f9c095c40",
    "geaendert_felder": [
     "extra",
     "frist"
