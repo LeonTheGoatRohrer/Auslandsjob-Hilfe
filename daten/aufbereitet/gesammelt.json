@@ -2857,117 +2857,6 @@
   "ausschluss": []
  },
  {
-  "beitrag": "Datenanalyse und Kamerafallen-Technik.",
-  "beschreibung": "Kamerafallen-Monitoring und Identifikation einzelner Geparden in einem 27.000 Hektar großen Reservat.",
-  "bewertet_am": "2026-11-03T06:04:31+00:00",
-  "bezahlung": "kostet_geld",
-  "bezahlung_text": "Monatliche Conservation Fee, Höhe nicht genannt.",
-  "dauer_text": "Mindestens 2 Monate.",
-  "dauer_wochen": [
-   8,
-   12
-  ],
-  "englisch": "nicht_angegeben",
-  "gebuehr_eur": null,
-  "haken": "Monatliche Gebühr unbekannt, möglicherweise über 500 Euro; Studierende bevorzugt.",
-  "kategorie": "natur_forschung",
-  "kriterien": {
-   "abenteuer": 8,
-   "authentizität": 6,
-   "außergewöhnlichkeit": 8,
-   "eigener_beitrag": 6,
-   "finanzierung": 2,
-   "lernen": 7,
-   "menschen": 5,
-   "ort": 8,
-   "praktische_arbeit": 6,
-   "realisierbarkeit": 4,
-   "sinn": 6
-  },
-  "lernen": "Kamerafallen, Tierbestimmung, räumliche Ökologie.",
-  "modell": "claude-sonnet-5-5",
-  "ort": "Maasstroom",
-  "ort_wiki": "Limpopo",
-  "region": "Limpopo",
-  "tags": [],
-  "titel": "Gepardenforschung in Limpopo",
-  "unterkunft": "beim_betrieb",
-  "unterpunkt": "wildlife_feldassistenz",
-  "verpflegung": "nicht_angegeben",
-  "voraussetzungen": "Studium/Abschluss in Biologie o. Ä. bevorzugt.",
-  "warum": "Außergewöhnliche Tierforschung, aber Gebührenhöhe unklar.",
-  "zitate": {
-   "dauer": "The minimum duration is 2 months.",
-   "bezahlung": null,
-   "gebuehr": "a monthly conservation fee applies",
-   "unterkunft": "Shared accommodation within the reserve in a fenced research camp",
-   "verpflegung": null,
-   "englisch": null,
-   "voraussetzungen": "Students or recent graduates with a background in biology"
-  },
-  "zitate_ungueltig": [],
-  "nicht_angegeben": [
-   "bezahlung",
-   "verpflegung",
-   "englisch"
-  ],
-  "id": "tamu-94795",
-  "key": "tamu:94795",
-  "organisation": "Bushveld Biodiversity Research Centre",
-  "sparte": "ausschreibung",
-  "land": "South Africa",
-  "land_code": "ZA",
-  "website": "https://jobs.rwfm.tamu.edu/view-job/?id=94795",
-  "angebot_url": "https://jobs.rwfm.tamu.edu/view-job/?id=94795",
-  "auch_bei": [],
-  "kontakt": null,
-  "status": "automatisch",
-  "quelle": "Texas A&M Natural Resources Job Board",
-  "veroeffentlicht": "10/01/2026",
-  "frist": "01/04/2027",
-  "originaltitel": "Cheetah Research Project – South Africa",
-  "abgerufen": "2026-11-10T04:18:10+00:00",
-  "inhalts_hash": "f5862a7f9c095c40",
-  "zustand": {
-   "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
-   "zuletzt_gesehen": "2026-11-10T04:18:10+00:00",
-   "status": "offen",
-   "geschlossen_grund": null,
-   "aenderungen": [
-    {
-     "datum": "2026-11-02T16:20:58+00:00",
-     "feld": "frist",
-     "alt": "12/04/2026",
-     "neu": "01/04/2027"
-    },
-    {
-     "datum": "2026-11-02T16:20:58+00:00",
-     "feld": "extra",
-     "alt": "{'starting_date': 'between 3/11/2027 and 3/25/2027', 'ending_date': 'between 5/5/2027 and 6/17/2027', 'hours_per_week': '25 - 45', 'salary': 'none', 'education_required': 'Some Undergraduate', 'experi",
-     "neu": "{'starting_date': 'between 5/5/2027 and 6/3/2027', 'ending_date': 'between 7/15/2027 and 8/26/2027', 'hours_per_week': '25 - 45', 'salary': 'none', 'education_required': 'Some Undergraduate', 'experie"
-    },
-    {
-     "datum": "2026-11-10T04:18:10+00:00",
-     "feld": "extra",
-     "alt": "{'starting_date': 'between 5/5/2027 and 6/3/2027', 'ending_date': 'between 7/15/2027 and 8/26/2027', 'hours_per_week': '25 - 45', 'salary': 'none', 'education_required': 'Some Undergraduate', 'experie",
-     "neu": "{'starting_date': 'between 4/22/2027 and 5/20/2027', 'ending_date': 'between 6/17/2027 and 8/26/2027', 'hours_per_week': '25 - 45', 'salary': 'none', 'education_required': 'Some Undergraduate', 'exper"
-    }
-   ]
-  },
-  "bilder": [
-   {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Kruger_National_Park_%28ZA%29%2C_Gnus_--_2024_--_1032.jpg/1280px-Kruger_National_Park_%28ZA%29%2C_Gnus_--_2024_--_1032.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "quelle": "Wikipedia"
-   }
-  ],
-  "ort_info": "Limpopo is the northernmost province of South Africa. It is named after the Limpopo River, which forms the province's western and northern borders. The capital and largest city in the province is Polokwane, while the provincial legislature is situated in Lebowakgomo.",
-  "ort_link": "https://en.wikipedia.org/wiki/Limpopo",
-  "visum": "mit_auflagen",
-  "visum_regel_text": "Volunteering: nur mit eigenem Visum (meist mit Sponsor).",
-  "passung": 62,
-  "ausschluss": []
- },
- {
   "beitrag": "Technik allenfalls bei Zäunen/Geräten nützlich.",
   "beschreibung": "Pferde füttern, ausmisten, Tierarzt- und Hufschmiedarbeiten unterstützen sowie allgemeine Farmarbeiten wie Zäune und Mähen auf einem Familiengestüt.",
   "bewertet_am": "2026-11-06T06:04:39+00:00",
@@ -3207,6 +3096,121 @@
   "ort_link": "https://en.wikipedia.org/wiki/Corryong",
   "visum": "working_holiday_nötig",
   "visum_regel_text": "Bezahlte Arbeit: nur mit Working-Holiday-Visum. Working Holiday: ca. 510 €, nur einmal im Leben.",
+  "passung": 61,
+  "ausschluss": []
+ },
+ {
+  "beitrag": "Datenanalyse, Python, Sensorik/Kameras.",
+  "beschreibung": "Gepardenmonitoring mit Kamerafallen, Individualerkennung und Datenanalyse in einem Reservat.",
+  "bewertet_am": "2026-11-10T06:06:36+00:00",
+  "bezahlung": "kostet_geld",
+  "bezahlung_text": "nicht angegeben",
+  "dauer_text": "Mindestens 2 Monate",
+  "dauer_wochen": [
+   8,
+   17
+  ],
+  "englisch": "ja",
+  "gebuehr_eur": null,
+  "haken": "Monatliche Gebühr, Höhe nicht genannt; Studienhintergrund erwünscht.",
+  "kategorie": "natur_forschung",
+  "kriterien": {
+   "abenteuer": 8,
+   "authentizität": 6,
+   "außergewöhnlichkeit": 8,
+   "eigener_beitrag": 7,
+   "finanzierung": 2,
+   "lernen": 6,
+   "menschen": 3,
+   "ort": 8,
+   "praktische_arbeit": 7,
+   "realisierbarkeit": 6,
+   "sinn": 5
+  },
+  "lernen": "Feldforschung, Kamerafallen, räumliche Ökologie.",
+  "modell": "claude-sonnet-5-5",
+  "ort": "Maasstroom",
+  "ort_wiki": "Limpopo",
+  "region": "Limpopo",
+  "tags": [
+   "umweltmonitoring",
+   "datenlogger_sensorik"
+  ],
+  "titel": "Gepardenforschung in Limpopo",
+  "unterkunft": "beim_betrieb",
+  "unterpunkt": "wildlife_feldassistenz",
+  "verpflegung": "nicht_angegeben",
+  "voraussetzungen": "Studenten/Absolventen in Biologie o. ä. bevorzugt.",
+  "warum": "Echter Feldeinsatz mit Kamerafallen und Datenanalyse; Python-Skills nutzbar, aber kostenpflichtig.",
+  "zitate": {
+   "dauer": "The minimum duration is 2 months.",
+   "bezahlung": "a monthly conservation fee applies",
+   "gebuehr": null,
+   "unterkunft": "Shared accommodation within the reserve in a fenced research camp",
+   "verpflegung": null,
+   "englisch": null,
+   "voraussetzungen": null
+  },
+  "zitate_ungueltig": [],
+  "nicht_angegeben": [
+   "gebuehr",
+   "verpflegung",
+   "englisch",
+   "voraussetzungen"
+  ],
+  "id": "tamu-94795",
+  "key": "tamu:94795",
+  "organisation": "Bushveld Biodiversity Research Centre",
+  "sparte": "ausschreibung",
+  "land": "South Africa",
+  "land_code": "ZA",
+  "website": "https://jobs.rwfm.tamu.edu/view-job/?id=94795",
+  "angebot_url": "https://jobs.rwfm.tamu.edu/view-job/?id=94795",
+  "auch_bei": [],
+  "kontakt": null,
+  "status": "automatisch",
+  "quelle": "Texas A&M Natural Resources Job Board",
+  "veroeffentlicht": "10/01/2026",
+  "frist": "01/04/2027",
+  "originaltitel": "Cheetah Research Project – South Africa",
+  "abgerufen": "2026-11-10T04:18:10+00:00",
+  "inhalts_hash": "f5862a7f9c095c40",
+  "zustand": {
+   "erstmals_gesehen": "2026-11-01T14:46:42+00:00",
+   "zuletzt_gesehen": "2026-11-10T04:18:10+00:00",
+   "status": "offen",
+   "geschlossen_grund": null,
+   "aenderungen": [
+    {
+     "datum": "2026-11-02T16:20:58+00:00",
+     "feld": "frist",
+     "alt": "12/04/2026",
+     "neu": "01/04/2027"
+    },
+    {
+     "datum": "2026-11-02T16:20:58+00:00",
+     "feld": "extra",
+     "alt": "{'starting_date': 'between 3/11/2027 and 3/25/2027', 'ending_date': 'between 5/5/2027 and 6/17/2027', 'hours_per_week': '25 - 45', 'salary': 'none', 'education_required': 'Some Undergraduate', 'experi",
+     "neu": "{'starting_date': 'between 5/5/2027 and 6/3/2027', 'ending_date': 'between 7/15/2027 and 8/26/2027', 'hours_per_week': '25 - 45', 'salary': 'none', 'education_required': 'Some Undergraduate', 'experie"
+    },
+    {
+     "datum": "2026-11-10T04:18:10+00:00",
+     "feld": "extra",
+     "alt": "{'starting_date': 'between 5/5/2027 and 6/3/2027', 'ending_date': 'between 7/15/2027 and 8/26/2027', 'hours_per_week': '25 - 45', 'salary': 'none', 'education_required': 'Some Undergraduate', 'experie",
+     "neu": "{'starting_date': 'between 4/22/2027 and 5/20/2027', 'ending_date': 'between 6/17/2027 and 8/26/2027', 'hours_per_week': '25 - 45', 'salary': 'none', 'education_required': 'Some Undergraduate', 'exper"
+    }
+   ]
+  },
+  "bilder": [
+   {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Kruger_National_Park_%28ZA%29%2C_Gnus_--_2024_--_1032.jpg/1280px-Kruger_National_Park_%28ZA%29%2C_Gnus_--_2024_--_1032.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "quelle": "Wikipedia"
+   }
+  ],
+  "ort_info": "Limpopo is the northernmost province of South Africa. It is named after the Limpopo River, which forms the province's western and northern borders. The capital and largest city in the province is Polokwane, while the provincial legislature is situated in Lebowakgomo.",
+  "ort_link": "https://en.wikipedia.org/wiki/Limpopo",
+  "visum": "mit_auflagen",
+  "visum_regel_text": "Volunteering: nur mit eigenem Visum (meist mit Sponsor).",
   "passung": 61,
   "ausschluss": []
  },
@@ -6691,6 +6695,91 @@
   "visum": "working_holiday_nötig",
   "visum_regel_text": "Bezahlte Arbeit: nur mit Working-Holiday-Visum. Working Holiday: ca. 510 €, nur einmal im Leben.",
   "passung": 50,
+  "ausschluss": []
+ },
+ {
+  "beitrag": "Handwerkliche Hilfe, evtl. Elektronik.",
+  "beschreibung": "Gartenarbeit, Tierpflege, Instandhaltung auf Rettungsfarm. Werkzeugerfahrung gefragt.",
+  "bewertet_am": "2026-11-10T06:06:36+00:00",
+  "bezahlung": "unterkunft_gegen_arbeit",
+  "bezahlung_text": "nicht angegeben",
+  "dauer_text": "nicht angegeben",
+  "dauer_wochen": null,
+  "englisch": "nicht_angegeben",
+  "gebuehr_eur": null,
+  "haken": "Zeitraum passt nicht, Volunteerstruktur.",
+  "kategorie": "natur_forschung",
+  "kriterien": {
+   "abenteuer": 4,
+   "authentizität": 6,
+   "außergewöhnlichkeit": 3,
+   "eigener_beitrag": 4,
+   "finanzierung": 5,
+   "lernen": 4,
+   "menschen": 5,
+   "ort": 4,
+   "praktische_arbeit": 8,
+   "realisierbarkeit": 4,
+   "sinn": 6
+  },
+  "lernen": "Handwerk, Gartenbau.",
+  "modell": "claude-sonnet-5-5",
+  "ort": "Beerwah",
+  "ort_wiki": null,
+  "region": "Sunshine Coast",
+  "tags": [
+   "handwerk"
+  ],
+  "titel": "Farmhelfer auf Tierrettungsfarm",
+  "unterkunft": "beim_betrieb",
+  "unterpunkt": "wildlife_feldassistenz",
+  "verpflegung": "ja",
+  "voraussetzungen": "Eigenes Auto, Werkzeugerfahrung von Vorteil.",
+  "warum": "Unterkunft/Essen gegen Arbeit, aber Zeitraum Nov–Jan und Backpacker-Volunteer-Szene.",
+  "zitate": {
+   "dauer": null,
+   "bezahlung": "Volunteer help in exchange for food and accommodation",
+   "gebuehr": null,
+   "unterkunft": null,
+   "verpflegung": "Volunteer help in exchange for food and accommodation",
+   "englisch": null,
+   "voraussetzungen": null
+  },
+  "zitate_ungueltig": [],
+  "nicht_angegeben": [
+   "dauer",
+   "gebuehr",
+   "unterkunft",
+   "englisch",
+   "voraussetzungen"
+  ],
+  "id": "backpacker-124668",
+  "key": "backpacker:124668",
+  "organisation": "Rescue farm",
+  "sparte": "ausschreibung",
+  "land": "Australien",
+  "land_code": "AU",
+  "website": "https://www.backpackerjobboard.com.au/job/124668/animal-sanctuary-and-gardens-farm-hand-at-rescue-farm/",
+  "angebot_url": "https://www.backpackerjobboard.com.au/job/124668/animal-sanctuary-and-gardens-farm-hand-at-rescue-farm/",
+  "auch_bei": [],
+  "kontakt": null,
+  "status": "automatisch",
+  "quelle": "Backpacker Job Board",
+  "veroeffentlicht": "2026-11-09",
+  "frist": "",
+  "originaltitel": "Animal Sanctuary And Gardens - Farm Hand",
+  "abgerufen": "2026-11-10T04:14:36+00:00",
+  "inhalts_hash": "2c8d18c0ca824f91",
+  "zustand": {
+   "erstmals_gesehen": "2026-11-10T04:18:10+00:00",
+   "zuletzt_gesehen": "2026-11-10T04:18:10+00:00",
+   "status": "offen",
+   "geschlossen_grund": null,
+   "aenderungen": []
+  },
+  "visum": "working_holiday_nötig",
+  "visum_regel_text": "Arbeit gegen Unterkunft: nur mit Working-Holiday-Visum. Working Holiday: ca. 510 €, nur einmal im Leben.",
+  "passung": 49,
   "ausschluss": []
  },
  {

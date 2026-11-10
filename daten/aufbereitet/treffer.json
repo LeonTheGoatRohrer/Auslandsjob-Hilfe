@@ -1,5 +1,5 @@
 {
- "datum": "2026-11-10T04:18:11+00:00",
+ "datum": "2026-11-10T06:07:24+00:00",
  "passung_min": 60,
  "treffer": [
   {
@@ -446,29 +446,6 @@
    "geaendert_felder": []
   },
   {
-   "id": "tamu-94795",
-   "key": "tamu:94795",
-   "titel": "Gepardenforschung in Limpopo",
-   "organisation": "Bushveld Biodiversity Research Centre",
-   "land": "South Africa",
-   "ort": "Maasstroom",
-   "passung": 62,
-   "url": "https://jobs.rwfm.tamu.edu/view-job/?id=94795",
-   "bezahlung": "kostet_geld",
-   "dauer_text": "Mindestens 2 Monate.",
-   "haken": "Monatliche Gebühr unbekannt, möglicherweise über 500 Euro; Studierende bevorzugt.",
-   "nicht_angegeben": [
-    "bezahlung",
-    "verpflegung",
-    "englisch"
-   ],
-   "inhalts_hash": "f5862a7f9c095c40",
-   "geaendert_felder": [
-    "extra",
-    "frist"
-   ]
-  },
-  {
    "id": "backpacker-124564",
    "key": "backpacker:124564",
    "titel": "Helfer auf Vollblut-Gestüt",
@@ -521,6 +498,30 @@
    "nicht_angegeben": [],
    "inhalts_hash": "e9a83dd6bfa7434b",
    "geaendert_felder": []
+  },
+  {
+   "id": "tamu-94795",
+   "key": "tamu:94795",
+   "titel": "Gepardenforschung in Limpopo",
+   "organisation": "Bushveld Biodiversity Research Centre",
+   "land": "South Africa",
+   "ort": "Maasstroom",
+   "passung": 61,
+   "url": "https://jobs.rwfm.tamu.edu/view-job/?id=94795",
+   "bezahlung": "kostet_geld",
+   "dauer_text": "Mindestens 2 Monate",
+   "haken": "Monatliche Gebühr, Höhe nicht genannt; Studienhintergrund erwünscht.",
+   "nicht_angegeben": [
+    "gebuehr",
+    "verpflegung",
+    "englisch",
+    "voraussetzungen"
+   ],
+   "inhalts_hash": "f5862a7f9c095c40",
+   "geaendert_felder": [
+    "extra",
+    "frist"
+   ]
   },
   {
    "id": "backpacker-124209",
