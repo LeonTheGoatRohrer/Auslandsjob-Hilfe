@@ -1,5 +1,5 @@
 {
- "datum": "2026-11-10T06:07:24+00:00",
+ "datum": "2026-11-11T04:17:25+00:00",
  "passung_min": 60,
  "treffer": [
   {
@@ -303,22 +303,6 @@
    "haken": "Länger als 12 Wochen angedacht, Lohn unklar, Angebot für 2026.",
    "nicht_angegeben": [],
    "inhalts_hash": "210066889cd42669",
-   "geaendert_felder": []
-  },
-  {
-   "id": "backpacker-122519",
-   "key": "backpacker:122519",
-   "titel": "Imkerei- und Homestead-Assistenz an der Coorong",
-   "organisation": "Coorong Apiaries",
-   "land": "Australien",
-   "ort": "Coorong und Geraldton",
-   "passung": 65,
-   "url": "https://www.backpackerjobboard.com.au/job/122519/nanny-homestead-assistant-beekeeping-jobs-at-coorong-apiaries/",
-   "bezahlung": "lohn",
-   "dauer_text": "Flexible Dauer, Arbeit nach Bedarf, 88-Tage-Visum moeglich.",
-   "haken": "Kinderbetreuung ist Teil der Stelle, eigenes Fahrzeug Pflicht, Mischung aus Nanny- und Imkerarbeit.",
-   "nicht_angegeben": [],
-   "inhalts_hash": "3e49f8e9931b55df",
    "geaendert_felder": []
   },
   {
