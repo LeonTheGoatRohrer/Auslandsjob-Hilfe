@@ -88,5 +88,14 @@
   "modell": "claude-sonnet-5-5",
   "verworfen": 0,
   "zitate_ungueltig": 1
+ },
+ {
+  "auftraege": 2,
+  "bewertet": 16,
+  "datum": "2026-11-12T06:03:27+00:00",
+  "fehler": [],
+  "modell": "claude-sonnet-5-5",
+  "verworfen": 0,
+  "zitate_ungueltig": 1
  }
 ]
