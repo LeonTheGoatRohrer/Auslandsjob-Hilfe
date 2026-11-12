@@ -7221,6 +7221,101 @@
   "ausschluss": []
  },
  {
+  "beitrag": "Kaum Bezug.",
+  "beschreibung": "Farmarbeit auf Avocado- und Bananenplantagen auf den Atherton Tablelands, Unterkunft und täglicher Transport über das Hotel.",
+  "bewertet_am": "2026-11-12T06:03:27+00:00",
+  "bezahlung": "lohn",
+  "bezahlung_text": "nicht angegeben",
+  "dauer_text": "Bis zu 88 Tage, ganzjährig Arbeit möglich",
+  "dauer_wochen": [
+   13,
+   13
+  ],
+  "englisch": "nicht_angegeben",
+  "gebuehr_eur": null,
+  "haken": "Lohnhöhe nicht genannt, Miete und Kaution zu zahlen, Backpacker-Blase.",
+  "kategorie": "bezahlte_jobs",
+  "kriterien": {
+   "abenteuer": 4,
+   "authentizität": 6,
+   "außergewöhnlichkeit": 3,
+   "eigener_beitrag": 0,
+   "finanzierung": 6,
+   "lernen": 3,
+   "menschen": 3,
+   "ort": 6,
+   "praktische_arbeit": 8,
+   "realisierbarkeit": 6,
+   "sinn": 4
+  },
+  "lernen": "Plantagenarbeit.",
+  "modell": "claude-sonnet-5-5",
+  "ort": "Atherton",
+  "ort_wiki": "Atherton Tablelands",
+  "region": "Queensland",
+  "tags": [
+   "bezahlte_jobs"
+  ],
+  "titel": "Saisonale Farmarbeit (Avocado/Banane), Atherton",
+  "unterkunft": "crew_haus",
+  "unterpunkt": "farm_station_outback",
+  "verpflegung": "nicht_angegeben",
+  "voraussetzungen": "nicht angegeben",
+  "warum": "Echte Feldarbeit, Dauer ungefähr passend, aber Bedingungen unklar.",
+  "zitate": {
+   "dauer": "preference is given to suitable applicants who require their FULL 88 days of regional/rural work",
+   "bezahlung": null,
+   "gebuehr": "We charge a weekly rent and a bond will be required to be paid on arrival.",
+   "unterkunft": "We provide accommodation and travel to and from the workplace on a daily basis.",
+   "verpflegung": null,
+   "englisch": null,
+   "voraussetzungen": null
+  },
+  "zitate_ungueltig": [],
+  "nicht_angegeben": [
+   "bezahlung",
+   "verpflegung",
+   "englisch",
+   "voraussetzungen"
+  ],
+  "id": "backpacker-116205",
+  "key": "backpacker:116205",
+  "organisation": "Barron Valley Hotel",
+  "sparte": "ausschreibung",
+  "land": "Australien",
+  "land_code": "AU",
+  "website": "https://www.backpackerjobboard.com.au/job/116205/seasonal-farm-work-at-barron-valley-hotel/",
+  "angebot_url": "https://www.backpackerjobboard.com.au/job/116205/seasonal-farm-work-at-barron-valley-hotel/",
+  "auch_bei": [],
+  "kontakt": null,
+  "status": "automatisch",
+  "quelle": "Backpacker Job Board",
+  "veroeffentlicht": "2026-11-11",
+  "frist": "",
+  "originaltitel": "Seasonal Farm Work",
+  "abgerufen": "2026-11-12T04:15:22+00:00",
+  "inhalts_hash": "ef162ed13676cff9",
+  "zustand": {
+   "erstmals_gesehen": "2026-11-12T04:15:23+00:00",
+   "zuletzt_gesehen": "2026-11-12T04:15:23+00:00",
+   "status": "offen",
+   "geschlossen_grund": null,
+   "aenderungen": []
+  },
+  "bilder": [
+   {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/AthertonTableland.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "quelle": "Wikipedia"
+   }
+  ],
+  "ort_info": "The Atherton Tableland is a fertile plateau, which is part of the Great Dividing Range in Queensland, Australia. It has very deep, rich basaltic soils and the main industry is agriculture. The principal river flowing across the plateau is the Barron River, which was dammed to form the irrigation reservoir named Lake Tinaroo. Unlike many other rural areas, the Tablelands is experiencing a significant growth in population.",
+  "ort_link": "https://en.wikipedia.org/wiki/Atherton_Tableland",
+  "visum": "working_holiday_nötig",
+  "visum_regel_text": "Bezahlte Arbeit: nur mit Working-Holiday-Visum. Working Holiday: ca. 510 €, nur einmal im Leben.",
+  "passung": 45,
+  "ausschluss": []
+ },
+ {
   "beitrag": "Technik kaum einbringbar.",
   "beschreibung": "Allgemeine Farmarbeit mit Buschschneiden, Mähen, Gartenarbeit und Jäten auf einem abgelegenen Grundstück.",
   "bewertet_am": "2026-11-08T06:03:30+00:00",
