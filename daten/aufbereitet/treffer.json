@@ -1,5 +1,5 @@
 {
- "datum": "2026-11-13T04:19:39+00:00",
+ "datum": "2026-11-13T06:04:29+00:00",
  "passung_min": 60,
  "treffer": [
   {
@@ -303,6 +303,26 @@
    "haken": "Länger als 12 Wochen angedacht, Lohn unklar, Angebot für 2026.",
    "nicht_angegeben": [],
    "inhalts_hash": "210066889cd42669",
+   "geaendert_felder": []
+  },
+  {
+   "id": "backpacker-124777",
+   "key": "backpacker:124777",
+   "titel": "Windmühlen- und Wasserinfrastruktur auf Rinderfarmen",
+   "organisation": "Muston Rural Contractors Pty Ltd",
+   "land": "Australien",
+   "ort": "Mount Martin",
+   "passung": 65,
+   "url": "https://www.backpackerjobboard.com.au/job/124777/labourer-at-muston-rural-contractors-pty-ltd/",
+   "bezahlung": "lohn",
+   "dauer_text": "Minimum of 6 months employment",
+   "haken": "Mindestens 6 Monate, deutlich über 13 Wochen.",
+   "nicht_angegeben": [
+    "bezahlung",
+    "gebuehr",
+    "englisch"
+   ],
+   "inhalts_hash": "9748e716a3a76197",
    "geaendert_felder": []
   },
   {
