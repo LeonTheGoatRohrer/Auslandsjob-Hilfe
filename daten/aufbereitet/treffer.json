@@ -1,7 +1,27 @@
 {
- "datum": "2026-11-14T04:17:13+00:00",
+ "datum": "2026-11-14T06:04:03+00:00",
  "passung_min": 60,
  "treffer": [
+  {
+   "id": "backpacker-124801",
+   "key": "backpacker:124801",
+   "titel": "Stationhand auf Rinder-, Schaf- und Ziegenfarm",
+   "organisation": "Hudson",
+   "land": "Australien",
+   "ort": "Mitchell",
+   "passung": 75,
+   "url": "https://www.backpackerjobboard.com.au/job/124801/stationhand-at-hudson/",
+   "bezahlung": "lohn",
+   "dauer_text": "nicht angegeben",
+   "haken": "Start 'as soon as possible' und Dauer nicht genannt; ob das zum Zeitraum April–Juni 2027 passt, ist unklar. Working-Holiday-Visum nötig (88 Tage).",
+   "nicht_angegeben": [
+    "dauer",
+    "gebuehr",
+    "englisch"
+   ],
+   "inhalts_hash": "3a54201333abaae9",
+   "geaendert_felder": []
+  },
   {
    "id": "tamu-116895",
    "key": "tamu:116895",
