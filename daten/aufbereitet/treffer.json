@@ -1,5 +1,5 @@
 {
- "datum": "2026-11-13T06:04:29+00:00",
+ "datum": "2026-11-14T04:17:13+00:00",
  "passung_min": 60,
  "treffer": [
   {
@@ -96,26 +96,6 @@
    "haken": "Zeitraum Dez-März passt nicht zu Apr-Jun, Lohn und Unterkunft ungeklärt, Regenzeit.",
    "nicht_angegeben": [],
    "inhalts_hash": "e8487fd7dcf2b381",
-   "geaendert_felder": []
-  },
-  {
-   "id": "backpacker-124373",
-   "key": "backpacker:124373",
-   "titel": "Stationhand auf Rinder-/Schafstation im Outback",
-   "organisation": "Hudson",
-   "land": "Australien",
-   "ort": "Mitchell",
-   "passung": 71,
-   "url": "https://www.backpackerjobboard.com.au/job/124373/stationhand-at-hudson/",
-   "bezahlung": "lohn",
-   "dauer_text": "Start sofort, Dauer nicht angegeben",
-   "haken": "Start sofort (Nov. 2026), Dauer nicht genannt.",
-   "nicht_angegeben": [
-    "gebuehr",
-    "englisch",
-    "voraussetzungen"
-   ],
-   "inhalts_hash": "a64f896c95fadf56",
    "geaendert_felder": []
   },
   {
@@ -271,22 +251,6 @@
    "haken": "Unterkunft und Lohn nicht genannt, Betrieb noch im Aufbau, Saison unklar.",
    "nicht_angegeben": [],
    "inhalts_hash": "889f281631f79414",
-   "geaendert_felder": []
-  },
-  {
-   "id": "jobtech-31642097",
-   "key": "jobtech:31642097",
-   "titel": "Baumpflanzer in Schweden, Saison 2027",
-   "organisation": "Håxås Skogstjänst AB",
-   "land": "Schweden",
-   "ort": "Strömsund",
-   "passung": 67,
-   "url": "https://arbetsformedlingen.se/platsbanken/annonser/31642097",
-   "bezahlung": "lohn",
-   "dauer_text": "Vollzeit von Mai bis September, 3 bis 6 Monate.",
-   "haken": "Sehr körperlich, Akkord, Saison geht bis September und ist länger als die 13 Wochen.",
-   "nicht_angegeben": [],
-   "inhalts_hash": "0ea092e6e9fb5dec",
    "geaendert_felder": []
   },
   {
